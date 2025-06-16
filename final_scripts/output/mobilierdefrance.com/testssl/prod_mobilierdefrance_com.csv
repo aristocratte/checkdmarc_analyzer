@@ -1,0 +1,2 @@
+"id","fqdn/ip","port","severity","finding","cve","cwe","hint"
+"scanProblem","prod.mobilierdefrance.com/80.94.97.7","443","FATAL","Can't connect to '80.94.97.7:443' Make sure a firewall is not between you and your scanning target!","","",""

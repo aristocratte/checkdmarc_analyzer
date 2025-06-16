@@ -1,0 +1,2 @@
+"id","fqdn/ip","port","severity","finding","cve","cwe","hint"
+"scanProblem","preprod.mobilierdefrance.com/20.199.76.169","443","FATAL","Can't connect to '20.199.76.169:443' Make sure a firewall is not between you and your scanning target!","","",""

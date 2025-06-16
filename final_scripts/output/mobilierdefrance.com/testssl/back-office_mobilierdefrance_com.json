@@ -1,0 +1,16 @@
+[
+         {
+              "id"           : "scanProblem",
+              "ip"           : "back-office.mobilierdefrance.com/",
+              "port"         : "443",
+              "severity"     : "FATAL",
+              "finding"      : "No IPv4/IPv6 address(es) for 'back-office.mobilierdefrance.com' available"
+          }
+,         {
+              "id"           : "scanTime",
+              "ip"           : "back-office.mobilierdefrance.com/",
+              "port"         : "443",
+              "severity"     : "WARN",
+              "finding"      : "Scan interrupted"
+          }
+]

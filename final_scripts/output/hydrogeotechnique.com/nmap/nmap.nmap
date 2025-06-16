@@ -1,0 +1,171 @@
+# Nmap 7.95 scan initiated Thu Jun 12 14:14:28 2025 as: /usr/lib/nmap/nmap -T3 -Pn --top-ports 100 --open -iL output/hydrogeotechnique.com/amass/amass_output.txt -oA output/hydrogeotechnique.com/nmap/nmap
+Failed to resolve "extranet.hydrogeotechnique.com".
+Failed to resolve "eaudeparis.hydrogeotechnique.com".
+Failed to resolve "www.extranet.hydrogeotechnique.com".
+Nmap scan report for helphydro.hydrogeotechnique.com (212.129.39.95)
+Host is up (0.0048s latency).
+rDNS record for 212.129.39.95: semafore.hydrogeotechnique.com
+Not shown: 98 filtered tcp ports (no-response)
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for agences.hydrogeotechnique.com (109.234.164.174)
+Host is up (0.020s latency).
+rDNS record for 109.234.164.174: 109-234-164-174.reverse.odns.fr
+Not shown: 84 filtered tcp ports (no-response), 6 closed tcp ports (reset)
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT    STATE SERVICE
+21/tcp  open  ftp
+26/tcp  open  rsftp
+80/tcp  open  http
+110/tcp open  pop3
+143/tcp open  imap
+443/tcp open  https
+465/tcp open  smtps
+587/tcp open  submission
+993/tcp open  imaps
+995/tcp open  pop3s
+
+Nmap scan report for api.hydrogeotechnique.com (5.104.101.30)
+Host is up (0.0046s latency).
+Other addresses for api.hydrogeotechnique.com (not scanned): 109.232.233.130 109.232.236.90 148.253.75.120
+rDNS record for 5.104.101.30: ows-5-104-101-30.eu-west-2.compute.outscale.com
+Not shown: 98 filtered tcp ports (no-response)
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for www.hydrogeotechnique.com (83.166.138.19)
+Host is up (0.022s latency).
+Other addresses for www.hydrogeotechnique.com (not scanned): 2001:1600:4:13:1a66:daff:fe85:d556
+rDNS record for 83.166.138.19: h2web73.infomaniak.ch
+Not shown: 96 filtered tcp ports (no-response)
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT    STATE SERVICE
+21/tcp  open  ftp
+22/tcp  open  ssh
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for webmail.hydrogeotechnique.com (185.125.25.4)
+Host is up (0.019s latency).
+Other addresses for webmail.hydrogeotechnique.com (not scanned): 2001:1600:0:aaaa::2:9
+rDNS record for 185.125.25.4: import-email.infomaniak.ch
+Not shown: 96 filtered tcp ports (no-response), 2 closed tcp ports (reset)
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for www.helphydro.hydrogeotechnique.com (212.129.39.95)
+Host is up (0.0048s latency).
+rDNS record for 212.129.39.95: semafore.hydrogeotechnique.com
+Not shown: 98 filtered tcp ports (no-response)
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for collaboration.hydrogeotechnique.com (83.166.138.19)
+Host is up (0.019s latency).
+Other addresses for collaboration.hydrogeotechnique.com (not scanned): 2001:1600:4:13:1a66:daff:fe85:d556
+rDNS record for 83.166.138.19: h2web73.infomaniak.ch
+Not shown: 96 filtered tcp ports (no-response)
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT    STATE SERVICE
+21/tcp  open  ftp
+22/tcp  open  ssh
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for app.hydrogeotechnique.com (5.104.101.30)
+Host is up (0.0049s latency).
+Other addresses for app.hydrogeotechnique.com (not scanned): 109.232.236.90 109.232.233.130 148.253.75.120
+rDNS record for 5.104.101.30: ows-5-104-101-30.eu-west-2.compute.outscale.com
+Not shown: 98 filtered tcp ports (no-response)
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for visites-back.hydrogeotechnique.com (212.129.39.95)
+Host is up (0.0042s latency).
+rDNS record for 212.129.39.95: semafore.hydrogeotechnique.com
+Not shown: 98 filtered tcp ports (no-response)
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for hydrogeotechnique.com (83.166.138.19)
+Host is up (0.019s latency).
+Other addresses for hydrogeotechnique.com (not scanned): 2001:1600:4:13:1a66:daff:fe85:d556
+rDNS record for 83.166.138.19: h2web73.infomaniak.ch
+Not shown: 96 filtered tcp ports (no-response)
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT    STATE SERVICE
+21/tcp  open  ftp
+22/tcp  open  ssh
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for www.portail.hydrogeotechnique.com (212.129.39.95)
+Host is up (0.0034s latency).
+rDNS record for 212.129.39.95: semafore.hydrogeotechnique.com
+Not shown: 98 filtered tcp ports (no-response)
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for satisfaction.hydrogeotechnique.com (83.166.138.19)
+Host is up (0.019s latency).
+Other addresses for satisfaction.hydrogeotechnique.com (not scanned): 2001:1600:4:13:1a66:daff:fe85:d556
+rDNS record for 83.166.138.19: h2web73.infomaniak.ch
+Not shown: 96 filtered tcp ports (no-response)
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT    STATE SERVICE
+21/tcp  open  ftp
+22/tcp  open  ssh
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for www.semafore.hydrogeotechnique.com (212.129.39.95)
+Host is up (0.0033s latency).
+rDNS record for 212.129.39.95: semafore.hydrogeotechnique.com
+Not shown: 98 filtered tcp ports (no-response)
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for semafore.hydrogeotechnique.com (212.129.39.95)
+Host is up (0.0036s latency).
+Not shown: 98 filtered tcp ports (no-response)
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for portail.hydrogeotechnique.com (212.129.39.95)
+Host is up (0.0035s latency).
+rDNS record for 212.129.39.95: semafore.hydrogeotechnique.com
+Not shown: 98 filtered tcp ports (no-response)
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for visites.hydrogeotechnique.com (212.129.39.95)
+Host is up (0.0034s latency).
+rDNS record for 212.129.39.95: semafore.hydrogeotechnique.com
+Not shown: 98 filtered tcp ports (no-response)
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+# Nmap done at Thu Jun 12 14:15:05 2025 -- 16 IP addresses (16 hosts up) scanned in 37.74 seconds

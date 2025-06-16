@@ -1,0 +1,118 @@
+{
+  "domain": "www.hackerone.org",
+  "base_domain": "hackerone.org",
+  "dnssec": false,
+  "ns": {
+    "hostnames": [
+      "a.ns.hackerone.com",
+      "b.ns.hackerone.com"
+    ],
+    "warnings": []
+  },
+  "mx": {
+    "hosts": [],
+    "warnings": [
+      "No MX records found. Is the domain parked?"
+    ]
+  },
+  "mta_sts": {
+    "valid": false,
+    "error": "An MTA-STS DNS record does not exist for this domain"
+  },
+  "spf": {
+    "record": "v=spf1 -all",
+    "valid": true,
+    "dns_lookups": 0,
+    "dns_void_lookups": 0,
+    "warnings": [],
+    "parsed": {
+      "pass": [],
+      "neutral": [],
+      "softfail": [],
+      "fail": [],
+      "include": [],
+      "redirect": null,
+      "exp": null,
+      "all": "fail"
+    }
+  },
+  "dmarc": {
+    "record": "v=DMARC1; p=reject; rua=mailto:fgunarop@ag.dmarcian.com,mailto:dmarc-reports@hackerone.com; ruf=mailto:fgunarop@fr.dmarcian.com;",
+    "valid": true,
+    "location": "hackerone.org",
+    "warnings": [],
+    "tags": {
+      "v": {
+        "value": "DMARC1",
+        "explicit": true
+      },
+      "p": {
+        "value": "reject",
+        "explicit": true
+      },
+      "rua": {
+        "value": [
+          {
+            "scheme": "mailto",
+            "address": "fgunarop@ag.dmarcian.com",
+            "size_limit": null
+          },
+          {
+            "scheme": "mailto",
+            "address": "dmarc-reports@hackerone.com",
+            "size_limit": null
+          }
+        ],
+        "explicit": true
+      },
+      "ruf": {
+        "value": [
+          {
+            "scheme": "mailto",
+            "address": "fgunarop@fr.dmarcian.com",
+            "size_limit": null
+          }
+        ],
+        "explicit": true
+      },
+      "adkim": {
+        "value": "r",
+        "explicit": false
+      },
+      "aspf": {
+        "value": "r",
+        "explicit": false
+      },
+      "fo": {
+        "value": "0",
+        "explicit": false
+      },
+      "pct": {
+        "value": 100,
+        "explicit": false
+      },
+      "rf": {
+        "value": "afrf",
+        "explicit": false
+      },
+      "ri": {
+        "value": 86400,
+        "explicit": false
+      },
+      "sp": {
+        "value": "reject",
+        "explicit": false
+      }
+    }
+  },
+  "smtp_tls_reporting": {
+    "valid": false,
+    "error": "An SMTP TLS Reporting DNS record does not exist for this domain"
+  },
+  "bimi": {
+    "record": null,
+    "valid": false,
+    "selector": "default",
+    "error": "A BIMI record does not exist at the default selector for this domain or its base domain"
+  }
+}

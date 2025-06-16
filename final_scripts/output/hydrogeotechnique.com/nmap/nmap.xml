@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.95 scan initiated Thu Jun 12 14:14:28 2025 as: /usr/lib/nmap/nmap -T3 -Pn -&#45;top-ports 100 -&#45;open -iL output/hydrogeotechnique.com/amass/amass_output.txt -oA output/hydrogeotechnique.com/nmap/nmap -->
+<nmaprun scanner="nmap" args="/usr/lib/nmap/nmap -T3 -Pn -&#45;top-ports 100 -&#45;open -iL output/hydrogeotechnique.com/amass/amass_output.txt -oA output/hydrogeotechnique.com/nmap/nmap" start="1749737668" startstr="Thu Jun 12 14:14:28 2025" version="7.95" xmloutputversion="1.05">
+<scaninfo type="syn" protocol="tcp" numservices="100" services="7,9,13,21-23,25-26,37,53,79-81,88,106,110-111,113,119,135,139,143-144,179,199,389,427,443-445,465,513-515,543-544,548,554,587,631,646,873,990,993,995,1025-1029,1110,1433,1720,1723,1755,1900,2000-2001,2049,2121,2717,3000,3128,3306,3389,3986,4899,5000,5009,5051,5060,5101,5190,5357,5432,5631,5666,5800,5900,6000-6001,6646,7070,8000,8008-8009,8080-8081,8443,8888,9100,9999-10000,32768,49152-49157"/>
+<verbose level="0"/>
+<debugging level="0"/>
+<host starttime="1749737669" endtime="1749737671"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="212.129.39.95" addrtype="ipv4"/>
+<hostnames>
+<hostname name="helphydro.hydrogeotechnique.com" type="user"/>
+<hostname name="semafore.hydrogeotechnique.com" type="PTR"/>
+</hostnames>
+<ports><extraports state="filtered" count="98">
+<extrareasons reason="no-response" count="98" proto="tcp" ports="7,9,13,21-23,25-26,37,53,79,81,88,106,110-111,113,119,135,139,143-144,179,199,389,427,444-445,465,513-515,543-544,548,554,587,631,646,873,990,993,995,1025-1029,1110,1433,1720,1723,1755,1900,2000-2001,2049,2121,2717,3000,3128,3306,3389,3986,4899,5000,5009,5051,5060,5101,5190,5357,5432,5631,5666,5800,5900,6000-6001,6646,7070,8000,8008-8009,8080-8081,8443,8888,9100,9999-10000,32768,49152-49157"/>
+</extraports>
+<port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="52"/><service name="http" method="table" conf="3"/></port>
+<port protocol="tcp" portid="443"><state state="open" reason="syn-ack" reason_ttl="52"/><service name="https" method="table" conf="3"/></port>
+</ports>
+<times srtt="4785" rttvar="3970" to="100000"/>
+</host>
+<host starttime="1749737669" endtime="1749737671"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="109.234.164.174" addrtype="ipv4"/>
+<hostnames>
+<hostname name="agences.hydrogeotechnique.com" type="user"/>
+<hostname name="109-234-164-174.reverse.odns.fr" type="PTR"/>
+</hostnames>
+<ports><extraports state="filtered" count="84">
+<extrareasons reason="no-response" count="84" proto="tcp" ports="7,9,13,22-23,25,37,53,79,81,88,106,111,113,119,135,139,144,179,199,389,427,444-445,513-515,543-544,548,554,631,646,873,990,1025-1029,1110,1433,1720,1723,1755,1900,2000-2001,2049,2121,2717,3000,3128,3306,3389,3986,4899,5000,5009,5051,5060,5101,5190,5357,5432,5631,5666,5800,5900,6000-6001,6646,7070,8000,8008-8009,8080-8081,8443,8888,9100,9999-10000,32768"/>
+</extraports>
+<extraports state="closed" count="6">
+<extrareasons reason="reset" count="6" proto="tcp" ports="49152-49157"/>
+</extraports>
+<port protocol="tcp" portid="21"><state state="open" reason="syn-ack" reason_ttl="51"/><service name="ftp" method="table" conf="3"/></port>
+<port protocol="tcp" portid="26"><state state="open" reason="syn-ack" reason_ttl="51"/><service name="rsftp" method="table" conf="3"/></port>
+<port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="51"/><service name="http" method="table" conf="3"/></port>
+<port protocol="tcp" portid="110"><state state="open" reason="syn-ack" reason_ttl="51"/><service name="pop3" method="table" conf="3"/></port>
+<port protocol="tcp" portid="143"><state state="open" reason="syn-ack" reason_ttl="51"/><service name="imap" method="table" conf="3"/></port>
+<port protocol="tcp" portid="443"><state state="open" reason="syn-ack" reason_ttl="51"/><service name="https" method="table" conf="3"/></port>
+<port protocol="tcp" portid="465"><state state="open" reason="syn-ack" reason_ttl="51"/><service name="smtps" method="table" conf="3"/></port>
+<port protocol="tcp" portid="587"><state state="open" reason="syn-ack" reason_ttl="51"/><service name="submission" method="table" conf="3"/></port>
+<port protocol="tcp" portid="993"><state state="open" reason="syn-ack" reason_ttl="51"/><service name="imaps" method="table" conf="3"/></port>
+<port protocol="tcp" portid="995"><state state="open" reason="syn-ack" reason_ttl="51"/><service name="pop3s" method="table" conf="3"/></port>
+</ports>
+<times srtt="20275" rttvar="594" to="100000"/>
+</host>
+<host starttime="1749737669" endtime="1749737671"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="5.104.101.30" addrtype="ipv4"/>
+<hostnames>
+<hostname name="api.hydrogeotechnique.com" type="user"/>
+<hostname name="ows-5-104-101-30.eu-west-2.compute.outscale.com" type="PTR"/>
+</hostnames>
+<ports><extraports state="filtered" count="98">
+<extrareasons reason="no-response" count="98" proto="tcp" ports="7,9,13,21-23,25-26,37,53,79,81,88,106,110-111,113,119,135,139,143-144,179,199,389,427,444-445,465,513-515,543-544,548,554,587,631,646,873,990,993,995,1025-1029,1110,1433,1720,1723,1755,1900,2000-2001,2049,2121,2717,3000,3128,3306,3389,3986,4899,5000,5009,5051,5060,5101,5190,5357,5432,5631,5666,5800,5900,6000-6001,6646,7070,8000,8008-8009,8080-8081,8443,8888,9100,9999-10000,32768,49152-49157"/>
+</extraports>
+<port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="53"/><service name="http" method="table" conf="3"/></port>
+<port protocol="tcp" portid="443"><state state="open" reason="syn-ack" reason_ttl="53"/><service name="https" method="table" conf="3"/></port>
+</ports>
+<times srtt="4650" rttvar="3832" to="100000"/>
+</host>
+<host starttime="1749737669" endtime="1749737671"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="83.166.138.19" addrtype="ipv4"/>
+<hostnames>
+<hostname name="www.hydrogeotechnique.com" type="user"/>
+<hostname name="h2web73.infomaniak.ch" type="PTR"/>
+</hostnames>
+<ports><extraports state="filtered" count="96">
+<extrareasons reason="no-response" count="96" proto="tcp" ports="7,9,13,23,25-26,37,53,79,81,88,106,110-111,113,119,135,139,143-144,179,199,389,427,444-445,465,513-515,543-544,548,554,587,631,646,873,990,993,995,1025-1029,1110,1433,1720,1723,1755,1900,2000-2001,2049,2121,2717,3000,3128,3306,3389,3986,4899,5000,5009,5051,5060,5101,5190,5357,5432,5631,5666,5800,5900,6000-6001,6646,7070,8000,8008-8009,8080-8081,8443,8888,9100,9999-10000,32768,49152-49157"/>
+</extraports>
+<port protocol="tcp" portid="21"><state state="open" reason="syn-ack" reason_ttl="48"/><service name="ftp" method="table" conf="3"/></port>
+<port protocol="tcp" portid="22"><state state="open" reason="syn-ack" reason_ttl="48"/><service name="ssh" method="table" conf="3"/></port>
+<port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="48"/><service name="http" method="table" conf="3"/></port>
+<port protocol="tcp" portid="443"><state state="open" reason="syn-ack" reason_ttl="48"/><service name="https" method="table" conf="3"/></port>
+</ports>
+<times srtt="21555" rttvar="10555" to="100000"/>
+</host>
+<host starttime="1749737669" endtime="1749737671"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="185.125.25.4" addrtype="ipv4"/>
+<hostnames>
+<hostname name="webmail.hydrogeotechnique.com" type="user"/>
+<hostname name="import-email.infomaniak.ch" type="PTR"/>
+</hostnames>
+<ports><extraports state="filtered" count="96">
+<extrareasons reason="no-response" count="96" proto="tcp" ports="7,9,13,21-23,25-26,37,53,79,81,88,106,110-111,119,135,139,143-144,179,199,389,427,444-445,465,513-515,543-544,548,554,587,631,646,873,990,993,995,1025-1029,1110,1433,1720,1723,1755,1900,2000-2001,2049,2121,2717,3000,3128,3306,3389,3986,4899,5000,5009,5051,5060,5101,5190,5357,5432,5631,5666,5800,5900,6000-6001,6646,7070,8000,8008-8009,8080-8081,8888,9100,9999-10000,32768,49152-49157"/>
+</extraports>
+<extraports state="closed" count="2">
+<extrareasons reason="reset" count="2" proto="tcp" ports="113,8443"/>
+</extraports>
+<port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="47"/><service name="http" method="table" conf="3"/></port>
+<port protocol="tcp" portid="443"><state state="open" reason="syn-ack" reason_ttl="47"/><service name="https" method="table" conf="3"/></port>
+</ports>
+<times srtt="18986" rttvar="8361" to="100000"/>
+</host>
+<host starttime="1749737671" endtime="1749737679"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="212.129.39.95" addrtype="ipv4"/>
+<hostnames>
+<hostname name="www.helphydro.hydrogeotechnique.com" type="user"/>
+<hostname name="semafore.hydrogeotechnique.com" type="PTR"/>
+</hostnames>
+<ports><extraports state="filtered" count="98">
+<extrareasons reason="no-response" count="98" proto="tcp" ports="7,9,13,21-23,25-26,37,53,79,81,88,106,110-111,113,119,135,139,143-144,179,199,389,427,444-445,465,513-515,543-544,548,554,587,631,646,873,990,993,995,1025-1029,1110,1433,1720,1723,1755,1900,2000-2001,2049,2121,2717,3000,3128,3306,3389,3986,4899,5000,5009,5051,5060,5101,5190,5357,5432,5631,5666,5800,5900,6000-6001,6646,7070,8000,8008-8009,8080-8081,8443,8888,9100,9999-10000,32768,49152-49157"/>
+</extraports>
+<port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="52"/><service name="http" method="table" conf="3"/></port>
+<port protocol="tcp" portid="443"><state state="open" reason="syn-ack" reason_ttl="52"/><service name="https" method="table" conf="3"/></port>
+</ports>
+<times srtt="4775" rttvar="3769" to="100000"/>
+</host>
+<host starttime="1749737671" endtime="1749737679"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="83.166.138.19" addrtype="ipv4"/>
+<hostnames>
+<hostname name="collaboration.hydrogeotechnique.com" type="user"/>
+<hostname name="h2web73.infomaniak.ch" type="PTR"/>
+</hostnames>
+<ports><extraports state="filtered" count="96">
+<extrareasons reason="no-response" count="96" proto="tcp" ports="7,9,13,23,25-26,37,53,79,81,88,106,110-111,113,119,135,139,143-144,179,199,389,427,444-445,465,513-515,543-544,548,554,587,631,646,873,990,993,995,1025-1029,1110,1433,1720,1723,1755,1900,2000-2001,2049,2121,2717,3000,3128,3306,3389,3986,4899,5000,5009,5051,5060,5101,5190,5357,5432,5631,5666,5800,5900,6000-6001,6646,7070,8000,8008-8009,8080-8081,8443,8888,9100,9999-10000,32768,49152-49157"/>
+</extraports>
+<port protocol="tcp" portid="21"><state state="open" reason="syn-ack" reason_ttl="48"/><service name="ftp" method="table" conf="3"/></port>
+<port protocol="tcp" portid="22"><state state="open" reason="syn-ack" reason_ttl="48"/><service name="ssh" method="table" conf="3"/></port>
+<port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="48"/><service name="http" method="table" conf="3"/></port>
+<port protocol="tcp" portid="443"><state state="open" reason="syn-ack" reason_ttl="48"/><service name="https" method="table" conf="3"/></port>
+</ports>
+<times srtt="18949" rttvar="8244" to="100000"/>
+</host>
+<host starttime="1749737671" endtime="1749737679"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="5.104.101.30" addrtype="ipv4"/>
+<hostnames>
+<hostname name="app.hydrogeotechnique.com" type="user"/>
+<hostname name="ows-5-104-101-30.eu-west-2.compute.outscale.com" type="PTR"/>
+</hostnames>
+<ports><extraports state="filtered" count="98">
+<extrareasons reason="no-response" count="98" proto="tcp" ports="7,9,13,21-23,25-26,37,53,79,81,88,106,110-111,113,119,135,139,143-144,179,199,389,427,444-445,465,513-515,543-544,548,554,587,631,646,873,990,993,995,1025-1029,1110,1433,1720,1723,1755,1900,2000-2001,2049,2121,2717,3000,3128,3306,3389,3986,4899,5000,5009,5051,5060,5101,5190,5357,5432,5631,5666,5800,5900,6000-6001,6646,7070,8000,8008-8009,8080-8081,8443,8888,9100,9999-10000,32768,49152-49157"/>
+</extraports>
+<port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="53"/><service name="http" method="table" conf="3"/></port>
+<port protocol="tcp" portid="443"><state state="open" reason="syn-ack" reason_ttl="53"/><service name="https" method="table" conf="3"/></port>
+</ports>
+<times srtt="4870" rttvar="3871" to="100000"/>
+</host>
+<host starttime="1749737679" endtime="1749737685"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="212.129.39.95" addrtype="ipv4"/>
+<hostnames>
+<hostname name="visites-back.hydrogeotechnique.com" type="user"/>
+<hostname name="semafore.hydrogeotechnique.com" type="PTR"/>
+</hostnames>
+<ports><extraports state="filtered" count="98">
+<extrareasons reason="no-response" count="98" proto="tcp" ports="7,9,13,21-23,25-26,37,53,79,81,88,106,110-111,113,119,135,139,143-144,179,199,389,427,444-445,465,513-515,543-544,548,554,587,631,646,873,990,993,995,1025-1029,1110,1433,1720,1723,1755,1900,2000-2001,2049,2121,2717,3000,3128,3306,3389,3986,4899,5000,5009,5051,5060,5101,5190,5357,5432,5631,5666,5800,5900,6000-6001,6646,7070,8000,8008-8009,8080-8081,8443,8888,9100,9999-10000,32768,49152-49157"/>
+</extraports>
+<port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="52"/><service name="http" method="table" conf="3"/></port>
+<port protocol="tcp" portid="443"><state state="open" reason="syn-ack" reason_ttl="52"/><service name="https" method="table" conf="3"/></port>
+</ports>
+<times srtt="4208" rttvar="3754" to="100000"/>
+</host>
+<host starttime="1749737679" endtime="1749737685"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="83.166.138.19" addrtype="ipv4"/>
+<hostnames>
+<hostname name="hydrogeotechnique.com" type="user"/>
+<hostname name="h2web73.infomaniak.ch" type="PTR"/>
+</hostnames>
+<ports><extraports state="filtered" count="96">
+<extrareasons reason="no-response" count="96" proto="tcp" ports="7,9,13,23,25-26,37,53,79,81,88,106,110-111,113,119,135,139,143-144,179,199,389,427,444-445,465,513-515,543-544,548,554,587,631,646,873,990,993,995,1025-1029,1110,1433,1720,1723,1755,1900,2000-2001,2049,2121,2717,3000,3128,3306,3389,3986,4899,5000,5009,5051,5060,5101,5190,5357,5432,5631,5666,5800,5900,6000-6001,6646,7070,8000,8008-8009,8080-8081,8443,8888,9100,9999-10000,32768,49152-49157"/>
+</extraports>
+<port protocol="tcp" portid="21"><state state="open" reason="syn-ack" reason_ttl="48"/><service name="ftp" method="table" conf="3"/></port>
+<port protocol="tcp" portid="22"><state state="open" reason="syn-ack" reason_ttl="48"/><service name="ssh" method="table" conf="3"/></port>
+<port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="48"/><service name="http" method="table" conf="3"/></port>
+<port protocol="tcp" portid="443"><state state="open" reason="syn-ack" reason_ttl="48"/><service name="https" method="table" conf="3"/></port>
+</ports>
+<times srtt="19053" rttvar="8276" to="100000"/>
+</host>
+<host starttime="1749737685" endtime="1749737691"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="212.129.39.95" addrtype="ipv4"/>
+<hostnames>
+<hostname name="www.portail.hydrogeotechnique.com" type="user"/>
+<hostname name="semafore.hydrogeotechnique.com" type="PTR"/>
+</hostnames>
+<ports><extraports state="filtered" count="98">
+<extrareasons reason="no-response" count="98" proto="tcp" ports="7,9,13,21-23,25-26,37,53,79,81,88,106,110-111,113,119,135,139,143-144,179,199,389,427,444-445,465,513-515,543-544,548,554,587,631,646,873,990,993,995,1025-1029,1110,1433,1720,1723,1755,1900,2000-2001,2049,2121,2717,3000,3128,3306,3389,3986,4899,5000,5009,5051,5060,5101,5190,5357,5432,5631,5666,5800,5900,6000-6001,6646,7070,8000,8008-8009,8080-8081,8443,8888,9100,9999-10000,32768,49152-49157"/>
+</extraports>
+<port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="52"/><service name="http" method="table" conf="3"/></port>
+<port protocol="tcp" portid="443"><state state="open" reason="syn-ack" reason_ttl="52"/><service name="https" method="table" conf="3"/></port>
+</ports>
+<times srtt="3428" rttvar="4100" to="100000"/>
+</host>
+<host starttime="1749737685" endtime="1749737691"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="83.166.138.19" addrtype="ipv4"/>
+<hostnames>
+<hostname name="satisfaction.hydrogeotechnique.com" type="user"/>
+<hostname name="h2web73.infomaniak.ch" type="PTR"/>
+</hostnames>
+<ports><extraports state="filtered" count="96">
+<extrareasons reason="no-response" count="96" proto="tcp" ports="7,9,13,23,25-26,37,53,79,81,88,106,110-111,113,119,135,139,143-144,179,199,389,427,444-445,465,513-515,543-544,548,554,587,631,646,873,990,993,995,1025-1029,1110,1433,1720,1723,1755,1900,2000-2001,2049,2121,2717,3000,3128,3306,3389,3986,4899,5000,5009,5051,5060,5101,5190,5357,5432,5631,5666,5800,5900,6000-6001,6646,7070,8000,8008-8009,8080-8081,8443,8888,9100,9999-10000,32768,49152-49157"/>
+</extraports>
+<port protocol="tcp" portid="21"><state state="open" reason="syn-ack" reason_ttl="48"/><service name="ftp" method="table" conf="3"/></port>
+<port protocol="tcp" portid="22"><state state="open" reason="syn-ack" reason_ttl="48"/><service name="ssh" method="table" conf="3"/></port>
+<port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="48"/><service name="http" method="table" conf="3"/></port>
+<port protocol="tcp" portid="443"><state state="open" reason="syn-ack" reason_ttl="48"/><service name="https" method="table" conf="3"/></port>
+</ports>
+<times srtt="18988" rttvar="8526" to="100000"/>
+</host>
+<host starttime="1749737691" endtime="1749737694"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="212.129.39.95" addrtype="ipv4"/>
+<hostnames>
+<hostname name="www.semafore.hydrogeotechnique.com" type="user"/>
+<hostname name="semafore.hydrogeotechnique.com" type="PTR"/>
+</hostnames>
+<ports><extraports state="filtered" count="98">
+<extrareasons reason="no-response" count="98" proto="tcp" ports="7,9,13,21-23,25-26,37,53,79,81,88,106,110-111,113,119,135,139,143-144,179,199,389,427,444-445,465,513-515,543-544,548,554,587,631,646,873,990,993,995,1025-1029,1110,1433,1720,1723,1755,1900,2000-2001,2049,2121,2717,3000,3128,3306,3389,3986,4899,5000,5009,5051,5060,5101,5190,5357,5432,5631,5666,5800,5900,6000-6001,6646,7070,8000,8008-8009,8080-8081,8443,8888,9100,9999-10000,32768,49152-49157"/>
+</extraports>
+<port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="52"/><service name="http" method="table" conf="3"/></port>
+<port protocol="tcp" portid="443"><state state="open" reason="syn-ack" reason_ttl="52"/><service name="https" method="table" conf="3"/></port>
+</ports>
+<times srtt="3292" rttvar="3778" to="100000"/>
+</host>
+<host starttime="1749737694" endtime="1749737698"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="212.129.39.95" addrtype="ipv4"/>
+<hostnames>
+<hostname name="semafore.hydrogeotechnique.com" type="user"/>
+<hostname name="semafore.hydrogeotechnique.com" type="PTR"/>
+</hostnames>
+<ports><extraports state="filtered" count="98">
+<extrareasons reason="no-response" count="98" proto="tcp" ports="7,9,13,21-23,25-26,37,53,79,81,88,106,110-111,113,119,135,139,143-144,179,199,389,427,444-445,465,513-515,543-544,548,554,587,631,646,873,990,993,995,1025-1029,1110,1433,1720,1723,1755,1900,2000-2001,2049,2121,2717,3000,3128,3306,3389,3986,4899,5000,5009,5051,5060,5101,5190,5357,5432,5631,5666,5800,5900,6000-6001,6646,7070,8000,8008-8009,8080-8081,8443,8888,9100,9999-10000,32768,49152-49157"/>
+</extraports>
+<port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="52"/><service name="http" method="table" conf="3"/></port>
+<port protocol="tcp" portid="443"><state state="open" reason="syn-ack" reason_ttl="52"/><service name="https" method="table" conf="3"/></port>
+</ports>
+<times srtt="3631" rttvar="3750" to="100000"/>
+</host>
+<host starttime="1749737698" endtime="1749737702"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="212.129.39.95" addrtype="ipv4"/>
+<hostnames>
+<hostname name="portail.hydrogeotechnique.com" type="user"/>
+<hostname name="semafore.hydrogeotechnique.com" type="PTR"/>
+</hostnames>
+<ports><extraports state="filtered" count="98">
+<extrareasons reason="no-response" count="98" proto="tcp" ports="7,9,13,21-23,25-26,37,53,79,81,88,106,110-111,113,119,135,139,143-144,179,199,389,427,444-445,465,513-515,543-544,548,554,587,631,646,873,990,993,995,1025-1029,1110,1433,1720,1723,1755,1900,2000-2001,2049,2121,2717,3000,3128,3306,3389,3986,4899,5000,5009,5051,5060,5101,5190,5357,5432,5631,5666,5800,5900,6000-6001,6646,7070,8000,8008-8009,8080-8081,8443,8888,9100,9999-10000,32768,49152-49157"/>
+</extraports>
+<port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="52"/><service name="http" method="table" conf="3"/></port>
+<port protocol="tcp" portid="443"><state state="open" reason="syn-ack" reason_ttl="52"/><service name="https" method="table" conf="3"/></port>
+</ports>
+<times srtt="3472" rttvar="3788" to="100000"/>
+</host>
+<host starttime="1749737702" endtime="1749737705"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="212.129.39.95" addrtype="ipv4"/>
+<hostnames>
+<hostname name="visites.hydrogeotechnique.com" type="user"/>
+<hostname name="semafore.hydrogeotechnique.com" type="PTR"/>
+</hostnames>
+<ports><extraports state="filtered" count="98">
+<extrareasons reason="no-response" count="98" proto="tcp" ports="7,9,13,21-23,25-26,37,53,79,81,88,106,110-111,113,119,135,139,143-144,179,199,389,427,444-445,465,513-515,543-544,548,554,587,631,646,873,990,993,995,1025-1029,1110,1433,1720,1723,1755,1900,2000-2001,2049,2121,2717,3000,3128,3306,3389,3986,4899,5000,5009,5051,5060,5101,5190,5357,5432,5631,5666,5800,5900,6000-6001,6646,7070,8000,8008-8009,8080-8081,8443,8888,9100,9999-10000,32768,49152-49157"/>
+</extraports>
+<port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="52"/><service name="http" method="table" conf="3"/></port>
+<port protocol="tcp" portid="443"><state state="open" reason="syn-ack" reason_ttl="52"/><service name="https" method="table" conf="3"/></port>
+</ports>
+<times srtt="3413" rttvar="3751" to="100000"/>
+</host>
+<runstats><finished time="1749737705" timestr="Thu Jun 12 14:15:05 2025" summary="Nmap done at Thu Jun 12 14:15:05 2025; 16 IP addresses (16 hosts up) scanned in 37.74 seconds" elapsed="37.74" exit="success"/><hosts up="16" down="0" total="16"/>
+</runstats>
+</nmaprun>

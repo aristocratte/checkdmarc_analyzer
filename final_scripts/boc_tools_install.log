@@ -1,0 +1,65 @@
+2025-06-13 11:51:06,681 - INFO - Running command: which clear
+2025-06-13 11:51:06,684 - INFO - Running command: clear
+2025-06-13 11:51:06,689 - INFO - Installer initialized for Linux 6.12.25-cloud-amd64
+2025-06-13 11:51:06,689 - INFO - Python externally managed: True
+2025-06-13 11:51:06,690 - INFO - Running command: ping -c 1 -W 3 8.8.8.8
+2025-06-13 11:51:06,696 - INFO - Running command: which apt
+2025-06-13 11:51:06,699 - INFO - Found package manager: apt
+2025-06-13 11:51:06,700 - INFO - Running command: which apt
+2025-06-13 11:51:06,703 - INFO - Running command: sudo apt update
+2025-06-13 11:51:08,511 - INFO - Running command: sudo apt install -y curl
+2025-06-13 11:51:30,336 - INFO - Running command: which apt
+2025-06-13 11:51:30,341 - INFO - Running command: sudo apt update
+2025-06-13 11:51:31,969 - INFO - Running command: sudo apt install -y wget
+2025-06-13 11:51:32,907 - INFO - Running command: which apt
+2025-06-13 11:51:32,909 - INFO - Running command: sudo apt update
+2025-06-13 11:51:34,446 - INFO - Running command: sudo apt install -y git
+2025-06-13 11:51:35,392 - INFO - Running command: which apt
+2025-06-13 11:51:35,393 - INFO - Running command: sudo apt update
+2025-06-13 11:51:36,904 - INFO - Running command: sudo apt install -y build-essential
+2025-06-13 11:51:37,834 - INFO - Running command: which curl
+2025-06-13 11:51:37,837 - INFO - Running command: which pip
+2025-06-13 11:51:37,839 - INFO - Running command: which virtualenv
+2025-06-13 11:51:37,841 - INFO - Running command: which virtualenv
+2025-06-13 11:51:37,842 - INFO - Upgrading pip in virtual environment...
+2025-06-13 11:51:37,842 - INFO - Running command: /home/root-02/Desktop/boc-tools/scripts/final_scripts/venv_excel/bin/python -m pip install --upgrade pip
+2025-06-13 11:51:38,812 - INFO - Installing pandas in virtual environment...
+2025-06-13 11:51:38,813 - INFO - Running command: /home/root-02/Desktop/boc-tools/scripts/final_scripts/venv_excel/bin/pip install pandas
+2025-06-13 11:51:39,378 - INFO - Installing openpyxl in virtual environment...
+2025-06-13 11:51:39,379 - INFO - Running command: /home/root-02/Desktop/boc-tools/scripts/final_scripts/venv_excel/bin/pip install openpyxl
+2025-06-13 11:51:39,973 - INFO - Running command: /home/root-02/Desktop/boc-tools/scripts/final_scripts/venv_excel/bin/python /tmp/tmpgasuy3fy.py
+2025-06-13 11:51:40,935 - INFO - Running command: amass version
+2025-06-13 11:51:41,123 - ERROR - Command failed with return code 1: ['amass', 'version']
+2025-06-13 11:51:41,123 - ERROR - STDERR: missing profile snap-update-ns.amass.
+Please make sure that the snapd.apparmor service is enabled and started
+snap-update-ns failed with code 1
+
+2025-06-13 11:51:41,123 - INFO - Running command: sudo apt update
+2025-06-13 11:51:42,631 - INFO - Running command: httpx -version
+2025-06-13 11:51:43,616 - INFO - Running command: nmap --version
+2025-06-13 11:51:43,628 - INFO - Running command: testssl.sh --version
+2025-06-13 11:51:44,536 - INFO - Creating virtual environment with venv module: /root/.local/venvs/checkdmarc_env
+2025-06-13 11:51:44,536 - INFO - Running command: /usr/bin/python3 -m venv /root/.local/venvs/checkdmarc_env
+2025-06-13 11:51:47,837 - INFO - Upgrading pip in virtual environment...
+2025-06-13 11:51:47,838 - INFO - Running command: /root/.local/venvs/checkdmarc_env/bin/python -m pip install --upgrade pip
+2025-06-13 11:51:48,443 - INFO - Installing checkdmarc in virtual environment...
+2025-06-13 11:51:48,443 - INFO - Running command: /root/.local/venvs/checkdmarc_env/bin/pip install checkdmarc
+2025-06-13 11:51:52,889 - INFO - Running command: sudo mv /tmp/tmpuz4j7axk /usr/local/bin/checkdmarc
+2025-06-13 11:51:52,909 - INFO - Running command: sudo chmod +x /usr/local/bin/checkdmarc
+2025-06-13 11:51:52,938 - INFO - Creating virtual environment with venv module: /root/.local/venvs/dnstwist_env
+2025-06-13 11:51:52,939 - INFO - Running command: /usr/bin/python3 -m venv /root/.local/venvs/dnstwist_env
+2025-06-13 11:51:56,642 - INFO - Upgrading pip in virtual environment...
+2025-06-13 11:51:56,643 - INFO - Running command: /root/.local/venvs/dnstwist_env/bin/python -m pip install --upgrade pip
+2025-06-13 11:51:57,322 - INFO - Installing dnstwist in virtual environment...
+2025-06-13 11:51:57,322 - INFO - Running command: /root/.local/venvs/dnstwist_env/bin/pip install dnstwist
+2025-06-13 11:51:57,998 - INFO - Running command: sudo mv /tmp/tmppj46nis2 /usr/local/bin/dnstwist
+2025-06-13 11:51:58,022 - INFO - Running command: sudo chmod +x /usr/local/bin/dnstwist
+2025-06-13 11:51:58,056 - INFO - Running command: /home/root-02/Desktop/boc-tools/scripts/final_scripts/venv_excel/bin/python /tmp/tmppumhpsx6.py
+2025-06-13 11:51:58,697 - INFO - Running command: which amass
+2025-06-13 11:51:58,699 - INFO - Running command: which httpx
+2025-06-13 11:51:58,701 - INFO - Running command: which nmap
+2025-06-13 11:51:58,703 - INFO - Running command: which testssl.sh
+2025-06-13 11:51:58,704 - INFO - Running command: which checkdmarc
+2025-06-13 11:51:58,706 - INFO - Running command: which dnstwist
+2025-06-13 11:51:58,707 - INFO - Running command: which python3
+2025-06-13 11:51:58,709 - INFO - Running command: which pip

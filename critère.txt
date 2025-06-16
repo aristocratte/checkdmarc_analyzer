@@ -1,0 +1,31 @@
+
+SPF - SPF record present	
+
+
+DMARC - rua present	
+
+
+Mail Server - smtp - starttls offered	
+
+
+DMARC - Strict mode	
+
+
+DMARC - ruf present	
+
+
+DMARC - DMARC record present	
+
+
+DMARC - Policy is not none	
+
+
+SPF - Strict mode	
+
+
+Mail Server - no pop service	
+
+
+DMARC - pct equals 	
+
+

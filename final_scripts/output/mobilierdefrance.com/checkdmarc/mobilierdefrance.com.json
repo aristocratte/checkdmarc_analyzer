@@ -1,0 +1,171 @@
+{
+  "domain": "mobilierdefrance.com",
+  "base_domain": "mobilierdefrance.com",
+  "dnssec": false,
+  "ns": {
+    "hostnames": [
+      "ns-220-a.gandi.net",
+      "ns-183-b.gandi.net",
+      "ns-75-c.gandi.net"
+    ],
+    "warnings": []
+  },
+  "mx": {
+    "hosts": [
+      {
+        "preference": 10,
+        "hostname": "spool.mail.gandi.net",
+        "addresses": [
+          "2001:4b98:e00::1",
+          "217.70.178.1"
+        ],
+        "dnssec": false,
+        "tls": false,
+        "starttls": false
+      },
+      {
+        "preference": 50,
+        "hostname": "fb.mail.gandi.net",
+        "addresses": [
+          "2001:4b98:dc4:8::215",
+          "2001:4b98:dc4:8::216",
+          "2001:4b98:dc4:8::217",
+          "217.70.178.215",
+          "217.70.178.216",
+          "217.70.178.217"
+        ],
+        "dnssec": false,
+        "tls": false,
+        "starttls": false
+      }
+    ],
+    "warnings": [
+      "spool.mail.gandi.net: Connection timed out",
+      "The reverse DNS of 2001:4b98:dc4:8::215 is spool6.mail.gandi.net, but the A/AAAA DNS records for spool6.mail.gandi.net do not resolve to 2001:4b98:dc4:8::215",
+      "The reverse DNS of 2001:4b98:dc4:8::216 is spool7.mail.gandi.net, but the A/AAAA DNS records for spool7.mail.gandi.net do not resolve to 2001:4b98:dc4:8::216",
+      "The reverse DNS of 2001:4b98:dc4:8::217 is spool8.mail.gandi.net, but the A/AAAA DNS records for spool8.mail.gandi.net do not resolve to 2001:4b98:dc4:8::217",
+      "fb.mail.gandi.net: Connection timed out"
+    ]
+  },
+  "mta_sts": {
+    "valid": false,
+    "error": "An MTA-STS DNS record does not exist for this domain"
+  },
+  "spf": {
+    "record": "v=spf1 a:mail.mobilier-de-france.com include:spf.mailjet.com ~all",
+    "valid": true,
+    "dns_lookups": 2,
+    "dns_void_lookups": 0,
+    "warnings": [],
+    "parsed": {
+      "pass": [
+        {
+          "value": "159.180.251.37",
+          "mechanism": "a"
+        }
+      ],
+      "neutral": [],
+      "softfail": [],
+      "fail": [],
+      "include": [
+        {
+          "domain": "spf.mailjet.com",
+          "record": "v=spf1 ip4:87.253.232.0/21 ip4:185.189.236.0/22 ip4:185.211.120.0/22 ip4:185.250.236.0/22 ip4:45.14.148.0/22 ~all",
+          "dns_lookups": 0,
+          "dns_void_lookups": 0,
+          "parsed": {
+            "pass": [
+              {
+                "value": "87.253.232.0/21",
+                "mechanism": "ip4"
+              },
+              {
+                "value": "185.189.236.0/22",
+                "mechanism": "ip4"
+              },
+              {
+                "value": "185.211.120.0/22",
+                "mechanism": "ip4"
+              },
+              {
+                "value": "185.250.236.0/22",
+                "mechanism": "ip4"
+              },
+              {
+                "value": "45.14.148.0/22",
+                "mechanism": "ip4"
+              }
+            ],
+            "neutral": [],
+            "softfail": [],
+            "fail": [],
+            "include": [],
+            "redirect": null,
+            "exp": null,
+            "all": "softfail"
+          },
+          "warnings": []
+        }
+      ],
+      "redirect": null,
+      "exp": null,
+      "all": "softfail"
+    }
+  },
+  "dmarc": {
+    "record": "v=DMARC1;p=none;",
+    "valid": true,
+    "location": "mobilierdefrance.com",
+    "warnings": [
+      "rua tag (destination for aggregate reports) not found"
+    ],
+    "tags": {
+      "v": {
+        "value": "DMARC1",
+        "explicit": true
+      },
+      "p": {
+        "value": "none",
+        "explicit": true
+      },
+      "adkim": {
+        "value": "r",
+        "explicit": false
+      },
+      "aspf": {
+        "value": "r",
+        "explicit": false
+      },
+      "fo": {
+        "value": "0",
+        "explicit": false
+      },
+      "pct": {
+        "value": 100,
+        "explicit": false
+      },
+      "rf": {
+        "value": "afrf",
+        "explicit": false
+      },
+      "ri": {
+        "value": 86400,
+        "explicit": false
+      },
+      "sp": {
+        "value": "none",
+        "explicit": false
+      }
+    }
+  },
+  "smtp_tls_reporting": {
+    "valid": false,
+    "error": "An SMTP TLS Reporting DNS record does not exist for this domain"
+  },
+  "bimi": {
+    "record": null,
+    "valid": false,
+    "selector": "default",
+    "error": "A BIMI record does not exist at the default selector for this domain or its base domain"
+  }
+}

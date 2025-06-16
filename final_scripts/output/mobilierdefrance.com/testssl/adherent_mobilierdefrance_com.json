@@ -1,0 +1,16 @@
+[
+         {
+              "id"           : "scanProblem",
+              "ip"           : "adherent.mobilierdefrance.com/",
+              "port"         : "443",
+              "severity"     : "FATAL",
+              "finding"      : "No IPv4/IPv6 address(es) for 'adherent.mobilierdefrance.com' available"
+          }
+,         {
+              "id"           : "scanTime",
+              "ip"           : "adherent.mobilierdefrance.com/",
+              "port"         : "443",
+              "severity"     : "WARN",
+              "finding"      : "Scan interrupted"
+          }
+]

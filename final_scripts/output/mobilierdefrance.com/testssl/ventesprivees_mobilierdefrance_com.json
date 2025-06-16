@@ -1,0 +1,16 @@
+[
+         {
+              "id"           : "scanProblem",
+              "ip"           : "ventesprivees.mobilierdefrance.com/20.216.161.59",
+              "port"         : "443",
+              "severity"     : "FATAL",
+              "finding"      : "Can't connect to '20.216.161.59:443' Make sure a firewall is not between you and your scanning target!"
+          }
+,         {
+              "id"           : "scanTime",
+              "ip"           : "ventesprivees.mobilierdefrance.com/20.216.161.59",
+              "port"         : "443",
+              "severity"     : "WARN",
+              "finding"      : "Scan interrupted"
+          }
+]

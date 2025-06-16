@@ -1,0 +1,39 @@
+{
+  "domain": "adherent.mobilierdefrance.com",
+  "base_domain": "mobilierdefrance.com",
+  "dnssec": false,
+  "ns": {
+    "hostnames": [],
+    "error": "The domain adherent.mobilierdefrance.com does not exist"
+  },
+  "mx": {
+    "hosts": [],
+    "error": "The domain adherent.mobilierdefrance.com does not exist"
+  },
+  "mta_sts": {
+    "valid": false,
+    "error": "The domain adherent.mobilierdefrance.com does not exist"
+  },
+  "spf": {
+    "record": null,
+    "valid": false,
+    "dns_void_lookups": null,
+    "error": "The domain adherent.mobilierdefrance.com does not exist"
+  },
+  "dmarc": {
+    "record": null,
+    "valid": false,
+    "location": null,
+    "error": "The domain adherent.mobilierdefrance.com does not exist"
+  },
+  "smtp_tls_reporting": {
+    "valid": false,
+    "error": "The domain adherent.mobilierdefrance.com does not exist"
+  },
+  "bimi": {
+    "record": null,
+    "valid": false,
+    "selector": "default",
+    "error": "The domain adherent.mobilierdefrance.com does not exist"
+  }
+}

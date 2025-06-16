@@ -1,0 +1,194 @@
+{
+  "domain": "hackeronestatus.com",
+  "base_domain": "hackeronestatus.com",
+  "dnssec": false,
+  "ns": {
+    "hostnames": [
+      "a.ns.hackerone.com",
+      "b.ns.hackerone.com"
+    ],
+    "warnings": []
+  },
+  "mx": {
+    "hosts": [],
+    "warnings": [
+      "No MX records found. Is the domain parked?"
+    ]
+  },
+  "mta_sts": {
+    "valid": false,
+    "error": "An MTA-STS DNS record does not exist for this domain"
+  },
+  "spf": {
+    "record": "v=spf1 include:stspg-customer.com -all",
+    "valid": true,
+    "dns_lookups": 1,
+    "dns_void_lookups": 0,
+    "warnings": [],
+    "parsed": {
+      "pass": [],
+      "neutral": [],
+      "softfail": [],
+      "fail": [],
+      "include": [
+        {
+          "domain": "stspg-customer.com",
+          "record": "v=spf1 ip4:23.253.182.103 ip4:23.253.183.145 ip4:23.253.183.146 ip4:23.253.183.147 ip4:23.253.183.148 ip4:23.253.183.150 ip4:166.78.68.221 ip4:167.89.46.159 ip4:167.89.64.9 ip4:167.89.65.0 ip4:167.89.65.53 ip4:167.89.65.100 ip4:167.89.74.233 ip4:167.89.75.33 ip4:167.89.75.126 ip4:167.89.75.136 ip4:167.89.75.164 ip4:192.237.159.42 ip4:192.237.159.43 ip4:159.112.242.162 ip4:159.135.228.10 ip4:198.244.56.107 ip4:198.244.56.108 ip4:198.244.56.109 ip4:198.244.56.111 ip4:198.244.56.112 ip4:198.244.56.113 ip4:198.244.56.114 ip4:198.244.56.115 ip4:204.220.181.105 ~all",
+          "dns_lookups": 0,
+          "dns_void_lookups": 0,
+          "parsed": {
+            "pass": [
+              {
+                "value": "23.253.182.103",
+                "mechanism": "ip4"
+              },
+              {
+                "value": "23.253.183.145",
+                "mechanism": "ip4"
+              },
+              {
+                "value": "23.253.183.146",
+                "mechanism": "ip4"
+              },
+              {
+                "value": "23.253.183.147",
+                "mechanism": "ip4"
+              },
+              {
+                "value": "23.253.183.148",
+                "mechanism": "ip4"
+              },
+              {
+                "value": "23.253.183.150",
+                "mechanism": "ip4"
+              },
+              {
+                "value": "166.78.68.221",
+                "mechanism": "ip4"
+              },
+              {
+                "value": "167.89.46.159",
+                "mechanism": "ip4"
+              },
+              {
+                "value": "167.89.64.9",
+                "mechanism": "ip4"
+              },
+              {
+                "value": "167.89.65.0",
+                "mechanism": "ip4"
+              },
+              {
+                "value": "167.89.65.53",
+                "mechanism": "ip4"
+              },
+              {
+                "value": "167.89.65.100",
+                "mechanism": "ip4"
+              },
+              {
+                "value": "167.89.74.233",
+                "mechanism": "ip4"
+              },
+              {
+                "value": "167.89.75.33",
+                "mechanism": "ip4"
+              },
+              {
+                "value": "167.89.75.126",
+                "mechanism": "ip4"
+              },
+              {
+                "value": "167.89.75.136",
+                "mechanism": "ip4"
+              },
+              {
+                "value": "167.89.75.164",
+                "mechanism": "ip4"
+              },
+              {
+                "value": "192.237.159.42",
+                "mechanism": "ip4"
+              },
+              {
+                "value": "192.237.159.43",
+                "mechanism": "ip4"
+              },
+              {
+                "value": "159.112.242.162",
+                "mechanism": "ip4"
+              },
+              {
+                "value": "159.135.228.10",
+                "mechanism": "ip4"
+              },
+              {
+                "value": "198.244.56.107",
+                "mechanism": "ip4"
+              },
+              {
+                "value": "198.244.56.108",
+                "mechanism": "ip4"
+              },
+              {
+                "value": "198.244.56.109",
+                "mechanism": "ip4"
+              },
+              {
+                "value": "198.244.56.111",
+                "mechanism": "ip4"
+              },
+              {
+                "value": "198.244.56.112",
+                "mechanism": "ip4"
+              },
+              {
+                "value": "198.244.56.113",
+                "mechanism": "ip4"
+              },
+              {
+                "value": "198.244.56.114",
+                "mechanism": "ip4"
+              },
+              {
+                "value": "198.244.56.115",
+                "mechanism": "ip4"
+              },
+              {
+                "value": "204.220.181.105",
+                "mechanism": "ip4"
+              }
+            ],
+            "neutral": [],
+            "softfail": [],
+            "fail": [],
+            "include": [],
+            "redirect": null,
+            "exp": null,
+            "all": "softfail"
+          },
+          "warnings": []
+        }
+      ],
+      "redirect": null,
+      "exp": null,
+      "all": "fail"
+    }
+  },
+  "dmarc": {
+    "record": null,
+    "valid": false,
+    "location": null,
+    "error": "A DMARC record does not exist for this domain or its base domain"
+  },
+  "smtp_tls_reporting": {
+    "valid": false,
+    "error": "An SMTP TLS Reporting DNS record does not exist for this domain"
+  },
+  "bimi": {
+    "record": null,
+    "valid": false,
+    "selector": "default",
+    "error": "A BIMI record does not exist at the default selector for this domain or its base domain"
+  }
+}

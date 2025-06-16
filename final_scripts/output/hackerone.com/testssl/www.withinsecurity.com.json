@@ -1,0 +1,2652 @@
+[
+         {
+              "id"           : "engine_problem",
+              "ip"           : "/",
+              "port"         : "443",
+              "severity"     : "WARN",
+              "finding"      : "No engine or GOST support via engine with your /usr/bin/openssl"
+          }
+,         {
+              "id"           : "service",
+              "ip"           : "www.withinsecurity.com/188.114.97.2",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "HTTP"
+          }
+,         {
+              "id"           : "pre_128cipher",
+              "ip"           : "www.withinsecurity.com/188.114.97.2",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "No 128 cipher limit bug"
+          }
+,         {
+              "id"           : "SSLv2",
+              "ip"           : "www.withinsecurity.com/188.114.97.2",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "not offered"
+          }
+,         {
+              "id"           : "SSLv3",
+              "ip"           : "www.withinsecurity.com/188.114.97.2",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "not offered"
+          }
+,         {
+              "id"           : "TLS1",
+              "ip"           : "www.withinsecurity.com/188.114.97.2",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "offered (deprecated)"
+          }
+,         {
+              "id"           : "TLS1_1",
+              "ip"           : "www.withinsecurity.com/188.114.97.2",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "offered (deprecated)"
+          }
+,         {
+              "id"           : "TLS1_2",
+              "ip"           : "www.withinsecurity.com/188.114.97.2",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "offered"
+          }
+,         {
+              "id"           : "TLS1_3",
+              "ip"           : "www.withinsecurity.com/188.114.97.2",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "offered with final"
+          }
+,         {
+              "id"           : "NPN",
+              "ip"           : "www.withinsecurity.com/188.114.97.2",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "not offered"
+          }
+,         {
+              "id"           : "ALPN_HTTP2",
+              "ip"           : "www.withinsecurity.com/188.114.97.2",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "h2"
+          }
+,         {
+              "id"           : "ALPN",
+              "ip"           : "www.withinsecurity.com/188.114.97.2",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "http/1.1"
+          }
+,         {
+              "id"           : "cipherlist_NULL",
+              "ip"           : "www.withinsecurity.com/188.114.97.2",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cwe"          : "CWE-327",
+              "finding"      : "not offered"
+          }
+,         {
+              "id"           : "cipherlist_aNULL",
+              "ip"           : "www.withinsecurity.com/188.114.97.2",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cwe"          : "CWE-327",
+              "finding"      : "not offered"
+          }
+,         {
+              "id"           : "cipherlist_EXPORT",
+              "ip"           : "www.withinsecurity.com/188.114.97.2",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cwe"          : "CWE-327",
+              "finding"      : "not offered"
+          }
+,         {
+              "id"           : "cipherlist_LOW",
+              "ip"           : "www.withinsecurity.com/188.114.97.2",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cwe"          : "CWE-327",
+              "finding"      : "not offered"
+          }
+,         {
+              "id"           : "cipherlist_3DES_IDEA",
+              "ip"           : "www.withinsecurity.com/188.114.97.2",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "cwe"          : "CWE-310",
+              "finding"      : "not offered"
+          }
+,         {
+              "id"           : "cipherlist_OBSOLETED",
+              "ip"           : "www.withinsecurity.com/188.114.97.2",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "cwe"          : "CWE-310",
+              "finding"      : "offered"
+          }
+,         {
+              "id"           : "cipherlist_STRONG_NOFS",
+              "ip"           : "www.withinsecurity.com/188.114.97.2",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "not offered"
+          }
+,         {
+              "id"           : "cipherlist_STRONG_FS",
+              "ip"           : "www.withinsecurity.com/188.114.97.2",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "offered"
+          }
+,         {
+              "id"           : "cipher_order-tls1",
+              "ip"           : "www.withinsecurity.com/188.114.97.2",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "server"
+          }
+,         {
+              "id"           : "cipher-tls1_xc009",
+              "ip"           : "www.withinsecurity.com/188.114.97.2",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "TLSv1   xc009   ECDHE-ECDSA-AES128-SHA            ECDH       AES         128      TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA"
+          }
+,         {
+              "id"           : "cipher-tls1_xc00a",
+              "ip"           : "www.withinsecurity.com/188.114.97.2",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "TLSv1   xc00a   ECDHE-ECDSA-AES256-SHA            ECDH       AES         256      TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA"
+          }
+,         {
+              "id"           : "cipherorder_TLSv1",
+              "ip"           : "www.withinsecurity.com/188.114.97.2",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "ECDHE-ECDSA-AES128-SHA ECDHE-ECDSA-AES256-SHA"
+          }
+,         {
+              "id"           : "cipher_order-tls1_1",
+              "ip"           : "www.withinsecurity.com/188.114.97.2",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "server"
+          }
+,         {
+              "id"           : "cipher-tls1_1_xc009",
+              "ip"           : "www.withinsecurity.com/188.114.97.2",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "TLSv1.1   xc009   ECDHE-ECDSA-AES128-SHA            ECDH       AES         128      TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA"
+          }
+,         {
+              "id"           : "cipher-tls1_1_xc00a",
+              "ip"           : "www.withinsecurity.com/188.114.97.2",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "TLSv1.1   xc00a   ECDHE-ECDSA-AES256-SHA            ECDH       AES         256      TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA"
+          }
+,         {
+              "id"           : "cipherorder_TLSv1_1",
+              "ip"           : "www.withinsecurity.com/188.114.97.2",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "ECDHE-ECDSA-AES128-SHA ECDHE-ECDSA-AES256-SHA"
+          }
+,         {
+              "id"           : "cipher_order-tls1_2",
+              "ip"           : "www.withinsecurity.com/188.114.97.2",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "server -- server prioritizes ChaCha ciphers when preferred by clients"
+          }
+,         {
+              "id"           : "cipher-tls1_2_xc02b",
+              "ip"           : "www.withinsecurity.com/188.114.97.2",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "TLSv1.2   xc02b   ECDHE-ECDSA-AES128-GCM-SHA256     ECDH       AESGCM      128      TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256"
+          }
+,         {
+              "id"           : "cipher-tls1_2_xcca9",
+              "ip"           : "www.withinsecurity.com/188.114.97.2",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "TLSv1.2   xcca9   ECDHE-ECDSA-CHACHA20-POLY1305     ECDH       ChaCha20    256      TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256"
+          }
+,         {
+              "id"           : "cipher-tls1_2_xc009",
+              "ip"           : "www.withinsecurity.com/188.114.97.2",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "TLSv1.2   xc009   ECDHE-ECDSA-AES128-SHA            ECDH       AES         128      TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA"
+          }
+,         {
+              "id"           : "cipher-tls1_2_xc02c",
+              "ip"           : "www.withinsecurity.com/188.114.97.2",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "TLSv1.2   xc02c   ECDHE-ECDSA-AES256-GCM-SHA384     ECDH       AESGCM      256      TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384"
+          }
+,         {
+              "id"           : "cipher-tls1_2_xc00a",
+              "ip"           : "www.withinsecurity.com/188.114.97.2",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "TLSv1.2   xc00a   ECDHE-ECDSA-AES256-SHA            ECDH       AES         256      TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA"
+          }
+,         {
+              "id"           : "cipher-tls1_2_xc023",
+              "ip"           : "www.withinsecurity.com/188.114.97.2",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "TLSv1.2   xc023   ECDHE-ECDSA-AES128-SHA256         ECDH       AES         128      TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256"
+          }
+,         {
+              "id"           : "cipher-tls1_2_xc024",
+              "ip"           : "www.withinsecurity.com/188.114.97.2",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "TLSv1.2   xc024   ECDHE-ECDSA-AES256-SHA384         ECDH       AES         256      TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384"
+          }
+,         {
+              "id"           : "cipherorder_TLSv1_2",
+              "ip"           : "www.withinsecurity.com/188.114.97.2",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "ECDHE-ECDSA-AES128-GCM-SHA256 ECDHE-ECDSA-CHACHA20-POLY1305 ECDHE-ECDSA-AES128-SHA ECDHE-ECDSA-AES256-GCM-SHA384 ECDHE-ECDSA-AES256-SHA ECDHE-ECDSA-AES128-SHA256 ECDHE-ECDSA-AES256-SHA384"
+          }
+,         {
+              "id"           : "prioritize_chacha_TLSv1_2",
+              "ip"           : "www.withinsecurity.com/188.114.97.2",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "true"
+          }
+,         {
+              "id"           : "cipher_order-tls1_3",
+              "ip"           : "www.withinsecurity.com/188.114.97.2",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "NOT a cipher order configured"
+          }
+,         {
+              "id"           : "cipher-tls1_3_x1302",
+              "ip"           : "www.withinsecurity.com/188.114.97.2",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "TLSv1.3   x1302   TLS_AES_256_GCM_SHA384                       AESGCM      256      TLS_AES_256_GCM_SHA384"
+          }
+,         {
+              "id"           : "cipher-tls1_3_x1303",
+              "ip"           : "www.withinsecurity.com/188.114.97.2",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "TLSv1.3   x1303   TLS_CHACHA20_POLY1305_SHA256                 ChaCha20    256      TLS_CHACHA20_POLY1305_SHA256"
+          }
+,         {
+              "id"           : "cipher-tls1_3_x1301",
+              "ip"           : "www.withinsecurity.com/188.114.97.2",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "TLSv1.3   x1301   TLS_AES_128_GCM_SHA256                       AESGCM      128      TLS_AES_128_GCM_SHA256"
+          }
+,         {
+              "id"           : "supportedciphers_TLSv1_3",
+              "ip"           : "www.withinsecurity.com/188.114.97.2",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLS_AES_256_GCM_SHA384 TLS_CHACHA20_POLY1305_SHA256 TLS_AES_128_GCM_SHA256"
+          }
+,         {
+              "id"           : "cipher_order",
+              "ip"           : "www.withinsecurity.com/188.114.97.2",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "server -- TLS 1.3 client determined"
+          }
+,         {
+              "id"           : "FS",
+              "ip"           : "www.withinsecurity.com/188.114.97.2",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "offered"
+          }
+,         {
+              "id"           : "FS_ciphers",
+              "ip"           : "www.withinsecurity.com/188.114.97.2",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLS_AES_256_GCM_SHA384 TLS_CHACHA20_POLY1305_SHA256 ECDHE-ECDSA-AES256-GCM-SHA384 ECDHE-ECDSA-AES256-SHA384 ECDHE-ECDSA-AES256-SHA ECDHE-ECDSA-CHACHA20-POLY1305 TLS_AES_128_GCM_SHA256 ECDHE-ECDSA-AES128-GCM-SHA256 ECDHE-ECDSA-AES128-SHA256 ECDHE-ECDSA-AES128-SHA"
+          }
+,         {
+              "id"           : "FS_KEMs",
+              "ip"           : "www.withinsecurity.com/188.114.97.2",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "X25519MLKEM768 X25519Kyber768Draft00"
+          }
+,         {
+              "id"           : "FS_ECDHE_curves",
+              "ip"           : "www.withinsecurity.com/188.114.97.2",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "prime256v1 secp384r1 secp521r1 X25519"
+          }
+,         {
+              "id"           : "FS_TLS12_sig_algs",
+              "ip"           : "www.withinsecurity.com/188.114.97.2",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "ECDSA+SHA256 ECDSA+SHA384 ECDSA+SHA512 ECDSA+SHA1"
+          }
+,         {
+              "id"           : "FS_TLS13_sig_algs",
+              "ip"           : "www.withinsecurity.com/188.114.97.2",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "ECDSA+SHA256"
+          }
+,         {
+              "id"           : "TLS_extensions",
+              "ip"           : "www.withinsecurity.com/188.114.97.2",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "'server name/#0' 'renegotiation info/#65281' 'EC point formats/#11' 'session ticket/#35' 'status request/#5' 'next protocol/#13172' 'key share/#51' 'supported versions/#43' 'extended master secret/#23' 'application layer protocol negotiation/#16' 'compress_certificate/#27'"
+          }
+,         {
+              "id"           : "TLS_session_ticket",
+              "ip"           : "www.withinsecurity.com/188.114.97.2",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "valid for 64800 seconds only (<daily)"
+          }
+,         {
+              "id"           : "SSL_sessionID_support",
+              "ip"           : "www.withinsecurity.com/188.114.97.2",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "yes"
+          }
+,         {
+              "id"           : "sessionresumption_ticket",
+              "ip"           : "www.withinsecurity.com/188.114.97.2",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "supported"
+          }
+,         {
+              "id"           : "sessionresumption_ID",
+              "ip"           : "www.withinsecurity.com/188.114.97.2",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "not supported"
+          }
+,         {
+              "id"           : "TLS_timestamp",
+              "ip"           : "www.withinsecurity.com/188.114.97.2",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "off by 0 seconds from your localtime"
+          }
+,         {
+              "id"           : "certificate_compression",
+              "ip"           : "www.withinsecurity.com/188.114.97.2",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "0002/Brotli"
+          }
+,         {
+              "id"           : "clientAuth",
+              "ip"           : "www.withinsecurity.com/188.114.97.2",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "none"
+          }
+,         {
+              "id"           : "cert_numbers",
+              "ip"           : "www.withinsecurity.com/188.114.97.2",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "1"
+          }
+,         {
+              "id"           : "cert_signatureAlgorithm",
+              "ip"           : "www.withinsecurity.com/188.114.97.2",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "ECDSA with SHA256"
+          }
+,         {
+              "id"           : "cert_keySize",
+              "ip"           : "www.withinsecurity.com/188.114.97.2",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "EC 256 bits (curve P-256)"
+          }
+,         {
+              "id"           : "cert_keyUsage",
+              "ip"           : "www.withinsecurity.com/188.114.97.2",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "Digital Signature"
+          }
+,         {
+              "id"           : "cert_extKeyUsage",
+              "ip"           : "www.withinsecurity.com/188.114.97.2",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLS Web Server Authentication"
+          }
+,         {
+              "id"           : "cert_serialNumber",
+              "ip"           : "www.withinsecurity.com/188.114.97.2",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "05B989FC5202D6D40E40867E0E683F7F"
+          }
+,         {
+              "id"           : "cert_serialNumberLen",
+              "ip"           : "www.withinsecurity.com/188.114.97.2",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "16"
+          }
+,         {
+              "id"           : "cert_fingerprintSHA1",
+              "ip"           : "www.withinsecurity.com/188.114.97.2",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "408092CA01D99BF46746326F9D0B304879D536B3"
+          }
+,         {
+              "id"           : "cert_fingerprintSHA256",
+              "ip"           : "www.withinsecurity.com/188.114.97.2",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "4025364F7028863157381F68C92BE2D06220C36632E41E80A9417F595E25E6FC"
+          }
+,         {
+              "id"           : "cert",
+              "ip"           : "www.withinsecurity.com/188.114.97.2",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "-----BEGIN CERTIFICATE-----\nMIIDuDCCA16gAwIBAgIQBbmJ/FIC1tQOQIZ+Dmg/fzAKBggqhkjOPQQDAjA7MQswCQYDVQQGEwJVUzEeMBwGA1UEChMVR29vZ2xlIFRydXN0IFNlcnZpY2VzMQwwCgYDVQQDEwNXRTEwHhcNMjUwNjA5MTAwMjM2WhcNMjUwOTA3MTEwMDU5WjAdMRswGQYDVQQDExJ3aXRoaW5zZWN1cml0eS5jb20wWTATBgcqhkjOPQIBBggqhkjOPQMBBwNCAASEmq3uG9hxBeGGGIB9hfUTOICldsISMskof4q8GJi4MyfNb0czsC6+Dk+gkCFzno0AsM91i33R8ZDq+uFnxgvho4ICYDCCAlwwDgYDVR0PAQH/BAQDAgeAMBMGA1UdJQQMMAoGCCsGAQUFBwMBMAwGA1UdEwEB/wQCMAAwHQYDVR0OBBYEFNRdH24GAoWf9BiDlr5QvQznPf81MB8GA1UdIwQYMBaAFJB3kjVnxP+ozKnme9mAeXvMk/k4MF4GCCsGAQUFBwEBBFIwUDAnBggrBgEFBQcwAYYbaHR0cDovL28ucGtpLmdvb2cvcy93ZTEvQmJrMCUGCCsGAQUFBzAChhlodHRwOi8vaS5wa2kuZ29vZy93ZTEuY3J0MDMGA1UdEQQsMCqCEndpdGhpbnNlY3VyaXR5LmNvbYIUKi53aXRoaW5zZWN1cml0eS5jb20wEwYDVR0gBAwwCjAIBgZngQwBAgEwNgYDVR0fBC8wLTAroCmgJ4YlaHR0cDovL2MucGtpLmdvb2cvd2UxL19oaXlXUnR0anlNLmNybDCCAQMGCisGAQQB1nkCBAIEgfQEgfEA7wB1ABLxTjS9U3JMhAYZw48/ehP457Vih4icbTAFhOvlhiY6AAABl1RbQ0EAAAQDAEYwRAIgGICTL9mjFscBiCmUUwWIZL0sGFo6tej4Jbnlv6CfJiQCIA1ZyJkMcc2LKBJMmfANnvLu9Qsdvg8qtlXdLdu/hwMzAHYAfVkeEuF4KnscYWd8Xv340IdcFKBOlZ65Ay/ZDowuebgAAAGXVFtDWgAABAMARzBFAiEAn5jGe+tsBIfSHBG7uAeULBrGyx5/ukPy/pxWL4kCTz4CIEKE6t4ll5g/N6Til+nxd1/tJmduTOcDs18hepFiiWRrMAoGCCqGSM49BAMCA0gAMEUCIHIxLIIpNmByx21m/fFDZmo1/YTEUZ2szNOaB7Og4zlDAiEA517NZyRaQUqaGObqTOyNgSk0oHQqPdEpvnmesjFM7dk=\n-----END CERTIFICATE-----"
+          }
+,         {
+              "id"           : "cert_commonName",
+              "ip"           : "www.withinsecurity.com/188.114.97.2",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "withinsecurity.com"
+          }
+,         {
+              "id"           : "cert_commonName_wo_SNI",
+              "ip"           : "www.withinsecurity.com/188.114.97.2",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "cdnjs.cloudflare.com"
+          }
+,         {
+              "id"           : "cert_subjectAltName",
+              "ip"           : "www.withinsecurity.com/188.114.97.2",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "withinsecurity.com *.withinsecurity.com"
+          }
+,         {
+              "id"           : "cert_trust",
+              "ip"           : "www.withinsecurity.com/188.114.97.2",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "Ok via SAN wildcard (SNI mandatory)"
+          }
+,         {
+              "id"           : "cert_trust_wildcard",
+              "ip"           : "www.withinsecurity.com/188.114.97.2",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "trust is via wildcard"
+          }
+,         {
+              "id"           : "cert_chain_of_trust",
+              "ip"           : "www.withinsecurity.com/188.114.97.2",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "passed."
+          }
+,         {
+              "id"           : "cert_certificatePolicies_EV",
+              "ip"           : "www.withinsecurity.com/188.114.97.2",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "no"
+          }
+,         {
+              "id"           : "cert_expirationStatus",
+              "ip"           : "www.withinsecurity.com/188.114.97.2",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "85 >= 60 days"
+          }
+,         {
+              "id"           : "cert_notBefore",
+              "ip"           : "www.withinsecurity.com/188.114.97.2",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "2025-06-09 10:02"
+          }
+,         {
+              "id"           : "cert_notAfter",
+              "ip"           : "www.withinsecurity.com/188.114.97.2",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "2025-09-07 11:00"
+          }
+,         {
+              "id"           : "cert_extlifeSpan",
+              "ip"           : "www.withinsecurity.com/188.114.97.2",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "certificate has no extended life time according to browser forum"
+          }
+,         {
+              "id"           : "cert_eTLS",
+              "ip"           : "www.withinsecurity.com/188.114.97.2",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "not present"
+          }
+,         {
+              "id"           : "cert_crlDistributionPoints",
+              "ip"           : "www.withinsecurity.com/188.114.97.2",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "http://c.pki.goog/we1/_hiyWRttjyM.crl"
+          }
+,         {
+              "id"           : "cert_ocspURL",
+              "ip"           : "www.withinsecurity.com/188.114.97.2",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "http://o.pki.goog/s/we1/Bbk"
+          }
+,         {
+              "id"           : "OCSP_stapling",
+              "ip"           : "www.withinsecurity.com/188.114.97.2",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "offered"
+          }
+,         {
+              "id"           : "cert_ocspRevoked",
+              "ip"           : "www.withinsecurity.com/188.114.97.2",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "not revoked"
+          }
+,         {
+              "id"           : "cert_mustStapleExtension",
+              "ip"           : "www.withinsecurity.com/188.114.97.2",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "--"
+          }
+,         {
+              "id"           : "DNS_CAArecord",
+              "ip"           : "www.withinsecurity.com/188.114.97.2",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "--"
+          }
+,         {
+              "id"           : "certificate_transparency",
+              "ip"           : "www.withinsecurity.com/188.114.97.2",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "yes (certificate extension)"
+          }
+,         {
+              "id"           : "certs_countServer",
+              "ip"           : "www.withinsecurity.com/188.114.97.2",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "3"
+          }
+,         {
+              "id"           : "certs_list_ordering_problem",
+              "ip"           : "www.withinsecurity.com/188.114.97.2",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "no"
+          }
+,         {
+              "id"           : "cert_caIssuers",
+              "ip"           : "www.withinsecurity.com/188.114.97.2",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "WE1 (Google Trust Services from US)"
+          }
+,         {
+              "id"           : "intermediate_cert <#1>",
+              "ip"           : "www.withinsecurity.com/188.114.97.2",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "-----BEGIN CERTIFICATE-----\nMIICnzCCAiWgAwIBAgIQf/MZd5csIkp2FV0TttaF4zAKBggqhkjOPQQDAzBHMQswCQYDVQQGEwJVUzEiMCAGA1UEChMZR29vZ2xlIFRydXN0IFNlcnZpY2VzIExMQzEUMBIGA1UEAxMLR1RTIFJvb3QgUjQwHhcNMjMxMjEzMDkwMDAwWhcNMjkwMjIwMTQwMDAwWjA7MQswCQYDVQQGEwJVUzEeMBwGA1UEChMVR29vZ2xlIFRydXN0IFNlcnZpY2VzMQwwCgYDVQQDEwNXRTEwWTATBgcqhkjOPQIBBggqhkjOPQMBBwNCAARvzTr+Z1dHTCEDhUDCR127WEcPQMFcF4XGGTfn1XzthkubgdnXGhOlCgP4mMTG6J7/EFmPLCaY9eYmJbsPAvpWo4H+MIH7MA4GA1UdDwEB/wQEAwIBhjAdBgNVHSUEFjAUBggrBgEFBQcDAQYIKwYBBQUHAwIwEgYDVR0TAQH/BAgwBgEB/wIBADAdBgNVHQ4EFgQUkHeSNWfE/6jMqeZ72YB5e8yT+TgwHwYDVR0jBBgwFoAUgEzW63T/STaj1dj8tT7FavCUHYwwNAYIKwYBBQUHAQEEKDAmMCQGCCsGAQUFBzAChhhodHRwOi8vaS5wa2kuZ29vZy9yNC5jcnQwKwYDVR0fBCQwIjAgoB6gHIYaaHR0cDovL2MucGtpLmdvb2cvci9yNC5jcmwwEwYDVR0gBAwwCjAIBgZngQwBAgEwCgYIKoZIzj0EAwMDaAAwZQIxAOcCq1HW90OVznX+0RGU1cxAQXomvtgM8zItPZCuFQ8jSBJSjz5keROv9aYsAm5VsQIwJonMaAFi54mrfhfoFNZEfuNMSQ6/bIBiNLiyoX46FohQvKeIoJ99cx7sUkFN7uJW\n-----END CERTIFICATE-----"
+          }
+,         {
+              "id"           : "intermediate_cert_fingerprintSHA256 <#1>",
+              "ip"           : "www.withinsecurity.com/188.114.97.2",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "1DFC1605FBAD358D8BC844F76D15203FAC9CA5C1A79FD4857FFAF2864FBEBF96"
+          }
+,         {
+              "id"           : "intermediate_cert_notBefore <#1>",
+              "ip"           : "www.withinsecurity.com/188.114.97.2",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "2023-12-13 09:00"
+          }
+,         {
+              "id"           : "intermediate_cert_notAfter <#1>",
+              "ip"           : "www.withinsecurity.com/188.114.97.2",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "2029-02-20 14:00"
+          }
+,         {
+              "id"           : "intermediate_cert_expiration <#1>",
+              "ip"           : "www.withinsecurity.com/188.114.97.2",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "ok > 40 days"
+          }
+,         {
+              "id"           : "intermediate_cert_chain <#1>",
+              "ip"           : "www.withinsecurity.com/188.114.97.2",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "WE1 <-- GTS Root R4"
+          }
+,         {
+              "id"           : "intermediate_cert <#2>",
+              "ip"           : "www.withinsecurity.com/188.114.97.2",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "-----BEGIN CERTIFICATE-----\nMIIDejCCAmKgAwIBAgIQf+UwvzMTQ77dghYQST2KGzANBgkqhkiG9w0BAQsFADBXMQswCQYDVQQGEwJCRTEZMBcGA1UEChMQR2xvYmFsU2lnbiBudi1zYTEQMA4GA1UECxMHUm9vdCBDQTEbMBkGA1UEAxMSR2xvYmFsU2lnbiBSb290IENBMB4XDTIzMTExNTAzNDMyMVoXDTI4MDEyODAwMDA0MlowRzELMAkGA1UEBhMCVVMxIjAgBgNVBAoTGUdvb2dsZSBUcnVzdCBTZXJ2aWNlcyBMTEMxFDASBgNVBAMTC0dUUyBSb290IFI0MHYwEAYHKoZIzj0CAQYFK4EEACIDYgAE83Rzp2iLYK5DuDXFgTB7S0md+8FhzubeRr1r1WEYNa5A3XP3iZEwWus87oV8okB2O6nGuEfYKueSkWpz6bFyOZ8pn6KY019eWIZlD6GEZQbR3IvJx3PIjGov5cSr0R2Ko4H/MIH8MA4GA1UdDwEB/wQEAwIBhjAdBgNVHSUEFjAUBggrBgEFBQcDAQYIKwYBBQUHAwIwDwYDVR0TAQH/BAUwAwEB/zAdBgNVHQ4EFgQUgEzW63T/STaj1dj8tT7FavCUHYwwHwYDVR0jBBgwFoAUYHtmGkUNl8qJUC99BM00qP/8/UswNgYIKwYBBQUHAQEEKjAoMCYGCCsGAQUFBzAChhpodHRwOi8vaS5wa2kuZ29vZy9nc3IxLmNydDAtBgNVHR8EJjAkMCKgIKAehhxodHRwOi8vYy5wa2kuZ29vZy9yL2dzcjEuY3JsMBMGA1UdIAQMMAowCAYGZ4EMAQIBMA0GCSqGSIb3DQEBCwUAA4IBAQAYQrsPBtYDh5bjP2OBDwmkoWhIDDkic574y04tfzHpn+cJodI2D4SseesQ6bDrarZ7C30ddLibZatoKiws3UL9xnELz4ct92vID24FfVbiI1hY+SW6FoVHkNeWIP0GCbaM4C6uVdF5dTUsMVs/ZbzNnIdCp5Gxmx5ejvEau8otR/CskGN+hr/W5GvT1tMBjgWKZ1i4//emhA1JG1BbPzoLJQvyEotc03lXjTaCzv8mEbep8RqZ7a2CPsgRbuvTPBwcOMBBmuFeU88+FSBX6+7iP0il8b4Z0QFqIwwMHfs/L6K1vepuoxtGzi4CZ68zJpiq1UvSqTbFJjtbD4seiMHl\n-----END CERTIFICATE-----"
+          }
+,         {
+              "id"           : "intermediate_cert_fingerprintSHA256 <#2>",
+              "ip"           : "www.withinsecurity.com/188.114.97.2",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "76B27B80A58027DC3CF1DA68DAC17010ED93997D0B603E2FADBE85012493B5A7"
+          }
+,         {
+              "id"           : "intermediate_cert_notBefore <#2>",
+              "ip"           : "www.withinsecurity.com/188.114.97.2",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "2023-11-15 03:43"
+          }
+,         {
+              "id"           : "intermediate_cert_notAfter <#2>",
+              "ip"           : "www.withinsecurity.com/188.114.97.2",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "2028-01-28 00:00"
+          }
+,         {
+              "id"           : "intermediate_cert_expiration <#2>",
+              "ip"           : "www.withinsecurity.com/188.114.97.2",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "ok > 40 days"
+          }
+,         {
+              "id"           : "intermediate_cert_chain <#2>",
+              "ip"           : "www.withinsecurity.com/188.114.97.2",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "GTS Root R4 <-- GlobalSign Root CA"
+          }
+,         {
+              "id"           : "intermediate_cert_badOCSP",
+              "ip"           : "www.withinsecurity.com/188.114.97.2",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "intermediate certificate(s) is/are ok"
+          }
+,         {
+              "id"           : "HTTP_status_code",
+              "ip"           : "www.withinsecurity.com/188.114.97.2",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "301 Moved Permanently ('/')"
+          }
+,         {
+              "id"           : "HTTP_clock_skew",
+              "ip"           : "www.withinsecurity.com/188.114.97.2",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "0 seconds from localtime"
+          }
+,         {
+              "id"           : "HTTP_headerTime",
+              "ip"           : "www.withinsecurity.com/188.114.97.2",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "1749825495"
+          }
+,         {
+              "id"           : "HSTS_time",
+              "ip"           : "www.withinsecurity.com/188.114.97.2",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "180 days (=15552000 seconds) > 15552000 seconds"
+          }
+,         {
+              "id"           : "HSTS_subdomains",
+              "ip"           : "www.withinsecurity.com/188.114.97.2",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "includes subdomains"
+          }
+,         {
+              "id"           : "HSTS_preload",
+              "ip"           : "www.withinsecurity.com/188.114.97.2",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "domain IS marked for preloading"
+          }
+,         {
+              "id"           : "HPKP",
+              "ip"           : "www.withinsecurity.com/188.114.97.2",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "No support for HTTP Public Key Pinning"
+          }
+,         {
+              "id"           : "banner_server",
+              "ip"           : "www.withinsecurity.com/188.114.97.2",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "cloudflareserver-timing: cfL4;desc='?proto=TCP&rtt=2807&min_rtt=2799&rtt_var=1066&sent=5&recv=7&lost=0&retrans=0&sent_bytes=3933&recv_bytes=1965&delivery_rate=1495287&cwnd=102&unsent_bytes=0&cid=ef0f7e294c08ef13&ts=28&x=0'"
+          }
+,         {
+              "id"           : "banner_application",
+              "ip"           : "www.withinsecurity.com/188.114.97.2",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "No application banner found"
+          }
+,         {
+              "id"           : "cookie_count",
+              "ip"           : "www.withinsecurity.com/188.114.97.2",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "0 at '/' (30x detected, better try target URL of 30x)"
+          }
+,         {
+              "id"           : "X-Content-Type-Options",
+              "ip"           : "www.withinsecurity.com/188.114.97.2",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "nosniff"
+          }
+,         {
+              "id"           : "Cache-Control",
+              "ip"           : "www.withinsecurity.com/188.114.97.2",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "max-age=3600"
+          }
+,         {
+              "id"           : "banner_reverseproxy",
+              "ip"           : "www.withinsecurity.com/188.114.97.2",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "cwe"          : "CWE-200",
+              "finding"      : "--"
+          }
+,         {
+              "id"           : "heartbleed",
+              "ip"           : "www.withinsecurity.com/188.114.97.2",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2014-0160",
+              "cwe"          : "CWE-119",
+              "finding"      : "not vulnerable, no heartbeat extension"
+          }
+,         {
+              "id"           : "CCS",
+              "ip"           : "www.withinsecurity.com/188.114.97.2",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2014-0224",
+              "cwe"          : "CWE-310",
+              "finding"      : "not vulnerable"
+          }
+,         {
+              "id"           : "ticketbleed",
+              "ip"           : "www.withinsecurity.com/188.114.97.2",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2016-9244",
+              "cwe"          : "CWE-200",
+              "finding"      : "not vulnerable"
+          }
+,         {
+              "id"           : "ROBOT",
+              "ip"           : "www.withinsecurity.com/188.114.97.2",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2017-17382 CVE-2017-17427 CVE-2017-17428 CVE-2017-13098 CVE-2017-1000385 CVE-2017-13099 CVE-2016-6883 CVE-2012-5081 CVE-2017-6168",
+              "cwe"          : "CWE-203",
+              "finding"      : "not vulnerable, no RSA key transport cipher"
+          }
+,         {
+              "id"           : "secure_renego",
+              "ip"           : "www.withinsecurity.com/188.114.97.2",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cwe"          : "CWE-310",
+              "finding"      : "supported"
+          }
+,         {
+              "id"           : "secure_client_renego",
+              "ip"           : "www.withinsecurity.com/188.114.97.2",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2011-1473",
+              "cwe"          : "CWE-310",
+              "finding"      : "not vulnerable"
+          }
+,         {
+              "id"           : "CRIME_TLS",
+              "ip"           : "www.withinsecurity.com/188.114.97.2",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2012-4929",
+              "cwe"          : "CWE-310",
+              "finding"      : "not vulnerable"
+          }
+,         {
+              "id"           : "BREACH",
+              "ip"           : "www.withinsecurity.com/188.114.97.2",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2013-3587",
+              "cwe"          : "CWE-310",
+              "finding"      : "not vulnerable, no gzip/deflate/compress/br HTTP compression  - only supplied '/' tested"
+          }
+,         {
+              "id"           : "POODLE_SSL",
+              "ip"           : "www.withinsecurity.com/188.114.97.2",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2014-3566",
+              "cwe"          : "CWE-310",
+              "finding"      : "not vulnerable, no SSLv3"
+          }
+,         {
+              "id"           : "fallback_SCSV",
+              "ip"           : "www.withinsecurity.com/188.114.97.2",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "supported"
+          }
+,         {
+              "id"           : "SWEET32",
+              "ip"           : "www.withinsecurity.com/188.114.97.2",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2016-2183 CVE-2016-6329",
+              "cwe"          : "CWE-327",
+              "finding"      : "not vulnerable"
+          }
+,         {
+              "id"           : "FREAK",
+              "ip"           : "www.withinsecurity.com/188.114.97.2",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2015-0204",
+              "cwe"          : "CWE-310",
+              "finding"      : "not vulnerable"
+          }
+,         {
+              "id"           : "DROWN",
+              "ip"           : "www.withinsecurity.com/188.114.97.2",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2016-0800 CVE-2016-0703",
+              "cwe"          : "CWE-310",
+              "finding"      : "not vulnerable on this host and port"
+          }
+,         {
+              "id"           : "DROWN_hint",
+              "ip"           : "www.withinsecurity.com/188.114.97.2",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "cve"          : "CVE-2016-0800 CVE-2016-0703",
+              "cwe"          : "CWE-310",
+              "finding"      : "no RSA certificate, can't be used with SSLv2 elsewhere"
+          }
+,         {
+              "id"           : "LOGJAM",
+              "ip"           : "www.withinsecurity.com/188.114.97.2",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2015-4000",
+              "cwe"          : "CWE-310",
+              "finding"      : "not vulnerable, no DH EXPORT ciphers,"
+          }
+,         {
+              "id"           : "LOGJAM-common_primes",
+              "ip"           : "www.withinsecurity.com/188.114.97.2",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2015-4000",
+              "cwe"          : "CWE-310",
+              "finding"      : "no DH key with <= TLS 1.2"
+          }
+,         {
+              "id"           : "BEAST",
+              "ip"           : "www.withinsecurity.com/188.114.97.2",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "cve"          : "CVE-2011-3389",
+              "cwe"          : "CWE-20",
+              "finding"      : "VULNERABLE -- but also supports higher protocols  TLSv1.1 TLSv1.2 (likely mitigated)"
+          }
+,         {
+              "id"           : "LUCKY13",
+              "ip"           : "www.withinsecurity.com/188.114.97.2",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "cve"          : "CVE-2013-0169",
+              "cwe"          : "CWE-310",
+              "finding"      : "potentially vulnerable, uses TLS CBC ciphers"
+          }
+,         {
+              "id"           : "winshock",
+              "ip"           : "www.withinsecurity.com/188.114.97.2",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2014-6321",
+              "cwe"          : "CWE-94",
+              "finding"      : "not vulnerable"
+          }
+,         {
+              "id"           : "RC4",
+              "ip"           : "www.withinsecurity.com/188.114.97.2",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2013-2566 CVE-2015-2808",
+              "cwe"          : "CWE-310",
+              "finding"      : "not vulnerable"
+          }
+,         {
+              "id"           : "clientsimulation-android_60",
+              "ip"           : "www.withinsecurity.com/188.114.97.2",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-ECDSA-AES128-GCM-SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-android_70",
+              "ip"           : "www.withinsecurity.com/188.114.97.2",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-ECDSA-AES128-GCM-SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-android_81",
+              "ip"           : "www.withinsecurity.com/188.114.97.2",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-ECDSA-AES128-GCM-SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-android_90",
+              "ip"           : "www.withinsecurity.com/188.114.97.2",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_128_GCM_SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-android_X",
+              "ip"           : "www.withinsecurity.com/188.114.97.2",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_128_GCM_SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-android_11",
+              "ip"           : "www.withinsecurity.com/188.114.97.2",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_128_GCM_SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-android_12",
+              "ip"           : "www.withinsecurity.com/188.114.97.2",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_128_GCM_SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-chrome_79_win10",
+              "ip"           : "www.withinsecurity.com/188.114.97.2",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_128_GCM_SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-chrome_101_win10",
+              "ip"           : "www.withinsecurity.com/188.114.97.2",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_128_GCM_SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-firefox_66_win81",
+              "ip"           : "www.withinsecurity.com/188.114.97.2",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_128_GCM_SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-firefox_100_win10",
+              "ip"           : "www.withinsecurity.com/188.114.97.2",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_128_GCM_SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-ie_6_xp",
+              "ip"           : "www.withinsecurity.com/188.114.97.2",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "No connection"
+          }
+,         {
+              "id"           : "clientsimulation-ie_8_win7",
+              "ip"           : "www.withinsecurity.com/188.114.97.2",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.0 ECDHE-ECDSA-AES128-SHA"
+          }
+,         {
+              "id"           : "clientsimulation-ie_8_xp",
+              "ip"           : "www.withinsecurity.com/188.114.97.2",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.0 DES-CBC3-SHA"
+          }
+,         {
+              "id"           : "clientsimulation-ie_11_win7",
+              "ip"           : "www.withinsecurity.com/188.114.97.2",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-ECDSA-AES128-GCM-SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-ie_11_win81",
+              "ip"           : "www.withinsecurity.com/188.114.97.2",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-ECDSA-AES128-GCM-SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-ie_11_winphone81",
+              "ip"           : "www.withinsecurity.com/188.114.97.2",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-ECDSA-AES128-GCM-SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-ie_11_win10",
+              "ip"           : "www.withinsecurity.com/188.114.97.2",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-ECDSA-AES128-GCM-SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-edge_15_win10",
+              "ip"           : "www.withinsecurity.com/188.114.97.2",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-ECDSA-AES128-GCM-SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-edge_101_win10_21h2",
+              "ip"           : "www.withinsecurity.com/188.114.97.2",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_128_GCM_SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-safari_121_ios_122",
+              "ip"           : "www.withinsecurity.com/188.114.97.2",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_CHACHA20_POLY1305_SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-safari_130_osx_10146",
+              "ip"           : "www.withinsecurity.com/188.114.97.2",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_CHACHA20_POLY1305_SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-safari_154_osx_1231",
+              "ip"           : "www.withinsecurity.com/188.114.97.2",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_128_GCM_SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-java_7u25",
+              "ip"           : "www.withinsecurity.com/188.114.97.2",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.0 ECDHE-ECDSA-AES128-SHA"
+          }
+,         {
+              "id"           : "clientsimulation-java_8u161",
+              "ip"           : "www.withinsecurity.com/188.114.97.2",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-ECDSA-AES128-GCM-SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-java1102",
+              "ip"           : "www.withinsecurity.com/188.114.97.2",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_128_GCM_SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-java1703",
+              "ip"           : "www.withinsecurity.com/188.114.97.2",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_256_GCM_SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-go_1178",
+              "ip"           : "www.withinsecurity.com/188.114.97.2",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_128_GCM_SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-libressl_283",
+              "ip"           : "www.withinsecurity.com/188.114.97.2",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-ECDSA-CHACHA20-POLY1305"
+          }
+,         {
+              "id"           : "clientsimulation-openssl_102e",
+              "ip"           : "www.withinsecurity.com/188.114.97.2",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-ECDSA-AES128-GCM-SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-openssl_110l",
+              "ip"           : "www.withinsecurity.com/188.114.97.2",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-ECDSA-CHACHA20-POLY1305"
+          }
+,         {
+              "id"           : "clientsimulation-openssl_111d",
+              "ip"           : "www.withinsecurity.com/188.114.97.2",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_256_GCM_SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-openssl_303",
+              "ip"           : "www.withinsecurity.com/188.114.97.2",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_256_GCM_SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-apple_mail_16_0",
+              "ip"           : "www.withinsecurity.com/188.114.97.2",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-ECDSA-AES128-GCM-SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-thunderbird_91_9",
+              "ip"           : "www.withinsecurity.com/188.114.97.2",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_128_GCM_SHA256"
+          }
+,         {
+              "id"           : "rating_spec",
+              "ip"           : "www.withinsecurity.com/188.114.97.2",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "SSL Labs's 'SSL Server Rating Guide' (version 2009q from 2020-01-30)"
+          }
+,         {
+              "id"           : "rating_doc",
+              "ip"           : "www.withinsecurity.com/188.114.97.2",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "https://github.com/ssllabs/research/wiki/SSL-Server-Rating-Guide"
+          }
+,         {
+              "id"           : "protocol_support_score",
+              "ip"           : "www.withinsecurity.com/188.114.97.2",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "95"
+          }
+,         {
+              "id"           : "protocol_support_score_weighted",
+              "ip"           : "www.withinsecurity.com/188.114.97.2",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "28"
+          }
+,         {
+              "id"           : "key_exchange_score",
+              "ip"           : "www.withinsecurity.com/188.114.97.2",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "100"
+          }
+,         {
+              "id"           : "key_exchange_score_weighted",
+              "ip"           : "www.withinsecurity.com/188.114.97.2",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "30"
+          }
+,         {
+              "id"           : "cipher_strength_score",
+              "ip"           : "www.withinsecurity.com/188.114.97.2",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "90"
+          }
+,         {
+              "id"           : "cipher_strength_score_weighted",
+              "ip"           : "www.withinsecurity.com/188.114.97.2",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "36"
+          }
+,         {
+              "id"           : "final_score",
+              "ip"           : "www.withinsecurity.com/188.114.97.2",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "94"
+          }
+,         {
+              "id"           : "overall_grade",
+              "ip"           : "www.withinsecurity.com/188.114.97.2",
+              "port"         : "443",
+              "severity"     : "MEDIUM",
+              "finding"      : "B"
+          }
+,         {
+              "id"           : "grade_cap_reason_1",
+              "ip"           : "www.withinsecurity.com/188.114.97.2",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "Grade capped to B. TLS 1.1 offered"
+          }
+,         {
+              "id"           : "grade_cap_reason_2",
+              "ip"           : "www.withinsecurity.com/188.114.97.2",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "Grade capped to B. TLS 1.0 offered"
+          }
+,         {
+              "id"           : "service",
+              "ip"           : "www.withinsecurity.com/188.114.96.2",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "HTTP"
+          }
+,         {
+              "id"           : "pre_128cipher",
+              "ip"           : "www.withinsecurity.com/188.114.96.2",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "No 128 cipher limit bug"
+          }
+,         {
+              "id"           : "SSLv2",
+              "ip"           : "www.withinsecurity.com/188.114.96.2",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "not offered"
+          }
+,         {
+              "id"           : "SSLv3",
+              "ip"           : "www.withinsecurity.com/188.114.96.2",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "not offered"
+          }
+,         {
+              "id"           : "TLS1",
+              "ip"           : "www.withinsecurity.com/188.114.96.2",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "offered (deprecated)"
+          }
+,         {
+              "id"           : "TLS1_1",
+              "ip"           : "www.withinsecurity.com/188.114.96.2",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "offered (deprecated)"
+          }
+,         {
+              "id"           : "TLS1_2",
+              "ip"           : "www.withinsecurity.com/188.114.96.2",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "offered"
+          }
+,         {
+              "id"           : "TLS1_3",
+              "ip"           : "www.withinsecurity.com/188.114.96.2",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "offered with final"
+          }
+,         {
+              "id"           : "NPN",
+              "ip"           : "www.withinsecurity.com/188.114.96.2",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "not offered"
+          }
+,         {
+              "id"           : "ALPN_HTTP2",
+              "ip"           : "www.withinsecurity.com/188.114.96.2",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "h2"
+          }
+,         {
+              "id"           : "ALPN",
+              "ip"           : "www.withinsecurity.com/188.114.96.2",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "http/1.1"
+          }
+,         {
+              "id"           : "cipherlist_NULL",
+              "ip"           : "www.withinsecurity.com/188.114.96.2",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cwe"          : "CWE-327",
+              "finding"      : "not offered"
+          }
+,         {
+              "id"           : "cipherlist_aNULL",
+              "ip"           : "www.withinsecurity.com/188.114.96.2",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cwe"          : "CWE-327",
+              "finding"      : "not offered"
+          }
+,         {
+              "id"           : "cipherlist_EXPORT",
+              "ip"           : "www.withinsecurity.com/188.114.96.2",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cwe"          : "CWE-327",
+              "finding"      : "not offered"
+          }
+,         {
+              "id"           : "cipherlist_LOW",
+              "ip"           : "www.withinsecurity.com/188.114.96.2",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cwe"          : "CWE-327",
+              "finding"      : "not offered"
+          }
+,         {
+              "id"           : "cipherlist_3DES_IDEA",
+              "ip"           : "www.withinsecurity.com/188.114.96.2",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "cwe"          : "CWE-310",
+              "finding"      : "not offered"
+          }
+,         {
+              "id"           : "cipherlist_OBSOLETED",
+              "ip"           : "www.withinsecurity.com/188.114.96.2",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "cwe"          : "CWE-310",
+              "finding"      : "offered"
+          }
+,         {
+              "id"           : "cipherlist_STRONG_NOFS",
+              "ip"           : "www.withinsecurity.com/188.114.96.2",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "not offered"
+          }
+,         {
+              "id"           : "cipherlist_STRONG_FS",
+              "ip"           : "www.withinsecurity.com/188.114.96.2",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "offered"
+          }
+,         {
+              "id"           : "cipher_order-tls1",
+              "ip"           : "www.withinsecurity.com/188.114.96.2",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "server"
+          }
+,         {
+              "id"           : "cipher-tls1_xc009",
+              "ip"           : "www.withinsecurity.com/188.114.96.2",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "TLSv1   xc009   ECDHE-ECDSA-AES128-SHA            ECDH       AES         128      TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA"
+          }
+,         {
+              "id"           : "cipher-tls1_xc00a",
+              "ip"           : "www.withinsecurity.com/188.114.96.2",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "TLSv1   xc00a   ECDHE-ECDSA-AES256-SHA            ECDH       AES         256      TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA"
+          }
+,         {
+              "id"           : "cipherorder_TLSv1",
+              "ip"           : "www.withinsecurity.com/188.114.96.2",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "ECDHE-ECDSA-AES128-SHA ECDHE-ECDSA-AES256-SHA"
+          }
+,         {
+              "id"           : "cipher_order-tls1_1",
+              "ip"           : "www.withinsecurity.com/188.114.96.2",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "server"
+          }
+,         {
+              "id"           : "cipher-tls1_1_xc009",
+              "ip"           : "www.withinsecurity.com/188.114.96.2",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "TLSv1.1   xc009   ECDHE-ECDSA-AES128-SHA            ECDH       AES         128      TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA"
+          }
+,         {
+              "id"           : "cipher-tls1_1_xc00a",
+              "ip"           : "www.withinsecurity.com/188.114.96.2",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "TLSv1.1   xc00a   ECDHE-ECDSA-AES256-SHA            ECDH       AES         256      TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA"
+          }
+,         {
+              "id"           : "cipherorder_TLSv1_1",
+              "ip"           : "www.withinsecurity.com/188.114.96.2",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "ECDHE-ECDSA-AES128-SHA ECDHE-ECDSA-AES256-SHA"
+          }
+,         {
+              "id"           : "cipher_order-tls1_2",
+              "ip"           : "www.withinsecurity.com/188.114.96.2",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "server -- server prioritizes ChaCha ciphers when preferred by clients"
+          }
+,         {
+              "id"           : "cipher-tls1_2_xc02b",
+              "ip"           : "www.withinsecurity.com/188.114.96.2",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "TLSv1.2   xc02b   ECDHE-ECDSA-AES128-GCM-SHA256     ECDH       AESGCM      128      TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256"
+          }
+,         {
+              "id"           : "cipher-tls1_2_xcca9",
+              "ip"           : "www.withinsecurity.com/188.114.96.2",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "TLSv1.2   xcca9   ECDHE-ECDSA-CHACHA20-POLY1305     ECDH       ChaCha20    256      TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256"
+          }
+,         {
+              "id"           : "cipher-tls1_2_xc009",
+              "ip"           : "www.withinsecurity.com/188.114.96.2",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "TLSv1.2   xc009   ECDHE-ECDSA-AES128-SHA            ECDH       AES         128      TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA"
+          }
+,         {
+              "id"           : "cipher-tls1_2_xc02c",
+              "ip"           : "www.withinsecurity.com/188.114.96.2",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "TLSv1.2   xc02c   ECDHE-ECDSA-AES256-GCM-SHA384     ECDH       AESGCM      256      TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384"
+          }
+,         {
+              "id"           : "cipher-tls1_2_xc00a",
+              "ip"           : "www.withinsecurity.com/188.114.96.2",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "TLSv1.2   xc00a   ECDHE-ECDSA-AES256-SHA            ECDH       AES         256      TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA"
+          }
+,         {
+              "id"           : "cipher-tls1_2_xc023",
+              "ip"           : "www.withinsecurity.com/188.114.96.2",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "TLSv1.2   xc023   ECDHE-ECDSA-AES128-SHA256         ECDH       AES         128      TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256"
+          }
+,         {
+              "id"           : "cipher-tls1_2_xc024",
+              "ip"           : "www.withinsecurity.com/188.114.96.2",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "TLSv1.2   xc024   ECDHE-ECDSA-AES256-SHA384         ECDH       AES         256      TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384"
+          }
+,         {
+              "id"           : "cipherorder_TLSv1_2",
+              "ip"           : "www.withinsecurity.com/188.114.96.2",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "ECDHE-ECDSA-AES128-GCM-SHA256 ECDHE-ECDSA-CHACHA20-POLY1305 ECDHE-ECDSA-AES128-SHA ECDHE-ECDSA-AES256-GCM-SHA384 ECDHE-ECDSA-AES256-SHA ECDHE-ECDSA-AES128-SHA256 ECDHE-ECDSA-AES256-SHA384"
+          }
+,         {
+              "id"           : "prioritize_chacha_TLSv1_2",
+              "ip"           : "www.withinsecurity.com/188.114.96.2",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "true"
+          }
+,         {
+              "id"           : "cipher_order-tls1_3",
+              "ip"           : "www.withinsecurity.com/188.114.96.2",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "NOT a cipher order configured"
+          }
+,         {
+              "id"           : "cipher-tls1_3_x1302",
+              "ip"           : "www.withinsecurity.com/188.114.96.2",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "TLSv1.3   x1302   TLS_AES_256_GCM_SHA384                       AESGCM      256      TLS_AES_256_GCM_SHA384"
+          }
+,         {
+              "id"           : "cipher-tls1_3_x1303",
+              "ip"           : "www.withinsecurity.com/188.114.96.2",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "TLSv1.3   x1303   TLS_CHACHA20_POLY1305_SHA256                 ChaCha20    256      TLS_CHACHA20_POLY1305_SHA256"
+          }
+,         {
+              "id"           : "cipher-tls1_3_x1301",
+              "ip"           : "www.withinsecurity.com/188.114.96.2",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "TLSv1.3   x1301   TLS_AES_128_GCM_SHA256                       AESGCM      128      TLS_AES_128_GCM_SHA256"
+          }
+,         {
+              "id"           : "supportedciphers_TLSv1_3",
+              "ip"           : "www.withinsecurity.com/188.114.96.2",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLS_AES_256_GCM_SHA384 TLS_CHACHA20_POLY1305_SHA256 TLS_AES_128_GCM_SHA256"
+          }
+,         {
+              "id"           : "cipher_order",
+              "ip"           : "www.withinsecurity.com/188.114.96.2",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "server -- TLS 1.3 client determined"
+          }
+,         {
+              "id"           : "FS",
+              "ip"           : "www.withinsecurity.com/188.114.96.2",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "offered"
+          }
+,         {
+              "id"           : "FS_ciphers",
+              "ip"           : "www.withinsecurity.com/188.114.96.2",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLS_AES_256_GCM_SHA384 TLS_CHACHA20_POLY1305_SHA256 ECDHE-ECDSA-AES256-GCM-SHA384 ECDHE-ECDSA-AES256-SHA384 ECDHE-ECDSA-AES256-SHA ECDHE-ECDSA-CHACHA20-POLY1305 TLS_AES_128_GCM_SHA256 ECDHE-ECDSA-AES128-GCM-SHA256 ECDHE-ECDSA-AES128-SHA256 ECDHE-ECDSA-AES128-SHA"
+          }
+,         {
+              "id"           : "FS_KEMs",
+              "ip"           : "www.withinsecurity.com/188.114.96.2",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "X25519MLKEM768 X25519Kyber768Draft00"
+          }
+,         {
+              "id"           : "FS_ECDHE_curves",
+              "ip"           : "www.withinsecurity.com/188.114.96.2",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "prime256v1 secp384r1 secp521r1 X25519"
+          }
+,         {
+              "id"           : "FS_TLS12_sig_algs",
+              "ip"           : "www.withinsecurity.com/188.114.96.2",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "ECDSA+SHA256 ECDSA+SHA384 ECDSA+SHA512 ECDSA+SHA1"
+          }
+,         {
+              "id"           : "FS_TLS13_sig_algs",
+              "ip"           : "www.withinsecurity.com/188.114.96.2",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "ECDSA+SHA256"
+          }
+,         {
+              "id"           : "TLS_extensions",
+              "ip"           : "www.withinsecurity.com/188.114.96.2",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "'server name/#0' 'renegotiation info/#65281' 'EC point formats/#11' 'session ticket/#35' 'status request/#5' 'next protocol/#13172' 'key share/#51' 'supported versions/#43' 'extended master secret/#23' 'application layer protocol negotiation/#16' 'compress_certificate/#27'"
+          }
+,         {
+              "id"           : "TLS_session_ticket",
+              "ip"           : "www.withinsecurity.com/188.114.96.2",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "valid for 64800 seconds only (<daily)"
+          }
+,         {
+              "id"           : "SSL_sessionID_support",
+              "ip"           : "www.withinsecurity.com/188.114.96.2",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "yes"
+          }
+,         {
+              "id"           : "sessionresumption_ticket",
+              "ip"           : "www.withinsecurity.com/188.114.96.2",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "supported"
+          }
+,         {
+              "id"           : "sessionresumption_ID",
+              "ip"           : "www.withinsecurity.com/188.114.96.2",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "not supported"
+          }
+,         {
+              "id"           : "TLS_timestamp",
+              "ip"           : "www.withinsecurity.com/188.114.96.2",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "off by 0 seconds from your localtime"
+          }
+,         {
+              "id"           : "certificate_compression",
+              "ip"           : "www.withinsecurity.com/188.114.96.2",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "0002/Brotli"
+          }
+,         {
+              "id"           : "clientAuth",
+              "ip"           : "www.withinsecurity.com/188.114.96.2",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "none"
+          }
+,         {
+              "id"           : "cert_numbers",
+              "ip"           : "www.withinsecurity.com/188.114.96.2",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "1"
+          }
+,         {
+              "id"           : "cert_signatureAlgorithm",
+              "ip"           : "www.withinsecurity.com/188.114.96.2",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "ECDSA with SHA256"
+          }
+,         {
+              "id"           : "cert_keySize",
+              "ip"           : "www.withinsecurity.com/188.114.96.2",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "EC 256 bits (curve P-256)"
+          }
+,         {
+              "id"           : "cert_keyUsage",
+              "ip"           : "www.withinsecurity.com/188.114.96.2",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "Digital Signature"
+          }
+,         {
+              "id"           : "cert_extKeyUsage",
+              "ip"           : "www.withinsecurity.com/188.114.96.2",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLS Web Server Authentication"
+          }
+,         {
+              "id"           : "cert_serialNumber",
+              "ip"           : "www.withinsecurity.com/188.114.96.2",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "05B989FC5202D6D40E40867E0E683F7F"
+          }
+,         {
+              "id"           : "cert_serialNumberLen",
+              "ip"           : "www.withinsecurity.com/188.114.96.2",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "16"
+          }
+,         {
+              "id"           : "cert_fingerprintSHA1",
+              "ip"           : "www.withinsecurity.com/188.114.96.2",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "408092CA01D99BF46746326F9D0B304879D536B3"
+          }
+,         {
+              "id"           : "cert_fingerprintSHA256",
+              "ip"           : "www.withinsecurity.com/188.114.96.2",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "4025364F7028863157381F68C92BE2D06220C36632E41E80A9417F595E25E6FC"
+          }
+,         {
+              "id"           : "cert",
+              "ip"           : "www.withinsecurity.com/188.114.96.2",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "-----BEGIN CERTIFICATE-----\nMIIDuDCCA16gAwIBAgIQBbmJ/FIC1tQOQIZ+Dmg/fzAKBggqhkjOPQQDAjA7MQswCQYDVQQGEwJVUzEeMBwGA1UEChMVR29vZ2xlIFRydXN0IFNlcnZpY2VzMQwwCgYDVQQDEwNXRTEwHhcNMjUwNjA5MTAwMjM2WhcNMjUwOTA3MTEwMDU5WjAdMRswGQYDVQQDExJ3aXRoaW5zZWN1cml0eS5jb20wWTATBgcqhkjOPQIBBggqhkjOPQMBBwNCAASEmq3uG9hxBeGGGIB9hfUTOICldsISMskof4q8GJi4MyfNb0czsC6+Dk+gkCFzno0AsM91i33R8ZDq+uFnxgvho4ICYDCCAlwwDgYDVR0PAQH/BAQDAgeAMBMGA1UdJQQMMAoGCCsGAQUFBwMBMAwGA1UdEwEB/wQCMAAwHQYDVR0OBBYEFNRdH24GAoWf9BiDlr5QvQznPf81MB8GA1UdIwQYMBaAFJB3kjVnxP+ozKnme9mAeXvMk/k4MF4GCCsGAQUFBwEBBFIwUDAnBggrBgEFBQcwAYYbaHR0cDovL28ucGtpLmdvb2cvcy93ZTEvQmJrMCUGCCsGAQUFBzAChhlodHRwOi8vaS5wa2kuZ29vZy93ZTEuY3J0MDMGA1UdEQQsMCqCEndpdGhpbnNlY3VyaXR5LmNvbYIUKi53aXRoaW5zZWN1cml0eS5jb20wEwYDVR0gBAwwCjAIBgZngQwBAgEwNgYDVR0fBC8wLTAroCmgJ4YlaHR0cDovL2MucGtpLmdvb2cvd2UxL19oaXlXUnR0anlNLmNybDCCAQMGCisGAQQB1nkCBAIEgfQEgfEA7wB1ABLxTjS9U3JMhAYZw48/ehP457Vih4icbTAFhOvlhiY6AAABl1RbQ0EAAAQDAEYwRAIgGICTL9mjFscBiCmUUwWIZL0sGFo6tej4Jbnlv6CfJiQCIA1ZyJkMcc2LKBJMmfANnvLu9Qsdvg8qtlXdLdu/hwMzAHYAfVkeEuF4KnscYWd8Xv340IdcFKBOlZ65Ay/ZDowuebgAAAGXVFtDWgAABAMARzBFAiEAn5jGe+tsBIfSHBG7uAeULBrGyx5/ukPy/pxWL4kCTz4CIEKE6t4ll5g/N6Til+nxd1/tJmduTOcDs18hepFiiWRrMAoGCCqGSM49BAMCA0gAMEUCIHIxLIIpNmByx21m/fFDZmo1/YTEUZ2szNOaB7Og4zlDAiEA517NZyRaQUqaGObqTOyNgSk0oHQqPdEpvnmesjFM7dk=\n-----END CERTIFICATE-----"
+          }
+,         {
+              "id"           : "cert_commonName",
+              "ip"           : "www.withinsecurity.com/188.114.96.2",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "withinsecurity.com"
+          }
+,         {
+              "id"           : "cert_commonName_wo_SNI",
+              "ip"           : "www.withinsecurity.com/188.114.96.2",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "cdnjs.cloudflare.com"
+          }
+,         {
+              "id"           : "cert_subjectAltName",
+              "ip"           : "www.withinsecurity.com/188.114.96.2",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "withinsecurity.com *.withinsecurity.com"
+          }
+,         {
+              "id"           : "cert_trust",
+              "ip"           : "www.withinsecurity.com/188.114.96.2",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "Ok via SAN wildcard (SNI mandatory)"
+          }
+,         {
+              "id"           : "cert_trust_wildcard",
+              "ip"           : "www.withinsecurity.com/188.114.96.2",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "trust is via wildcard"
+          }
+,         {
+              "id"           : "cert_chain_of_trust",
+              "ip"           : "www.withinsecurity.com/188.114.96.2",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "passed."
+          }
+,         {
+              "id"           : "cert_certificatePolicies_EV",
+              "ip"           : "www.withinsecurity.com/188.114.96.2",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "no"
+          }
+,         {
+              "id"           : "cert_expirationStatus",
+              "ip"           : "www.withinsecurity.com/188.114.96.2",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "85 >= 60 days"
+          }
+,         {
+              "id"           : "cert_notBefore",
+              "ip"           : "www.withinsecurity.com/188.114.96.2",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "2025-06-09 10:02"
+          }
+,         {
+              "id"           : "cert_notAfter",
+              "ip"           : "www.withinsecurity.com/188.114.96.2",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "2025-09-07 11:00"
+          }
+,         {
+              "id"           : "cert_extlifeSpan",
+              "ip"           : "www.withinsecurity.com/188.114.96.2",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "certificate has no extended life time according to browser forum"
+          }
+,         {
+              "id"           : "cert_eTLS",
+              "ip"           : "www.withinsecurity.com/188.114.96.2",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "not present"
+          }
+,         {
+              "id"           : "cert_crlDistributionPoints",
+              "ip"           : "www.withinsecurity.com/188.114.96.2",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "http://c.pki.goog/we1/_hiyWRttjyM.crl"
+          }
+,         {
+              "id"           : "cert_ocspURL",
+              "ip"           : "www.withinsecurity.com/188.114.96.2",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "http://o.pki.goog/s/we1/Bbk"
+          }
+,         {
+              "id"           : "OCSP_stapling",
+              "ip"           : "www.withinsecurity.com/188.114.96.2",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "offered"
+          }
+,         {
+              "id"           : "cert_ocspRevoked",
+              "ip"           : "www.withinsecurity.com/188.114.96.2",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "not revoked"
+          }
+,         {
+              "id"           : "cert_mustStapleExtension",
+              "ip"           : "www.withinsecurity.com/188.114.96.2",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "--"
+          }
+,         {
+              "id"           : "DNS_CAArecord",
+              "ip"           : "www.withinsecurity.com/188.114.96.2",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "--"
+          }
+,         {
+              "id"           : "certificate_transparency",
+              "ip"           : "www.withinsecurity.com/188.114.96.2",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "yes (certificate extension)"
+          }
+,         {
+              "id"           : "certs_countServer",
+              "ip"           : "www.withinsecurity.com/188.114.96.2",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "3"
+          }
+,         {
+              "id"           : "certs_list_ordering_problem",
+              "ip"           : "www.withinsecurity.com/188.114.96.2",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "no"
+          }
+,         {
+              "id"           : "cert_caIssuers",
+              "ip"           : "www.withinsecurity.com/188.114.96.2",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "WE1 (Google Trust Services from US)"
+          }
+,         {
+              "id"           : "intermediate_cert <#1>",
+              "ip"           : "www.withinsecurity.com/188.114.96.2",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "-----BEGIN CERTIFICATE-----\nMIICnzCCAiWgAwIBAgIQf/MZd5csIkp2FV0TttaF4zAKBggqhkjOPQQDAzBHMQswCQYDVQQGEwJVUzEiMCAGA1UEChMZR29vZ2xlIFRydXN0IFNlcnZpY2VzIExMQzEUMBIGA1UEAxMLR1RTIFJvb3QgUjQwHhcNMjMxMjEzMDkwMDAwWhcNMjkwMjIwMTQwMDAwWjA7MQswCQYDVQQGEwJVUzEeMBwGA1UEChMVR29vZ2xlIFRydXN0IFNlcnZpY2VzMQwwCgYDVQQDEwNXRTEwWTATBgcqhkjOPQIBBggqhkjOPQMBBwNCAARvzTr+Z1dHTCEDhUDCR127WEcPQMFcF4XGGTfn1XzthkubgdnXGhOlCgP4mMTG6J7/EFmPLCaY9eYmJbsPAvpWo4H+MIH7MA4GA1UdDwEB/wQEAwIBhjAdBgNVHSUEFjAUBggrBgEFBQcDAQYIKwYBBQUHAwIwEgYDVR0TAQH/BAgwBgEB/wIBADAdBgNVHQ4EFgQUkHeSNWfE/6jMqeZ72YB5e8yT+TgwHwYDVR0jBBgwFoAUgEzW63T/STaj1dj8tT7FavCUHYwwNAYIKwYBBQUHAQEEKDAmMCQGCCsGAQUFBzAChhhodHRwOi8vaS5wa2kuZ29vZy9yNC5jcnQwKwYDVR0fBCQwIjAgoB6gHIYaaHR0cDovL2MucGtpLmdvb2cvci9yNC5jcmwwEwYDVR0gBAwwCjAIBgZngQwBAgEwCgYIKoZIzj0EAwMDaAAwZQIxAOcCq1HW90OVznX+0RGU1cxAQXomvtgM8zItPZCuFQ8jSBJSjz5keROv9aYsAm5VsQIwJonMaAFi54mrfhfoFNZEfuNMSQ6/bIBiNLiyoX46FohQvKeIoJ99cx7sUkFN7uJW\n-----END CERTIFICATE-----"
+          }
+,         {
+              "id"           : "intermediate_cert_fingerprintSHA256 <#1>",
+              "ip"           : "www.withinsecurity.com/188.114.96.2",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "1DFC1605FBAD358D8BC844F76D15203FAC9CA5C1A79FD4857FFAF2864FBEBF96"
+          }
+,         {
+              "id"           : "intermediate_cert_notBefore <#1>",
+              "ip"           : "www.withinsecurity.com/188.114.96.2",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "2023-12-13 09:00"
+          }
+,         {
+              "id"           : "intermediate_cert_notAfter <#1>",
+              "ip"           : "www.withinsecurity.com/188.114.96.2",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "2029-02-20 14:00"
+          }
+,         {
+              "id"           : "intermediate_cert_expiration <#1>",
+              "ip"           : "www.withinsecurity.com/188.114.96.2",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "ok > 40 days"
+          }
+,         {
+              "id"           : "intermediate_cert_chain <#1>",
+              "ip"           : "www.withinsecurity.com/188.114.96.2",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "WE1 <-- GTS Root R4"
+          }
+,         {
+              "id"           : "intermediate_cert <#2>",
+              "ip"           : "www.withinsecurity.com/188.114.96.2",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "-----BEGIN CERTIFICATE-----\nMIIDejCCAmKgAwIBAgIQf+UwvzMTQ77dghYQST2KGzANBgkqhkiG9w0BAQsFADBXMQswCQYDVQQGEwJCRTEZMBcGA1UEChMQR2xvYmFsU2lnbiBudi1zYTEQMA4GA1UECxMHUm9vdCBDQTEbMBkGA1UEAxMSR2xvYmFsU2lnbiBSb290IENBMB4XDTIzMTExNTAzNDMyMVoXDTI4MDEyODAwMDA0MlowRzELMAkGA1UEBhMCVVMxIjAgBgNVBAoTGUdvb2dsZSBUcnVzdCBTZXJ2aWNlcyBMTEMxFDASBgNVBAMTC0dUUyBSb290IFI0MHYwEAYHKoZIzj0CAQYFK4EEACIDYgAE83Rzp2iLYK5DuDXFgTB7S0md+8FhzubeRr1r1WEYNa5A3XP3iZEwWus87oV8okB2O6nGuEfYKueSkWpz6bFyOZ8pn6KY019eWIZlD6GEZQbR3IvJx3PIjGov5cSr0R2Ko4H/MIH8MA4GA1UdDwEB/wQEAwIBhjAdBgNVHSUEFjAUBggrBgEFBQcDAQYIKwYBBQUHAwIwDwYDVR0TAQH/BAUwAwEB/zAdBgNVHQ4EFgQUgEzW63T/STaj1dj8tT7FavCUHYwwHwYDVR0jBBgwFoAUYHtmGkUNl8qJUC99BM00qP/8/UswNgYIKwYBBQUHAQEEKjAoMCYGCCsGAQUFBzAChhpodHRwOi8vaS5wa2kuZ29vZy9nc3IxLmNydDAtBgNVHR8EJjAkMCKgIKAehhxodHRwOi8vYy5wa2kuZ29vZy9yL2dzcjEuY3JsMBMGA1UdIAQMMAowCAYGZ4EMAQIBMA0GCSqGSIb3DQEBCwUAA4IBAQAYQrsPBtYDh5bjP2OBDwmkoWhIDDkic574y04tfzHpn+cJodI2D4SseesQ6bDrarZ7C30ddLibZatoKiws3UL9xnELz4ct92vID24FfVbiI1hY+SW6FoVHkNeWIP0GCbaM4C6uVdF5dTUsMVs/ZbzNnIdCp5Gxmx5ejvEau8otR/CskGN+hr/W5GvT1tMBjgWKZ1i4//emhA1JG1BbPzoLJQvyEotc03lXjTaCzv8mEbep8RqZ7a2CPsgRbuvTPBwcOMBBmuFeU88+FSBX6+7iP0il8b4Z0QFqIwwMHfs/L6K1vepuoxtGzi4CZ68zJpiq1UvSqTbFJjtbD4seiMHl\n-----END CERTIFICATE-----"
+          }
+,         {
+              "id"           : "intermediate_cert_fingerprintSHA256 <#2>",
+              "ip"           : "www.withinsecurity.com/188.114.96.2",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "76B27B80A58027DC3CF1DA68DAC17010ED93997D0B603E2FADBE85012493B5A7"
+          }
+,         {
+              "id"           : "intermediate_cert_notBefore <#2>",
+              "ip"           : "www.withinsecurity.com/188.114.96.2",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "2023-11-15 03:43"
+          }
+,         {
+              "id"           : "intermediate_cert_notAfter <#2>",
+              "ip"           : "www.withinsecurity.com/188.114.96.2",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "2028-01-28 00:00"
+          }
+,         {
+              "id"           : "intermediate_cert_expiration <#2>",
+              "ip"           : "www.withinsecurity.com/188.114.96.2",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "ok > 40 days"
+          }
+,         {
+              "id"           : "intermediate_cert_chain <#2>",
+              "ip"           : "www.withinsecurity.com/188.114.96.2",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "GTS Root R4 <-- GlobalSign Root CA"
+          }
+,         {
+              "id"           : "intermediate_cert_badOCSP",
+              "ip"           : "www.withinsecurity.com/188.114.96.2",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "intermediate certificate(s) is/are ok"
+          }
+,         {
+              "id"           : "HTTP_status_code",
+              "ip"           : "www.withinsecurity.com/188.114.96.2",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "301 Moved Permanently ('/')"
+          }
+,         {
+              "id"           : "HTTP_clock_skew",
+              "ip"           : "www.withinsecurity.com/188.114.96.2",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "0 seconds from localtime"
+          }
+,         {
+              "id"           : "HTTP_headerTime",
+              "ip"           : "www.withinsecurity.com/188.114.96.2",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "1749825576"
+          }
+,         {
+              "id"           : "HSTS_time",
+              "ip"           : "www.withinsecurity.com/188.114.96.2",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "180 days (=15552000 seconds) > 15552000 seconds"
+          }
+,         {
+              "id"           : "HSTS_subdomains",
+              "ip"           : "www.withinsecurity.com/188.114.96.2",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "includes subdomains"
+          }
+,         {
+              "id"           : "HSTS_preload",
+              "ip"           : "www.withinsecurity.com/188.114.96.2",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "domain IS marked for preloading"
+          }
+,         {
+              "id"           : "HPKP",
+              "ip"           : "www.withinsecurity.com/188.114.96.2",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "No support for HTTP Public Key Pinning"
+          }
+,         {
+              "id"           : "banner_server",
+              "ip"           : "www.withinsecurity.com/188.114.96.2",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "cloudflareserver-timing: cfL4;desc='?proto=TCP&rtt=2629&min_rtt=1805&rtt_var=1265&sent=5&recv=7&lost=0&retrans=0&sent_bytes=3933&recv_bytes=1965&delivery_rate=2373407&cwnd=77&unsent_bytes=0&cid=76133ecf6ea6d0b0&ts=27&x=0'"
+          }
+,         {
+              "id"           : "banner_application",
+              "ip"           : "www.withinsecurity.com/188.114.96.2",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "No application banner found"
+          }
+,         {
+              "id"           : "cookie_count",
+              "ip"           : "www.withinsecurity.com/188.114.96.2",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "0 at '/' (30x detected, better try target URL of 30x)"
+          }
+,         {
+              "id"           : "X-Content-Type-Options",
+              "ip"           : "www.withinsecurity.com/188.114.96.2",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "nosniff"
+          }
+,         {
+              "id"           : "Cache-Control",
+              "ip"           : "www.withinsecurity.com/188.114.96.2",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "max-age=3600"
+          }
+,         {
+              "id"           : "banner_reverseproxy",
+              "ip"           : "www.withinsecurity.com/188.114.96.2",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "cwe"          : "CWE-200",
+              "finding"      : "--"
+          }
+,         {
+              "id"           : "heartbleed",
+              "ip"           : "www.withinsecurity.com/188.114.96.2",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2014-0160",
+              "cwe"          : "CWE-119",
+              "finding"      : "not vulnerable, no heartbeat extension"
+          }
+,         {
+              "id"           : "CCS",
+              "ip"           : "www.withinsecurity.com/188.114.96.2",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2014-0224",
+              "cwe"          : "CWE-310",
+              "finding"      : "not vulnerable"
+          }
+,         {
+              "id"           : "ticketbleed",
+              "ip"           : "www.withinsecurity.com/188.114.96.2",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2016-9244",
+              "cwe"          : "CWE-200",
+              "finding"      : "not vulnerable"
+          }
+,         {
+              "id"           : "ROBOT",
+              "ip"           : "www.withinsecurity.com/188.114.96.2",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2017-17382 CVE-2017-17427 CVE-2017-17428 CVE-2017-13098 CVE-2017-1000385 CVE-2017-13099 CVE-2016-6883 CVE-2012-5081 CVE-2017-6168",
+              "cwe"          : "CWE-203",
+              "finding"      : "not vulnerable, no RSA key transport cipher"
+          }
+,         {
+              "id"           : "secure_renego",
+              "ip"           : "www.withinsecurity.com/188.114.96.2",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cwe"          : "CWE-310",
+              "finding"      : "supported"
+          }
+,         {
+              "id"           : "secure_client_renego",
+              "ip"           : "www.withinsecurity.com/188.114.96.2",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2011-1473",
+              "cwe"          : "CWE-310",
+              "finding"      : "not vulnerable"
+          }
+,         {
+              "id"           : "CRIME_TLS",
+              "ip"           : "www.withinsecurity.com/188.114.96.2",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2012-4929",
+              "cwe"          : "CWE-310",
+              "finding"      : "not vulnerable"
+          }
+,         {
+              "id"           : "BREACH",
+              "ip"           : "www.withinsecurity.com/188.114.96.2",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2013-3587",
+              "cwe"          : "CWE-310",
+              "finding"      : "not vulnerable, no gzip/deflate/compress/br HTTP compression  - only supplied '/' tested"
+          }
+,         {
+              "id"           : "POODLE_SSL",
+              "ip"           : "www.withinsecurity.com/188.114.96.2",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2014-3566",
+              "cwe"          : "CWE-310",
+              "finding"      : "not vulnerable, no SSLv3"
+          }
+,         {
+              "id"           : "fallback_SCSV",
+              "ip"           : "www.withinsecurity.com/188.114.96.2",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "supported"
+          }
+,         {
+              "id"           : "SWEET32",
+              "ip"           : "www.withinsecurity.com/188.114.96.2",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2016-2183 CVE-2016-6329",
+              "cwe"          : "CWE-327",
+              "finding"      : "not vulnerable"
+          }
+,         {
+              "id"           : "FREAK",
+              "ip"           : "www.withinsecurity.com/188.114.96.2",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2015-0204",
+              "cwe"          : "CWE-310",
+              "finding"      : "not vulnerable"
+          }
+,         {
+              "id"           : "DROWN",
+              "ip"           : "www.withinsecurity.com/188.114.96.2",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2016-0800 CVE-2016-0703",
+              "cwe"          : "CWE-310",
+              "finding"      : "not vulnerable on this host and port"
+          }
+,         {
+              "id"           : "DROWN_hint",
+              "ip"           : "www.withinsecurity.com/188.114.96.2",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "cve"          : "CVE-2016-0800 CVE-2016-0703",
+              "cwe"          : "CWE-310",
+              "finding"      : "no RSA certificate, can't be used with SSLv2 elsewhere"
+          }
+,         {
+              "id"           : "LOGJAM",
+              "ip"           : "www.withinsecurity.com/188.114.96.2",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2015-4000",
+              "cwe"          : "CWE-310",
+              "finding"      : "not vulnerable, no DH EXPORT ciphers,"
+          }
+,         {
+              "id"           : "LOGJAM-common_primes",
+              "ip"           : "www.withinsecurity.com/188.114.96.2",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2015-4000",
+              "cwe"          : "CWE-310",
+              "finding"      : "no DH key with <= TLS 1.2"
+          }
+,         {
+              "id"           : "BEAST",
+              "ip"           : "www.withinsecurity.com/188.114.96.2",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "cve"          : "CVE-2011-3389",
+              "cwe"          : "CWE-20",
+              "finding"      : "VULNERABLE -- but also supports higher protocols  TLSv1.1 TLSv1.2 (likely mitigated)"
+          }
+,         {
+              "id"           : "LUCKY13",
+              "ip"           : "www.withinsecurity.com/188.114.96.2",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "cve"          : "CVE-2013-0169",
+              "cwe"          : "CWE-310",
+              "finding"      : "potentially vulnerable, uses TLS CBC ciphers"
+          }
+,         {
+              "id"           : "winshock",
+              "ip"           : "www.withinsecurity.com/188.114.96.2",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2014-6321",
+              "cwe"          : "CWE-94",
+              "finding"      : "not vulnerable"
+          }
+,         {
+              "id"           : "RC4",
+              "ip"           : "www.withinsecurity.com/188.114.96.2",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2013-2566 CVE-2015-2808",
+              "cwe"          : "CWE-310",
+              "finding"      : "not vulnerable"
+          }
+,         {
+              "id"           : "clientsimulation-android_60",
+              "ip"           : "www.withinsecurity.com/188.114.96.2",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-ECDSA-AES128-GCM-SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-android_70",
+              "ip"           : "www.withinsecurity.com/188.114.96.2",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-ECDSA-AES128-GCM-SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-android_81",
+              "ip"           : "www.withinsecurity.com/188.114.96.2",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-ECDSA-AES128-GCM-SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-android_90",
+              "ip"           : "www.withinsecurity.com/188.114.96.2",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_128_GCM_SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-android_X",
+              "ip"           : "www.withinsecurity.com/188.114.96.2",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_128_GCM_SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-android_11",
+              "ip"           : "www.withinsecurity.com/188.114.96.2",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_128_GCM_SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-android_12",
+              "ip"           : "www.withinsecurity.com/188.114.96.2",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_128_GCM_SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-chrome_79_win10",
+              "ip"           : "www.withinsecurity.com/188.114.96.2",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_128_GCM_SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-chrome_101_win10",
+              "ip"           : "www.withinsecurity.com/188.114.96.2",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_128_GCM_SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-firefox_66_win81",
+              "ip"           : "www.withinsecurity.com/188.114.96.2",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_128_GCM_SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-firefox_100_win10",
+              "ip"           : "www.withinsecurity.com/188.114.96.2",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_128_GCM_SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-ie_6_xp",
+              "ip"           : "www.withinsecurity.com/188.114.96.2",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "No connection"
+          }
+,         {
+              "id"           : "clientsimulation-ie_8_win7",
+              "ip"           : "www.withinsecurity.com/188.114.96.2",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.0 ECDHE-ECDSA-AES128-SHA"
+          }
+,         {
+              "id"           : "clientsimulation-ie_8_xp",
+              "ip"           : "www.withinsecurity.com/188.114.96.2",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.0 DES-CBC3-SHA"
+          }
+,         {
+              "id"           : "clientsimulation-ie_11_win7",
+              "ip"           : "www.withinsecurity.com/188.114.96.2",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-ECDSA-AES128-GCM-SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-ie_11_win81",
+              "ip"           : "www.withinsecurity.com/188.114.96.2",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-ECDSA-AES128-GCM-SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-ie_11_winphone81",
+              "ip"           : "www.withinsecurity.com/188.114.96.2",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-ECDSA-AES128-GCM-SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-ie_11_win10",
+              "ip"           : "www.withinsecurity.com/188.114.96.2",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-ECDSA-AES128-GCM-SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-edge_15_win10",
+              "ip"           : "www.withinsecurity.com/188.114.96.2",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-ECDSA-AES128-GCM-SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-edge_101_win10_21h2",
+              "ip"           : "www.withinsecurity.com/188.114.96.2",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_128_GCM_SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-safari_121_ios_122",
+              "ip"           : "www.withinsecurity.com/188.114.96.2",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_CHACHA20_POLY1305_SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-safari_130_osx_10146",
+              "ip"           : "www.withinsecurity.com/188.114.96.2",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_CHACHA20_POLY1305_SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-safari_154_osx_1231",
+              "ip"           : "www.withinsecurity.com/188.114.96.2",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_128_GCM_SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-java_7u25",
+              "ip"           : "www.withinsecurity.com/188.114.96.2",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.0 ECDHE-ECDSA-AES128-SHA"
+          }
+,         {
+              "id"           : "clientsimulation-java_8u161",
+              "ip"           : "www.withinsecurity.com/188.114.96.2",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-ECDSA-AES128-GCM-SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-java1102",
+              "ip"           : "www.withinsecurity.com/188.114.96.2",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_128_GCM_SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-java1703",
+              "ip"           : "www.withinsecurity.com/188.114.96.2",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_256_GCM_SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-go_1178",
+              "ip"           : "www.withinsecurity.com/188.114.96.2",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_128_GCM_SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-libressl_283",
+              "ip"           : "www.withinsecurity.com/188.114.96.2",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-ECDSA-CHACHA20-POLY1305"
+          }
+,         {
+              "id"           : "clientsimulation-openssl_102e",
+              "ip"           : "www.withinsecurity.com/188.114.96.2",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-ECDSA-AES128-GCM-SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-openssl_110l",
+              "ip"           : "www.withinsecurity.com/188.114.96.2",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-ECDSA-CHACHA20-POLY1305"
+          }
+,         {
+              "id"           : "clientsimulation-openssl_111d",
+              "ip"           : "www.withinsecurity.com/188.114.96.2",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_256_GCM_SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-openssl_303",
+              "ip"           : "www.withinsecurity.com/188.114.96.2",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_256_GCM_SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-apple_mail_16_0",
+              "ip"           : "www.withinsecurity.com/188.114.96.2",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-ECDSA-AES128-GCM-SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-thunderbird_91_9",
+              "ip"           : "www.withinsecurity.com/188.114.96.2",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_128_GCM_SHA256"
+          }
+,         {
+              "id"           : "rating_spec",
+              "ip"           : "www.withinsecurity.com/188.114.96.2",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "SSL Labs's 'SSL Server Rating Guide' (version 2009q from 2020-01-30)"
+          }
+,         {
+              "id"           : "rating_doc",
+              "ip"           : "www.withinsecurity.com/188.114.96.2",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "https://github.com/ssllabs/research/wiki/SSL-Server-Rating-Guide"
+          }
+,         {
+              "id"           : "protocol_support_score",
+              "ip"           : "www.withinsecurity.com/188.114.96.2",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "95"
+          }
+,         {
+              "id"           : "protocol_support_score_weighted",
+              "ip"           : "www.withinsecurity.com/188.114.96.2",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "28"
+          }
+,         {
+              "id"           : "key_exchange_score",
+              "ip"           : "www.withinsecurity.com/188.114.96.2",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "100"
+          }
+,         {
+              "id"           : "key_exchange_score_weighted",
+              "ip"           : "www.withinsecurity.com/188.114.96.2",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "30"
+          }
+,         {
+              "id"           : "cipher_strength_score",
+              "ip"           : "www.withinsecurity.com/188.114.96.2",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "90"
+          }
+,         {
+              "id"           : "cipher_strength_score_weighted",
+              "ip"           : "www.withinsecurity.com/188.114.96.2",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "36"
+          }
+,         {
+              "id"           : "final_score",
+              "ip"           : "www.withinsecurity.com/188.114.96.2",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "94"
+          }
+,         {
+              "id"           : "overall_grade",
+              "ip"           : "www.withinsecurity.com/188.114.96.2",
+              "port"         : "443",
+              "severity"     : "MEDIUM",
+              "finding"      : "B"
+          }
+,         {
+              "id"           : "grade_cap_reason_1",
+              "ip"           : "www.withinsecurity.com/188.114.96.2",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "Grade capped to B. TLS 1.1 offered"
+          }
+,         {
+              "id"           : "grade_cap_reason_2",
+              "ip"           : "www.withinsecurity.com/188.114.96.2",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "Grade capped to B. TLS 1.0 offered"
+          }
+,         {
+              "id"           : "scanTime",
+              "ip"           : "www.withinsecurity.com/188.114.96.2",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "164"
+          }
+]

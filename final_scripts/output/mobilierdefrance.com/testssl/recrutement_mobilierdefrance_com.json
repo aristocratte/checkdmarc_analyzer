@@ -1,0 +1,1173 @@
+[
+         {
+              "id"           : "service",
+              "ip"           : "recrutement.mobilierdefrance.com/40.115.55.251",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "HTTP"
+          }
+,         {
+              "id"           : "pre_128cipher",
+              "ip"           : "recrutement.mobilierdefrance.com/40.115.55.251",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "No 128 cipher limit bug"
+          }
+,         {
+              "id"           : "SSLv2",
+              "ip"           : "recrutement.mobilierdefrance.com/40.115.55.251",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "not offered"
+          }
+,         {
+              "id"           : "SSLv3",
+              "ip"           : "recrutement.mobilierdefrance.com/40.115.55.251",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "not offered"
+          }
+,         {
+              "id"           : "TLS1",
+              "ip"           : "recrutement.mobilierdefrance.com/40.115.55.251",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "not offered"
+          }
+,         {
+              "id"           : "TLS1_1",
+              "ip"           : "recrutement.mobilierdefrance.com/40.115.55.251",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "not offered"
+          }
+,         {
+              "id"           : "TLS1_2",
+              "ip"           : "recrutement.mobilierdefrance.com/40.115.55.251",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "offered"
+          }
+,         {
+              "id"           : "TLS1_3",
+              "ip"           : "recrutement.mobilierdefrance.com/40.115.55.251",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "offered with final"
+          }
+,         {
+              "id"           : "NPN",
+              "ip"           : "recrutement.mobilierdefrance.com/40.115.55.251",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "not offered"
+          }
+,         {
+              "id"           : "ALPN_HTTP2",
+              "ip"           : "recrutement.mobilierdefrance.com/40.115.55.251",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "h2"
+          }
+,         {
+              "id"           : "ALPN",
+              "ip"           : "recrutement.mobilierdefrance.com/40.115.55.251",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "http/1.1"
+          }
+,         {
+              "id"           : "cipherlist_NULL",
+              "ip"           : "recrutement.mobilierdefrance.com/40.115.55.251",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cwe"          : "CWE-327",
+              "finding"      : "not offered"
+          }
+,         {
+              "id"           : "cipherlist_aNULL",
+              "ip"           : "recrutement.mobilierdefrance.com/40.115.55.251",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cwe"          : "CWE-327",
+              "finding"      : "not offered"
+          }
+,         {
+              "id"           : "cipherlist_EXPORT",
+              "ip"           : "recrutement.mobilierdefrance.com/40.115.55.251",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cwe"          : "CWE-327",
+              "finding"      : "not offered"
+          }
+,         {
+              "id"           : "cipherlist_LOW",
+              "ip"           : "recrutement.mobilierdefrance.com/40.115.55.251",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cwe"          : "CWE-327",
+              "finding"      : "not offered"
+          }
+,         {
+              "id"           : "cipherlist_3DES_IDEA",
+              "ip"           : "recrutement.mobilierdefrance.com/40.115.55.251",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "cwe"          : "CWE-310",
+              "finding"      : "not offered"
+          }
+,         {
+              "id"           : "cipherlist_OBSOLETED",
+              "ip"           : "recrutement.mobilierdefrance.com/40.115.55.251",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "cwe"          : "CWE-310",
+              "finding"      : "offered"
+          }
+,         {
+              "id"           : "cipherlist_STRONG_NOFS",
+              "ip"           : "recrutement.mobilierdefrance.com/40.115.55.251",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "not offered"
+          }
+,         {
+              "id"           : "cipherlist_STRONG_FS",
+              "ip"           : "recrutement.mobilierdefrance.com/40.115.55.251",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "offered"
+          }
+,         {
+              "id"           : "cipher_order-tls1_2",
+              "ip"           : "recrutement.mobilierdefrance.com/40.115.55.251",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "server"
+          }
+,         {
+              "id"           : "cipher-tls1_2_xc02c",
+              "ip"           : "recrutement.mobilierdefrance.com/40.115.55.251",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "TLSv1.2   xc02c   ECDHE-ECDSA-AES256-GCM-SHA384     ECDH 521   AESGCM      256      TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384"
+          }
+,         {
+              "id"           : "cipher-tls1_2_xc02b",
+              "ip"           : "recrutement.mobilierdefrance.com/40.115.55.251",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "TLSv1.2   xc02b   ECDHE-ECDSA-AES128-GCM-SHA256     ECDH 256   AESGCM      128      TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256"
+          }
+,         {
+              "id"           : "cipher-tls1_2_xc023",
+              "ip"           : "recrutement.mobilierdefrance.com/40.115.55.251",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "TLSv1.2   xc023   ECDHE-ECDSA-AES128-SHA256         ECDH 256   AES         128      TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256"
+          }
+,         {
+              "id"           : "cipherorder_TLSv1_2",
+              "ip"           : "recrutement.mobilierdefrance.com/40.115.55.251",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "ECDHE-ECDSA-AES256-GCM-SHA384 ECDHE-ECDSA-AES128-GCM-SHA256 ECDHE-ECDSA-AES128-SHA256"
+          }
+,         {
+              "id"           : "cipher_order-tls1_3",
+              "ip"           : "recrutement.mobilierdefrance.com/40.115.55.251",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "server"
+          }
+,         {
+              "id"           : "cipher-tls1_3_x1302",
+              "ip"           : "recrutement.mobilierdefrance.com/40.115.55.251",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "TLSv1.3   x1302   TLS_AES_256_GCM_SHA384            ECDH 256   AESGCM      256      TLS_AES_256_GCM_SHA384"
+          }
+,         {
+              "id"           : "cipher-tls1_3_x1301",
+              "ip"           : "recrutement.mobilierdefrance.com/40.115.55.251",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "TLSv1.3   x1301   TLS_AES_128_GCM_SHA256            ECDH 256   AESGCM      128      TLS_AES_128_GCM_SHA256"
+          }
+,         {
+              "id"           : "cipherorder_TLSv1_3",
+              "ip"           : "recrutement.mobilierdefrance.com/40.115.55.251",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLS_AES_256_GCM_SHA384 TLS_AES_128_GCM_SHA256"
+          }
+,         {
+              "id"           : "cipher_order",
+              "ip"           : "recrutement.mobilierdefrance.com/40.115.55.251",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "server"
+          }
+,         {
+              "id"           : "FS",
+              "ip"           : "recrutement.mobilierdefrance.com/40.115.55.251",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "offered"
+          }
+,         {
+              "id"           : "FS_ciphers",
+              "ip"           : "recrutement.mobilierdefrance.com/40.115.55.251",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLS_AES_256_GCM_SHA384 ECDHE-ECDSA-AES256-GCM-SHA384 TLS_AES_128_GCM_SHA256 ECDHE-ECDSA-AES128-GCM-SHA256 ECDHE-ECDSA-AES128-SHA256"
+          }
+,         {
+              "id"           : "FS_ECDHE_curves",
+              "ip"           : "recrutement.mobilierdefrance.com/40.115.55.251",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "prime256v1 secp384r1 secp521r1"
+          }
+,         {
+              "id"           : "FS_TLS12_sig_algs",
+              "ip"           : "recrutement.mobilierdefrance.com/40.115.55.251",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "ECDSA+SHA256 ECDSA+SHA384 ECDSA+SHA512 ECDSA+SHA1"
+          }
+,         {
+              "id"           : "FS_TLS13_sig_algs",
+              "ip"           : "recrutement.mobilierdefrance.com/40.115.55.251",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "ECDSA+SHA256"
+          }
+,         {
+              "id"           : "TLS_extensions",
+              "ip"           : "recrutement.mobilierdefrance.com/40.115.55.251",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "'status request/#5' 'application layer protocol negotiation/#16' 'extended master secret/#23' 'supported versions/#43' 'key share/#51' 'renegotiation info/#65281'"
+          }
+,         {
+              "id"           : "TLS_session_ticket",
+              "ip"           : "recrutement.mobilierdefrance.com/40.115.55.251",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "no -- no lifetime advertised"
+          }
+,         {
+              "id"           : "SSL_sessionID_support",
+              "ip"           : "recrutement.mobilierdefrance.com/40.115.55.251",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "yes"
+          }
+,         {
+              "id"           : "sessionresumption_ticket",
+              "ip"           : "recrutement.mobilierdefrance.com/40.115.55.251",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "not supported"
+          }
+,         {
+              "id"           : "sessionresumption_ID",
+              "ip"           : "recrutement.mobilierdefrance.com/40.115.55.251",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "not supported"
+          }
+,         {
+              "id"           : "TLS_timestamp",
+              "ip"           : "recrutement.mobilierdefrance.com/40.115.55.251",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "random"
+          }
+,         {
+              "id"           : "certificate_compression",
+              "ip"           : "recrutement.mobilierdefrance.com/40.115.55.251",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "none"
+          }
+,         {
+              "id"           : "clientAuth",
+              "ip"           : "recrutement.mobilierdefrance.com/40.115.55.251",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "none"
+          }
+,         {
+              "id"           : "cert_numbers",
+              "ip"           : "recrutement.mobilierdefrance.com/40.115.55.251",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "1"
+          }
+,         {
+              "id"           : "cert_signatureAlgorithm",
+              "ip"           : "recrutement.mobilierdefrance.com/40.115.55.251",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "ECDSA with SHA384"
+          }
+,         {
+              "id"           : "cert_keySize",
+              "ip"           : "recrutement.mobilierdefrance.com/40.115.55.251",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "EC 256 bits (curve P-256)"
+          }
+,         {
+              "id"           : "cert_keyUsage",
+              "ip"           : "recrutement.mobilierdefrance.com/40.115.55.251",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "Digital Signature"
+          }
+,         {
+              "id"           : "cert_extKeyUsage",
+              "ip"           : "recrutement.mobilierdefrance.com/40.115.55.251",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLS Web Server Authentication, TLS Web Client Authentication"
+          }
+,         {
+              "id"           : "cert_serialNumber",
+              "ip"           : "recrutement.mobilierdefrance.com/40.115.55.251",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "050F5DDC272E4499A7179851B538974A7BD6"
+          }
+,         {
+              "id"           : "cert_serialNumberLen",
+              "ip"           : "recrutement.mobilierdefrance.com/40.115.55.251",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "18"
+          }
+,         {
+              "id"           : "cert_fingerprintSHA1",
+              "ip"           : "recrutement.mobilierdefrance.com/40.115.55.251",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "F8D31C44132D8B8FA10E3C1FC8E792DC2773B5BD"
+          }
+,         {
+              "id"           : "cert_fingerprintSHA256",
+              "ip"           : "recrutement.mobilierdefrance.com/40.115.55.251",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "A9687777C0BF128D7B13762179EAC1C1F36632DD3078EF3E8481EA3F777D24E9"
+          }
+,         {
+              "id"           : "cert",
+              "ip"           : "recrutement.mobilierdefrance.com/40.115.55.251",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "-----BEGIN CERTIFICATE-----\nMIID0DCCA1agAwIBAgISBQ9d3CcuRJmnF5hRtTiXSnvWMAoGCCqGSM49BAMDMDIxCzAJBgNVBAYTAlVTMRYwFAYDVQQKEw1MZXQncyBFbmNyeXB0MQswCQYDVQQDEwJFNTAeFw0yNTA0MjIxOTE3MzdaFw0yNTA3MjExOTE3MzZaMCsxKTAnBgNVBAMTIHJlY3J1dGVtZW50Lm1vYmlsaWVyZGVmcmFuY2UuY29tMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAETrHGTNu4nZDwpPvNB2DbyrAyKfavs05pV0tvzlHUVEiWIO5YjcJ9EMn0yx1aTknSEN7h81VzY+gb+QlUo9LBHKOCAlEwggJNMA4GA1UdDwEB/wQEAwIHgDAdBgNVHSUEFjAUBggrBgEFBQcDAQYIKwYBBQUHAwIwDAYDVR0TAQH/BAIwADAdBgNVHQ4EFgQUHMx+/PkZMXJf6/nXpy8I28EzYjEwHwYDVR0jBBgwFoAUnytfzzwhT50Et+0rLMTGcIvS1w0wVQYIKwYBBQUHAQEESTBHMCEGCCsGAQUFBzABhhVodHRwOi8vZTUuby5sZW5jci5vcmcwIgYIKwYBBQUHMAKGFmh0dHA6Ly9lNS5pLmxlbmNyLm9yZy8wKwYDVR0RBCQwIoIgcmVjcnV0ZW1lbnQubW9iaWxpZXJkZWZyYW5jZS5jb20wEwYDVR0gBAwwCjAIBgZngQwBAgEwLQYDVR0fBCYwJDAioCCgHoYcaHR0cDovL2U1LmMubGVuY3Iub3JnLzg3LmNybDCCAQQGCisGAQQB1nkCBAIEgfUEgfIA8AB2AA3h8jAr0w3BQGISCepVLvxHdHyx1+kw7w5CHrR+Tqo0AAABll8kx4YAAAQDAEcwRQIgec3qizKqOA2IIwIfc7LEdbi7skJrr+tOjd29rpX0XMQCIQD9sjQ1+aZqBjY+TFFn7jBOqiTFt43zNfhjQHavpGVC/gB2AN3cyjSV1+EWBeeVMvrHn/g9HFDf2wA6FBJ2Ciysu8gqAAABll8kz5IAAAQDAEcwRQIgY1KquIrnySbaI0AdaEtMswSaC2iTJ6mrd1Wn95JHTTUCIQDuRIyQu+3IdUGVbPzaf5tbnZ55V26heuOZgwGkHqIhSTAKBggqhkjOPQQDAwNoADBlAjEA21+Hjp9vCg7AXbiauErRf4Ld46JZwrNfTqO3UztgaIDniNldaF8Y6QKXPICDROK3AjAc1wsIzTxMFM1rvgwodpyp38G2Ob6bpy5HcIl0Cdcs+nBQ9brQwGNG8oKYK2Rhsto=\n-----END CERTIFICATE-----"
+          }
+,         {
+              "id"           : "cert_commonName",
+              "ip"           : "recrutement.mobilierdefrance.com/40.115.55.251",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "recrutement.mobilierdefrance.com"
+          }
+,         {
+              "id"           : "cert_commonName_wo_SNI",
+              "ip"           : "recrutement.mobilierdefrance.com/40.115.55.251",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "*.azurewebsites.net"
+          }
+,         {
+              "id"           : "cert_subjectAltName",
+              "ip"           : "recrutement.mobilierdefrance.com/40.115.55.251",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "recrutement.mobilierdefrance.com"
+          }
+,         {
+              "id"           : "cert_trust",
+              "ip"           : "recrutement.mobilierdefrance.com/40.115.55.251",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "Ok via SAN and CN (SNI mandatory)"
+          }
+,         {
+              "id"           : "cert_trust_wildcard",
+              "ip"           : "recrutement.mobilierdefrance.com/40.115.55.251",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "trust is via wildcard"
+          }
+,         {
+              "id"           : "cert_chain_of_trust",
+              "ip"           : "recrutement.mobilierdefrance.com/40.115.55.251",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "passed."
+          }
+,         {
+              "id"           : "cert_certificatePolicies_EV",
+              "ip"           : "recrutement.mobilierdefrance.com/40.115.55.251",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "no"
+          }
+,         {
+              "id"           : "cert_expirationStatus",
+              "ip"           : "recrutement.mobilierdefrance.com/40.115.55.251",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "35 >= 30 days"
+          }
+,         {
+              "id"           : "cert_notBefore",
+              "ip"           : "recrutement.mobilierdefrance.com/40.115.55.251",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "2025-04-22 19:17"
+          }
+,         {
+              "id"           : "cert_notAfter",
+              "ip"           : "recrutement.mobilierdefrance.com/40.115.55.251",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "2025-07-21 19:17"
+          }
+,         {
+              "id"           : "cert_extlifeSpan",
+              "ip"           : "recrutement.mobilierdefrance.com/40.115.55.251",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "certificate has no extended life time according to browser forum"
+          }
+,         {
+              "id"           : "cert_eTLS",
+              "ip"           : "recrutement.mobilierdefrance.com/40.115.55.251",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "not present"
+          }
+,         {
+              "id"           : "cert_crlDistributionPoints",
+              "ip"           : "recrutement.mobilierdefrance.com/40.115.55.251",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "http://e5.c.lencr.org/87.crl"
+          }
+,         {
+              "id"           : "cert_ocspURL",
+              "ip"           : "recrutement.mobilierdefrance.com/40.115.55.251",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "http://e5.o.lencr.org"
+          }
+,         {
+              "id"           : "OCSP_stapling",
+              "ip"           : "recrutement.mobilierdefrance.com/40.115.55.251",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "not offered"
+          }
+,         {
+              "id"           : "cert_mustStapleExtension",
+              "ip"           : "recrutement.mobilierdefrance.com/40.115.55.251",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "--"
+          }
+,         {
+              "id"           : "DNS_CAArecord",
+              "ip"           : "recrutement.mobilierdefrance.com/40.115.55.251",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "--"
+          }
+,         {
+              "id"           : "certificate_transparency",
+              "ip"           : "recrutement.mobilierdefrance.com/40.115.55.251",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "yes (certificate extension)"
+          }
+,         {
+              "id"           : "certs_countServer",
+              "ip"           : "recrutement.mobilierdefrance.com/40.115.55.251",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "2"
+          }
+,         {
+              "id"           : "certs_list_ordering_problem",
+              "ip"           : "recrutement.mobilierdefrance.com/40.115.55.251",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "no"
+          }
+,         {
+              "id"           : "cert_caIssuers",
+              "ip"           : "recrutement.mobilierdefrance.com/40.115.55.251",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "E5 (Let's Encrypt from US)"
+          }
+,         {
+              "id"           : "intermediate_cert <#1>",
+              "ip"           : "recrutement.mobilierdefrance.com/40.115.55.251",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "-----BEGIN CERTIFICATE-----\nMIIEVzCCAj+gAwIBAgIRAIOPbGPOsTmMYgZigxXJ/d4wDQYJKoZIhvcNAQELBQAwTzELMAkGA1UEBhMCVVMxKTAnBgNVBAoTIEludGVybmV0IFNlY3VyaXR5IFJlc2VhcmNoIEdyb3VwMRUwEwYDVQQDEwxJU1JHIFJvb3QgWDEwHhcNMjQwMzEzMDAwMDAwWhcNMjcwMzEyMjM1OTU5WjAyMQswCQYDVQQGEwJVUzEWMBQGA1UEChMNTGV0J3MgRW5jcnlwdDELMAkGA1UEAxMCRTUwdjAQBgcqhkjOPQIBBgUrgQQAIgNiAAQNCzqKa2GOtu/cX1jnxkJFVKtj9mZhSAouWXW0gQI3ULc/FnncmOyhKJdyIBwsz9V8UiBOVHhbhBRrwJCuhezAUUE8Wod/Bk3U/mDR+mwt4X2VEIiiCFQPmRpM5uoKrNijgfgwgfUwDgYDVR0PAQH/BAQDAgGGMB0GA1UdJQQWMBQGCCsGAQUFBwMCBggrBgEFBQcDATASBgNVHRMBAf8ECDAGAQH/AgEAMB0GA1UdDgQWBBSfK1/PPCFPnQS37SssxMZwi9LXDTAfBgNVHSMEGDAWgBR5tFnme7bl5AFzgAiIyBpY9umbbjAyBggrBgEFBQcBAQQmMCQwIgYIKwYBBQUHMAKGFmh0dHA6Ly94MS5pLmxlbmNyLm9yZy8wEwYDVR0gBAwwCjAIBgZngQwBAgEwJwYDVR0fBCAwHjAcoBqgGIYWaHR0cDovL3gxLmMubGVuY3Iub3JnLzANBgkqhkiG9w0BAQsFAAOCAgEAH3KdNEVCQdqk0LKyuNImTKdRJY1C2uw2SJajuhqkyGPY8C+zzsufZ+mgnhnq1A2KVQOSykOEnUbx1cy637rBAihx97r+bcwbZM6sTDIaEriR/PLk6LKs9Be0uoVxgOKDcpG9svD33J+G9Lcfv1K9luDmSTgG6XNFIN5vfI5gs/lMPyojEMdIzK9blcl2/1vKxO8WGCcjvsQ1nJ/Pwt8LQZBfOFyVXP8ubAp/au3dc4EKWG9MO5zcx1qT9+NXRGdVWxGvmBFRAajciMfXME1ZuGmk3/GOkoAM7ZkjZmleyokP1LGzmfJcUd9s7eeu1/9/eg5XlXd/55GtYjAM+C4DG5i7eaNqcm2F+yxYIPt6cbbtYVNJCGfHWqHEQ4FYStUyFnv8sjyqU8ypgZaNJ9aVcWSICLOIE1/Qv/7oKsnZCWJ926wU6RqG1OYPGOi1zuABhLw61cuPVDT28nQS/e6z95cJXq0eK1BcaJ6fJZsmbjRgD5p3mvEf5vdQM7MCEvU0tHbsx2I5mHHJoABHb8KVBgWp/lcXGWiWaeOyB7RP+OfDtvi2OsapxXiV7vNVs7fMlrRjY1joKaqmmycnBvAq14AEbtyLsVfOS66B8apkeFX2NY4XPEYV4ZSCe8VHPrdrERk2wILG3T/EGmSIkCYVUMSnjmJdVQD9F6Na/+zmXCc=\n-----END CERTIFICATE-----"
+          }
+,         {
+              "id"           : "intermediate_cert_fingerprintSHA256 <#1>",
+              "ip"           : "recrutement.mobilierdefrance.com/40.115.55.251",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "5DFDB3CF31B26F23D87C09F3A0CEF642F64069A9FB7CFE29270BB5DC0F1E16BB"
+          }
+,         {
+              "id"           : "intermediate_cert_notBefore <#1>",
+              "ip"           : "recrutement.mobilierdefrance.com/40.115.55.251",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "2024-03-13 00:00"
+          }
+,         {
+              "id"           : "intermediate_cert_notAfter <#1>",
+              "ip"           : "recrutement.mobilierdefrance.com/40.115.55.251",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "2027-03-12 23:59"
+          }
+,         {
+              "id"           : "intermediate_cert_expiration <#1>",
+              "ip"           : "recrutement.mobilierdefrance.com/40.115.55.251",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "ok > 40 days"
+          }
+,         {
+              "id"           : "intermediate_cert_chain <#1>",
+              "ip"           : "recrutement.mobilierdefrance.com/40.115.55.251",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "E5 <-- ISRG Root X1"
+          }
+,         {
+              "id"           : "intermediate_cert_badOCSP",
+              "ip"           : "recrutement.mobilierdefrance.com/40.115.55.251",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "intermediate certificate(s) is/are ok"
+          }
+,         {
+              "id"           : "HTTP_status_code",
+              "ip"           : "recrutement.mobilierdefrance.com/40.115.55.251",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "302 Found ('/')"
+          }
+,         {
+              "id"           : "HTTP_clock_skew",
+              "ip"           : "recrutement.mobilierdefrance.com/40.115.55.251",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "0 seconds from localtime"
+          }
+,         {
+              "id"           : "HTTP_headerTime",
+              "ip"           : "recrutement.mobilierdefrance.com/40.115.55.251",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "1750067125"
+          }
+,         {
+              "id"           : "HSTS_time",
+              "ip"           : "recrutement.mobilierdefrance.com/40.115.55.251",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "365 days (=31536000 seconds) > 15552000 seconds"
+          }
+,         {
+              "id"           : "HSTS_subdomains",
+              "ip"           : "recrutement.mobilierdefrance.com/40.115.55.251",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "only for this domain"
+          }
+,         {
+              "id"           : "HSTS_preload",
+              "ip"           : "recrutement.mobilierdefrance.com/40.115.55.251",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "domain is NOT marked for preloading"
+          }
+,         {
+              "id"           : "HPKP",
+              "ip"           : "recrutement.mobilierdefrance.com/40.115.55.251",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "No support for HTTP Public Key Pinning"
+          }
+,         {
+              "id"           : "banner_server",
+              "ip"           : "recrutement.mobilierdefrance.com/40.115.55.251",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "No Server banner line in header, interesting!"
+          }
+,         {
+              "id"           : "banner_application",
+              "ip"           : "recrutement.mobilierdefrance.com/40.115.55.251",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "No application banner found"
+          }
+,         {
+              "id"           : "cookie_count",
+              "ip"           : "recrutement.mobilierdefrance.com/40.115.55.251",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "2 at '/' (30x detected, better try target URL of 30x)"
+          }
+,         {
+              "id"           : "cookie_secure",
+              "ip"           : "recrutement.mobilierdefrance.com/40.115.55.251",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "All (2) at '/' marked as secure"
+          }
+,         {
+              "id"           : "cookie_httponly",
+              "ip"           : "recrutement.mobilierdefrance.com/40.115.55.251",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "All (2) at '/' marked as HttpOnly (30x detected, better try target URL of 30x)"
+          }
+,         {
+              "id"           : "X-Content-Type-Options",
+              "ip"           : "recrutement.mobilierdefrance.com/40.115.55.251",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "nosniff"
+          }
+,         {
+              "id"           : "Referrer-Policy",
+              "ip"           : "recrutement.mobilierdefrance.com/40.115.55.251",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "strict-origin-when-cross-origin"
+          }
+,         {
+              "id"           : "banner_reverseproxy",
+              "ip"           : "recrutement.mobilierdefrance.com/40.115.55.251",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "cwe"          : "CWE-200",
+              "finding"      : "--"
+          }
+,         {
+              "id"           : "heartbleed",
+              "ip"           : "recrutement.mobilierdefrance.com/40.115.55.251",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2014-0160",
+              "cwe"          : "CWE-119",
+              "finding"      : "not vulnerable, no heartbeat extension"
+          }
+,         {
+              "id"           : "CCS",
+              "ip"           : "recrutement.mobilierdefrance.com/40.115.55.251",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2014-0224",
+              "cwe"          : "CWE-310",
+              "finding"      : "not vulnerable"
+          }
+,         {
+              "id"           : "ticketbleed",
+              "ip"           : "recrutement.mobilierdefrance.com/40.115.55.251",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2016-9244",
+              "cwe"          : "CWE-200",
+              "finding"      : "no session ticket extension"
+          }
+,         {
+              "id"           : "ROBOT",
+              "ip"           : "recrutement.mobilierdefrance.com/40.115.55.251",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2017-17382 CVE-2017-17427 CVE-2017-17428 CVE-2017-13098 CVE-2017-1000385 CVE-2017-13099 CVE-2016-6883 CVE-2012-5081 CVE-2017-6168",
+              "cwe"          : "CWE-203",
+              "finding"      : "not vulnerable, no RSA key transport cipher"
+          }
+,         {
+              "id"           : "secure_renego",
+              "ip"           : "recrutement.mobilierdefrance.com/40.115.55.251",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cwe"          : "CWE-310",
+              "finding"      : "supported"
+          }
+,         {
+              "id"           : "secure_client_renego",
+              "ip"           : "recrutement.mobilierdefrance.com/40.115.55.251",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2011-1473",
+              "cwe"          : "CWE-310",
+              "finding"      : "not vulnerable"
+          }
+,         {
+              "id"           : "CRIME_TLS",
+              "ip"           : "recrutement.mobilierdefrance.com/40.115.55.251",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2012-4929",
+              "cwe"          : "CWE-310",
+              "finding"      : "not vulnerable"
+          }
+,         {
+              "id"           : "BREACH",
+              "ip"           : "recrutement.mobilierdefrance.com/40.115.55.251",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2013-3587",
+              "cwe"          : "CWE-310",
+              "finding"      : "not vulnerable, no gzip/deflate/compress/br HTTP compression  - only supplied '/' tested"
+          }
+,         {
+              "id"           : "POODLE_SSL",
+              "ip"           : "recrutement.mobilierdefrance.com/40.115.55.251",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2014-3566",
+              "cwe"          : "CWE-310",
+              "finding"      : "not vulnerable, no SSLv3"
+          }
+,         {
+              "id"           : "fallback_SCSV",
+              "ip"           : "recrutement.mobilierdefrance.com/40.115.55.251",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "no protocol below TLS 1.2 offered"
+          }
+,         {
+              "id"           : "SWEET32",
+              "ip"           : "recrutement.mobilierdefrance.com/40.115.55.251",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2016-2183 CVE-2016-6329",
+              "cwe"          : "CWE-327",
+              "finding"      : "not vulnerable"
+          }
+,         {
+              "id"           : "FREAK",
+              "ip"           : "recrutement.mobilierdefrance.com/40.115.55.251",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2015-0204",
+              "cwe"          : "CWE-310",
+              "finding"      : "not vulnerable"
+          }
+,         {
+              "id"           : "DROWN",
+              "ip"           : "recrutement.mobilierdefrance.com/40.115.55.251",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2016-0800 CVE-2016-0703",
+              "cwe"          : "CWE-310",
+              "finding"      : "not vulnerable on this host and port"
+          }
+,         {
+              "id"           : "DROWN_hint",
+              "ip"           : "recrutement.mobilierdefrance.com/40.115.55.251",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "cve"          : "CVE-2016-0800 CVE-2016-0703",
+              "cwe"          : "CWE-310",
+              "finding"      : "no RSA certificate, can't be used with SSLv2 elsewhere"
+          }
+,         {
+              "id"           : "LOGJAM",
+              "ip"           : "recrutement.mobilierdefrance.com/40.115.55.251",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2015-4000",
+              "cwe"          : "CWE-310",
+              "finding"      : "not vulnerable, no DH EXPORT ciphers,"
+          }
+,         {
+              "id"           : "LOGJAM-common_primes",
+              "ip"           : "recrutement.mobilierdefrance.com/40.115.55.251",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2015-4000",
+              "cwe"          : "CWE-310",
+              "finding"      : "no DH key with <= TLS 1.2"
+          }
+,         {
+              "id"           : "BEAST",
+              "ip"           : "recrutement.mobilierdefrance.com/40.115.55.251",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2011-3389",
+              "cwe"          : "CWE-20",
+              "finding"      : "not vulnerable, no SSL3 or TLS1"
+          }
+,         {
+              "id"           : "LUCKY13",
+              "ip"           : "recrutement.mobilierdefrance.com/40.115.55.251",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "cve"          : "CVE-2013-0169",
+              "cwe"          : "CWE-310",
+              "finding"      : "potentially vulnerable, uses TLS CBC ciphers"
+          }
+,         {
+              "id"           : "winshock",
+              "ip"           : "recrutement.mobilierdefrance.com/40.115.55.251",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2014-6321",
+              "cwe"          : "CWE-94",
+              "finding"      : "not vulnerable"
+          }
+,         {
+              "id"           : "RC4",
+              "ip"           : "recrutement.mobilierdefrance.com/40.115.55.251",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2013-2566 CVE-2015-2808",
+              "cwe"          : "CWE-310",
+              "finding"      : "not vulnerable"
+          }
+,         {
+              "id"           : "clientsimulation-android_70",
+              "ip"           : "recrutement.mobilierdefrance.com/40.115.55.251",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-ECDSA-AES256-GCM-SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-android_81",
+              "ip"           : "recrutement.mobilierdefrance.com/40.115.55.251",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-ECDSA-AES256-GCM-SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-android_90",
+              "ip"           : "recrutement.mobilierdefrance.com/40.115.55.251",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_256_GCM_SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-android_X",
+              "ip"           : "recrutement.mobilierdefrance.com/40.115.55.251",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_256_GCM_SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-android_11_12",
+              "ip"           : "recrutement.mobilierdefrance.com/40.115.55.251",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_256_GCM_SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-android_13_14",
+              "ip"           : "recrutement.mobilierdefrance.com/40.115.55.251",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_256_GCM_SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-android_15",
+              "ip"           : "recrutement.mobilierdefrance.com/40.115.55.251",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_256_GCM_SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-chrome_101_win10",
+              "ip"           : "recrutement.mobilierdefrance.com/40.115.55.251",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_256_GCM_SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-chromium_137_win11",
+              "ip"           : "recrutement.mobilierdefrance.com/40.115.55.251",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_256_GCM_SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-firefox_100_win10",
+              "ip"           : "recrutement.mobilierdefrance.com/40.115.55.251",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_256_GCM_SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-firefox_137_win11",
+              "ip"           : "recrutement.mobilierdefrance.com/40.115.55.251",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_256_GCM_SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-ie_8_win7",
+              "ip"           : "recrutement.mobilierdefrance.com/40.115.55.251",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "No connection"
+          }
+,         {
+              "id"           : "clientsimulation-ie_11_win7",
+              "ip"           : "recrutement.mobilierdefrance.com/40.115.55.251",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-ECDSA-AES256-GCM-SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-ie_11_win81",
+              "ip"           : "recrutement.mobilierdefrance.com/40.115.55.251",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-ECDSA-AES256-GCM-SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-ie_11_winphone81",
+              "ip"           : "recrutement.mobilierdefrance.com/40.115.55.251",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-ECDSA-AES256-GCM-SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-ie_11_win10",
+              "ip"           : "recrutement.mobilierdefrance.com/40.115.55.251",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-ECDSA-AES256-GCM-SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-edge_15_win10",
+              "ip"           : "recrutement.mobilierdefrance.com/40.115.55.251",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-ECDSA-AES256-GCM-SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-edge_101_win10_21h2",
+              "ip"           : "recrutement.mobilierdefrance.com/40.115.55.251",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_256_GCM_SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-edge_133_win11_23h2",
+              "ip"           : "recrutement.mobilierdefrance.com/40.115.55.251",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_256_GCM_SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-safari_184_ios_184",
+              "ip"           : "recrutement.mobilierdefrance.com/40.115.55.251",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_256_GCM_SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-safari_154_osx_1231",
+              "ip"           : "recrutement.mobilierdefrance.com/40.115.55.251",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_256_GCM_SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-safari_184_osx_154",
+              "ip"           : "recrutement.mobilierdefrance.com/40.115.55.251",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_256_GCM_SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-java_7u25",
+              "ip"           : "recrutement.mobilierdefrance.com/40.115.55.251",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "No connection"
+          }
+,         {
+              "id"           : "clientsimulation-java_80442",
+              "ip"           : "recrutement.mobilierdefrance.com/40.115.55.251",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_256_GCM_SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-java_1102",
+              "ip"           : "recrutement.mobilierdefrance.com/40.115.55.251",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_256_GCM_SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-java_1703",
+              "ip"           : "recrutement.mobilierdefrance.com/40.115.55.251",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_256_GCM_SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-java_2106",
+              "ip"           : "recrutement.mobilierdefrance.com/40.115.55.251",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_256_GCM_SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-go_1178",
+              "ip"           : "recrutement.mobilierdefrance.com/40.115.55.251",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_256_GCM_SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-libressl_336",
+              "ip"           : "recrutement.mobilierdefrance.com/40.115.55.251",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_256_GCM_SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-openssl_102e",
+              "ip"           : "recrutement.mobilierdefrance.com/40.115.55.251",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-ECDSA-AES256-GCM-SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-openssl_111d",
+              "ip"           : "recrutement.mobilierdefrance.com/40.115.55.251",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_256_GCM_SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-openssl_315",
+              "ip"           : "recrutement.mobilierdefrance.com/40.115.55.251",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_256_GCM_SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-openssl_350",
+              "ip"           : "recrutement.mobilierdefrance.com/40.115.55.251",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_256_GCM_SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-apple_mail_16_0",
+              "ip"           : "recrutement.mobilierdefrance.com/40.115.55.251",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-ECDSA-AES256-GCM-SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-thunderbird_91_9",
+              "ip"           : "recrutement.mobilierdefrance.com/40.115.55.251",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_256_GCM_SHA384"
+          }
+,         {
+              "id"           : "rating_spec",
+              "ip"           : "recrutement.mobilierdefrance.com/40.115.55.251",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "SSL Labs's 'SSL Server Rating Guide' (version 2009q from 2020-01-30)"
+          }
+,         {
+              "id"           : "rating_doc",
+              "ip"           : "recrutement.mobilierdefrance.com/40.115.55.251",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "https://github.com/ssllabs/research/wiki/SSL-Server-Rating-Guide"
+          }
+,         {
+              "id"           : "protocol_support_score",
+              "ip"           : "recrutement.mobilierdefrance.com/40.115.55.251",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "100"
+          }
+,         {
+              "id"           : "protocol_support_score_weighted",
+              "ip"           : "recrutement.mobilierdefrance.com/40.115.55.251",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "30"
+          }
+,         {
+              "id"           : "key_exchange_score",
+              "ip"           : "recrutement.mobilierdefrance.com/40.115.55.251",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "100"
+          }
+,         {
+              "id"           : "key_exchange_score_weighted",
+              "ip"           : "recrutement.mobilierdefrance.com/40.115.55.251",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "30"
+          }
+,         {
+              "id"           : "cipher_strength_score",
+              "ip"           : "recrutement.mobilierdefrance.com/40.115.55.251",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "90"
+          }
+,         {
+              "id"           : "cipher_strength_score_weighted",
+              "ip"           : "recrutement.mobilierdefrance.com/40.115.55.251",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "36"
+          }
+,         {
+              "id"           : "final_score",
+              "ip"           : "recrutement.mobilierdefrance.com/40.115.55.251",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "96"
+          }
+,         {
+              "id"           : "overall_grade",
+              "ip"           : "recrutement.mobilierdefrance.com/40.115.55.251",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "A+"
+          }
+,         {
+              "id"           : "scanTime",
+              "ip"           : "recrutement.mobilierdefrance.com/40.115.55.251",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "79"
+          }
+]

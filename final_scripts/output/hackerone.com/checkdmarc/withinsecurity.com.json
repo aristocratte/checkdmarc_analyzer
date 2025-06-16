@@ -1,0 +1,347 @@
+{
+  "domain": "withinsecurity.com",
+  "base_domain": "withinsecurity.com",
+  "dnssec": true,
+  "ns": {
+    "hostnames": [
+      "a.ns.hackerone.com",
+      "b.ns.hackerone.com"
+    ],
+    "warnings": []
+  },
+  "mx": {
+    "hosts": [
+      {
+        "preference": 1,
+        "hostname": "aspmx.l.google.com",
+        "addresses": [
+          "173.194.76.26",
+          "2a00:1450:400c:c0c::1b"
+        ],
+        "dnssec": false,
+        "tls": false,
+        "starttls": false
+      },
+      {
+        "preference": 5,
+        "hostname": "alt1.aspmx.l.google.com",
+        "addresses": [
+          "192.178.156.26",
+          "2a00:1450:4013:c1c::1a"
+        ],
+        "dnssec": false,
+        "tls": false,
+        "starttls": false
+      },
+      {
+        "preference": 5,
+        "hostname": "alt2.aspmx.l.google.com",
+        "addresses": [
+          "142.250.147.27",
+          "2a00:1450:4025:c01::1b"
+        ],
+        "dnssec": false,
+        "tls": false,
+        "starttls": false
+      },
+      {
+        "preference": 10,
+        "hostname": "aspmx2.googlemail.com",
+        "addresses": [
+          "192.178.156.27",
+          "2a00:1450:4013:c1c::1b"
+        ],
+        "dnssec": false,
+        "tls": false,
+        "starttls": false
+      },
+      {
+        "preference": 10,
+        "hostname": "aspmx3.googlemail.com",
+        "addresses": [
+          "142.250.147.27",
+          "2a00:1450:4025:c01::1b"
+        ],
+        "dnssec": false,
+        "tls": false,
+        "starttls": false
+      }
+    ],
+    "warnings": [
+      "aspmx.l.google.com: Connection timed out",
+      "alt1.aspmx.l.google.com: Connection timed out",
+      "alt2.aspmx.l.google.com: Connection timed out",
+      "aspmx2.googlemail.com: Connection timed out",
+      "aspmx3.googlemail.com: Connection timed out"
+    ]
+  },
+  "mta_sts": {
+    "valid": false,
+    "error": "An MTA-STS DNS record does not exist for this domain"
+  },
+  "spf": {
+    "record": "v=spf1 include:_spf.google.com -all",
+    "valid": true,
+    "dns_lookups": 4,
+    "dns_void_lookups": 0,
+    "warnings": [],
+    "parsed": {
+      "pass": [],
+      "neutral": [],
+      "softfail": [],
+      "fail": [],
+      "include": [
+        {
+          "domain": "_spf.google.com",
+          "record": "v=spf1 include:_netblocks.google.com include:_netblocks2.google.com include:_netblocks3.google.com ~all",
+          "dns_lookups": 3,
+          "dns_void_lookups": 0,
+          "parsed": {
+            "pass": [],
+            "neutral": [],
+            "softfail": [],
+            "fail": [],
+            "include": [
+              {
+                "domain": "_netblocks.google.com",
+                "record": "v=spf1 ip4:64.233.160.0/19 ip4:66.102.0.0/20 ip4:66.249.80.0/20 ip4:72.14.192.0/18 ip4:74.125.0.0/16 ip4:108.177.8.0/21 ip4:173.194.0.0/16 ip4:209.85.128.0/17 ip4:216.58.192.0/19 ip4:216.239.32.0/19 ~all",
+                "dns_lookups": 0,
+                "dns_void_lookups": 0,
+                "parsed": {
+                  "pass": [
+                    {
+                      "value": "64.233.160.0/19",
+                      "mechanism": "ip4"
+                    },
+                    {
+                      "value": "66.102.0.0/20",
+                      "mechanism": "ip4"
+                    },
+                    {
+                      "value": "66.249.80.0/20",
+                      "mechanism": "ip4"
+                    },
+                    {
+                      "value": "72.14.192.0/18",
+                      "mechanism": "ip4"
+                    },
+                    {
+                      "value": "74.125.0.0/16",
+                      "mechanism": "ip4"
+                    },
+                    {
+                      "value": "108.177.8.0/21",
+                      "mechanism": "ip4"
+                    },
+                    {
+                      "value": "173.194.0.0/16",
+                      "mechanism": "ip4"
+                    },
+                    {
+                      "value": "209.85.128.0/17",
+                      "mechanism": "ip4"
+                    },
+                    {
+                      "value": "216.58.192.0/19",
+                      "mechanism": "ip4"
+                    },
+                    {
+                      "value": "216.239.32.0/19",
+                      "mechanism": "ip4"
+                    }
+                  ],
+                  "neutral": [],
+                  "softfail": [],
+                  "fail": [],
+                  "include": [],
+                  "redirect": null,
+                  "exp": null,
+                  "all": "softfail"
+                },
+                "warnings": []
+              },
+              {
+                "domain": "_netblocks2.google.com",
+                "record": "v=spf1 ip6:2001:4860:4000::/36 ip6:2404:6800:4000::/36 ip6:2607:f8b0:4000::/36 ip6:2800:3f0:4000::/36 ip6:2a00:1450:4000::/36 ip6:2c0f:fb50:4000::/36 ~all",
+                "dns_lookups": 0,
+                "dns_void_lookups": 0,
+                "parsed": {
+                  "pass": [
+                    {
+                      "value": "2001:4860:4000::/36",
+                      "mechanism": "ip6"
+                    },
+                    {
+                      "value": "2404:6800:4000::/36",
+                      "mechanism": "ip6"
+                    },
+                    {
+                      "value": "2607:f8b0:4000::/36",
+                      "mechanism": "ip6"
+                    },
+                    {
+                      "value": "2800:3f0:4000::/36",
+                      "mechanism": "ip6"
+                    },
+                    {
+                      "value": "2a00:1450:4000::/36",
+                      "mechanism": "ip6"
+                    },
+                    {
+                      "value": "2c0f:fb50:4000::/36",
+                      "mechanism": "ip6"
+                    }
+                  ],
+                  "neutral": [],
+                  "softfail": [],
+                  "fail": [],
+                  "include": [],
+                  "redirect": null,
+                  "exp": null,
+                  "all": "softfail"
+                },
+                "warnings": []
+              },
+              {
+                "domain": "_netblocks3.google.com",
+                "record": "v=spf1 ip4:172.217.0.0/19 ip4:172.217.32.0/20 ip4:172.217.128.0/19 ip4:172.217.160.0/20 ip4:172.217.192.0/19 ip4:172.253.56.0/21 ip4:172.253.112.0/20 ip4:108.177.96.0/19 ~all",
+                "dns_lookups": 0,
+                "dns_void_lookups": 0,
+                "parsed": {
+                  "pass": [
+                    {
+                      "value": "172.217.0.0/19",
+                      "mechanism": "ip4"
+                    },
+                    {
+                      "value": "172.217.32.0/20",
+                      "mechanism": "ip4"
+                    },
+                    {
+                      "value": "172.217.128.0/19",
+                      "mechanism": "ip4"
+                    },
+                    {
+                      "value": "172.217.160.0/20",
+                      "mechanism": "ip4"
+                    },
+                    {
+                      "value": "172.217.192.0/19",
+                      "mechanism": "ip4"
+                    },
+                    {
+                      "value": "172.253.56.0/21",
+                      "mechanism": "ip4"
+                    },
+                    {
+                      "value": "172.253.112.0/20",
+                      "mechanism": "ip4"
+                    },
+                    {
+                      "value": "108.177.96.0/19",
+                      "mechanism": "ip4"
+                    }
+                  ],
+                  "neutral": [],
+                  "softfail": [],
+                  "fail": [],
+                  "include": [],
+                  "redirect": null,
+                  "exp": null,
+                  "all": "softfail"
+                },
+                "warnings": []
+              }
+            ],
+            "redirect": null,
+            "exp": null,
+            "all": "softfail"
+          },
+          "warnings": []
+        }
+      ],
+      "redirect": null,
+      "exp": null,
+      "all": "fail"
+    }
+  },
+  "dmarc": {
+    "record": "v=DMARC1; p=reject; rua=mailto:fgunarop@ag.dmarcian.com,mailto:dmarc-reports@hackerone.com; ruf=mailto:fgunarop@fr.dmarcian.com;",
+    "valid": true,
+    "location": "withinsecurity.com",
+    "warnings": [],
+    "tags": {
+      "v": {
+        "value": "DMARC1",
+        "explicit": true
+      },
+      "p": {
+        "value": "reject",
+        "explicit": true
+      },
+      "rua": {
+        "value": [
+          {
+            "scheme": "mailto",
+            "address": "fgunarop@ag.dmarcian.com",
+            "size_limit": null
+          },
+          {
+            "scheme": "mailto",
+            "address": "dmarc-reports@hackerone.com",
+            "size_limit": null
+          }
+        ],
+        "explicit": true
+      },
+      "ruf": {
+        "value": [
+          {
+            "scheme": "mailto",
+            "address": "fgunarop@fr.dmarcian.com",
+            "size_limit": null
+          }
+        ],
+        "explicit": true
+      },
+      "adkim": {
+        "value": "r",
+        "explicit": false
+      },
+      "aspf": {
+        "value": "r",
+        "explicit": false
+      },
+      "fo": {
+        "value": "0",
+        "explicit": false
+      },
+      "pct": {
+        "value": 100,
+        "explicit": false
+      },
+      "rf": {
+        "value": "afrf",
+        "explicit": false
+      },
+      "ri": {
+        "value": 86400,
+        "explicit": false
+      },
+      "sp": {
+        "value": "reject",
+        "explicit": false
+      }
+    }
+  },
+  "smtp_tls_reporting": {
+    "valid": false,
+    "error": "An SMTP TLS Reporting DNS record does not exist for this domain"
+  },
+  "bimi": {
+    "record": null,
+    "valid": false,
+    "selector": "default",
+    "error": "A BIMI record does not exist at the default selector for this domain or its base domain"
+  }
+}

@@ -1,0 +1,2436 @@
+[
+         {
+              "id"           : "engine_problem",
+              "ip"           : "/",
+              "port"         : "443",
+              "severity"     : "WARN",
+              "finding"      : "No engine or GOST support via engine with your /usr/bin/openssl"
+          }
+,         {
+              "id"           : "service",
+              "ip"           : "hackerone.net.cn/104.21.77.216",
+              "port"         : "443",
+              "severity"     : "DEBUG",
+              "finding"      : "Couldn't determine service, skipping all HTTP checks"
+          }
+,         {
+              "id"           : "pre_128cipher",
+              "ip"           : "hackerone.net.cn/104.21.77.216",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "No 128 cipher limit bug"
+          }
+,         {
+              "id"           : "SSLv2",
+              "ip"           : "hackerone.net.cn/104.21.77.216",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "not offered"
+          }
+,         {
+              "id"           : "SSLv3",
+              "ip"           : "hackerone.net.cn/104.21.77.216",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "not offered"
+          }
+,         {
+              "id"           : "TLS1",
+              "ip"           : "hackerone.net.cn/104.21.77.216",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "offered (deprecated)"
+          }
+,         {
+              "id"           : "TLS1_1",
+              "ip"           : "hackerone.net.cn/104.21.77.216",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "offered (deprecated)"
+          }
+,         {
+              "id"           : "TLS1_2",
+              "ip"           : "hackerone.net.cn/104.21.77.216",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "offered"
+          }
+,         {
+              "id"           : "TLS1_3",
+              "ip"           : "hackerone.net.cn/104.21.77.216",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "offered with final"
+          }
+,         {
+              "id"           : "NPN",
+              "ip"           : "hackerone.net.cn/104.21.77.216",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "not offered"
+          }
+,         {
+              "id"           : "ALPN_HTTP2",
+              "ip"           : "hackerone.net.cn/104.21.77.216",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "h2"
+          }
+,         {
+              "id"           : "ALPN",
+              "ip"           : "hackerone.net.cn/104.21.77.216",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "http/1.1"
+          }
+,         {
+              "id"           : "cipherlist_NULL",
+              "ip"           : "hackerone.net.cn/104.21.77.216",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cwe"          : "CWE-327",
+              "finding"      : "not offered"
+          }
+,         {
+              "id"           : "cipherlist_aNULL",
+              "ip"           : "hackerone.net.cn/104.21.77.216",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cwe"          : "CWE-327",
+              "finding"      : "not offered"
+          }
+,         {
+              "id"           : "cipherlist_EXPORT",
+              "ip"           : "hackerone.net.cn/104.21.77.216",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cwe"          : "CWE-327",
+              "finding"      : "not offered"
+          }
+,         {
+              "id"           : "cipherlist_LOW",
+              "ip"           : "hackerone.net.cn/104.21.77.216",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cwe"          : "CWE-327",
+              "finding"      : "not offered"
+          }
+,         {
+              "id"           : "cipherlist_3DES_IDEA",
+              "ip"           : "hackerone.net.cn/104.21.77.216",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "cwe"          : "CWE-310",
+              "finding"      : "not offered"
+          }
+,         {
+              "id"           : "cipherlist_OBSOLETED",
+              "ip"           : "hackerone.net.cn/104.21.77.216",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "cwe"          : "CWE-310",
+              "finding"      : "offered"
+          }
+,         {
+              "id"           : "cipherlist_STRONG_NOFS",
+              "ip"           : "hackerone.net.cn/104.21.77.216",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "not offered"
+          }
+,         {
+              "id"           : "cipherlist_STRONG_FS",
+              "ip"           : "hackerone.net.cn/104.21.77.216",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "offered"
+          }
+,         {
+              "id"           : "cipher_order-tls1",
+              "ip"           : "hackerone.net.cn/104.21.77.216",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "server"
+          }
+,         {
+              "id"           : "cipher-tls1_xc009",
+              "ip"           : "hackerone.net.cn/104.21.77.216",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "TLSv1   xc009   ECDHE-ECDSA-AES128-SHA            ECDH       AES         128      TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA"
+          }
+,         {
+              "id"           : "cipher-tls1_xc00a",
+              "ip"           : "hackerone.net.cn/104.21.77.216",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "TLSv1   xc00a   ECDHE-ECDSA-AES256-SHA            ECDH       AES         256      TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA"
+          }
+,         {
+              "id"           : "cipherorder_TLSv1",
+              "ip"           : "hackerone.net.cn/104.21.77.216",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "ECDHE-ECDSA-AES128-SHA ECDHE-ECDSA-AES256-SHA"
+          }
+,         {
+              "id"           : "cipher_order-tls1_1",
+              "ip"           : "hackerone.net.cn/104.21.77.216",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "server"
+          }
+,         {
+              "id"           : "cipher-tls1_1_xc009",
+              "ip"           : "hackerone.net.cn/104.21.77.216",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "TLSv1.1   xc009   ECDHE-ECDSA-AES128-SHA            ECDH       AES         128      TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA"
+          }
+,         {
+              "id"           : "cipher-tls1_1_xc00a",
+              "ip"           : "hackerone.net.cn/104.21.77.216",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "TLSv1.1   xc00a   ECDHE-ECDSA-AES256-SHA            ECDH       AES         256      TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA"
+          }
+,         {
+              "id"           : "cipherorder_TLSv1_1",
+              "ip"           : "hackerone.net.cn/104.21.77.216",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "ECDHE-ECDSA-AES128-SHA ECDHE-ECDSA-AES256-SHA"
+          }
+,         {
+              "id"           : "cipher_order-tls1_2",
+              "ip"           : "hackerone.net.cn/104.21.77.216",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "server -- server prioritizes ChaCha ciphers when preferred by clients"
+          }
+,         {
+              "id"           : "cipher-tls1_2_xc02b",
+              "ip"           : "hackerone.net.cn/104.21.77.216",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "TLSv1.2   xc02b   ECDHE-ECDSA-AES128-GCM-SHA256     ECDH       AESGCM      128      TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256"
+          }
+,         {
+              "id"           : "cipher-tls1_2_xcca9",
+              "ip"           : "hackerone.net.cn/104.21.77.216",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "TLSv1.2   xcca9   ECDHE-ECDSA-CHACHA20-POLY1305     ECDH       ChaCha20    256      TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256"
+          }
+,         {
+              "id"           : "cipher-tls1_2_xc009",
+              "ip"           : "hackerone.net.cn/104.21.77.216",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "TLSv1.2   xc009   ECDHE-ECDSA-AES128-SHA            ECDH       AES         128      TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA"
+          }
+,         {
+              "id"           : "cipher-tls1_2_xc02c",
+              "ip"           : "hackerone.net.cn/104.21.77.216",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "TLSv1.2   xc02c   ECDHE-ECDSA-AES256-GCM-SHA384     ECDH       AESGCM      256      TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384"
+          }
+,         {
+              "id"           : "cipher-tls1_2_xc00a",
+              "ip"           : "hackerone.net.cn/104.21.77.216",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "TLSv1.2   xc00a   ECDHE-ECDSA-AES256-SHA            ECDH       AES         256      TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA"
+          }
+,         {
+              "id"           : "cipher-tls1_2_xc023",
+              "ip"           : "hackerone.net.cn/104.21.77.216",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "TLSv1.2   xc023   ECDHE-ECDSA-AES128-SHA256         ECDH       AES         128      TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256"
+          }
+,         {
+              "id"           : "cipher-tls1_2_xc024",
+              "ip"           : "hackerone.net.cn/104.21.77.216",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "TLSv1.2   xc024   ECDHE-ECDSA-AES256-SHA384         ECDH       AES         256      TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384"
+          }
+,         {
+              "id"           : "cipherorder_TLSv1_2",
+              "ip"           : "hackerone.net.cn/104.21.77.216",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "ECDHE-ECDSA-AES128-GCM-SHA256 ECDHE-ECDSA-CHACHA20-POLY1305 ECDHE-ECDSA-AES128-SHA ECDHE-ECDSA-AES256-GCM-SHA384 ECDHE-ECDSA-AES256-SHA ECDHE-ECDSA-AES128-SHA256 ECDHE-ECDSA-AES256-SHA384"
+          }
+,         {
+              "id"           : "prioritize_chacha_TLSv1_2",
+              "ip"           : "hackerone.net.cn/104.21.77.216",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "true"
+          }
+,         {
+              "id"           : "cipher_order-tls1_3",
+              "ip"           : "hackerone.net.cn/104.21.77.216",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "NOT a cipher order configured"
+          }
+,         {
+              "id"           : "cipher-tls1_3_x1302",
+              "ip"           : "hackerone.net.cn/104.21.77.216",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "TLSv1.3   x1302   TLS_AES_256_GCM_SHA384                       AESGCM      256      TLS_AES_256_GCM_SHA384"
+          }
+,         {
+              "id"           : "cipher-tls1_3_x1303",
+              "ip"           : "hackerone.net.cn/104.21.77.216",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "TLSv1.3   x1303   TLS_CHACHA20_POLY1305_SHA256                 ChaCha20    256      TLS_CHACHA20_POLY1305_SHA256"
+          }
+,         {
+              "id"           : "cipher-tls1_3_x1301",
+              "ip"           : "hackerone.net.cn/104.21.77.216",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "TLSv1.3   x1301   TLS_AES_128_GCM_SHA256                       AESGCM      128      TLS_AES_128_GCM_SHA256"
+          }
+,         {
+              "id"           : "supportedciphers_TLSv1_3",
+              "ip"           : "hackerone.net.cn/104.21.77.216",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLS_AES_256_GCM_SHA384 TLS_CHACHA20_POLY1305_SHA256 TLS_AES_128_GCM_SHA256"
+          }
+,         {
+              "id"           : "cipher_order",
+              "ip"           : "hackerone.net.cn/104.21.77.216",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "server -- TLS 1.3 client determined"
+          }
+,         {
+              "id"           : "FS",
+              "ip"           : "hackerone.net.cn/104.21.77.216",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "offered"
+          }
+,         {
+              "id"           : "FS_ciphers",
+              "ip"           : "hackerone.net.cn/104.21.77.216",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLS_AES_256_GCM_SHA384 TLS_CHACHA20_POLY1305_SHA256 ECDHE-ECDSA-AES256-GCM-SHA384 ECDHE-ECDSA-AES256-SHA384 ECDHE-ECDSA-AES256-SHA ECDHE-ECDSA-CHACHA20-POLY1305 TLS_AES_128_GCM_SHA256 ECDHE-ECDSA-AES128-GCM-SHA256 ECDHE-ECDSA-AES128-SHA256 ECDHE-ECDSA-AES128-SHA"
+          }
+,         {
+              "id"           : "FS_KEMs",
+              "ip"           : "hackerone.net.cn/104.21.77.216",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "X25519MLKEM768 X25519Kyber768Draft00"
+          }
+,         {
+              "id"           : "FS_ECDHE_curves",
+              "ip"           : "hackerone.net.cn/104.21.77.216",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "prime256v1 secp384r1 secp521r1 X25519"
+          }
+,         {
+              "id"           : "FS_TLS12_sig_algs",
+              "ip"           : "hackerone.net.cn/104.21.77.216",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "ECDSA+SHA256 ECDSA+SHA384 ECDSA+SHA512 ECDSA+SHA1"
+          }
+,         {
+              "id"           : "FS_TLS13_sig_algs",
+              "ip"           : "hackerone.net.cn/104.21.77.216",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "ECDSA+SHA256"
+          }
+,         {
+              "id"           : "TLS_extensions",
+              "ip"           : "hackerone.net.cn/104.21.77.216",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "'server name/#0' 'renegotiation info/#65281' 'EC point formats/#11' 'session ticket/#35' 'status request/#5' 'next protocol/#13172' 'key share/#51' 'supported versions/#43' 'extended master secret/#23' 'application layer protocol negotiation/#16' 'compress_certificate/#27'"
+          }
+,         {
+              "id"           : "TLS_session_ticket",
+              "ip"           : "hackerone.net.cn/104.21.77.216",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "valid for 64800 seconds only (<daily)"
+          }
+,         {
+              "id"           : "SSL_sessionID_support",
+              "ip"           : "hackerone.net.cn/104.21.77.216",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "yes"
+          }
+,         {
+              "id"           : "sessionresumption_ticket",
+              "ip"           : "hackerone.net.cn/104.21.77.216",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "supported"
+          }
+,         {
+              "id"           : "sessionresumption_ID",
+              "ip"           : "hackerone.net.cn/104.21.77.216",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "not supported"
+          }
+,         {
+              "id"           : "TLS_timestamp",
+              "ip"           : "hackerone.net.cn/104.21.77.216",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "off by 0 seconds from your localtime"
+          }
+,         {
+              "id"           : "certificate_compression",
+              "ip"           : "hackerone.net.cn/104.21.77.216",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "0002/Brotli"
+          }
+,         {
+              "id"           : "clientAuth",
+              "ip"           : "hackerone.net.cn/104.21.77.216",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "none"
+          }
+,         {
+              "id"           : "cert_numbers",
+              "ip"           : "hackerone.net.cn/104.21.77.216",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "1"
+          }
+,         {
+              "id"           : "cert_signatureAlgorithm",
+              "ip"           : "hackerone.net.cn/104.21.77.216",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "ECDSA with SHA256"
+          }
+,         {
+              "id"           : "cert_keySize",
+              "ip"           : "hackerone.net.cn/104.21.77.216",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "EC 256 bits (curve P-256)"
+          }
+,         {
+              "id"           : "cert_keyUsage",
+              "ip"           : "hackerone.net.cn/104.21.77.216",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "Digital Signature"
+          }
+,         {
+              "id"           : "cert_extKeyUsage",
+              "ip"           : "hackerone.net.cn/104.21.77.216",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLS Web Server Authentication"
+          }
+,         {
+              "id"           : "cert_serialNumber",
+              "ip"           : "hackerone.net.cn/104.21.77.216",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "253D35092908B776110B43A00E46A2CE"
+          }
+,         {
+              "id"           : "cert_serialNumberLen",
+              "ip"           : "hackerone.net.cn/104.21.77.216",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "16"
+          }
+,         {
+              "id"           : "cert_fingerprintSHA1",
+              "ip"           : "hackerone.net.cn/104.21.77.216",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "3A4D1E55956D293B74A9E70CE490CC755623C4FB"
+          }
+,         {
+              "id"           : "cert_fingerprintSHA256",
+              "ip"           : "hackerone.net.cn/104.21.77.216",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "A7116CEA2B77CAEB6D75AD2E0EC9B67955D7C71C60C637EDDCDFAF46C02269FA"
+          }
+,         {
+              "id"           : "cert",
+              "ip"           : "hackerone.net.cn/104.21.77.216",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "-----BEGIN CERTIFICATE-----\nMIIDsTCCA1igAwIBAgIQJT01CSkIt3YRC0OgDkaizjAKBggqhkjOPQQDAjA7MQswCQYDVQQGEwJVUzEeMBwGA1UEChMVR29vZ2xlIFRydXN0IFNlcnZpY2VzMQwwCgYDVQQDEwNXRTEwHhcNMjUwNDIzMjI0NTQ2WhcNMjUwNzIyMjM0MzU2WjAbMRkwFwYDVQQDExBoYWNrZXJvbmUubmV0LmNuMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE0Dp4xN3qVkqHu8yrLNPg9iS4xJCV+0WzHeul24hLD8PknIkjAwq8hm6H+q0FRhR0JMeYFr79syTD8qKt7yXTpKOCAlwwggJYMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEFBQcDATAMBgNVHRMBAf8EAjAAMB0GA1UdDgQWBBTLbRlbL32vXhxeU3SdoEKnTowi+DAfBgNVHSMEGDAWgBSQd5I1Z8T/qMyp5nvZgHl7zJP5ODBeBggrBgEFBQcBAQRSMFAwJwYIKwYBBQUHMAGGG2h0dHA6Ly9vLnBraS5nb29nL3Mvd2UxL0pUMDAlBggrBgEFBQcwAoYZaHR0cDovL2kucGtpLmdvb2cvd2UxLmNydDAvBgNVHREEKDAmghBoYWNrZXJvbmUubmV0LmNughIqLmhhY2tlcm9uZS5uZXQuY24wEwYDVR0gBAwwCjAIBgZngQwBAgEwNgYDVR0fBC8wLTAroCmgJ4YlaHR0cDovL2MucGtpLmdvb2cvd2UxL3BuRGxrV2xjTmVJLmNybDCCAQMGCisGAQQB1nkCBAIEgfQEgfEA7wB2AH1ZHhLheCp7HGFnfF79+NCHXBSgTpWeuQMv2Q6MLnm4AAABlmULFWMAAAQDAEcwRQIgQOPRfCC48uij1iL1flN1mxzY9hjPghEvgV5YvTKQqtsCIQDp+jKy6FINUDWzqRtUp7j9O7gQl38/3A+l+qLOr4uCZwB1AN3cyjSV1+EWBeeVMvrHn/g9HFDf2wA6FBJ2Ciysu8gqAAABlmULFXkAAAQDAEYwRAIgXVOR0Lkg4nEOkcyTurMcYAQ//a57UvW9LFyMKNgvxCkCIGs42l59s83K3a9Opn7CIp4BoFkph+6tn0yUR89oGaxhMAoGCCqGSM49BAMCA0cAMEQCIGjY6FyrM6KdzNX+Q11EfWxRugdK9H+sUwhmY+lAy0hQAiAGYBucdM7OwuYRulPI42S69wRerClOnzM/IFlOrZ1iWA==\n-----END CERTIFICATE-----"
+          }
+,         {
+              "id"           : "cert_commonName",
+              "ip"           : "hackerone.net.cn/104.21.77.216",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "hackerone.net.cn"
+          }
+,         {
+              "id"           : "cert_commonName_wo_SNI",
+              "ip"           : "hackerone.net.cn/104.21.77.216",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "request w/o SNI didn't succeed, usual for EC certificates"
+          }
+,         {
+              "id"           : "cert_subjectAltName",
+              "ip"           : "hackerone.net.cn/104.21.77.216",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "hackerone.net.cn *.hackerone.net.cn"
+          }
+,         {
+              "id"           : "cert_trust",
+              "ip"           : "hackerone.net.cn/104.21.77.216",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "Ok via SAN and CN (SNI mandatory)"
+          }
+,         {
+              "id"           : "cert_chain_of_trust",
+              "ip"           : "hackerone.net.cn/104.21.77.216",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "passed."
+          }
+,         {
+              "id"           : "cert_certificatePolicies_EV",
+              "ip"           : "hackerone.net.cn/104.21.77.216",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "no"
+          }
+,         {
+              "id"           : "cert_expirationStatus",
+              "ip"           : "hackerone.net.cn/104.21.77.216",
+              "port"         : "443",
+              "severity"     : "MEDIUM",
+              "finding"      : "expires < 60 days (39)"
+          }
+,         {
+              "id"           : "cert_notBefore",
+              "ip"           : "hackerone.net.cn/104.21.77.216",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "2025-04-23 22:45"
+          }
+,         {
+              "id"           : "cert_notAfter",
+              "ip"           : "hackerone.net.cn/104.21.77.216",
+              "port"         : "443",
+              "severity"     : "MEDIUM",
+              "finding"      : "2025-07-22 23:43"
+          }
+,         {
+              "id"           : "cert_extlifeSpan",
+              "ip"           : "hackerone.net.cn/104.21.77.216",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "certificate has no extended life time according to browser forum"
+          }
+,         {
+              "id"           : "cert_eTLS",
+              "ip"           : "hackerone.net.cn/104.21.77.216",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "not present"
+          }
+,         {
+              "id"           : "cert_crlDistributionPoints",
+              "ip"           : "hackerone.net.cn/104.21.77.216",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "http://c.pki.goog/we1/pnDlkWlcNeI.crl"
+          }
+,         {
+              "id"           : "cert_ocspURL",
+              "ip"           : "hackerone.net.cn/104.21.77.216",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "http://o.pki.goog/s/we1/JT0"
+          }
+,         {
+              "id"           : "OCSP_stapling",
+              "ip"           : "hackerone.net.cn/104.21.77.216",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "offered"
+          }
+,         {
+              "id"           : "cert_ocspRevoked",
+              "ip"           : "hackerone.net.cn/104.21.77.216",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "not revoked"
+          }
+,         {
+              "id"           : "cert_mustStapleExtension",
+              "ip"           : "hackerone.net.cn/104.21.77.216",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "--"
+          }
+,         {
+              "id"           : "DNS_CAArecord",
+              "ip"           : "hackerone.net.cn/104.21.77.216",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "--"
+          }
+,         {
+              "id"           : "certificate_transparency",
+              "ip"           : "hackerone.net.cn/104.21.77.216",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "yes (certificate extension)"
+          }
+,         {
+              "id"           : "certs_countServer",
+              "ip"           : "hackerone.net.cn/104.21.77.216",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "3"
+          }
+,         {
+              "id"           : "certs_list_ordering_problem",
+              "ip"           : "hackerone.net.cn/104.21.77.216",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "no"
+          }
+,         {
+              "id"           : "cert_caIssuers",
+              "ip"           : "hackerone.net.cn/104.21.77.216",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "WE1 (Google Trust Services from US)"
+          }
+,         {
+              "id"           : "intermediate_cert <#1>",
+              "ip"           : "hackerone.net.cn/104.21.77.216",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "-----BEGIN CERTIFICATE-----\nMIICnzCCAiWgAwIBAgIQf/MZd5csIkp2FV0TttaF4zAKBggqhkjOPQQDAzBHMQswCQYDVQQGEwJVUzEiMCAGA1UEChMZR29vZ2xlIFRydXN0IFNlcnZpY2VzIExMQzEUMBIGA1UEAxMLR1RTIFJvb3QgUjQwHhcNMjMxMjEzMDkwMDAwWhcNMjkwMjIwMTQwMDAwWjA7MQswCQYDVQQGEwJVUzEeMBwGA1UEChMVR29vZ2xlIFRydXN0IFNlcnZpY2VzMQwwCgYDVQQDEwNXRTEwWTATBgcqhkjOPQIBBggqhkjOPQMBBwNCAARvzTr+Z1dHTCEDhUDCR127WEcPQMFcF4XGGTfn1XzthkubgdnXGhOlCgP4mMTG6J7/EFmPLCaY9eYmJbsPAvpWo4H+MIH7MA4GA1UdDwEB/wQEAwIBhjAdBgNVHSUEFjAUBggrBgEFBQcDAQYIKwYBBQUHAwIwEgYDVR0TAQH/BAgwBgEB/wIBADAdBgNVHQ4EFgQUkHeSNWfE/6jMqeZ72YB5e8yT+TgwHwYDVR0jBBgwFoAUgEzW63T/STaj1dj8tT7FavCUHYwwNAYIKwYBBQUHAQEEKDAmMCQGCCsGAQUFBzAChhhodHRwOi8vaS5wa2kuZ29vZy9yNC5jcnQwKwYDVR0fBCQwIjAgoB6gHIYaaHR0cDovL2MucGtpLmdvb2cvci9yNC5jcmwwEwYDVR0gBAwwCjAIBgZngQwBAgEwCgYIKoZIzj0EAwMDaAAwZQIxAOcCq1HW90OVznX+0RGU1cxAQXomvtgM8zItPZCuFQ8jSBJSjz5keROv9aYsAm5VsQIwJonMaAFi54mrfhfoFNZEfuNMSQ6/bIBiNLiyoX46FohQvKeIoJ99cx7sUkFN7uJW\n-----END CERTIFICATE-----"
+          }
+,         {
+              "id"           : "intermediate_cert_fingerprintSHA256 <#1>",
+              "ip"           : "hackerone.net.cn/104.21.77.216",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "1DFC1605FBAD358D8BC844F76D15203FAC9CA5C1A79FD4857FFAF2864FBEBF96"
+          }
+,         {
+              "id"           : "intermediate_cert_notBefore <#1>",
+              "ip"           : "hackerone.net.cn/104.21.77.216",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "2023-12-13 09:00"
+          }
+,         {
+              "id"           : "intermediate_cert_notAfter <#1>",
+              "ip"           : "hackerone.net.cn/104.21.77.216",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "2029-02-20 14:00"
+          }
+,         {
+              "id"           : "intermediate_cert_expiration <#1>",
+              "ip"           : "hackerone.net.cn/104.21.77.216",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "ok > 40 days"
+          }
+,         {
+              "id"           : "intermediate_cert_chain <#1>",
+              "ip"           : "hackerone.net.cn/104.21.77.216",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "WE1 <-- GTS Root R4"
+          }
+,         {
+              "id"           : "intermediate_cert <#2>",
+              "ip"           : "hackerone.net.cn/104.21.77.216",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "-----BEGIN CERTIFICATE-----\nMIIDejCCAmKgAwIBAgIQf+UwvzMTQ77dghYQST2KGzANBgkqhkiG9w0BAQsFADBXMQswCQYDVQQGEwJCRTEZMBcGA1UEChMQR2xvYmFsU2lnbiBudi1zYTEQMA4GA1UECxMHUm9vdCBDQTEbMBkGA1UEAxMSR2xvYmFsU2lnbiBSb290IENBMB4XDTIzMTExNTAzNDMyMVoXDTI4MDEyODAwMDA0MlowRzELMAkGA1UEBhMCVVMxIjAgBgNVBAoTGUdvb2dsZSBUcnVzdCBTZXJ2aWNlcyBMTEMxFDASBgNVBAMTC0dUUyBSb290IFI0MHYwEAYHKoZIzj0CAQYFK4EEACIDYgAE83Rzp2iLYK5DuDXFgTB7S0md+8FhzubeRr1r1WEYNa5A3XP3iZEwWus87oV8okB2O6nGuEfYKueSkWpz6bFyOZ8pn6KY019eWIZlD6GEZQbR3IvJx3PIjGov5cSr0R2Ko4H/MIH8MA4GA1UdDwEB/wQEAwIBhjAdBgNVHSUEFjAUBggrBgEFBQcDAQYIKwYBBQUHAwIwDwYDVR0TAQH/BAUwAwEB/zAdBgNVHQ4EFgQUgEzW63T/STaj1dj8tT7FavCUHYwwHwYDVR0jBBgwFoAUYHtmGkUNl8qJUC99BM00qP/8/UswNgYIKwYBBQUHAQEEKjAoMCYGCCsGAQUFBzAChhpodHRwOi8vaS5wa2kuZ29vZy9nc3IxLmNydDAtBgNVHR8EJjAkMCKgIKAehhxodHRwOi8vYy5wa2kuZ29vZy9yL2dzcjEuY3JsMBMGA1UdIAQMMAowCAYGZ4EMAQIBMA0GCSqGSIb3DQEBCwUAA4IBAQAYQrsPBtYDh5bjP2OBDwmkoWhIDDkic574y04tfzHpn+cJodI2D4SseesQ6bDrarZ7C30ddLibZatoKiws3UL9xnELz4ct92vID24FfVbiI1hY+SW6FoVHkNeWIP0GCbaM4C6uVdF5dTUsMVs/ZbzNnIdCp5Gxmx5ejvEau8otR/CskGN+hr/W5GvT1tMBjgWKZ1i4//emhA1JG1BbPzoLJQvyEotc03lXjTaCzv8mEbep8RqZ7a2CPsgRbuvTPBwcOMBBmuFeU88+FSBX6+7iP0il8b4Z0QFqIwwMHfs/L6K1vepuoxtGzi4CZ68zJpiq1UvSqTbFJjtbD4seiMHl\n-----END CERTIFICATE-----"
+          }
+,         {
+              "id"           : "intermediate_cert_fingerprintSHA256 <#2>",
+              "ip"           : "hackerone.net.cn/104.21.77.216",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "76B27B80A58027DC3CF1DA68DAC17010ED93997D0B603E2FADBE85012493B5A7"
+          }
+,         {
+              "id"           : "intermediate_cert_notBefore <#2>",
+              "ip"           : "hackerone.net.cn/104.21.77.216",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "2023-11-15 03:43"
+          }
+,         {
+              "id"           : "intermediate_cert_notAfter <#2>",
+              "ip"           : "hackerone.net.cn/104.21.77.216",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "2028-01-28 00:00"
+          }
+,         {
+              "id"           : "intermediate_cert_expiration <#2>",
+              "ip"           : "hackerone.net.cn/104.21.77.216",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "ok > 40 days"
+          }
+,         {
+              "id"           : "intermediate_cert_chain <#2>",
+              "ip"           : "hackerone.net.cn/104.21.77.216",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "GTS Root R4 <-- GlobalSign Root CA"
+          }
+,         {
+              "id"           : "intermediate_cert_badOCSP",
+              "ip"           : "hackerone.net.cn/104.21.77.216",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "intermediate certificate(s) is/are ok"
+          }
+,         {
+              "id"           : "heartbleed",
+              "ip"           : "hackerone.net.cn/104.21.77.216",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2014-0160",
+              "cwe"          : "CWE-119",
+              "finding"      : "not vulnerable, no heartbeat extension"
+          }
+,         {
+              "id"           : "CCS",
+              "ip"           : "hackerone.net.cn/104.21.77.216",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2014-0224",
+              "cwe"          : "CWE-310",
+              "finding"      : "not vulnerable"
+          }
+,         {
+              "id"           : "ticketbleed",
+              "ip"           : "hackerone.net.cn/104.21.77.216",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "cve"          : "CVE-2016-9244",
+              "cwe"          : "CWE-200",
+              "finding"      : "not applicable, not HTTP"
+          }
+,         {
+              "id"           : "ROBOT",
+              "ip"           : "hackerone.net.cn/104.21.77.216",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2017-17382 CVE-2017-17427 CVE-2017-17428 CVE-2017-13098 CVE-2017-1000385 CVE-2017-13099 CVE-2016-6883 CVE-2012-5081 CVE-2017-6168",
+              "cwe"          : "CWE-203",
+              "finding"      : "not vulnerable, no RSA key transport cipher"
+          }
+,         {
+              "id"           : "secure_renego",
+              "ip"           : "hackerone.net.cn/104.21.77.216",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cwe"          : "CWE-310",
+              "finding"      : "supported"
+          }
+,         {
+              "id"           : "secure_client_renego",
+              "ip"           : "hackerone.net.cn/104.21.77.216",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2011-1473",
+              "cwe"          : "CWE-310",
+              "finding"      : "not vulnerable"
+          }
+,         {
+              "id"           : "CRIME_TLS",
+              "ip"           : "hackerone.net.cn/104.21.77.216",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2012-4929",
+              "cwe"          : "CWE-310",
+              "finding"      : "not vulnerable (not using HTTP anyway)"
+          }
+,         {
+              "id"           : "POODLE_SSL",
+              "ip"           : "hackerone.net.cn/104.21.77.216",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2014-3566",
+              "cwe"          : "CWE-310",
+              "finding"      : "not vulnerable, no SSLv3"
+          }
+,         {
+              "id"           : "fallback_SCSV",
+              "ip"           : "hackerone.net.cn/104.21.77.216",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "supported"
+          }
+,         {
+              "id"           : "SWEET32",
+              "ip"           : "hackerone.net.cn/104.21.77.216",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2016-2183 CVE-2016-6329",
+              "cwe"          : "CWE-327",
+              "finding"      : "not vulnerable"
+          }
+,         {
+              "id"           : "FREAK",
+              "ip"           : "hackerone.net.cn/104.21.77.216",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2015-0204",
+              "cwe"          : "CWE-310",
+              "finding"      : "not vulnerable"
+          }
+,         {
+              "id"           : "DROWN",
+              "ip"           : "hackerone.net.cn/104.21.77.216",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2016-0800 CVE-2016-0703",
+              "cwe"          : "CWE-310",
+              "finding"      : "not vulnerable on this host and port"
+          }
+,         {
+              "id"           : "DROWN_hint",
+              "ip"           : "hackerone.net.cn/104.21.77.216",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "cve"          : "CVE-2016-0800 CVE-2016-0703",
+              "cwe"          : "CWE-310",
+              "finding"      : "no RSA certificate, can't be used with SSLv2 elsewhere"
+          }
+,         {
+              "id"           : "LOGJAM",
+              "ip"           : "hackerone.net.cn/104.21.77.216",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2015-4000",
+              "cwe"          : "CWE-310",
+              "finding"      : "not vulnerable, no DH EXPORT ciphers,"
+          }
+,         {
+              "id"           : "LOGJAM-common_primes",
+              "ip"           : "hackerone.net.cn/104.21.77.216",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2015-4000",
+              "cwe"          : "CWE-310",
+              "finding"      : "no DH key with <= TLS 1.2"
+          }
+,         {
+              "id"           : "BEAST",
+              "ip"           : "hackerone.net.cn/104.21.77.216",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "cve"          : "CVE-2011-3389",
+              "cwe"          : "CWE-20",
+              "finding"      : "VULNERABLE -- but also supports higher protocols  TLSv1.1 TLSv1.2 (likely mitigated)"
+          }
+,         {
+              "id"           : "LUCKY13",
+              "ip"           : "hackerone.net.cn/104.21.77.216",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "cve"          : "CVE-2013-0169",
+              "cwe"          : "CWE-310",
+              "finding"      : "potentially vulnerable, uses TLS CBC ciphers"
+          }
+,         {
+              "id"           : "winshock",
+              "ip"           : "hackerone.net.cn/104.21.77.216",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2014-6321",
+              "cwe"          : "CWE-94",
+              "finding"      : "not vulnerable"
+          }
+,         {
+              "id"           : "RC4",
+              "ip"           : "hackerone.net.cn/104.21.77.216",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2013-2566 CVE-2015-2808",
+              "cwe"          : "CWE-310",
+              "finding"      : "not vulnerable"
+          }
+,         {
+              "id"           : "clientsimulation-android_60",
+              "ip"           : "hackerone.net.cn/104.21.77.216",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-ECDSA-AES128-GCM-SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-android_70",
+              "ip"           : "hackerone.net.cn/104.21.77.216",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-ECDSA-AES128-GCM-SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-android_81",
+              "ip"           : "hackerone.net.cn/104.21.77.216",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-ECDSA-AES128-GCM-SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-android_90",
+              "ip"           : "hackerone.net.cn/104.21.77.216",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_128_GCM_SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-android_X",
+              "ip"           : "hackerone.net.cn/104.21.77.216",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_128_GCM_SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-android_11",
+              "ip"           : "hackerone.net.cn/104.21.77.216",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_128_GCM_SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-android_12",
+              "ip"           : "hackerone.net.cn/104.21.77.216",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_128_GCM_SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-chrome_79_win10",
+              "ip"           : "hackerone.net.cn/104.21.77.216",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_128_GCM_SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-chrome_101_win10",
+              "ip"           : "hackerone.net.cn/104.21.77.216",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_128_GCM_SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-firefox_66_win81",
+              "ip"           : "hackerone.net.cn/104.21.77.216",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_128_GCM_SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-firefox_100_win10",
+              "ip"           : "hackerone.net.cn/104.21.77.216",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_128_GCM_SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-ie_6_xp",
+              "ip"           : "hackerone.net.cn/104.21.77.216",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "No connection"
+          }
+,         {
+              "id"           : "clientsimulation-ie_8_win7",
+              "ip"           : "hackerone.net.cn/104.21.77.216",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.0 ECDHE-ECDSA-AES128-SHA"
+          }
+,         {
+              "id"           : "clientsimulation-ie_8_xp",
+              "ip"           : "hackerone.net.cn/104.21.77.216",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "No connection"
+          }
+,         {
+              "id"           : "clientsimulation-ie_11_win7",
+              "ip"           : "hackerone.net.cn/104.21.77.216",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-ECDSA-AES128-GCM-SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-ie_11_win81",
+              "ip"           : "hackerone.net.cn/104.21.77.216",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-ECDSA-AES128-GCM-SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-ie_11_winphone81",
+              "ip"           : "hackerone.net.cn/104.21.77.216",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-ECDSA-AES128-GCM-SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-ie_11_win10",
+              "ip"           : "hackerone.net.cn/104.21.77.216",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-ECDSA-AES128-GCM-SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-edge_15_win10",
+              "ip"           : "hackerone.net.cn/104.21.77.216",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-ECDSA-AES128-GCM-SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-edge_101_win10_21h2",
+              "ip"           : "hackerone.net.cn/104.21.77.216",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_128_GCM_SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-safari_121_ios_122",
+              "ip"           : "hackerone.net.cn/104.21.77.216",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_CHACHA20_POLY1305_SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-safari_130_osx_10146",
+              "ip"           : "hackerone.net.cn/104.21.77.216",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_CHACHA20_POLY1305_SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-safari_154_osx_1231",
+              "ip"           : "hackerone.net.cn/104.21.77.216",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_128_GCM_SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-java_7u25",
+              "ip"           : "hackerone.net.cn/104.21.77.216",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.0 ECDHE-ECDSA-AES128-SHA"
+          }
+,         {
+              "id"           : "clientsimulation-java_8u161",
+              "ip"           : "hackerone.net.cn/104.21.77.216",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-ECDSA-AES128-GCM-SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-java1102",
+              "ip"           : "hackerone.net.cn/104.21.77.216",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_128_GCM_SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-java1703",
+              "ip"           : "hackerone.net.cn/104.21.77.216",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_256_GCM_SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-go_1178",
+              "ip"           : "hackerone.net.cn/104.21.77.216",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_128_GCM_SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-libressl_283",
+              "ip"           : "hackerone.net.cn/104.21.77.216",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-ECDSA-CHACHA20-POLY1305"
+          }
+,         {
+              "id"           : "clientsimulation-openssl_102e",
+              "ip"           : "hackerone.net.cn/104.21.77.216",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-ECDSA-AES128-GCM-SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-openssl_110l",
+              "ip"           : "hackerone.net.cn/104.21.77.216",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-ECDSA-CHACHA20-POLY1305"
+          }
+,         {
+              "id"           : "clientsimulation-openssl_111d",
+              "ip"           : "hackerone.net.cn/104.21.77.216",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_256_GCM_SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-openssl_303",
+              "ip"           : "hackerone.net.cn/104.21.77.216",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_256_GCM_SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-apple_mail_16_0",
+              "ip"           : "hackerone.net.cn/104.21.77.216",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-ECDSA-AES128-GCM-SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-thunderbird_91_9",
+              "ip"           : "hackerone.net.cn/104.21.77.216",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_128_GCM_SHA256"
+          }
+,         {
+              "id"           : "rating_spec",
+              "ip"           : "hackerone.net.cn/104.21.77.216",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "SSL Labs's 'SSL Server Rating Guide' (version 2009q from 2020-01-30)"
+          }
+,         {
+              "id"           : "rating_doc",
+              "ip"           : "hackerone.net.cn/104.21.77.216",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "https://github.com/ssllabs/research/wiki/SSL-Server-Rating-Guide"
+          }
+,         {
+              "id"           : "protocol_support_score",
+              "ip"           : "hackerone.net.cn/104.21.77.216",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "95"
+          }
+,         {
+              "id"           : "protocol_support_score_weighted",
+              "ip"           : "hackerone.net.cn/104.21.77.216",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "28"
+          }
+,         {
+              "id"           : "key_exchange_score",
+              "ip"           : "hackerone.net.cn/104.21.77.216",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "100"
+          }
+,         {
+              "id"           : "key_exchange_score_weighted",
+              "ip"           : "hackerone.net.cn/104.21.77.216",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "30"
+          }
+,         {
+              "id"           : "cipher_strength_score",
+              "ip"           : "hackerone.net.cn/104.21.77.216",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "90"
+          }
+,         {
+              "id"           : "cipher_strength_score_weighted",
+              "ip"           : "hackerone.net.cn/104.21.77.216",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "36"
+          }
+,         {
+              "id"           : "final_score",
+              "ip"           : "hackerone.net.cn/104.21.77.216",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "94"
+          }
+,         {
+              "id"           : "overall_grade",
+              "ip"           : "hackerone.net.cn/104.21.77.216",
+              "port"         : "443",
+              "severity"     : "MEDIUM",
+              "finding"      : "B"
+          }
+,         {
+              "id"           : "grade_cap_reason_1",
+              "ip"           : "hackerone.net.cn/104.21.77.216",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "Grade capped to B. TLS 1.1 offered"
+          }
+,         {
+              "id"           : "grade_cap_reason_2",
+              "ip"           : "hackerone.net.cn/104.21.77.216",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "Grade capped to B. TLS 1.0 offered"
+          }
+,         {
+              "id"           : "service",
+              "ip"           : "hackerone.net.cn/172.67.211.231",
+              "port"         : "443",
+              "severity"     : "DEBUG",
+              "finding"      : "Couldn't determine service, skipping all HTTP checks"
+          }
+,         {
+              "id"           : "pre_128cipher",
+              "ip"           : "hackerone.net.cn/172.67.211.231",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "No 128 cipher limit bug"
+          }
+,         {
+              "id"           : "SSLv2",
+              "ip"           : "hackerone.net.cn/172.67.211.231",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "not offered"
+          }
+,         {
+              "id"           : "SSLv3",
+              "ip"           : "hackerone.net.cn/172.67.211.231",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "not offered"
+          }
+,         {
+              "id"           : "TLS1",
+              "ip"           : "hackerone.net.cn/172.67.211.231",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "offered (deprecated)"
+          }
+,         {
+              "id"           : "TLS1_1",
+              "ip"           : "hackerone.net.cn/172.67.211.231",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "offered (deprecated)"
+          }
+,         {
+              "id"           : "TLS1_2",
+              "ip"           : "hackerone.net.cn/172.67.211.231",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "offered"
+          }
+,         {
+              "id"           : "TLS1_3",
+              "ip"           : "hackerone.net.cn/172.67.211.231",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "offered with final"
+          }
+,         {
+              "id"           : "NPN",
+              "ip"           : "hackerone.net.cn/172.67.211.231",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "not offered"
+          }
+,         {
+              "id"           : "ALPN_HTTP2",
+              "ip"           : "hackerone.net.cn/172.67.211.231",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "h2"
+          }
+,         {
+              "id"           : "ALPN",
+              "ip"           : "hackerone.net.cn/172.67.211.231",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "http/1.1"
+          }
+,         {
+              "id"           : "cipherlist_NULL",
+              "ip"           : "hackerone.net.cn/172.67.211.231",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cwe"          : "CWE-327",
+              "finding"      : "not offered"
+          }
+,         {
+              "id"           : "cipherlist_aNULL",
+              "ip"           : "hackerone.net.cn/172.67.211.231",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cwe"          : "CWE-327",
+              "finding"      : "not offered"
+          }
+,         {
+              "id"           : "cipherlist_EXPORT",
+              "ip"           : "hackerone.net.cn/172.67.211.231",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cwe"          : "CWE-327",
+              "finding"      : "not offered"
+          }
+,         {
+              "id"           : "cipherlist_LOW",
+              "ip"           : "hackerone.net.cn/172.67.211.231",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cwe"          : "CWE-327",
+              "finding"      : "not offered"
+          }
+,         {
+              "id"           : "cipherlist_3DES_IDEA",
+              "ip"           : "hackerone.net.cn/172.67.211.231",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "cwe"          : "CWE-310",
+              "finding"      : "not offered"
+          }
+,         {
+              "id"           : "cipherlist_OBSOLETED",
+              "ip"           : "hackerone.net.cn/172.67.211.231",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "cwe"          : "CWE-310",
+              "finding"      : "offered"
+          }
+,         {
+              "id"           : "cipherlist_STRONG_NOFS",
+              "ip"           : "hackerone.net.cn/172.67.211.231",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "not offered"
+          }
+,         {
+              "id"           : "cipherlist_STRONG_FS",
+              "ip"           : "hackerone.net.cn/172.67.211.231",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "offered"
+          }
+,         {
+              "id"           : "cipher_order-tls1",
+              "ip"           : "hackerone.net.cn/172.67.211.231",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "server"
+          }
+,         {
+              "id"           : "cipher-tls1_xc009",
+              "ip"           : "hackerone.net.cn/172.67.211.231",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "TLSv1   xc009   ECDHE-ECDSA-AES128-SHA            ECDH       AES         128      TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA"
+          }
+,         {
+              "id"           : "cipher-tls1_xc00a",
+              "ip"           : "hackerone.net.cn/172.67.211.231",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "TLSv1   xc00a   ECDHE-ECDSA-AES256-SHA            ECDH       AES         256      TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA"
+          }
+,         {
+              "id"           : "cipherorder_TLSv1",
+              "ip"           : "hackerone.net.cn/172.67.211.231",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "ECDHE-ECDSA-AES128-SHA ECDHE-ECDSA-AES256-SHA"
+          }
+,         {
+              "id"           : "cipher_order-tls1_1",
+              "ip"           : "hackerone.net.cn/172.67.211.231",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "server"
+          }
+,         {
+              "id"           : "cipher-tls1_1_xc009",
+              "ip"           : "hackerone.net.cn/172.67.211.231",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "TLSv1.1   xc009   ECDHE-ECDSA-AES128-SHA            ECDH       AES         128      TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA"
+          }
+,         {
+              "id"           : "cipher-tls1_1_xc00a",
+              "ip"           : "hackerone.net.cn/172.67.211.231",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "TLSv1.1   xc00a   ECDHE-ECDSA-AES256-SHA            ECDH       AES         256      TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA"
+          }
+,         {
+              "id"           : "cipherorder_TLSv1_1",
+              "ip"           : "hackerone.net.cn/172.67.211.231",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "ECDHE-ECDSA-AES128-SHA ECDHE-ECDSA-AES256-SHA"
+          }
+,         {
+              "id"           : "cipher_order-tls1_2",
+              "ip"           : "hackerone.net.cn/172.67.211.231",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "server -- server prioritizes ChaCha ciphers when preferred by clients"
+          }
+,         {
+              "id"           : "cipher-tls1_2_xc02b",
+              "ip"           : "hackerone.net.cn/172.67.211.231",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "TLSv1.2   xc02b   ECDHE-ECDSA-AES128-GCM-SHA256     ECDH       AESGCM      128      TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256"
+          }
+,         {
+              "id"           : "cipher-tls1_2_xcca9",
+              "ip"           : "hackerone.net.cn/172.67.211.231",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "TLSv1.2   xcca9   ECDHE-ECDSA-CHACHA20-POLY1305     ECDH       ChaCha20    256      TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256"
+          }
+,         {
+              "id"           : "cipher-tls1_2_xc009",
+              "ip"           : "hackerone.net.cn/172.67.211.231",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "TLSv1.2   xc009   ECDHE-ECDSA-AES128-SHA            ECDH       AES         128      TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA"
+          }
+,         {
+              "id"           : "cipher-tls1_2_xc02c",
+              "ip"           : "hackerone.net.cn/172.67.211.231",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "TLSv1.2   xc02c   ECDHE-ECDSA-AES256-GCM-SHA384     ECDH       AESGCM      256      TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384"
+          }
+,         {
+              "id"           : "cipher-tls1_2_xc00a",
+              "ip"           : "hackerone.net.cn/172.67.211.231",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "TLSv1.2   xc00a   ECDHE-ECDSA-AES256-SHA            ECDH       AES         256      TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA"
+          }
+,         {
+              "id"           : "cipher-tls1_2_xc023",
+              "ip"           : "hackerone.net.cn/172.67.211.231",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "TLSv1.2   xc023   ECDHE-ECDSA-AES128-SHA256         ECDH       AES         128      TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256"
+          }
+,         {
+              "id"           : "cipher-tls1_2_xc024",
+              "ip"           : "hackerone.net.cn/172.67.211.231",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "TLSv1.2   xc024   ECDHE-ECDSA-AES256-SHA384         ECDH       AES         256      TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384"
+          }
+,         {
+              "id"           : "cipherorder_TLSv1_2",
+              "ip"           : "hackerone.net.cn/172.67.211.231",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "ECDHE-ECDSA-AES128-GCM-SHA256 ECDHE-ECDSA-CHACHA20-POLY1305 ECDHE-ECDSA-AES128-SHA ECDHE-ECDSA-AES256-GCM-SHA384 ECDHE-ECDSA-AES256-SHA ECDHE-ECDSA-AES128-SHA256 ECDHE-ECDSA-AES256-SHA384"
+          }
+,         {
+              "id"           : "prioritize_chacha_TLSv1_2",
+              "ip"           : "hackerone.net.cn/172.67.211.231",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "true"
+          }
+,         {
+              "id"           : "cipher_order-tls1_3",
+              "ip"           : "hackerone.net.cn/172.67.211.231",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "NOT a cipher order configured"
+          }
+,         {
+              "id"           : "cipher-tls1_3_x1302",
+              "ip"           : "hackerone.net.cn/172.67.211.231",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "TLSv1.3   x1302   TLS_AES_256_GCM_SHA384                       AESGCM      256      TLS_AES_256_GCM_SHA384"
+          }
+,         {
+              "id"           : "cipher-tls1_3_x1303",
+              "ip"           : "hackerone.net.cn/172.67.211.231",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "TLSv1.3   x1303   TLS_CHACHA20_POLY1305_SHA256                 ChaCha20    256      TLS_CHACHA20_POLY1305_SHA256"
+          }
+,         {
+              "id"           : "cipher-tls1_3_x1301",
+              "ip"           : "hackerone.net.cn/172.67.211.231",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "TLSv1.3   x1301   TLS_AES_128_GCM_SHA256                       AESGCM      128      TLS_AES_128_GCM_SHA256"
+          }
+,         {
+              "id"           : "supportedciphers_TLSv1_3",
+              "ip"           : "hackerone.net.cn/172.67.211.231",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLS_AES_256_GCM_SHA384 TLS_CHACHA20_POLY1305_SHA256 TLS_AES_128_GCM_SHA256"
+          }
+,         {
+              "id"           : "cipher_order",
+              "ip"           : "hackerone.net.cn/172.67.211.231",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "server -- TLS 1.3 client determined"
+          }
+,         {
+              "id"           : "FS",
+              "ip"           : "hackerone.net.cn/172.67.211.231",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "offered"
+          }
+,         {
+              "id"           : "FS_ciphers",
+              "ip"           : "hackerone.net.cn/172.67.211.231",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLS_AES_256_GCM_SHA384 TLS_CHACHA20_POLY1305_SHA256 ECDHE-ECDSA-AES256-GCM-SHA384 ECDHE-ECDSA-AES256-SHA384 ECDHE-ECDSA-AES256-SHA ECDHE-ECDSA-CHACHA20-POLY1305 TLS_AES_128_GCM_SHA256 ECDHE-ECDSA-AES128-GCM-SHA256 ECDHE-ECDSA-AES128-SHA256 ECDHE-ECDSA-AES128-SHA"
+          }
+,         {
+              "id"           : "FS_KEMs",
+              "ip"           : "hackerone.net.cn/172.67.211.231",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "X25519MLKEM768 X25519Kyber768Draft00"
+          }
+,         {
+              "id"           : "FS_ECDHE_curves",
+              "ip"           : "hackerone.net.cn/172.67.211.231",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "prime256v1 secp384r1 secp521r1 X25519"
+          }
+,         {
+              "id"           : "FS_TLS12_sig_algs",
+              "ip"           : "hackerone.net.cn/172.67.211.231",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "ECDSA+SHA256 ECDSA+SHA384 ECDSA+SHA512 ECDSA+SHA1"
+          }
+,         {
+              "id"           : "FS_TLS13_sig_algs",
+              "ip"           : "hackerone.net.cn/172.67.211.231",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "ECDSA+SHA256"
+          }
+,         {
+              "id"           : "TLS_extensions",
+              "ip"           : "hackerone.net.cn/172.67.211.231",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "'server name/#0' 'renegotiation info/#65281' 'EC point formats/#11' 'session ticket/#35' 'status request/#5' 'next protocol/#13172' 'key share/#51' 'supported versions/#43' 'extended master secret/#23' 'application layer protocol negotiation/#16' 'compress_certificate/#27'"
+          }
+,         {
+              "id"           : "TLS_session_ticket",
+              "ip"           : "hackerone.net.cn/172.67.211.231",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "valid for 64800 seconds only (<daily)"
+          }
+,         {
+              "id"           : "SSL_sessionID_support",
+              "ip"           : "hackerone.net.cn/172.67.211.231",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "yes"
+          }
+,         {
+              "id"           : "sessionresumption_ticket",
+              "ip"           : "hackerone.net.cn/172.67.211.231",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "supported"
+          }
+,         {
+              "id"           : "sessionresumption_ID",
+              "ip"           : "hackerone.net.cn/172.67.211.231",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "not supported"
+          }
+,         {
+              "id"           : "TLS_timestamp",
+              "ip"           : "hackerone.net.cn/172.67.211.231",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "off by 0 seconds from your localtime"
+          }
+,         {
+              "id"           : "certificate_compression",
+              "ip"           : "hackerone.net.cn/172.67.211.231",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "0002/Brotli"
+          }
+,         {
+              "id"           : "clientAuth",
+              "ip"           : "hackerone.net.cn/172.67.211.231",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "none"
+          }
+,         {
+              "id"           : "cert_numbers",
+              "ip"           : "hackerone.net.cn/172.67.211.231",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "1"
+          }
+,         {
+              "id"           : "cert_signatureAlgorithm",
+              "ip"           : "hackerone.net.cn/172.67.211.231",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "ECDSA with SHA256"
+          }
+,         {
+              "id"           : "cert_keySize",
+              "ip"           : "hackerone.net.cn/172.67.211.231",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "EC 256 bits (curve P-256)"
+          }
+,         {
+              "id"           : "cert_keyUsage",
+              "ip"           : "hackerone.net.cn/172.67.211.231",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "Digital Signature"
+          }
+,         {
+              "id"           : "cert_extKeyUsage",
+              "ip"           : "hackerone.net.cn/172.67.211.231",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLS Web Server Authentication"
+          }
+,         {
+              "id"           : "cert_serialNumber",
+              "ip"           : "hackerone.net.cn/172.67.211.231",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "253D35092908B776110B43A00E46A2CE"
+          }
+,         {
+              "id"           : "cert_serialNumberLen",
+              "ip"           : "hackerone.net.cn/172.67.211.231",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "16"
+          }
+,         {
+              "id"           : "cert_fingerprintSHA1",
+              "ip"           : "hackerone.net.cn/172.67.211.231",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "3A4D1E55956D293B74A9E70CE490CC755623C4FB"
+          }
+,         {
+              "id"           : "cert_fingerprintSHA256",
+              "ip"           : "hackerone.net.cn/172.67.211.231",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "A7116CEA2B77CAEB6D75AD2E0EC9B67955D7C71C60C637EDDCDFAF46C02269FA"
+          }
+,         {
+              "id"           : "cert",
+              "ip"           : "hackerone.net.cn/172.67.211.231",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "-----BEGIN CERTIFICATE-----\nMIIDsTCCA1igAwIBAgIQJT01CSkIt3YRC0OgDkaizjAKBggqhkjOPQQDAjA7MQswCQYDVQQGEwJVUzEeMBwGA1UEChMVR29vZ2xlIFRydXN0IFNlcnZpY2VzMQwwCgYDVQQDEwNXRTEwHhcNMjUwNDIzMjI0NTQ2WhcNMjUwNzIyMjM0MzU2WjAbMRkwFwYDVQQDExBoYWNrZXJvbmUubmV0LmNuMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE0Dp4xN3qVkqHu8yrLNPg9iS4xJCV+0WzHeul24hLD8PknIkjAwq8hm6H+q0FRhR0JMeYFr79syTD8qKt7yXTpKOCAlwwggJYMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEFBQcDATAMBgNVHRMBAf8EAjAAMB0GA1UdDgQWBBTLbRlbL32vXhxeU3SdoEKnTowi+DAfBgNVHSMEGDAWgBSQd5I1Z8T/qMyp5nvZgHl7zJP5ODBeBggrBgEFBQcBAQRSMFAwJwYIKwYBBQUHMAGGG2h0dHA6Ly9vLnBraS5nb29nL3Mvd2UxL0pUMDAlBggrBgEFBQcwAoYZaHR0cDovL2kucGtpLmdvb2cvd2UxLmNydDAvBgNVHREEKDAmghBoYWNrZXJvbmUubmV0LmNughIqLmhhY2tlcm9uZS5uZXQuY24wEwYDVR0gBAwwCjAIBgZngQwBAgEwNgYDVR0fBC8wLTAroCmgJ4YlaHR0cDovL2MucGtpLmdvb2cvd2UxL3BuRGxrV2xjTmVJLmNybDCCAQMGCisGAQQB1nkCBAIEgfQEgfEA7wB2AH1ZHhLheCp7HGFnfF79+NCHXBSgTpWeuQMv2Q6MLnm4AAABlmULFWMAAAQDAEcwRQIgQOPRfCC48uij1iL1flN1mxzY9hjPghEvgV5YvTKQqtsCIQDp+jKy6FINUDWzqRtUp7j9O7gQl38/3A+l+qLOr4uCZwB1AN3cyjSV1+EWBeeVMvrHn/g9HFDf2wA6FBJ2Ciysu8gqAAABlmULFXkAAAQDAEYwRAIgXVOR0Lkg4nEOkcyTurMcYAQ//a57UvW9LFyMKNgvxCkCIGs42l59s83K3a9Opn7CIp4BoFkph+6tn0yUR89oGaxhMAoGCCqGSM49BAMCA0cAMEQCIGjY6FyrM6KdzNX+Q11EfWxRugdK9H+sUwhmY+lAy0hQAiAGYBucdM7OwuYRulPI42S69wRerClOnzM/IFlOrZ1iWA==\n-----END CERTIFICATE-----"
+          }
+,         {
+              "id"           : "cert_commonName",
+              "ip"           : "hackerone.net.cn/172.67.211.231",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "hackerone.net.cn"
+          }
+,         {
+              "id"           : "cert_commonName_wo_SNI",
+              "ip"           : "hackerone.net.cn/172.67.211.231",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "request w/o SNI didn't succeed, usual for EC certificates"
+          }
+,         {
+              "id"           : "cert_subjectAltName",
+              "ip"           : "hackerone.net.cn/172.67.211.231",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "hackerone.net.cn *.hackerone.net.cn"
+          }
+,         {
+              "id"           : "cert_trust",
+              "ip"           : "hackerone.net.cn/172.67.211.231",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "Ok via SAN and CN (SNI mandatory)"
+          }
+,         {
+              "id"           : "cert_chain_of_trust",
+              "ip"           : "hackerone.net.cn/172.67.211.231",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "passed."
+          }
+,         {
+              "id"           : "cert_certificatePolicies_EV",
+              "ip"           : "hackerone.net.cn/172.67.211.231",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "no"
+          }
+,         {
+              "id"           : "cert_expirationStatus",
+              "ip"           : "hackerone.net.cn/172.67.211.231",
+              "port"         : "443",
+              "severity"     : "MEDIUM",
+              "finding"      : "expires < 60 days (39)"
+          }
+,         {
+              "id"           : "cert_notBefore",
+              "ip"           : "hackerone.net.cn/172.67.211.231",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "2025-04-23 22:45"
+          }
+,         {
+              "id"           : "cert_notAfter",
+              "ip"           : "hackerone.net.cn/172.67.211.231",
+              "port"         : "443",
+              "severity"     : "MEDIUM",
+              "finding"      : "2025-07-22 23:43"
+          }
+,         {
+              "id"           : "cert_extlifeSpan",
+              "ip"           : "hackerone.net.cn/172.67.211.231",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "certificate has no extended life time according to browser forum"
+          }
+,         {
+              "id"           : "cert_eTLS",
+              "ip"           : "hackerone.net.cn/172.67.211.231",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "not present"
+          }
+,         {
+              "id"           : "cert_crlDistributionPoints",
+              "ip"           : "hackerone.net.cn/172.67.211.231",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "http://c.pki.goog/we1/pnDlkWlcNeI.crl"
+          }
+,         {
+              "id"           : "cert_ocspURL",
+              "ip"           : "hackerone.net.cn/172.67.211.231",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "http://o.pki.goog/s/we1/JT0"
+          }
+,         {
+              "id"           : "OCSP_stapling",
+              "ip"           : "hackerone.net.cn/172.67.211.231",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "offered"
+          }
+,         {
+              "id"           : "cert_ocspRevoked",
+              "ip"           : "hackerone.net.cn/172.67.211.231",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "not revoked"
+          }
+,         {
+              "id"           : "cert_mustStapleExtension",
+              "ip"           : "hackerone.net.cn/172.67.211.231",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "--"
+          }
+,         {
+              "id"           : "DNS_CAArecord",
+              "ip"           : "hackerone.net.cn/172.67.211.231",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "--"
+          }
+,         {
+              "id"           : "certificate_transparency",
+              "ip"           : "hackerone.net.cn/172.67.211.231",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "yes (certificate extension)"
+          }
+,         {
+              "id"           : "certs_countServer",
+              "ip"           : "hackerone.net.cn/172.67.211.231",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "3"
+          }
+,         {
+              "id"           : "certs_list_ordering_problem",
+              "ip"           : "hackerone.net.cn/172.67.211.231",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "no"
+          }
+,         {
+              "id"           : "cert_caIssuers",
+              "ip"           : "hackerone.net.cn/172.67.211.231",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "WE1 (Google Trust Services from US)"
+          }
+,         {
+              "id"           : "intermediate_cert <#1>",
+              "ip"           : "hackerone.net.cn/172.67.211.231",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "-----BEGIN CERTIFICATE-----\nMIICnzCCAiWgAwIBAgIQf/MZd5csIkp2FV0TttaF4zAKBggqhkjOPQQDAzBHMQswCQYDVQQGEwJVUzEiMCAGA1UEChMZR29vZ2xlIFRydXN0IFNlcnZpY2VzIExMQzEUMBIGA1UEAxMLR1RTIFJvb3QgUjQwHhcNMjMxMjEzMDkwMDAwWhcNMjkwMjIwMTQwMDAwWjA7MQswCQYDVQQGEwJVUzEeMBwGA1UEChMVR29vZ2xlIFRydXN0IFNlcnZpY2VzMQwwCgYDVQQDEwNXRTEwWTATBgcqhkjOPQIBBggqhkjOPQMBBwNCAARvzTr+Z1dHTCEDhUDCR127WEcPQMFcF4XGGTfn1XzthkubgdnXGhOlCgP4mMTG6J7/EFmPLCaY9eYmJbsPAvpWo4H+MIH7MA4GA1UdDwEB/wQEAwIBhjAdBgNVHSUEFjAUBggrBgEFBQcDAQYIKwYBBQUHAwIwEgYDVR0TAQH/BAgwBgEB/wIBADAdBgNVHQ4EFgQUkHeSNWfE/6jMqeZ72YB5e8yT+TgwHwYDVR0jBBgwFoAUgEzW63T/STaj1dj8tT7FavCUHYwwNAYIKwYBBQUHAQEEKDAmMCQGCCsGAQUFBzAChhhodHRwOi8vaS5wa2kuZ29vZy9yNC5jcnQwKwYDVR0fBCQwIjAgoB6gHIYaaHR0cDovL2MucGtpLmdvb2cvci9yNC5jcmwwEwYDVR0gBAwwCjAIBgZngQwBAgEwCgYIKoZIzj0EAwMDaAAwZQIxAOcCq1HW90OVznX+0RGU1cxAQXomvtgM8zItPZCuFQ8jSBJSjz5keROv9aYsAm5VsQIwJonMaAFi54mrfhfoFNZEfuNMSQ6/bIBiNLiyoX46FohQvKeIoJ99cx7sUkFN7uJW\n-----END CERTIFICATE-----"
+          }
+,         {
+              "id"           : "intermediate_cert_fingerprintSHA256 <#1>",
+              "ip"           : "hackerone.net.cn/172.67.211.231",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "1DFC1605FBAD358D8BC844F76D15203FAC9CA5C1A79FD4857FFAF2864FBEBF96"
+          }
+,         {
+              "id"           : "intermediate_cert_notBefore <#1>",
+              "ip"           : "hackerone.net.cn/172.67.211.231",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "2023-12-13 09:00"
+          }
+,         {
+              "id"           : "intermediate_cert_notAfter <#1>",
+              "ip"           : "hackerone.net.cn/172.67.211.231",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "2029-02-20 14:00"
+          }
+,         {
+              "id"           : "intermediate_cert_expiration <#1>",
+              "ip"           : "hackerone.net.cn/172.67.211.231",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "ok > 40 days"
+          }
+,         {
+              "id"           : "intermediate_cert_chain <#1>",
+              "ip"           : "hackerone.net.cn/172.67.211.231",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "WE1 <-- GTS Root R4"
+          }
+,         {
+              "id"           : "intermediate_cert <#2>",
+              "ip"           : "hackerone.net.cn/172.67.211.231",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "-----BEGIN CERTIFICATE-----\nMIIDejCCAmKgAwIBAgIQf+UwvzMTQ77dghYQST2KGzANBgkqhkiG9w0BAQsFADBXMQswCQYDVQQGEwJCRTEZMBcGA1UEChMQR2xvYmFsU2lnbiBudi1zYTEQMA4GA1UECxMHUm9vdCBDQTEbMBkGA1UEAxMSR2xvYmFsU2lnbiBSb290IENBMB4XDTIzMTExNTAzNDMyMVoXDTI4MDEyODAwMDA0MlowRzELMAkGA1UEBhMCVVMxIjAgBgNVBAoTGUdvb2dsZSBUcnVzdCBTZXJ2aWNlcyBMTEMxFDASBgNVBAMTC0dUUyBSb290IFI0MHYwEAYHKoZIzj0CAQYFK4EEACIDYgAE83Rzp2iLYK5DuDXFgTB7S0md+8FhzubeRr1r1WEYNa5A3XP3iZEwWus87oV8okB2O6nGuEfYKueSkWpz6bFyOZ8pn6KY019eWIZlD6GEZQbR3IvJx3PIjGov5cSr0R2Ko4H/MIH8MA4GA1UdDwEB/wQEAwIBhjAdBgNVHSUEFjAUBggrBgEFBQcDAQYIKwYBBQUHAwIwDwYDVR0TAQH/BAUwAwEB/zAdBgNVHQ4EFgQUgEzW63T/STaj1dj8tT7FavCUHYwwHwYDVR0jBBgwFoAUYHtmGkUNl8qJUC99BM00qP/8/UswNgYIKwYBBQUHAQEEKjAoMCYGCCsGAQUFBzAChhpodHRwOi8vaS5wa2kuZ29vZy9nc3IxLmNydDAtBgNVHR8EJjAkMCKgIKAehhxodHRwOi8vYy5wa2kuZ29vZy9yL2dzcjEuY3JsMBMGA1UdIAQMMAowCAYGZ4EMAQIBMA0GCSqGSIb3DQEBCwUAA4IBAQAYQrsPBtYDh5bjP2OBDwmkoWhIDDkic574y04tfzHpn+cJodI2D4SseesQ6bDrarZ7C30ddLibZatoKiws3UL9xnELz4ct92vID24FfVbiI1hY+SW6FoVHkNeWIP0GCbaM4C6uVdF5dTUsMVs/ZbzNnIdCp5Gxmx5ejvEau8otR/CskGN+hr/W5GvT1tMBjgWKZ1i4//emhA1JG1BbPzoLJQvyEotc03lXjTaCzv8mEbep8RqZ7a2CPsgRbuvTPBwcOMBBmuFeU88+FSBX6+7iP0il8b4Z0QFqIwwMHfs/L6K1vepuoxtGzi4CZ68zJpiq1UvSqTbFJjtbD4seiMHl\n-----END CERTIFICATE-----"
+          }
+,         {
+              "id"           : "intermediate_cert_fingerprintSHA256 <#2>",
+              "ip"           : "hackerone.net.cn/172.67.211.231",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "76B27B80A58027DC3CF1DA68DAC17010ED93997D0B603E2FADBE85012493B5A7"
+          }
+,         {
+              "id"           : "intermediate_cert_notBefore <#2>",
+              "ip"           : "hackerone.net.cn/172.67.211.231",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "2023-11-15 03:43"
+          }
+,         {
+              "id"           : "intermediate_cert_notAfter <#2>",
+              "ip"           : "hackerone.net.cn/172.67.211.231",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "2028-01-28 00:00"
+          }
+,         {
+              "id"           : "intermediate_cert_expiration <#2>",
+              "ip"           : "hackerone.net.cn/172.67.211.231",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "ok > 40 days"
+          }
+,         {
+              "id"           : "intermediate_cert_chain <#2>",
+              "ip"           : "hackerone.net.cn/172.67.211.231",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "GTS Root R4 <-- GlobalSign Root CA"
+          }
+,         {
+              "id"           : "intermediate_cert_badOCSP",
+              "ip"           : "hackerone.net.cn/172.67.211.231",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "intermediate certificate(s) is/are ok"
+          }
+,         {
+              "id"           : "heartbleed",
+              "ip"           : "hackerone.net.cn/172.67.211.231",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2014-0160",
+              "cwe"          : "CWE-119",
+              "finding"      : "not vulnerable, no heartbeat extension"
+          }
+,         {
+              "id"           : "CCS",
+              "ip"           : "hackerone.net.cn/172.67.211.231",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2014-0224",
+              "cwe"          : "CWE-310",
+              "finding"      : "not vulnerable"
+          }
+,         {
+              "id"           : "ticketbleed",
+              "ip"           : "hackerone.net.cn/172.67.211.231",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "cve"          : "CVE-2016-9244",
+              "cwe"          : "CWE-200",
+              "finding"      : "not applicable, not HTTP"
+          }
+,         {
+              "id"           : "ROBOT",
+              "ip"           : "hackerone.net.cn/172.67.211.231",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2017-17382 CVE-2017-17427 CVE-2017-17428 CVE-2017-13098 CVE-2017-1000385 CVE-2017-13099 CVE-2016-6883 CVE-2012-5081 CVE-2017-6168",
+              "cwe"          : "CWE-203",
+              "finding"      : "not vulnerable, no RSA key transport cipher"
+          }
+,         {
+              "id"           : "secure_renego",
+              "ip"           : "hackerone.net.cn/172.67.211.231",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cwe"          : "CWE-310",
+              "finding"      : "supported"
+          }
+,         {
+              "id"           : "secure_client_renego",
+              "ip"           : "hackerone.net.cn/172.67.211.231",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2011-1473",
+              "cwe"          : "CWE-310",
+              "finding"      : "not vulnerable"
+          }
+,         {
+              "id"           : "CRIME_TLS",
+              "ip"           : "hackerone.net.cn/172.67.211.231",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2012-4929",
+              "cwe"          : "CWE-310",
+              "finding"      : "not vulnerable (not using HTTP anyway)"
+          }
+,         {
+              "id"           : "POODLE_SSL",
+              "ip"           : "hackerone.net.cn/172.67.211.231",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2014-3566",
+              "cwe"          : "CWE-310",
+              "finding"      : "not vulnerable, no SSLv3"
+          }
+,         {
+              "id"           : "fallback_SCSV",
+              "ip"           : "hackerone.net.cn/172.67.211.231",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "supported"
+          }
+,         {
+              "id"           : "SWEET32",
+              "ip"           : "hackerone.net.cn/172.67.211.231",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2016-2183 CVE-2016-6329",
+              "cwe"          : "CWE-327",
+              "finding"      : "not vulnerable"
+          }
+,         {
+              "id"           : "FREAK",
+              "ip"           : "hackerone.net.cn/172.67.211.231",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2015-0204",
+              "cwe"          : "CWE-310",
+              "finding"      : "not vulnerable"
+          }
+,         {
+              "id"           : "DROWN",
+              "ip"           : "hackerone.net.cn/172.67.211.231",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2016-0800 CVE-2016-0703",
+              "cwe"          : "CWE-310",
+              "finding"      : "not vulnerable on this host and port"
+          }
+,         {
+              "id"           : "DROWN_hint",
+              "ip"           : "hackerone.net.cn/172.67.211.231",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "cve"          : "CVE-2016-0800 CVE-2016-0703",
+              "cwe"          : "CWE-310",
+              "finding"      : "no RSA certificate, can't be used with SSLv2 elsewhere"
+          }
+,         {
+              "id"           : "LOGJAM",
+              "ip"           : "hackerone.net.cn/172.67.211.231",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2015-4000",
+              "cwe"          : "CWE-310",
+              "finding"      : "not vulnerable, no DH EXPORT ciphers,"
+          }
+,         {
+              "id"           : "LOGJAM-common_primes",
+              "ip"           : "hackerone.net.cn/172.67.211.231",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2015-4000",
+              "cwe"          : "CWE-310",
+              "finding"      : "no DH key with <= TLS 1.2"
+          }
+,         {
+              "id"           : "BEAST",
+              "ip"           : "hackerone.net.cn/172.67.211.231",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "cve"          : "CVE-2011-3389",
+              "cwe"          : "CWE-20",
+              "finding"      : "VULNERABLE -- but also supports higher protocols  TLSv1.1 TLSv1.2 (likely mitigated)"
+          }
+,         {
+              "id"           : "LUCKY13",
+              "ip"           : "hackerone.net.cn/172.67.211.231",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "cve"          : "CVE-2013-0169",
+              "cwe"          : "CWE-310",
+              "finding"      : "potentially vulnerable, uses TLS CBC ciphers"
+          }
+,         {
+              "id"           : "winshock",
+              "ip"           : "hackerone.net.cn/172.67.211.231",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2014-6321",
+              "cwe"          : "CWE-94",
+              "finding"      : "not vulnerable"
+          }
+,         {
+              "id"           : "RC4",
+              "ip"           : "hackerone.net.cn/172.67.211.231",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2013-2566 CVE-2015-2808",
+              "cwe"          : "CWE-310",
+              "finding"      : "not vulnerable"
+          }
+,         {
+              "id"           : "clientsimulation-android_60",
+              "ip"           : "hackerone.net.cn/172.67.211.231",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-ECDSA-AES128-GCM-SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-android_70",
+              "ip"           : "hackerone.net.cn/172.67.211.231",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-ECDSA-AES128-GCM-SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-android_81",
+              "ip"           : "hackerone.net.cn/172.67.211.231",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-ECDSA-AES128-GCM-SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-android_90",
+              "ip"           : "hackerone.net.cn/172.67.211.231",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_128_GCM_SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-android_X",
+              "ip"           : "hackerone.net.cn/172.67.211.231",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_128_GCM_SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-android_11",
+              "ip"           : "hackerone.net.cn/172.67.211.231",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_128_GCM_SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-android_12",
+              "ip"           : "hackerone.net.cn/172.67.211.231",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_128_GCM_SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-chrome_79_win10",
+              "ip"           : "hackerone.net.cn/172.67.211.231",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_128_GCM_SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-chrome_101_win10",
+              "ip"           : "hackerone.net.cn/172.67.211.231",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_128_GCM_SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-firefox_66_win81",
+              "ip"           : "hackerone.net.cn/172.67.211.231",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_128_GCM_SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-firefox_100_win10",
+              "ip"           : "hackerone.net.cn/172.67.211.231",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_128_GCM_SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-ie_6_xp",
+              "ip"           : "hackerone.net.cn/172.67.211.231",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "No connection"
+          }
+,         {
+              "id"           : "clientsimulation-ie_8_win7",
+              "ip"           : "hackerone.net.cn/172.67.211.231",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.0 ECDHE-ECDSA-AES128-SHA"
+          }
+,         {
+              "id"           : "clientsimulation-ie_8_xp",
+              "ip"           : "hackerone.net.cn/172.67.211.231",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "No connection"
+          }
+,         {
+              "id"           : "clientsimulation-ie_11_win7",
+              "ip"           : "hackerone.net.cn/172.67.211.231",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-ECDSA-AES128-GCM-SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-ie_11_win81",
+              "ip"           : "hackerone.net.cn/172.67.211.231",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-ECDSA-AES128-GCM-SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-ie_11_winphone81",
+              "ip"           : "hackerone.net.cn/172.67.211.231",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-ECDSA-AES128-GCM-SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-ie_11_win10",
+              "ip"           : "hackerone.net.cn/172.67.211.231",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-ECDSA-AES128-GCM-SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-edge_15_win10",
+              "ip"           : "hackerone.net.cn/172.67.211.231",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-ECDSA-AES128-GCM-SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-edge_101_win10_21h2",
+              "ip"           : "hackerone.net.cn/172.67.211.231",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_128_GCM_SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-safari_121_ios_122",
+              "ip"           : "hackerone.net.cn/172.67.211.231",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_CHACHA20_POLY1305_SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-safari_130_osx_10146",
+              "ip"           : "hackerone.net.cn/172.67.211.231",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_CHACHA20_POLY1305_SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-safari_154_osx_1231",
+              "ip"           : "hackerone.net.cn/172.67.211.231",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_128_GCM_SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-java_7u25",
+              "ip"           : "hackerone.net.cn/172.67.211.231",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.0 ECDHE-ECDSA-AES128-SHA"
+          }
+,         {
+              "id"           : "clientsimulation-java_8u161",
+              "ip"           : "hackerone.net.cn/172.67.211.231",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-ECDSA-AES128-GCM-SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-java1102",
+              "ip"           : "hackerone.net.cn/172.67.211.231",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_128_GCM_SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-java1703",
+              "ip"           : "hackerone.net.cn/172.67.211.231",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_256_GCM_SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-go_1178",
+              "ip"           : "hackerone.net.cn/172.67.211.231",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_128_GCM_SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-libressl_283",
+              "ip"           : "hackerone.net.cn/172.67.211.231",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-ECDSA-CHACHA20-POLY1305"
+          }
+,         {
+              "id"           : "clientsimulation-openssl_102e",
+              "ip"           : "hackerone.net.cn/172.67.211.231",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-ECDSA-AES128-GCM-SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-openssl_110l",
+              "ip"           : "hackerone.net.cn/172.67.211.231",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-ECDSA-CHACHA20-POLY1305"
+          }
+,         {
+              "id"           : "clientsimulation-openssl_111d",
+              "ip"           : "hackerone.net.cn/172.67.211.231",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_256_GCM_SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-openssl_303",
+              "ip"           : "hackerone.net.cn/172.67.211.231",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_256_GCM_SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-apple_mail_16_0",
+              "ip"           : "hackerone.net.cn/172.67.211.231",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-ECDSA-AES128-GCM-SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-thunderbird_91_9",
+              "ip"           : "hackerone.net.cn/172.67.211.231",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_128_GCM_SHA256"
+          }
+,         {
+              "id"           : "rating_spec",
+              "ip"           : "hackerone.net.cn/172.67.211.231",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "SSL Labs's 'SSL Server Rating Guide' (version 2009q from 2020-01-30)"
+          }
+,         {
+              "id"           : "rating_doc",
+              "ip"           : "hackerone.net.cn/172.67.211.231",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "https://github.com/ssllabs/research/wiki/SSL-Server-Rating-Guide"
+          }
+,         {
+              "id"           : "protocol_support_score",
+              "ip"           : "hackerone.net.cn/172.67.211.231",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "95"
+          }
+,         {
+              "id"           : "protocol_support_score_weighted",
+              "ip"           : "hackerone.net.cn/172.67.211.231",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "28"
+          }
+,         {
+              "id"           : "key_exchange_score",
+              "ip"           : "hackerone.net.cn/172.67.211.231",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "100"
+          }
+,         {
+              "id"           : "key_exchange_score_weighted",
+              "ip"           : "hackerone.net.cn/172.67.211.231",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "30"
+          }
+,         {
+              "id"           : "cipher_strength_score",
+              "ip"           : "hackerone.net.cn/172.67.211.231",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "90"
+          }
+,         {
+              "id"           : "cipher_strength_score_weighted",
+              "ip"           : "hackerone.net.cn/172.67.211.231",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "36"
+          }
+,         {
+              "id"           : "final_score",
+              "ip"           : "hackerone.net.cn/172.67.211.231",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "94"
+          }
+,         {
+              "id"           : "overall_grade",
+              "ip"           : "hackerone.net.cn/172.67.211.231",
+              "port"         : "443",
+              "severity"     : "MEDIUM",
+              "finding"      : "B"
+          }
+,         {
+              "id"           : "grade_cap_reason_1",
+              "ip"           : "hackerone.net.cn/172.67.211.231",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "Grade capped to B. TLS 1.1 offered"
+          }
+,         {
+              "id"           : "grade_cap_reason_2",
+              "ip"           : "hackerone.net.cn/172.67.211.231",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "Grade capped to B. TLS 1.0 offered"
+          }
+,         {
+              "id"           : "scanTime",
+              "ip"           : "hackerone.net.cn/172.67.211.231",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "170"
+          }
+]

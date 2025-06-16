@@ -1,0 +1,16 @@
+[
+         {
+              "id"           : "scanProblem",
+              "ip"           : "preprod.mobilierdefrance.com/20.199.76.169",
+              "port"         : "443",
+              "severity"     : "FATAL",
+              "finding"      : "Can't connect to '20.199.76.169:443' Make sure a firewall is not between you and your scanning target!"
+          }
+,         {
+              "id"           : "scanTime",
+              "ip"           : "preprod.mobilierdefrance.com/20.199.76.169",
+              "port"         : "443",
+              "severity"     : "WARN",
+              "finding"      : "Scan interrupted"
+          }
+]

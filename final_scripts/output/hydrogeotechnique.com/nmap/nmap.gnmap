@@ -1,0 +1,34 @@
+# Nmap 7.95 scan initiated Thu Jun 12 14:14:28 2025 as: /usr/lib/nmap/nmap -T3 -Pn --top-ports 100 --open -iL output/hydrogeotechnique.com/amass/amass_output.txt -oA output/hydrogeotechnique.com/nmap/nmap
+Host: 212.129.39.95 (semafore.hydrogeotechnique.com)	Status: Up
+Host: 212.129.39.95 (semafore.hydrogeotechnique.com)	Ports: 80/open/tcp//http///, 443/open/tcp//https///	Ignored State: filtered (98)
+Host: 109.234.164.174 (109-234-164-174.reverse.odns.fr)	Status: Up
+Host: 109.234.164.174 (109-234-164-174.reverse.odns.fr)	Ports: 21/open/tcp//ftp///, 26/open/tcp//rsftp///, 80/open/tcp//http///, 110/open/tcp//pop3///, 143/open/tcp//imap///, 443/open/tcp//https///, 465/open/tcp//smtps///, 587/open/tcp//submission///, 993/open/tcp//imaps///, 995/open/tcp//pop3s///
+Host: 5.104.101.30 (ows-5-104-101-30.eu-west-2.compute.outscale.com)	Status: Up
+Host: 5.104.101.30 (ows-5-104-101-30.eu-west-2.compute.outscale.com)	Ports: 80/open/tcp//http///, 443/open/tcp//https///	Ignored State: filtered (98)
+Host: 83.166.138.19 (h2web73.infomaniak.ch)	Status: Up
+Host: 83.166.138.19 (h2web73.infomaniak.ch)	Ports: 21/open/tcp//ftp///, 22/open/tcp//ssh///, 80/open/tcp//http///, 443/open/tcp//https///	Ignored State: filtered (96)
+Host: 185.125.25.4 (import-email.infomaniak.ch)	Status: Up
+Host: 185.125.25.4 (import-email.infomaniak.ch)	Ports: 80/open/tcp//http///, 443/open/tcp//https///
+Host: 212.129.39.95 (semafore.hydrogeotechnique.com)	Status: Up
+Host: 212.129.39.95 (semafore.hydrogeotechnique.com)	Ports: 80/open/tcp//http///, 443/open/tcp//https///	Ignored State: filtered (98)
+Host: 83.166.138.19 (h2web73.infomaniak.ch)	Status: Up
+Host: 83.166.138.19 (h2web73.infomaniak.ch)	Ports: 21/open/tcp//ftp///, 22/open/tcp//ssh///, 80/open/tcp//http///, 443/open/tcp//https///	Ignored State: filtered (96)
+Host: 5.104.101.30 (ows-5-104-101-30.eu-west-2.compute.outscale.com)	Status: Up
+Host: 5.104.101.30 (ows-5-104-101-30.eu-west-2.compute.outscale.com)	Ports: 80/open/tcp//http///, 443/open/tcp//https///	Ignored State: filtered (98)
+Host: 212.129.39.95 (semafore.hydrogeotechnique.com)	Status: Up
+Host: 212.129.39.95 (semafore.hydrogeotechnique.com)	Ports: 80/open/tcp//http///, 443/open/tcp//https///	Ignored State: filtered (98)
+Host: 83.166.138.19 (h2web73.infomaniak.ch)	Status: Up
+Host: 83.166.138.19 (h2web73.infomaniak.ch)	Ports: 21/open/tcp//ftp///, 22/open/tcp//ssh///, 80/open/tcp//http///, 443/open/tcp//https///	Ignored State: filtered (96)
+Host: 212.129.39.95 (semafore.hydrogeotechnique.com)	Status: Up
+Host: 212.129.39.95 (semafore.hydrogeotechnique.com)	Ports: 80/open/tcp//http///, 443/open/tcp//https///	Ignored State: filtered (98)
+Host: 83.166.138.19 (h2web73.infomaniak.ch)	Status: Up
+Host: 83.166.138.19 (h2web73.infomaniak.ch)	Ports: 21/open/tcp//ftp///, 22/open/tcp//ssh///, 80/open/tcp//http///, 443/open/tcp//https///	Ignored State: filtered (96)
+Host: 212.129.39.95 (semafore.hydrogeotechnique.com)	Status: Up
+Host: 212.129.39.95 (semafore.hydrogeotechnique.com)	Ports: 80/open/tcp//http///, 443/open/tcp//https///	Ignored State: filtered (98)
+Host: 212.129.39.95 (semafore.hydrogeotechnique.com)	Status: Up
+Host: 212.129.39.95 (semafore.hydrogeotechnique.com)	Ports: 80/open/tcp//http///, 443/open/tcp//https///	Ignored State: filtered (98)
+Host: 212.129.39.95 (semafore.hydrogeotechnique.com)	Status: Up
+Host: 212.129.39.95 (semafore.hydrogeotechnique.com)	Ports: 80/open/tcp//http///, 443/open/tcp//https///	Ignored State: filtered (98)
+Host: 212.129.39.95 (semafore.hydrogeotechnique.com)	Status: Up
+Host: 212.129.39.95 (semafore.hydrogeotechnique.com)	Ports: 80/open/tcp//http///, 443/open/tcp//https///	Ignored State: filtered (98)
+# Nmap done at Thu Jun 12 14:15:05 2025 -- 16 IP addresses (16 hosts up) scanned in 37.74 seconds

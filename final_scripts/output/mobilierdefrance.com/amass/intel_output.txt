@@ -1,0 +1,6 @@
+google.com
+document.getelementbyid
+api.js
+grecaptcha.execute
+grecaptcha.render
+window.onload

@@ -1,0 +1,1320 @@
+[
+         {
+              "id"           : "service",
+              "ip"           : "configurateurmdf.mobilierdefrance.com/20.82.13.59",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "HTTP"
+          }
+,         {
+              "id"           : "pre_128cipher",
+              "ip"           : "configurateurmdf.mobilierdefrance.com/20.82.13.59",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "No 128 cipher limit bug"
+          }
+,         {
+              "id"           : "SSLv2",
+              "ip"           : "configurateurmdf.mobilierdefrance.com/20.82.13.59",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "not offered"
+          }
+,         {
+              "id"           : "SSLv3",
+              "ip"           : "configurateurmdf.mobilierdefrance.com/20.82.13.59",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "not offered"
+          }
+,         {
+              "id"           : "TLS1",
+              "ip"           : "configurateurmdf.mobilierdefrance.com/20.82.13.59",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "offered (deprecated)"
+          }
+,         {
+              "id"           : "TLS1_1",
+              "ip"           : "configurateurmdf.mobilierdefrance.com/20.82.13.59",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "offered (deprecated)"
+          }
+,         {
+              "id"           : "TLS1_2",
+              "ip"           : "configurateurmdf.mobilierdefrance.com/20.82.13.59",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "offered"
+          }
+,         {
+              "id"           : "TLS1_3",
+              "ip"           : "configurateurmdf.mobilierdefrance.com/20.82.13.59",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "offered with final"
+          }
+,         {
+              "id"           : "NPN",
+              "ip"           : "configurateurmdf.mobilierdefrance.com/20.82.13.59",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "not offered"
+          }
+,         {
+              "id"           : "ALPN",
+              "ip"           : "configurateurmdf.mobilierdefrance.com/20.82.13.59",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "http/1.1"
+          }
+,         {
+              "id"           : "cipherlist_NULL",
+              "ip"           : "configurateurmdf.mobilierdefrance.com/20.82.13.59",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cwe"          : "CWE-327",
+              "finding"      : "not offered"
+          }
+,         {
+              "id"           : "cipherlist_aNULL",
+              "ip"           : "configurateurmdf.mobilierdefrance.com/20.82.13.59",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cwe"          : "CWE-327",
+              "finding"      : "not offered"
+          }
+,         {
+              "id"           : "cipherlist_EXPORT",
+              "ip"           : "configurateurmdf.mobilierdefrance.com/20.82.13.59",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cwe"          : "CWE-327",
+              "finding"      : "not offered"
+          }
+,         {
+              "id"           : "cipherlist_LOW",
+              "ip"           : "configurateurmdf.mobilierdefrance.com/20.82.13.59",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cwe"          : "CWE-327",
+              "finding"      : "not offered"
+          }
+,         {
+              "id"           : "cipherlist_3DES_IDEA",
+              "ip"           : "configurateurmdf.mobilierdefrance.com/20.82.13.59",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "cwe"          : "CWE-310",
+              "finding"      : "not offered"
+          }
+,         {
+              "id"           : "cipherlist_OBSOLETED",
+              "ip"           : "configurateurmdf.mobilierdefrance.com/20.82.13.59",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "cwe"          : "CWE-310",
+              "finding"      : "offered"
+          }
+,         {
+              "id"           : "cipherlist_STRONG_NOFS",
+              "ip"           : "configurateurmdf.mobilierdefrance.com/20.82.13.59",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "offered"
+          }
+,         {
+              "id"           : "cipherlist_STRONG_FS",
+              "ip"           : "configurateurmdf.mobilierdefrance.com/20.82.13.59",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "offered"
+          }
+,         {
+              "id"           : "cipher_order-tls1",
+              "ip"           : "configurateurmdf.mobilierdefrance.com/20.82.13.59",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "server"
+          }
+,         {
+              "id"           : "cipher-tls1_xc014",
+              "ip"           : "configurateurmdf.mobilierdefrance.com/20.82.13.59",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "TLSv1   xc014   ECDHE-RSA-AES256-SHA              ECDH 521   AES         256      TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA"
+          }
+,         {
+              "id"           : "cipher-tls1_xc013",
+              "ip"           : "configurateurmdf.mobilierdefrance.com/20.82.13.59",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "TLSv1   xc013   ECDHE-RSA-AES128-SHA              ECDH 256   AES         128      TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA"
+          }
+,         {
+              "id"           : "cipher-tls1_x35",
+              "ip"           : "configurateurmdf.mobilierdefrance.com/20.82.13.59",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "TLSv1   x35     AES256-SHA                        RSA        AES         256      TLS_RSA_WITH_AES_256_CBC_SHA"
+          }
+,         {
+              "id"           : "cipher-tls1_x2f",
+              "ip"           : "configurateurmdf.mobilierdefrance.com/20.82.13.59",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "TLSv1   x2f     AES128-SHA                        RSA        AES         128      TLS_RSA_WITH_AES_128_CBC_SHA"
+          }
+,         {
+              "id"           : "cipherorder_TLSv1",
+              "ip"           : "configurateurmdf.mobilierdefrance.com/20.82.13.59",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "ECDHE-RSA-AES256-SHA ECDHE-RSA-AES128-SHA AES256-SHA AES128-SHA"
+          }
+,         {
+              "id"           : "cipher_order-tls1_1",
+              "ip"           : "configurateurmdf.mobilierdefrance.com/20.82.13.59",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "server"
+          }
+,         {
+              "id"           : "cipher-tls1_1_xc014",
+              "ip"           : "configurateurmdf.mobilierdefrance.com/20.82.13.59",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "TLSv1.1   xc014   ECDHE-RSA-AES256-SHA              ECDH 521   AES         256      TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA"
+          }
+,         {
+              "id"           : "cipher-tls1_1_xc013",
+              "ip"           : "configurateurmdf.mobilierdefrance.com/20.82.13.59",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "TLSv1.1   xc013   ECDHE-RSA-AES128-SHA              ECDH 256   AES         128      TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA"
+          }
+,         {
+              "id"           : "cipher-tls1_1_x35",
+              "ip"           : "configurateurmdf.mobilierdefrance.com/20.82.13.59",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "TLSv1.1   x35     AES256-SHA                        RSA        AES         256      TLS_RSA_WITH_AES_256_CBC_SHA"
+          }
+,         {
+              "id"           : "cipher-tls1_1_x2f",
+              "ip"           : "configurateurmdf.mobilierdefrance.com/20.82.13.59",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "TLSv1.1   x2f     AES128-SHA                        RSA        AES         128      TLS_RSA_WITH_AES_128_CBC_SHA"
+          }
+,         {
+              "id"           : "cipherorder_TLSv1_1",
+              "ip"           : "configurateurmdf.mobilierdefrance.com/20.82.13.59",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "ECDHE-RSA-AES256-SHA ECDHE-RSA-AES128-SHA AES256-SHA AES128-SHA"
+          }
+,         {
+              "id"           : "cipher_order-tls1_2",
+              "ip"           : "configurateurmdf.mobilierdefrance.com/20.82.13.59",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "server"
+          }
+,         {
+              "id"           : "cipher-tls1_2_xc030",
+              "ip"           : "configurateurmdf.mobilierdefrance.com/20.82.13.59",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "TLSv1.2   xc030   ECDHE-RSA-AES256-GCM-SHA384       ECDH 521   AESGCM      256      TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384"
+          }
+,         {
+              "id"           : "cipher-tls1_2_xc02f",
+              "ip"           : "configurateurmdf.mobilierdefrance.com/20.82.13.59",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "TLSv1.2   xc02f   ECDHE-RSA-AES128-GCM-SHA256       ECDH 256   AESGCM      128      TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256"
+          }
+,         {
+              "id"           : "cipher-tls1_2_xc028",
+              "ip"           : "configurateurmdf.mobilierdefrance.com/20.82.13.59",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "TLSv1.2   xc028   ECDHE-RSA-AES256-SHA384           ECDH 521   AES         256      TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384"
+          }
+,         {
+              "id"           : "cipher-tls1_2_xc027",
+              "ip"           : "configurateurmdf.mobilierdefrance.com/20.82.13.59",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "TLSv1.2   xc027   ECDHE-RSA-AES128-SHA256           ECDH 256   AES         128      TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256"
+          }
+,         {
+              "id"           : "cipher-tls1_2_xc014",
+              "ip"           : "configurateurmdf.mobilierdefrance.com/20.82.13.59",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "TLSv1.2   xc014   ECDHE-RSA-AES256-SHA              ECDH 521   AES         256      TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA"
+          }
+,         {
+              "id"           : "cipher-tls1_2_xc013",
+              "ip"           : "configurateurmdf.mobilierdefrance.com/20.82.13.59",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "TLSv1.2   xc013   ECDHE-RSA-AES128-SHA              ECDH 256   AES         128      TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA"
+          }
+,         {
+              "id"           : "cipher-tls1_2_x9d",
+              "ip"           : "configurateurmdf.mobilierdefrance.com/20.82.13.59",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "TLSv1.2   x9d     AES256-GCM-SHA384                 RSA        AESGCM      256      TLS_RSA_WITH_AES_256_GCM_SHA384"
+          }
+,         {
+              "id"           : "cipher-tls1_2_x9c",
+              "ip"           : "configurateurmdf.mobilierdefrance.com/20.82.13.59",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "TLSv1.2   x9c     AES128-GCM-SHA256                 RSA        AESGCM      128      TLS_RSA_WITH_AES_128_GCM_SHA256"
+          }
+,         {
+              "id"           : "cipher-tls1_2_x3d",
+              "ip"           : "configurateurmdf.mobilierdefrance.com/20.82.13.59",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "TLSv1.2   x3d     AES256-SHA256                     RSA        AES         256      TLS_RSA_WITH_AES_256_CBC_SHA256"
+          }
+,         {
+              "id"           : "cipher-tls1_2_x3c",
+              "ip"           : "configurateurmdf.mobilierdefrance.com/20.82.13.59",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "TLSv1.2   x3c     AES128-SHA256                     RSA        AES         128      TLS_RSA_WITH_AES_128_CBC_SHA256"
+          }
+,         {
+              "id"           : "cipher-tls1_2_x35",
+              "ip"           : "configurateurmdf.mobilierdefrance.com/20.82.13.59",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "TLSv1.2   x35     AES256-SHA                        RSA        AES         256      TLS_RSA_WITH_AES_256_CBC_SHA"
+          }
+,         {
+              "id"           : "cipher-tls1_2_x2f",
+              "ip"           : "configurateurmdf.mobilierdefrance.com/20.82.13.59",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "TLSv1.2   x2f     AES128-SHA                        RSA        AES         128      TLS_RSA_WITH_AES_128_CBC_SHA"
+          }
+,         {
+              "id"           : "cipherorder_TLSv1_2",
+              "ip"           : "configurateurmdf.mobilierdefrance.com/20.82.13.59",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "ECDHE-RSA-AES256-GCM-SHA384 ECDHE-RSA-AES128-GCM-SHA256 ECDHE-RSA-AES256-SHA384 ECDHE-RSA-AES128-SHA256 ECDHE-RSA-AES256-SHA ECDHE-RSA-AES128-SHA AES256-GCM-SHA384 AES128-GCM-SHA256 AES256-SHA256 AES128-SHA256 AES256-SHA AES128-SHA"
+          }
+,         {
+              "id"           : "cipher_order-tls1_3",
+              "ip"           : "configurateurmdf.mobilierdefrance.com/20.82.13.59",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "server"
+          }
+,         {
+              "id"           : "cipher-tls1_3_x1302",
+              "ip"           : "configurateurmdf.mobilierdefrance.com/20.82.13.59",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "TLSv1.3   x1302   TLS_AES_256_GCM_SHA384            ECDH 256   AESGCM      256      TLS_AES_256_GCM_SHA384"
+          }
+,         {
+              "id"           : "cipher-tls1_3_x1301",
+              "ip"           : "configurateurmdf.mobilierdefrance.com/20.82.13.59",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "TLSv1.3   x1301   TLS_AES_128_GCM_SHA256            ECDH 256   AESGCM      128      TLS_AES_128_GCM_SHA256"
+          }
+,         {
+              "id"           : "cipherorder_TLSv1_3",
+              "ip"           : "configurateurmdf.mobilierdefrance.com/20.82.13.59",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLS_AES_256_GCM_SHA384 TLS_AES_128_GCM_SHA256"
+          }
+,         {
+              "id"           : "cipher_order",
+              "ip"           : "configurateurmdf.mobilierdefrance.com/20.82.13.59",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "server"
+          }
+,         {
+              "id"           : "FS",
+              "ip"           : "configurateurmdf.mobilierdefrance.com/20.82.13.59",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "offered"
+          }
+,         {
+              "id"           : "FS_ciphers",
+              "ip"           : "configurateurmdf.mobilierdefrance.com/20.82.13.59",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLS_AES_256_GCM_SHA384 ECDHE-RSA-AES256-GCM-SHA384 ECDHE-RSA-AES256-SHA384 ECDHE-RSA-AES256-SHA TLS_AES_128_GCM_SHA256 ECDHE-RSA-AES128-GCM-SHA256 ECDHE-RSA-AES128-SHA256 ECDHE-RSA-AES128-SHA"
+          }
+,         {
+              "id"           : "FS_ECDHE_curves",
+              "ip"           : "configurateurmdf.mobilierdefrance.com/20.82.13.59",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "prime256v1 secp384r1 secp521r1"
+          }
+,         {
+              "id"           : "FS_TLS12_sig_algs",
+              "ip"           : "configurateurmdf.mobilierdefrance.com/20.82.13.59",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "RSA-PSS-RSAE+SHA256 RSA+SHA256 RSA-PSS-RSAE+SHA384 RSA+SHA384 RSA-PSS-RSAE+SHA512 RSA+SHA512 RSA+SHA1"
+          }
+,         {
+              "id"           : "FS_TLS13_sig_algs",
+              "ip"           : "configurateurmdf.mobilierdefrance.com/20.82.13.59",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "RSA-PSS-RSAE+SHA256 RSA-PSS-RSAE+SHA384 RSA-PSS-RSAE+SHA512"
+          }
+,         {
+              "id"           : "TLS_extensions",
+              "ip"           : "configurateurmdf.mobilierdefrance.com/20.82.13.59",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "'status request/#5' 'application layer protocol negotiation/#16' 'extended master secret/#23' 'supported versions/#43' 'key share/#51' 'renegotiation info/#65281'"
+          }
+,         {
+              "id"           : "TLS_session_ticket",
+              "ip"           : "configurateurmdf.mobilierdefrance.com/20.82.13.59",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "no -- no lifetime advertised"
+          }
+,         {
+              "id"           : "SSL_sessionID_support",
+              "ip"           : "configurateurmdf.mobilierdefrance.com/20.82.13.59",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "yes"
+          }
+,         {
+              "id"           : "sessionresumption_ticket",
+              "ip"           : "configurateurmdf.mobilierdefrance.com/20.82.13.59",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "not supported"
+          }
+,         {
+              "id"           : "sessionresumption_ID",
+              "ip"           : "configurateurmdf.mobilierdefrance.com/20.82.13.59",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "not supported"
+          }
+,         {
+              "id"           : "TLS_timestamp",
+              "ip"           : "configurateurmdf.mobilierdefrance.com/20.82.13.59",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "off by 0 seconds from your localtime"
+          }
+,         {
+              "id"           : "certificate_compression",
+              "ip"           : "configurateurmdf.mobilierdefrance.com/20.82.13.59",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "none"
+          }
+,         {
+              "id"           : "clientAuth",
+              "ip"           : "configurateurmdf.mobilierdefrance.com/20.82.13.59",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "none"
+          }
+,         {
+              "id"           : "cert_numbers",
+              "ip"           : "configurateurmdf.mobilierdefrance.com/20.82.13.59",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "1"
+          }
+,         {
+              "id"           : "cert_signatureAlgorithm",
+              "ip"           : "configurateurmdf.mobilierdefrance.com/20.82.13.59",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "SHA384 with RSA"
+          }
+,         {
+              "id"           : "cert_keySize",
+              "ip"           : "configurateurmdf.mobilierdefrance.com/20.82.13.59",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "RSA 2048 bits (exponent is 65537)"
+          }
+,         {
+              "id"           : "cert_keyUsage",
+              "ip"           : "configurateurmdf.mobilierdefrance.com/20.82.13.59",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "Digital Signature, Key Encipherment"
+          }
+,         {
+              "id"           : "cert_extKeyUsage",
+              "ip"           : "configurateurmdf.mobilierdefrance.com/20.82.13.59",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLS Web Client Authentication, TLS Web Server Authentication"
+          }
+,         {
+              "id"           : "cert_serialNumber",
+              "ip"           : "configurateurmdf.mobilierdefrance.com/20.82.13.59",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "3301BF997763F18E0381E15374000001BF9977"
+          }
+,         {
+              "id"           : "cert_serialNumberLen",
+              "ip"           : "configurateurmdf.mobilierdefrance.com/20.82.13.59",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "19"
+          }
+,         {
+              "id"           : "cert_fingerprintSHA1",
+              "ip"           : "configurateurmdf.mobilierdefrance.com/20.82.13.59",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "E268F62BBF9E5BC7B7200D6D890C5E66A216CBC4"
+          }
+,         {
+              "id"           : "cert_fingerprintSHA256",
+              "ip"           : "configurateurmdf.mobilierdefrance.com/20.82.13.59",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "4D704B138F1C98A0E6E71A693F10EAA7D9D0B6486BFD0E51849438250A0B1994"
+          }
+,         {
+              "id"           : "cert",
+              "ip"           : "configurateurmdf.mobilierdefrance.com/20.82.13.59",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "-----BEGIN CERTIFICATE-----\n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\n-----END CERTIFICATE-----"
+          }
+,         {
+              "id"           : "cert_commonName",
+              "ip"           : "configurateurmdf.mobilierdefrance.com/20.82.13.59",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "*.msha-slice-2-am2-0-ase.p.azurewebsites.net"
+          }
+,         {
+              "id"           : "cert_commonName_wo_SNI",
+              "ip"           : "configurateurmdf.mobilierdefrance.com/20.82.13.59",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "*.msha-slice-2-am2-0-ase.p.azurewebsites.net"
+          }
+,         {
+              "id"           : "cert_subjectAltName",
+              "ip"           : "configurateurmdf.mobilierdefrance.com/20.82.13.59",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "*.msha-slice-2-am2-0-ase.p.azurewebsites.net *.scm.msha-slice-2-am2-0-ase.p.azurewebsites.net *.msha-slice-2-am2-0-ase.p.azure-mobile.net *.scm.msha-slice-2-am2-0-ase.p.azure-mobile.net *.azure-apim.net *.consent.azure-apim.net *.admin.azure-apim.net msha-slice-2-am2-0-ase.scm.p.azurewebsites.net"
+          }
+,         {
+              "id"           : "cert_trust",
+              "ip"           : "configurateurmdf.mobilierdefrance.com/20.82.13.59",
+              "port"         : "443",
+              "severity"     : "HIGH",
+              "finding"      : "certificate does not match supplied URI (same w/o SNI)"
+          }
+,         {
+              "id"           : "cert_trust_wildcard",
+              "ip"           : "configurateurmdf.mobilierdefrance.com/20.82.13.59",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "trust is via wildcard"
+          }
+,         {
+              "id"           : "cert_chain_of_trust",
+              "ip"           : "configurateurmdf.mobilierdefrance.com/20.82.13.59",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "passed."
+          }
+,         {
+              "id"           : "cert_certificatePolicies_EV",
+              "ip"           : "configurateurmdf.mobilierdefrance.com/20.82.13.59",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "no"
+          }
+,         {
+              "id"           : "cert_expirationStatus",
+              "ip"           : "configurateurmdf.mobilierdefrance.com/20.82.13.59",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "317 >= 60 days"
+          }
+,         {
+              "id"           : "cert_notBefore",
+              "ip"           : "configurateurmdf.mobilierdefrance.com/20.82.13.59",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "2025-05-04 13:43"
+          }
+,         {
+              "id"           : "cert_notAfter",
+              "ip"           : "configurateurmdf.mobilierdefrance.com/20.82.13.59",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "2026-04-29 13:43"
+          }
+,         {
+              "id"           : "cert_extlifeSpan",
+              "ip"           : "configurateurmdf.mobilierdefrance.com/20.82.13.59",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "certificate has no extended life time according to browser forum"
+          }
+,         {
+              "id"           : "cert_eTLS",
+              "ip"           : "configurateurmdf.mobilierdefrance.com/20.82.13.59",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "not present"
+          }
+,         {
+              "id"           : "cert_crlDistributionPoints",
+              "ip"           : "configurateurmdf.mobilierdefrance.com/20.82.13.59",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "http://www.microsoft.com/pkiops/crl/Microsoft%20Azure%20RSA%20TLS%20Issuing%20CA%2008.crl"
+          }
+,         {
+              "id"           : "cert_ocspURL",
+              "ip"           : "configurateurmdf.mobilierdefrance.com/20.82.13.59",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "http://oneocsp.microsoft.com/ocsp"
+          }
+,         {
+              "id"           : "OCSP_stapling",
+              "ip"           : "configurateurmdf.mobilierdefrance.com/20.82.13.59",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "offered"
+          }
+,         {
+              "id"           : "cert_ocspRevoked",
+              "ip"           : "configurateurmdf.mobilierdefrance.com/20.82.13.59",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "not revoked"
+          }
+,         {
+              "id"           : "cert_mustStapleExtension",
+              "ip"           : "configurateurmdf.mobilierdefrance.com/20.82.13.59",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "--"
+          }
+,         {
+              "id"           : "DNS_CAArecord",
+              "ip"           : "configurateurmdf.mobilierdefrance.com/20.82.13.59",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "--"
+          }
+,         {
+              "id"           : "certificate_transparency",
+              "ip"           : "configurateurmdf.mobilierdefrance.com/20.82.13.59",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "yes (certificate extension)"
+          }
+,         {
+              "id"           : "certs_countServer",
+              "ip"           : "configurateurmdf.mobilierdefrance.com/20.82.13.59",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "2"
+          }
+,         {
+              "id"           : "certs_list_ordering_problem",
+              "ip"           : "configurateurmdf.mobilierdefrance.com/20.82.13.59",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "no"
+          }
+,         {
+              "id"           : "cert_caIssuers",
+              "ip"           : "configurateurmdf.mobilierdefrance.com/20.82.13.59",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "Microsoft Azure RSA TLS Issuing CA 08 (Microsoft Corporation from US)"
+          }
+,         {
+              "id"           : "intermediate_cert <#1>",
+              "ip"           : "configurateurmdf.mobilierdefrance.com/20.82.13.59",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "-----BEGIN CERTIFICATE-----\nMIIFrDCCBJSgAwIBAgIQDvt+VH7fD/EGmu5XaW17oDANBgkqhkiG9w0BAQwFADBhMQswCQYDVQQGEwJVUzEVMBMGA1UEChMMRGlnaUNlcnQgSW5jMRkwFwYDVQQLExB3d3cuZGlnaWNlcnQuY29tMSAwHgYDVQQDExdEaWdpQ2VydCBHbG9iYWwgUm9vdCBHMjAeFw0yMzA2MDgwMDAwMDBaFw0yNjA4MjUyMzU5NTlaMF0xCzAJBgNVBAYTAlVTMR4wHAYDVQQKExVNaWNyb3NvZnQgQ29ycG9yYXRpb24xLjAsBgNVBAMTJU1pY3Jvc29mdCBBenVyZSBSU0EgVExTIElzc3VpbmcgQ0EgMDgwggIiMA0GCSqGSIb3DQEBAQUAA4ICDwAwggIKAoICAQCy7oIFzcDVZVbomWZtSwrAX8LiKXsbCcwuFL7FHkD5m67olmOdTueOKhNER5ykFs/meKG1fwzd35/+Q1+KTxcV89IIXmErtSsj8EWu7rdEAVYnYMFbstqwkIVNEoz4OIM82hn+N5p57zkHGPogzF6TOPRUOK8yYyCPeqnHvoVpE5b0kZL4QT8bdyhSRQbUsUiSaOuF5y3eZ9Vc92baDkhY7CFZE2ThLLv5PQ0WxzLot3t18d2vQP5x29I0n6NFsj37J2d/EH/Z6a/lhAVzKjfYloGcQ1IPyDEIGh9gYJnMLFZiUbm/GBmlpKVr8M03OWKCR0thRbfnU6UoskrwGrECAnnojFEUw+j8i6gFLBNWXtBOtYvgl8SHCCVKUUUl4YOfR5zF4OkKirJuUbOmB2AOmLjYJIcabDvxMcmryhQinog+/+jgHJnY62opgStkdaImMPzyLB7ZaWVnxpRdtFKO1ZvGkZeRNvbPAUKR2kNeknuh3NtFvz2dY3xP7AfhyLE/t8vW72nAzlRKz++L70CgCvj/yeObPwaAPDd2sZ0oj2u/N+k6egGq04e+GBW+QYCSoJ5eAY36il0fu7dYSHYDo7RB5aPTLqnybp8wMeAatcagc8U9OM42ghELTaWFARuyoCmgqR7y8fAU9Njhcqrm6+0Xzv/vzMfhL4Ulpf1G7wIDAQABo4IBYjCCAV4wEgYDVR0TAQH/BAgwBgEB/wIBADAdBgNVHQ4EFgQU9n4vvYCjSrJwW+vfmh/Y7cphgAcwHwYDVR0jBBgwFoAUTiJUIBiV5uNu5g/6+rkS7QYXjzkwDgYDVR0PAQH/BAQDAgGGMB0GA1UdJQQWMBQGCCsGAQUFBwMBBggrBgEFBQcDAjB2BggrBgEFBQcBAQRqMGgwJAYIKwYBBQUHMAGGGGh0dHA6Ly9vY3NwLmRpZ2ljZXJ0LmNvbTBABggrBgEFBQcwAoY0aHR0cDovL2NhY2VydHMuZGlnaWNlcnQuY29tL0RpZ2lDZXJ0R2xvYmFsUm9vdEcyLmNydDBCBgNVHR8EOzA5MDegNaAzhjFodHRwOi8vY3JsMy5kaWdpY2VydC5jb20vRGlnaUNlcnRHbG9iYWxSb290RzIuY3JsMB0GA1UdIAQWMBQwCAYGZ4EMAQIBMAgGBmeBDAECAjANBgkqhkiG9w0BAQwFAAOCAQEAloABcB94CeH6DWKwa4550BTzLxlTHVNseQJ5SetnPpBuPNLPgOLe9Y7ZMn4ZK6mhfeK7RiMzan4UF9CD5rF3TcCevo3IxrdV+YfBwvlbGYv+6JmX3mAMlaUb23Y2pONoixFJEOcAMKKR55mSC5W4nQ6jDfp7Qy/504MQpdjJflk90RHsIZGXVPw/JdbBp0w6pDb4o5CqydmZqZMrEvbGk1p8kegFkBekp/5WVfd86BdH2xs+GKO3hyiA8iBrBCGJfqrijbRnZm7q5+ydXF3jhJDJWfxW5EBYZBJrUz/a+8K/78BjwI8z2VYJpG4t6r4otOGB5sEyDPDwqx00Rouu8g==\n-----END CERTIFICATE-----"
+          }
+,         {
+              "id"           : "intermediate_cert_fingerprintSHA256 <#1>",
+              "ip"           : "configurateurmdf.mobilierdefrance.com/20.82.13.59",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "511C1C41CB7EB2A10078C32C82F17925BA786DE46C633921D038E7409E15A5EA"
+          }
+,         {
+              "id"           : "intermediate_cert_notBefore <#1>",
+              "ip"           : "configurateurmdf.mobilierdefrance.com/20.82.13.59",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "2023-06-08 00:00"
+          }
+,         {
+              "id"           : "intermediate_cert_notAfter <#1>",
+              "ip"           : "configurateurmdf.mobilierdefrance.com/20.82.13.59",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "2026-08-25 23:59"
+          }
+,         {
+              "id"           : "intermediate_cert_expiration <#1>",
+              "ip"           : "configurateurmdf.mobilierdefrance.com/20.82.13.59",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "ok > 40 days"
+          }
+,         {
+              "id"           : "intermediate_cert_chain <#1>",
+              "ip"           : "configurateurmdf.mobilierdefrance.com/20.82.13.59",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "Microsoft Azure RSA TLS Issuing CA 08 <-- DigiCert Global Root G2"
+          }
+,         {
+              "id"           : "intermediate_cert_badOCSP",
+              "ip"           : "configurateurmdf.mobilierdefrance.com/20.82.13.59",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "intermediate certificate(s) is/are ok"
+          }
+,         {
+              "id"           : "HTTP_status_code",
+              "ip"           : "configurateurmdf.mobilierdefrance.com/20.82.13.59",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "404 Site Not Found ('/')"
+          }
+,         {
+              "id"           : "HTTP_clock_skew",
+              "ip"           : "configurateurmdf.mobilierdefrance.com/20.82.13.59",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "0 seconds from localtime"
+          }
+,         {
+              "id"           : "HTTP_headerTime",
+              "ip"           : "configurateurmdf.mobilierdefrance.com/20.82.13.59",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "1750068441"
+          }
+,         {
+              "id"           : "HSTS",
+              "ip"           : "configurateurmdf.mobilierdefrance.com/20.82.13.59",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "not offered"
+          }
+,         {
+              "id"           : "HPKP",
+              "ip"           : "configurateurmdf.mobilierdefrance.com/20.82.13.59",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "No support for HTTP Public Key Pinning"
+          }
+,         {
+              "id"           : "banner_server",
+              "ip"           : "configurateurmdf.mobilierdefrance.com/20.82.13.59",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "No Server banner line in header, interesting!"
+          }
+,         {
+              "id"           : "banner_application",
+              "ip"           : "configurateurmdf.mobilierdefrance.com/20.82.13.59",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "No application banner found"
+          }
+,         {
+              "id"           : "cookie_count",
+              "ip"           : "configurateurmdf.mobilierdefrance.com/20.82.13.59",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "0 at '/' (maybe missed the application)"
+          }
+,         {
+              "id"           : "security_headers",
+              "ip"           : "configurateurmdf.mobilierdefrance.com/20.82.13.59",
+              "port"         : "443",
+              "severity"     : "MEDIUM",
+              "finding"      : "--"
+          }
+,         {
+              "id"           : "banner_reverseproxy",
+              "ip"           : "configurateurmdf.mobilierdefrance.com/20.82.13.59",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "cwe"          : "CWE-200",
+              "finding"      : "--"
+          }
+,         {
+              "id"           : "heartbleed",
+              "ip"           : "configurateurmdf.mobilierdefrance.com/20.82.13.59",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2014-0160",
+              "cwe"          : "CWE-119",
+              "finding"      : "not vulnerable, no heartbeat extension"
+          }
+,         {
+              "id"           : "CCS",
+              "ip"           : "configurateurmdf.mobilierdefrance.com/20.82.13.59",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2014-0224",
+              "cwe"          : "CWE-310",
+              "finding"      : "not vulnerable"
+          }
+,         {
+              "id"           : "ticketbleed",
+              "ip"           : "configurateurmdf.mobilierdefrance.com/20.82.13.59",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2016-9244",
+              "cwe"          : "CWE-200",
+              "finding"      : "no session ticket extension"
+          }
+,         {
+              "id"           : "ROBOT",
+              "ip"           : "configurateurmdf.mobilierdefrance.com/20.82.13.59",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2017-17382 CVE-2017-17427 CVE-2017-17428 CVE-2017-13098 CVE-2017-1000385 CVE-2017-13099 CVE-2016-6883 CVE-2012-5081 CVE-2017-6168",
+              "cwe"          : "CWE-203",
+              "finding"      : "not vulnerable"
+          }
+,         {
+              "id"           : "secure_renego",
+              "ip"           : "configurateurmdf.mobilierdefrance.com/20.82.13.59",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cwe"          : "CWE-310",
+              "finding"      : "supported"
+          }
+,         {
+              "id"           : "secure_client_renego",
+              "ip"           : "configurateurmdf.mobilierdefrance.com/20.82.13.59",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2011-1473",
+              "cwe"          : "CWE-310",
+              "finding"      : "not vulnerable"
+          }
+,         {
+              "id"           : "CRIME_TLS",
+              "ip"           : "configurateurmdf.mobilierdefrance.com/20.82.13.59",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2012-4929",
+              "cwe"          : "CWE-310",
+              "finding"      : "not vulnerable"
+          }
+,         {
+              "id"           : "BREACH",
+              "ip"           : "configurateurmdf.mobilierdefrance.com/20.82.13.59",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2013-3587",
+              "cwe"          : "CWE-310",
+              "finding"      : "not vulnerable, no gzip/deflate/compress/br HTTP compression  - only supplied '/' tested"
+          }
+,         {
+              "id"           : "POODLE_SSL",
+              "ip"           : "configurateurmdf.mobilierdefrance.com/20.82.13.59",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2014-3566",
+              "cwe"          : "CWE-310",
+              "finding"      : "not vulnerable, no SSLv3"
+          }
+,         {
+              "id"           : "fallback_SCSV",
+              "ip"           : "configurateurmdf.mobilierdefrance.com/20.82.13.59",
+              "port"         : "443",
+              "severity"     : "MEDIUM",
+              "finding"      : "NOT supported"
+          }
+,         {
+              "id"           : "SWEET32",
+              "ip"           : "configurateurmdf.mobilierdefrance.com/20.82.13.59",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2016-2183 CVE-2016-6329",
+              "cwe"          : "CWE-327",
+              "finding"      : "not vulnerable"
+          }
+,         {
+              "id"           : "FREAK",
+              "ip"           : "configurateurmdf.mobilierdefrance.com/20.82.13.59",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2015-0204",
+              "cwe"          : "CWE-310",
+              "finding"      : "not vulnerable"
+          }
+,         {
+              "id"           : "DROWN",
+              "ip"           : "configurateurmdf.mobilierdefrance.com/20.82.13.59",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2016-0800 CVE-2016-0703",
+              "cwe"          : "CWE-310",
+              "finding"      : "not vulnerable on this host and port"
+          }
+,         {
+              "id"           : "DROWN_hint",
+              "ip"           : "configurateurmdf.mobilierdefrance.com/20.82.13.59",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "cve"          : "CVE-2016-0800 CVE-2016-0703",
+              "cwe"          : "CWE-310",
+              "finding"      : "Make sure you don't use this certificate elsewhere with SSLv2 enabled services, see https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=4D704B138F1C98A0E6E71A693F10EAA7D9D0B6486BFD0E51849438250A0B1994"
+          }
+,         {
+              "id"           : "LOGJAM",
+              "ip"           : "configurateurmdf.mobilierdefrance.com/20.82.13.59",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2015-4000",
+              "cwe"          : "CWE-310",
+              "finding"      : "not vulnerable, no DH EXPORT ciphers,"
+          }
+,         {
+              "id"           : "LOGJAM-common_primes",
+              "ip"           : "configurateurmdf.mobilierdefrance.com/20.82.13.59",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2015-4000",
+              "cwe"          : "CWE-310",
+              "finding"      : "no DH key with <= TLS 1.2"
+          }
+,         {
+              "id"           : "BEAST",
+              "ip"           : "configurateurmdf.mobilierdefrance.com/20.82.13.59",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "cve"          : "CVE-2011-3389",
+              "cwe"          : "CWE-20",
+              "finding"      : "VULNERABLE -- but also supports higher protocols  TLSv1.1 TLSv1.2 (likely mitigated)"
+          }
+,         {
+              "id"           : "LUCKY13",
+              "ip"           : "configurateurmdf.mobilierdefrance.com/20.82.13.59",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2013-0169",
+              "cwe"          : "CWE-310",
+              "finding"      : "not vulnerable"
+          }
+,         {
+              "id"           : "winshock",
+              "ip"           : "configurateurmdf.mobilierdefrance.com/20.82.13.59",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2014-6321",
+              "cwe"          : "CWE-94",
+              "finding"      : "not vulnerable"
+          }
+,         {
+              "id"           : "RC4",
+              "ip"           : "configurateurmdf.mobilierdefrance.com/20.82.13.59",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2013-2566 CVE-2015-2808",
+              "cwe"          : "CWE-310",
+              "finding"      : "not vulnerable"
+          }
+,         {
+              "id"           : "clientsimulation-android_70",
+              "ip"           : "configurateurmdf.mobilierdefrance.com/20.82.13.59",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-android_81",
+              "ip"           : "configurateurmdf.mobilierdefrance.com/20.82.13.59",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-android_90",
+              "ip"           : "configurateurmdf.mobilierdefrance.com/20.82.13.59",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_256_GCM_SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-android_X",
+              "ip"           : "configurateurmdf.mobilierdefrance.com/20.82.13.59",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_256_GCM_SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-android_11_12",
+              "ip"           : "configurateurmdf.mobilierdefrance.com/20.82.13.59",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_256_GCM_SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-android_13_14",
+              "ip"           : "configurateurmdf.mobilierdefrance.com/20.82.13.59",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_256_GCM_SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-android_15",
+              "ip"           : "configurateurmdf.mobilierdefrance.com/20.82.13.59",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_256_GCM_SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-chrome_101_win10",
+              "ip"           : "configurateurmdf.mobilierdefrance.com/20.82.13.59",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_256_GCM_SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-chromium_137_win11",
+              "ip"           : "configurateurmdf.mobilierdefrance.com/20.82.13.59",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_256_GCM_SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-firefox_100_win10",
+              "ip"           : "configurateurmdf.mobilierdefrance.com/20.82.13.59",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_256_GCM_SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-firefox_137_win11",
+              "ip"           : "configurateurmdf.mobilierdefrance.com/20.82.13.59",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_256_GCM_SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-ie_8_win7",
+              "ip"           : "configurateurmdf.mobilierdefrance.com/20.82.13.59",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.0 ECDHE-RSA-AES256-SHA"
+          }
+,         {
+              "id"           : "clientsimulation-ie_11_win7",
+              "ip"           : "configurateurmdf.mobilierdefrance.com/20.82.13.59",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-RSA-AES256-SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-ie_11_win81",
+              "ip"           : "configurateurmdf.mobilierdefrance.com/20.82.13.59",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-RSA-AES256-SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-ie_11_winphone81",
+              "ip"           : "configurateurmdf.mobilierdefrance.com/20.82.13.59",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-RSA-AES128-SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-ie_11_win10",
+              "ip"           : "configurateurmdf.mobilierdefrance.com/20.82.13.59",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-edge_15_win10",
+              "ip"           : "configurateurmdf.mobilierdefrance.com/20.82.13.59",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-edge_101_win10_21h2",
+              "ip"           : "configurateurmdf.mobilierdefrance.com/20.82.13.59",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_256_GCM_SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-edge_133_win11_23h2",
+              "ip"           : "configurateurmdf.mobilierdefrance.com/20.82.13.59",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_256_GCM_SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-safari_184_ios_184",
+              "ip"           : "configurateurmdf.mobilierdefrance.com/20.82.13.59",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_256_GCM_SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-safari_154_osx_1231",
+              "ip"           : "configurateurmdf.mobilierdefrance.com/20.82.13.59",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_256_GCM_SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-safari_184_osx_154",
+              "ip"           : "configurateurmdf.mobilierdefrance.com/20.82.13.59",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_256_GCM_SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-java_7u25",
+              "ip"           : "configurateurmdf.mobilierdefrance.com/20.82.13.59",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.0 ECDHE-RSA-AES128-SHA"
+          }
+,         {
+              "id"           : "clientsimulation-java_80442",
+              "ip"           : "configurateurmdf.mobilierdefrance.com/20.82.13.59",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_256_GCM_SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-java_1102",
+              "ip"           : "configurateurmdf.mobilierdefrance.com/20.82.13.59",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_256_GCM_SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-java_1703",
+              "ip"           : "configurateurmdf.mobilierdefrance.com/20.82.13.59",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_256_GCM_SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-java_2106",
+              "ip"           : "configurateurmdf.mobilierdefrance.com/20.82.13.59",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_256_GCM_SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-go_1178",
+              "ip"           : "configurateurmdf.mobilierdefrance.com/20.82.13.59",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_256_GCM_SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-libressl_336",
+              "ip"           : "configurateurmdf.mobilierdefrance.com/20.82.13.59",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_256_GCM_SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-openssl_102e",
+              "ip"           : "configurateurmdf.mobilierdefrance.com/20.82.13.59",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-openssl_111d",
+              "ip"           : "configurateurmdf.mobilierdefrance.com/20.82.13.59",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_256_GCM_SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-openssl_315",
+              "ip"           : "configurateurmdf.mobilierdefrance.com/20.82.13.59",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_256_GCM_SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-openssl_350",
+              "ip"           : "configurateurmdf.mobilierdefrance.com/20.82.13.59",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_256_GCM_SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-apple_mail_16_0",
+              "ip"           : "configurateurmdf.mobilierdefrance.com/20.82.13.59",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-thunderbird_91_9",
+              "ip"           : "configurateurmdf.mobilierdefrance.com/20.82.13.59",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_256_GCM_SHA384"
+          }
+,         {
+              "id"           : "rating_spec",
+              "ip"           : "configurateurmdf.mobilierdefrance.com/20.82.13.59",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "SSL Labs's 'SSL Server Rating Guide' (version 2009q from 2020-01-30)"
+          }
+,         {
+              "id"           : "rating_doc",
+              "ip"           : "configurateurmdf.mobilierdefrance.com/20.82.13.59",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "https://github.com/ssllabs/research/wiki/SSL-Server-Rating-Guide"
+          }
+,         {
+              "id"           : "protocol_support_score",
+              "ip"           : "configurateurmdf.mobilierdefrance.com/20.82.13.59",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "0"
+          }
+,         {
+              "id"           : "protocol_support_score_weighted",
+              "ip"           : "configurateurmdf.mobilierdefrance.com/20.82.13.59",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "0"
+          }
+,         {
+              "id"           : "key_exchange_score",
+              "ip"           : "configurateurmdf.mobilierdefrance.com/20.82.13.59",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "0"
+          }
+,         {
+              "id"           : "key_exchange_score_weighted",
+              "ip"           : "configurateurmdf.mobilierdefrance.com/20.82.13.59",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "0"
+          }
+,         {
+              "id"           : "cipher_strength_score",
+              "ip"           : "configurateurmdf.mobilierdefrance.com/20.82.13.59",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "0"
+          }
+,         {
+              "id"           : "cipher_strength_score_weighted",
+              "ip"           : "configurateurmdf.mobilierdefrance.com/20.82.13.59",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "0"
+          }
+,         {
+              "id"           : "final_score",
+              "ip"           : "configurateurmdf.mobilierdefrance.com/20.82.13.59",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "0"
+          }
+,         {
+              "id"           : "overall_grade",
+              "ip"           : "configurateurmdf.mobilierdefrance.com/20.82.13.59",
+              "port"         : "443",
+              "severity"     : "CRITICAL",
+              "finding"      : "M"
+          }
+,         {
+              "id"           : "grade_cap_reason_1",
+              "ip"           : "configurateurmdf.mobilierdefrance.com/20.82.13.59",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "Grade capped to M. Domain name mismatch"
+          }
+,         {
+              "id"           : "grade_cap_reason_2",
+              "ip"           : "configurateurmdf.mobilierdefrance.com/20.82.13.59",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "Grade capped to B. TLS 1.1 offered"
+          }
+,         {
+              "id"           : "grade_cap_reason_3",
+              "ip"           : "configurateurmdf.mobilierdefrance.com/20.82.13.59",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "Grade capped to B. TLS 1.0 offered"
+          }
+,         {
+              "id"           : "grade_cap_reason_4",
+              "ip"           : "configurateurmdf.mobilierdefrance.com/20.82.13.59",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "Grade capped to A. HSTS is not offered"
+          }
+,         {
+              "id"           : "grade_cap_reason_5",
+              "ip"           : "configurateurmdf.mobilierdefrance.com/20.82.13.59",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "Grade capped to A. Does not support TLS_FALLBACK_SCSV"
+          }
+,         {
+              "id"           : "scanTime",
+              "ip"           : "configurateurmdf.mobilierdefrance.com/20.82.13.59",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "112"
+          }
+]

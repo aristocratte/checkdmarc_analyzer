@@ -1,0 +1,2393 @@
+[
+         {
+              "id"           : "service",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.56",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "HTTP"
+          }
+,         {
+              "id"           : "pre_128cipher",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.56",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "No 128 cipher limit bug"
+          }
+,         {
+              "id"           : "SSLv2",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.56",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "not offered"
+          }
+,         {
+              "id"           : "SSLv3",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.56",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "not offered"
+          }
+,         {
+              "id"           : "TLS1",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.56",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "not offered"
+          }
+,         {
+              "id"           : "TLS1_1",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.56",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "not offered"
+          }
+,         {
+              "id"           : "TLS1_2",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.56",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "offered"
+          }
+,         {
+              "id"           : "TLS1_3",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.56",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "offered with final"
+          }
+,         {
+              "id"           : "NPN",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.56",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "offered with http/1.1, http/1.0 (advertised)"
+          }
+,         {
+              "id"           : "ALPN",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.56",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "http/1.1"
+          }
+,         {
+              "id"           : "cipherlist_NULL",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.56",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cwe"          : "CWE-327",
+              "finding"      : "not offered"
+          }
+,         {
+              "id"           : "cipherlist_aNULL",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.56",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cwe"          : "CWE-327",
+              "finding"      : "not offered"
+          }
+,         {
+              "id"           : "cipherlist_EXPORT",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.56",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cwe"          : "CWE-327",
+              "finding"      : "not offered"
+          }
+,         {
+              "id"           : "cipherlist_LOW",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.56",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cwe"          : "CWE-327",
+              "finding"      : "not offered"
+          }
+,         {
+              "id"           : "cipherlist_3DES_IDEA",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.56",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "cwe"          : "CWE-310",
+              "finding"      : "not offered"
+          }
+,         {
+              "id"           : "cipherlist_OBSOLETED",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.56",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "cwe"          : "CWE-310",
+              "finding"      : "offered"
+          }
+,         {
+              "id"           : "cipherlist_STRONG_NOFS",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.56",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "not offered"
+          }
+,         {
+              "id"           : "cipherlist_STRONG_FS",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.56",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "offered"
+          }
+,         {
+              "id"           : "cipher_order-tls1_2",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.56",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "server -- server prioritizes ChaCha ciphers when preferred by clients"
+          }
+,         {
+              "id"           : "cipher-tls1_2_xc030",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.56",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "TLSv1.2   xc030   ECDHE-RSA-AES256-GCM-SHA384       ECDH 256   AESGCM      256      TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384"
+          }
+,         {
+              "id"           : "cipher-tls1_2_xc02f",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.56",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "TLSv1.2   xc02f   ECDHE-RSA-AES128-GCM-SHA256       ECDH 256   AESGCM      128      TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256"
+          }
+,         {
+              "id"           : "cipher-tls1_2_xcca8",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.56",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "TLSv1.2   xcca8   ECDHE-RSA-CHACHA20-POLY1305       ECDH 256   ChaCha20    256      TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256"
+          }
+,         {
+              "id"           : "cipher-tls1_2_xc028",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.56",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "TLSv1.2   xc028   ECDHE-RSA-AES256-SHA384           ECDH 256   AES         256      TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384"
+          }
+,         {
+              "id"           : "cipher-tls1_2_xc027",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.56",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "TLSv1.2   xc027   ECDHE-RSA-AES128-SHA256           ECDH 256   AES         128      TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256"
+          }
+,         {
+              "id"           : "cipher-tls1_2_xc014",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.56",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "TLSv1.2   xc014   ECDHE-RSA-AES256-SHA              ECDH 256   AES         256      TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA"
+          }
+,         {
+              "id"           : "cipher-tls1_2_xc013",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.56",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "TLSv1.2   xc013   ECDHE-RSA-AES128-SHA              ECDH 256   AES         128      TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA"
+          }
+,         {
+              "id"           : "cipherorder_TLSv1_2",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.56",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "ECDHE-RSA-AES256-GCM-SHA384 ECDHE-RSA-AES128-GCM-SHA256 ECDHE-RSA-CHACHA20-POLY1305 ECDHE-RSA-AES256-SHA384 ECDHE-RSA-AES128-SHA256 ECDHE-RSA-AES256-SHA ECDHE-RSA-AES128-SHA"
+          }
+,         {
+              "id"           : "prioritize_chacha_TLSv1_2",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.56",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "true"
+          }
+,         {
+              "id"           : "cipher_order-tls1_3",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.56",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "server -- server prioritizes ChaCha ciphers when preferred by clients"
+          }
+,         {
+              "id"           : "cipher-tls1_3_x1302",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.56",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "TLSv1.3   x1302   TLS_AES_256_GCM_SHA384            ECDH 253   AESGCM      256      TLS_AES_256_GCM_SHA384"
+          }
+,         {
+              "id"           : "cipher-tls1_3_x1303",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.56",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "TLSv1.3   x1303   TLS_CHACHA20_POLY1305_SHA256      ECDH 253   ChaCha20    256      TLS_CHACHA20_POLY1305_SHA256"
+          }
+,         {
+              "id"           : "cipher-tls1_3_x1301",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.56",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "TLSv1.3   x1301   TLS_AES_128_GCM_SHA256            ECDH 253   AESGCM      128      TLS_AES_128_GCM_SHA256"
+          }
+,         {
+              "id"           : "cipher-tls1_3_x1305",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.56",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "TLSv1.3   x1305   TLS_AES_128_CCM_8_SHA256          ECDH 253   AESCCM8     128      TLS_AES_128_CCM_8_SHA256"
+          }
+,         {
+              "id"           : "cipher-tls1_3_x1304",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.56",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "TLSv1.3   x1304   TLS_AES_128_CCM_SHA256            ECDH 253   AESCCM      128      TLS_AES_128_CCM_SHA256"
+          }
+,         {
+              "id"           : "cipherorder_TLSv1_3",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.56",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLS_AES_256_GCM_SHA384 TLS_CHACHA20_POLY1305_SHA256 TLS_AES_128_GCM_SHA256 TLS_AES_128_CCM_8_SHA256 TLS_AES_128_CCM_SHA256"
+          }
+,         {
+              "id"           : "prioritize_chacha_TLSv1_3",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.56",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "true"
+          }
+,         {
+              "id"           : "cipher_order",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.56",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "server"
+          }
+,         {
+              "id"           : "FS",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.56",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "offered"
+          }
+,         {
+              "id"           : "FS_ciphers",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.56",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLS_AES_256_GCM_SHA384 TLS_CHACHA20_POLY1305_SHA256 ECDHE-RSA-AES256-GCM-SHA384 ECDHE-RSA-AES256-SHA384 ECDHE-RSA-AES256-SHA ECDHE-RSA-CHACHA20-POLY1305 TLS_AES_128_GCM_SHA256 TLS_AES_128_CCM_SHA256 TLS_AES_128_CCM_8_SHA256 ECDHE-RSA-AES128-GCM-SHA256 ECDHE-RSA-AES128-SHA256 ECDHE-RSA-AES128-SHA"
+          }
+,         {
+              "id"           : "FS_ECDHE_curves",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.56",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "prime256v1 X25519"
+          }
+,         {
+              "id"           : "FS_TLS12_sig_algs",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.56",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "RSA-PSS-RSAE+SHA256 RSA-PSS-RSAE+SHA384 RSA-PSS-RSAE+SHA512 RSA+SHA256 RSA+SHA384 RSA+SHA512 RSA+SHA224 RSA+SHA1"
+          }
+,         {
+              "id"           : "FS_TLS13_sig_algs",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.56",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "RSA-PSS-RSAE+SHA256 RSA-PSS-RSAE+SHA384 RSA-PSS-RSAE+SHA512"
+          }
+,         {
+              "id"           : "TLS_extensions",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.56",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "'server name/#0' 'max fragment length/#1' 'status request/#5' 'EC point formats/#11' 'application layer protocol negotiation/#16' 'session ticket/#35' 'supported versions/#43' 'key share/#51' 'next protocol/#13172' 'renegotiation info/#65281'"
+          }
+,         {
+              "id"           : "TLS_session_ticket",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.56",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "valid for 83100 seconds only (<daily)"
+          }
+,         {
+              "id"           : "SSL_sessionID_support",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.56",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "yes"
+          }
+,         {
+              "id"           : "sessionresumption_ticket",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.56",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "supported"
+          }
+,         {
+              "id"           : "sessionresumption_ID",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.56",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "not supported"
+          }
+,         {
+              "id"           : "TLS_timestamp",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.56",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "random"
+          }
+,         {
+              "id"           : "certificate_compression",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.56",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "none"
+          }
+,         {
+              "id"           : "clientAuth",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.56",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "none"
+          }
+,         {
+              "id"           : "cert_numbers",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.56",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "1"
+          }
+,         {
+              "id"           : "cert_signatureAlgorithm",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.56",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "SHA256 with RSA"
+          }
+,         {
+              "id"           : "cert_keySize",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.56",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "RSA 2048 bits (exponent is 65537)"
+          }
+,         {
+              "id"           : "cert_keyUsage",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.56",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "Digital Signature, Key Encipherment"
+          }
+,         {
+              "id"           : "cert_extKeyUsage",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.56",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLS Web Server Authentication, TLS Web Client Authentication"
+          }
+,         {
+              "id"           : "cert_serialNumber",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.56",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "044168B1CBE2014EE849DA3A748B448E"
+          }
+,         {
+              "id"           : "cert_serialNumberLen",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.56",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "16"
+          }
+,         {
+              "id"           : "cert_fingerprintSHA1",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.56",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "31CDCCA76AA735FF0B33D9413DD9ACC30BD81F60"
+          }
+,         {
+              "id"           : "cert_fingerprintSHA256",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.56",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "418128E8FE08E242057A42ABE167D3B406592059A0388044B8E4717118F2277D"
+          }
+,         {
+              "id"           : "cert",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.56",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "-----BEGIN CERTIFICATE-----\nMIIRBjCCD+6gAwIBAgIQBEFoscviAU7oSdo6dItEjjANBgkqhkiG9w0BAQsFADBZMQswCQYDVQQGEwJVUzEVMBMGA1UEChMMRGlnaUNlcnQgSW5jMTMwMQYDVQQDEypEaWdpQ2VydCBHbG9iYWwgRzIgVExTIFJTQSBTSEEyNTYgMjAyMCBDQTEwHhcNMjUwNTAzMDAwMDAwWhcNMjYwNjAzMjM1OTU5WjCBijELMAkGA1UEBhMCVVMxEzARBgNVBAgTCkNhbGlmb3JuaWExFjAUBgNVBAcTDVNhbiBGcmFuY2lzY28xGTAXBgNVBAoTEFNhbGVzZm9yY2UsIEluYy4xMzAxBgNVBAMTKnNhbi0xMC1zNTEudGxzcHJvdmlzaW9uaW5nLmV4YWN0dGFyZ2V0LmNvbTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAL7ymvostBNBjxzJgcrJk85n+wC3AnF2JZL7miErsQVNCmfhlgQ7JlSM+C0Nje+VOmwPdzBvHia51wy5PaUEwi+2qQoKxWK/bmPjBva4kLaasXEgKrp9du9vr80kxK62GxNz/86QC1HFvSD6dfkAcxP14KGr/1UTIo4hjVzLComn1i7+PXWCOZE1ey1qP1HpksPyh5DXJcB1mGP1fcewF9iV49hwiUTmdX258YhLeJ9fRKKiuW0ZwN3K65aJwUGsz+CEN1vqdgLN86RSjS87MP2KuPf0Sn6dZI69QqXLBx4ewtjwXTmoRFWkWdAKijSa2nADr1q21VNHiXLoNg+HRzcCAwEAAaOCDZYwgg2SMB8GA1UdIwQYMBaAFHSFgMBmx9833s+9KTeqAx2+7c0XMB0GA1UdDgQWBBQkGXC/adnqVwvj69xOY2oqRD0r0jCCCiYGA1UdEQSCCh0wggoZgipzYW4tMTAtczUxLnRsc3Byb3Zpc2lvbmluZy5leGFjdHRhcmdldC5jb22CFmltYWdlLmJyZWF0aGUubHVtZW4ubWWCGWltYWdlLmNsaWNrbWUuZmlpdGplZS5jb22CGmltYWdlLmNvbW1zLmxhLXotYm95LmNvLnVrgh5pbWFnZS5jb21tcy5za2ktbGVzaG91Y2hlcy5jb22CH2ltYWdlLmNvbW11bmljYXRpb24uZGFuZm9zcy5jb22CIGltYWdlLmNvbXVuaWNhY2lvbmVzLndhaHNob3cuY29tghRpbWFnZS5jb250YWN0LmVrei5jaIIXaW1hZ2UuY29udGFjdC5vc3N1ci5jb22CHWltYWdlLmNvbnRhY3QudG91dHZhYmllbnMuY29tghJpbWFnZS5kaWFsb2cubGIuZGuCGWltYWdlLmRpZ2l0YWwudHZtb25hY28ubWOCIGltYWdlLmUuc2FudGFuZGVyb3BlbmFjYWRlbXkuY29tghJpbWFnZS5lLnRlbGVub3IuZGuCHmltYWdlLmVtYWlsLmFtcGxpZmljYXBpdGFsLmNvbYIZaW1hZ2UuZW1haWwuYmFyYmVyZHRzLmNvbYIWaW1hZ2UuZW1haWwuYmVsbGVuLmNvbYIdaW1hZ2UuZW1haWwuZmlpLWluc3RpdHV0ZS5vcmeCGGltYWdlLmVtYWlsLmdhc2xpY2h0LmNvbYITaW1hZ2UuZW1haWwuZ3VuYS5pdIIZaW1hZ2UuZW1haWwuaGFtZXJpY2FzLmNvbYIdaW1hZ2UuZW1haWwuaGFybW9udGJsYWluZS5jb22CFmltYWdlLmVtYWlsLmluZm9ybWEuZXOCGmltYWdlLmVtYWlsLmludGVybmV0dGVuLm5sghJpbWFnZS5lbWFpbC5rdmsubmyCIGltYWdlLmVtYWlsLm1pdHN1YmlzaGktbW90b3JzLmF0ghlpbWFnZS5lbWFpbC5wYWxhenpldHRpLml0gh1pbWFnZS5lbWFpbC5waWVtb250ZWlubm92YS5pdIIYaW1hZ2UuZW1haWwucG9sYXJpdW0uY29tghppbWFnZS5lbWFpbC5wb2xpc3dpanplci5ubIIfaW1hZ2UuZW1haWwucG9ydGRlYmFyY2Vsb25hLmNhdIIcaW1hZ2UuZW1haWwuc2FuZHMtZXVyb3BlLmNvbYITaW1hZ2UuZW1haWwuc2l4dC5ka4IYaW1hZ2UuZW1haWwuc3dpcGVob21lLml0ghxpbWFnZS5lbWFpbC50b3BzcG9ydGdyb3VwLml0ghVpbWFnZS5lbWFpbC51bmljZWYucHSCGmltYWdlLmVtYWlsLndpbm5lcmxhbmQuY29tghtpbWFnZS5lbmdhZ2Uud29sc2VsZXkuY28udWuCJmltYWdlLmV4cGxvcmUuZHViYWlwYXJrc2FuZHJlc29ydHMuY29tgiFpbWFnZS5leHBsb3JlLm1vdGlvbmdhdGVkdWJhaS5jb22CGGltYWdlLmZ1bmRzLnJldml2ZWRhLm9yZ4IbaW1hZ2UuZ2VtLXJlcG9ydC51bmVzY28ub3JngiBpbWFnZS5nbG9iYWwuZ2Fzb2xmb3VuZGF0aW9uLm9yZ4IZaW1hZ2UuZ2xvYmFsLmhpbW9pbnNhLmNvbYIWaW1hZ2UuaGFpZmEtZ3JvdXAuaW5mb4IbaW1hZ2UuaW5mby5hbGxpYW56ZGlyZWN0LmRlghtpbWFnZS5pbmZvLmFsbGlhbnpkaXJlY3QubmyCE2ltYWdlLmluZm8uYXNpc2EuZXOCEmltYWdlLmluZm8uaGFhaS5hdIITaW1hZ2UuaW5mby5obGFnLmNvbYIUaW1hZ2UuaW5mby5pem5lby5jb22CE2ltYWdlLmluZm8ubWllbGkuZmmCFGltYWdlLmluZm8ucGFuZ2VhLmVzgiFpbWFnZS5pbmZvLXByZS5pbWFnaW5hZW5lcmdpYS5jb22CFGltYWdlLmluZm9zLnNuc20ub3Jngh5pbWFnZS5pbnNpZ2h0cy52dHRyZXNlYXJjaC5jb22CEWltYWdlLmxwLmRybWF4Lml0ghFpbWFnZS5scC5kcm1heC5yc4IUaW1hZ2UubWFpbC5hbGNvdHQuZXWCHWltYWdlLm1haWwuYW5nZWxpbmliZWF1dHkuY29tghtpbWFnZS5tYWlsLmF1dG8taW1hZ2luZy5jb22CGmltYWdlLm1haWwuYmFyYmVjdWVzaG9wLm5sghZpbWFnZS5tYWlsLmJlbG1vY2EuY29tghdpbWFnZS5tYWlsLmNsb3Vkdi5jby51a4IXaW1hZ2UubWFpbC5maW51cmEuY28udWuCGWltYWdlLm1haWwuZ3V0dGVyaWRnZS5jb22CEWltYWdlLm1haWwucm5lLnB0giBpbWFnZS5tYWlsaW5nLmNhbmFkYWRpc3RyaWN0LmNvbYIjaW1hZ2UubWFpbGluZy5zcGllbHdhcmVubWVzc2UtZWcuZGWCGmltYWdlLm1hcmtldGluZy5lYXN5LmNvLmlsgh5pbWFnZS5tYXJrZXRpbmcubmF0dXJhbGludC5jb22CIGltYWdlLm1hcmtldGluZy50cm9qZW5hLm5lb20uY29tghVpbWFnZS5tYy5iYXJuZWJ5cy5jb22CFmltYWdlLm1jLmZhZS1ncm91cC5jb22CEmltYWdlLm1jLm1ldHNvLmNvbYIaaW1hZ2UubWVtYmVyLmRjaGxpdmluZy5jb22CHWltYWdlLm1mLm1vYmlsaWVyZGVmcmFuY2UuY29tghRpbWFnZS5uYS5mbHVpZHJhLmNvbYIVaW1hZ2UubmV3cy5hcm1hbmkuY29tgh1pbWFnZS5uZXdzLmFybWFuaWV4Y2hhbmdlLmNvbYIcaW1hZ2UubmV3cy5icmF1bi1oYW1idXJnLmNvbYIVaW1hZ2UubmV3cy5zY2JyYWdhLnB0ghtpbWFnZS5uZXdzLnNlbGVudGFncm91cC5jb22CIGltYWdlLm5ld3MudGhlaXZ5LWNvbGxlY3Rpb24uY29tghVpbWFnZS5ubC5hc2FoaWJlZXIuZXWCG2ltYWdlLm51dHJpbGFrZm9yYmFiaWVzLmNvbYIVaW1hZ2UucGwuYXNhaGliZWVyLmV1ghdpbWFnZS5wb3N0YS5nZW5lcmFsaS5zaYIfaW1hZ2UucmVzaWRlbnRpYWwudml0YWdyb3VwLmNvbYIZaW1hZ2UucmlkZS5sdWctY2FycmllLmNvbYIbaW1hZ2Uuc2hvcC5lbnJpcXVldG9tYXMuY29tghxpbWFnZS5zdHVkeS5jYW50ZXJidXJ5LmFjLnVrghBpbWFnZS50ZW1wdXIuY29tghhpbWFnZS50di5tb3Zpc3RhcnBsdXMuZXOCFmltYWdlLmFjY291bnQubWlyby5jb20wPgYDVR0gBDcwNTAzBgZngQwBAgIwKTAnBggrBgEFBQcCARYbaHR0cDovL3d3dy5kaWdpY2VydC5jb20vQ1BTMA4GA1UdDwEB/wQEAwIFoDAdBgNVHSUEFjAUBggrBgEFBQcDAQYIKwYBBQUHAwIwgZ8GA1UdHwSBlzCBlDBIoEagRIZCaHR0cDovL2NybDMuZGlnaWNlcnQuY29tL0RpZ2lDZXJ0R2xvYmFsRzJUTFNSU0FTSEEyNTYyMDIwQ0ExLTEuY3JsMEigRqBEhkJodHRwOi8vY3JsNC5kaWdpY2VydC5jb20vRGlnaUNlcnRHbG9iYWxHMlRMU1JTQVNIQTI1NjIwMjBDQTEtMS5jcmwwgYcGCCsGAQUFBwEBBHsweTAkBggrBgEFBQcwAYYYaHR0cDovL29jc3AuZGlnaWNlcnQuY29tMFEGCCsGAQUFBzAChkVodHRwOi8vY2FjZXJ0cy5kaWdpY2VydC5jb20vRGlnaUNlcnRHbG9iYWxHMlRMU1JTQVNIQTI1NjIwMjBDQTEtMS5jcnQwDAYDVR0TAQH/BAIwADCCAXsGCisGAQQB1nkCBAIEggFrBIIBZwFlAHUAlpdkv1VYl633Q4doNwhCd+nwOtX2pPM2bkakPw/KqcYAAAGWk6FRuwAABAMARjBEAiBhyZmRY9IZb+yb6xOEhqyv/0R11FzPlate0jSjv8mCkQIgBZyxnOfsOVHG+4uRnGKUKKhV0beH3pk9g1ZpIB1m1xoAdQBkEcRspBLsp4kcogIuALyrTygH1B41J6vq/tUDyX3N8AAAAZaToVG1AAAEAwBGMEQCIBPst7kIcaQDWZie1LPk37Q9/GvPXQ5Q6lP7MVDblGPkAiA9/LgVp/Bsgg4vZsG8YVzCamsh83kFFXDI/qYsOEoX/AB1AEmcm2neHXzs/DbezYdkprhbrwqHgBnRVVL76esp3fjDAAABlpOhUdAAAAQDAEYwRAIgGPHdyyUEAsh/fVU3LMrlt2VlwMqwGLnFgNpAvMqZywgCICw4Z1J1z39iu8yHdNo+7uzivpu/rd+trgq4W1/xYuX1MA0GCSqGSIb3DQEBCwUAA4IBAQCf8niGNHaDReXsOm6AzDSvKyb+8sHK0rp9kkfYFbalWYmwG7SMu+lKPKxZ+SdGFuLoM/DCbyBo9PPP+QdvcsiWItkxNlIczoprLiAp2jGjSP8d2wmoJvd1vbjeSDxzFdwmguY0KbZU9yajG9ixqGp0SfPRGIqROkZFRGM4ZUEPsaehsmXNQNxRrnA24NxTrNa+KeYiGObMRRnoTHMbR9jrfCxmwJRaXC+IMPAJhOaz1Rc7f4j1ll+ZbJ0jc3KFaxUNZS83U+QdfAPXahbjH5R9Uzaf6DGGx1eaAvzB1EMlXY0YWAtBWczFMvvaU11NPaCzyTG9jBsYq1QRZltI7lif\n-----END CERTIFICATE-----"
+          }
+,         {
+              "id"           : "cert_commonName",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.56",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "san-10-s51.tlsprovisioning.exacttarget.com"
+          }
+,         {
+              "id"           : "cert_commonName_wo_SNI",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.56",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "request w/o SNI didn't succeed"
+          }
+,         {
+              "id"           : "cert_subjectAltName",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.56",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "san-10-s51.tlsprovisioning.exacttarget.com image.breathe.lumen.me image.clickme.fiitjee.com image.comms.la-z-boy.co.uk image.comms.ski-leshouches.com image.communication.danfoss.com image.comunicaciones.wahshow.com image.contact.ekz.ch image.contact.ossur.com image.contact.toutvabiens.com image.dialog.lb.dk image.digital.tvmonaco.mc image.e.santanderopenacademy.com image.e.telenor.dk image.email.amplificapital.com image.email.barberdts.com image.email.bellen.com image.email.fii-institute.org image.email.gaslicht.com image.email.guna.it image.email.hamericas.com image.email.harmontblaine.com image.email.informa.es image.email.internetten.nl image.email.kvk.nl image.email.mitsubishi-motors.at image.email.palazzetti.it image.email.piemonteinnova.it image.email.polarium.com image.email.poliswijzer.nl image.email.portdebarcelona.cat image.email.sands-europe.com image.email.sixt.dk image.email.swipehome.it image.email.topsportgroup.it image.email.unicef.pt image.email.winnerland.com image.engage.wolseley.co.uk image.explore.dubaiparksandresorts.com image.explore.motiongatedubai.com image.funds.reviveda.org image.gem-report.unesco.org image.global.gasolfoundation.org image.global.himoinsa.com image.haifa-group.info image.info.allianzdirect.de image.info.allianzdirect.nl image.info.asisa.es image.info.haai.at image.info.hlag.com image.info.izneo.com image.info.mieli.fi image.info.pangea.es image.info-pre.imaginaenergia.com image.infos.snsm.org image.insights.vttresearch.com image.lp.drmax.it image.lp.drmax.rs image.mail.alcott.eu image.mail.angelinibeauty.com image.mail.auto-imaging.com image.mail.barbecueshop.nl image.mail.belmoca.com image.mail.cloudv.co.uk image.mail.finura.co.uk image.mail.gutteridge.com image.mail.rne.pt image.mailing.canadadistrict.com image.mailing.spielwarenmesse-eg.de image.marketing.easy.co.il image.marketing.naturalint.com image.marketing.trojena.neom.com image.mc.barnebys.com image.mc.fae-group.com image.mc.metso.com image.member.dchliving.com image.mf.mobilierdefrance.com image.na.fluidra.com image.news.armani.com image.news.armaniexchange.com image.news.braun-hamburg.com image.news.scbraga.pt image.news.selentagroup.com image.news.theivy-collection.com image.nl.asahibeer.eu image.nutrilakforbabies.com image.pl.asahibeer.eu image.posta.generali.si image.residential.vitagroup.com image.ride.lug-carrie.com image.shop.enriquetomas.com image.study.canterbury.ac.uk image.tempur.com image.tv.movistarplus.es image.account.miro.com"
+          }
+,         {
+              "id"           : "cert_trust",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.56",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "Ok via SAN (SNI mandatory)"
+          }
+,         {
+              "id"           : "cert_chain_of_trust",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.56",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "passed."
+          }
+,         {
+              "id"           : "cert_certificatePolicies_EV",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.56",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "no"
+          }
+,         {
+              "id"           : "cert_expirationStatus",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.56",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "352 >= 60 days"
+          }
+,         {
+              "id"           : "cert_notBefore",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.56",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "2025-05-03 00:00"
+          }
+,         {
+              "id"           : "cert_notAfter",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.56",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "2026-06-03 23:59"
+          }
+,         {
+              "id"           : "cert_extlifeSpan",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.56",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "certificate has no extended life time according to browser forum"
+          }
+,         {
+              "id"           : "cert_eTLS",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.56",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "not present"
+          }
+,         {
+              "id"           : "cert_crlDistributionPoints",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.56",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "http://crl3.digicert.com/DigiCertGlobalG2TLSRSASHA2562020CA1-1.crl http://crl4.digicert.com/DigiCertGlobalG2TLSRSASHA2562020CA1-1.crl"
+          }
+,         {
+              "id"           : "cert_ocspURL",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.56",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "http://ocsp.digicert.com"
+          }
+,         {
+              "id"           : "OCSP_stapling",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.56",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "offered"
+          }
+,         {
+              "id"           : "cert_ocspRevoked",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.56",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "not revoked"
+          }
+,         {
+              "id"           : "cert_mustStapleExtension",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.56",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "--"
+          }
+,         {
+              "id"           : "DNS_CAArecord",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.56",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "--"
+          }
+,         {
+              "id"           : "certificate_transparency",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.56",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "yes (certificate extension)"
+          }
+,         {
+              "id"           : "certs_countServer",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.56",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "2"
+          }
+,         {
+              "id"           : "certs_list_ordering_problem",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.56",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "no"
+          }
+,         {
+              "id"           : "cert_caIssuers",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.56",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "DigiCert Global G2 TLS RSA SHA256 2020 CA1 (DigiCert Inc from US)"
+          }
+,         {
+              "id"           : "intermediate_cert <#1>",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.56",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "-----BEGIN CERTIFICATE-----\nMIIEyDCCA7CgAwIBAgIQDPW9BitWAvR6uFAsI8zwZjANBgkqhkiG9w0BAQsFADBhMQswCQYDVQQGEwJVUzEVMBMGA1UEChMMRGlnaUNlcnQgSW5jMRkwFwYDVQQLExB3d3cuZGlnaWNlcnQuY29tMSAwHgYDVQQDExdEaWdpQ2VydCBHbG9iYWwgUm9vdCBHMjAeFw0yMTAzMzAwMDAwMDBaFw0zMTAzMjkyMzU5NTlaMFkxCzAJBgNVBAYTAlVTMRUwEwYDVQQKEwxEaWdpQ2VydCBJbmMxMzAxBgNVBAMTKkRpZ2lDZXJ0IEdsb2JhbCBHMiBUTFMgUlNBIFNIQTI1NiAyMDIwIENBMTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAMz3EGJPprtjb+2QUlbFbSd7ehJWivH0+dbn4Y+9lavyYEEVcNsSAPonCrVXOFt9slGTcZUOakGUWzUb+nv6u8W+JDD+Vu/E832X4xT1FE3LpxDyFuqrIvAxIhFhaZAmunjZlx/jfWardUSVc8is/+9dCopZQ+GssjoP80j812s3wWPc3kbW20X+fSP9kOhRBx5Ro1/tSUZUfyyIxfQTnJcVPAPooTncaQwywa8WV0yUR0J8osicfebUTVSvQpmowQTCd5zWSOTOEeAqgJnwQ3DPP3Zr0UxJqyRewg2C/Uaoq2yTzGJSQnWS+Jr6Xl6ysGHlHx+5fwmY6D36g39HaaECAwEAAaOCAYIwggF+MBIGA1UdEwEB/wQIMAYBAf8CAQAwHQYDVR0OBBYEFHSFgMBmx9833s+9KTeqAx2+7c0XMB8GA1UdIwQYMBaAFE4iVCAYlebjbuYP+vq5Eu0GF485MA4GA1UdDwEB/wQEAwIBhjAdBgNVHSUEFjAUBggrBgEFBQcDAQYIKwYBBQUHAwIwdgYIKwYBBQUHAQEEajBoMCQGCCsGAQUFBzABhhhodHRwOi8vb2NzcC5kaWdpY2VydC5jb20wQAYIKwYBBQUHMAKGNGh0dHA6Ly9jYWNlcnRzLmRpZ2ljZXJ0LmNvbS9EaWdpQ2VydEdsb2JhbFJvb3RHMi5jcnQwQgYDVR0fBDswOTA3oDWgM4YxaHR0cDovL2NybDMuZGlnaWNlcnQuY29tL0RpZ2lDZXJ0R2xvYmFsUm9vdEcyLmNybDA9BgNVHSAENjA0MAsGCWCGSAGG/WwCATAHBgVngQwBATAIBgZngQwBAgEwCAYGZ4EMAQICMAgGBmeBDAECAzANBgkqhkiG9w0BAQsFAAOCAQEAkPFwyyiXaZd8dP3A+iZ7U6utzWX9upwGnIrXWkOH7U1MVl+twcW1BSAuWdH/SvWgKtiwla3JLko716f2b4gp/DA/JIS7w7d7kwcsr4drdjPtAFVSslme5LnQ89/nD/7d+MS5EHKBCQRfz5eeLjJ1js+aWNJXMX43AYGyZm0pGrFmCW3RbpD0ufovARTFXFZkAdl9h6g4U5+LXUZtXMYnhIHUfoyMo5tS58aI7Dd8KvvwVVo4chDYABPPTHPbqjc1qCmBaZx2vN4Ye5DUys/vZwP9BFohFrH/6j/f3IL16/RZkiMNJCqVJUzKoZHm1Lesh3Sz8W2jmdv51b2EQJ8HmA==\n-----END CERTIFICATE-----"
+          }
+,         {
+              "id"           : "intermediate_cert_fingerprintSHA256 <#1>",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.56",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "C8025F9FC65FDFC95B3CA8CC7867B9A587B5277973957917463FC813D0B625A9"
+          }
+,         {
+              "id"           : "intermediate_cert_notBefore <#1>",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.56",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "2021-03-30 00:00"
+          }
+,         {
+              "id"           : "intermediate_cert_notAfter <#1>",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.56",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "2031-03-29 23:59"
+          }
+,         {
+              "id"           : "intermediate_cert_expiration <#1>",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.56",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "ok > 40 days"
+          }
+,         {
+              "id"           : "intermediate_cert_chain <#1>",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.56",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "DigiCert Global G2 TLS RSA SHA256 2020 CA1 <-- DigiCert Global Root G2"
+          }
+,         {
+              "id"           : "intermediate_cert_badOCSP",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.56",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "intermediate certificate(s) is/are ok"
+          }
+,         {
+              "id"           : "HTTP_status_code",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.56",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "403 Forbidden ('/')"
+          }
+,         {
+              "id"           : "HTTP_clock_skew",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.56",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "0 seconds from localtime"
+          }
+,         {
+              "id"           : "HTTP_headerTime",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.56",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "1750066063"
+          }
+,         {
+              "id"           : "HSTS",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.56",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "not offered"
+          }
+,         {
+              "id"           : "HPKP",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.56",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "No support for HTTP Public Key Pinning"
+          }
+,         {
+              "id"           : "banner_server",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.56",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "AkamaiGHost"
+          }
+,         {
+              "id"           : "banner_application",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.56",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "No application banner found"
+          }
+,         {
+              "id"           : "cookie_count",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.56",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "0 at '/' (maybe missed the application)"
+          }
+,         {
+              "id"           : "security_headers",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.56",
+              "port"         : "443",
+              "severity"     : "MEDIUM",
+              "finding"      : "--"
+          }
+,         {
+              "id"           : "banner_reverseproxy",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.56",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "cwe"          : "CWE-200",
+              "finding"      : "--"
+          }
+,         {
+              "id"           : "heartbleed",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.56",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2014-0160",
+              "cwe"          : "CWE-119",
+              "finding"      : "not vulnerable, no heartbeat extension"
+          }
+,         {
+              "id"           : "CCS",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.56",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2014-0224",
+              "cwe"          : "CWE-310",
+              "finding"      : "not vulnerable"
+          }
+,         {
+              "id"           : "ticketbleed",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.56",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2016-9244",
+              "cwe"          : "CWE-200",
+              "finding"      : "not vulnerable"
+          }
+,         {
+              "id"           : "ROBOT",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.56",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2017-17382 CVE-2017-17427 CVE-2017-17428 CVE-2017-13098 CVE-2017-1000385 CVE-2017-13099 CVE-2016-6883 CVE-2012-5081 CVE-2017-6168",
+              "cwe"          : "CWE-203",
+              "finding"      : "not vulnerable, no RSA key transport cipher"
+          }
+,         {
+              "id"           : "secure_renego",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.56",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cwe"          : "CWE-310",
+              "finding"      : "supported"
+          }
+,         {
+              "id"           : "secure_client_renego",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.56",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2011-1473",
+              "cwe"          : "CWE-310",
+              "finding"      : "not vulnerable"
+          }
+,         {
+              "id"           : "CRIME_TLS",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.56",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2012-4929",
+              "cwe"          : "CWE-310",
+              "finding"      : "not vulnerable"
+          }
+,         {
+              "id"           : "BREACH",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.56",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2013-3587",
+              "cwe"          : "CWE-310",
+              "finding"      : "not vulnerable, no gzip/deflate/compress/br HTTP compression  - only supplied '/' tested"
+          }
+,         {
+              "id"           : "POODLE_SSL",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.56",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2014-3566",
+              "cwe"          : "CWE-310",
+              "finding"      : "not vulnerable, no SSLv3"
+          }
+,         {
+              "id"           : "fallback_SCSV",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.56",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "no protocol below TLS 1.2 offered"
+          }
+,         {
+              "id"           : "SWEET32",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.56",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2016-2183 CVE-2016-6329",
+              "cwe"          : "CWE-327",
+              "finding"      : "not vulnerable"
+          }
+,         {
+              "id"           : "FREAK",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.56",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2015-0204",
+              "cwe"          : "CWE-310",
+              "finding"      : "not vulnerable"
+          }
+,         {
+              "id"           : "DROWN",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.56",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2016-0800 CVE-2016-0703",
+              "cwe"          : "CWE-310",
+              "finding"      : "not vulnerable on this host and port"
+          }
+,         {
+              "id"           : "DROWN_hint",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.56",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "cve"          : "CVE-2016-0800 CVE-2016-0703",
+              "cwe"          : "CWE-310",
+              "finding"      : "Make sure you don't use this certificate elsewhere with SSLv2 enabled services, see https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=418128E8FE08E242057A42ABE167D3B406592059A0388044B8E4717118F2277D"
+          }
+,         {
+              "id"           : "LOGJAM",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.56",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2015-4000",
+              "cwe"          : "CWE-310",
+              "finding"      : "not vulnerable, no DH EXPORT ciphers,"
+          }
+,         {
+              "id"           : "LOGJAM-common_primes",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.56",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2015-4000",
+              "cwe"          : "CWE-310",
+              "finding"      : "no DH key with <= TLS 1.2"
+          }
+,         {
+              "id"           : "BEAST",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.56",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2011-3389",
+              "cwe"          : "CWE-20",
+              "finding"      : "not vulnerable, no SSL3 or TLS1"
+          }
+,         {
+              "id"           : "LUCKY13",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.56",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "cve"          : "CVE-2013-0169",
+              "cwe"          : "CWE-310",
+              "finding"      : "potentially vulnerable, uses TLS CBC ciphers"
+          }
+,         {
+              "id"           : "winshock",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.56",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2014-6321",
+              "cwe"          : "CWE-94",
+              "finding"      : "not vulnerable"
+          }
+,         {
+              "id"           : "RC4",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.56",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2013-2566 CVE-2015-2808",
+              "cwe"          : "CWE-310",
+              "finding"      : "not vulnerable"
+          }
+,         {
+              "id"           : "clientsimulation-android_70",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.56",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-android_81",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.56",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-android_90",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.56",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_256_GCM_SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-android_X",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.56",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_256_GCM_SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-android_11_12",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.56",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_256_GCM_SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-android_13_14",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.56",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_256_GCM_SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-android_15",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.56",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_256_GCM_SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-chrome_101_win10",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.56",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_256_GCM_SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-chromium_137_win11",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.56",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_256_GCM_SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-firefox_100_win10",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.56",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_256_GCM_SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-firefox_137_win11",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.56",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_256_GCM_SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-ie_8_win7",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.56",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "No connection"
+          }
+,         {
+              "id"           : "clientsimulation-ie_11_win7",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.56",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-RSA-AES256-SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-ie_11_win81",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.56",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-RSA-AES256-SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-ie_11_winphone81",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.56",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-RSA-AES128-SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-ie_11_win10",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.56",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-edge_15_win10",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.56",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-edge_101_win10_21h2",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.56",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_256_GCM_SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-edge_133_win11_23h2",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.56",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_256_GCM_SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-safari_184_ios_184",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.56",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_256_GCM_SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-safari_154_osx_1231",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.56",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_256_GCM_SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-safari_184_osx_154",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.56",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_256_GCM_SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-java_7u25",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.56",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "No connection"
+          }
+,         {
+              "id"           : "clientsimulation-java_80442",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.56",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_256_GCM_SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-java_1102",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.56",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_256_GCM_SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-java_1703",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.56",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_256_GCM_SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-java_2106",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.56",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_256_GCM_SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-go_1178",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.56",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_256_GCM_SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-libressl_336",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.56",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_CHACHA20_POLY1305_SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-openssl_102e",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.56",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-openssl_111d",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.56",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_256_GCM_SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-openssl_315",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.56",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_256_GCM_SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-openssl_350",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.56",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_256_GCM_SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-apple_mail_16_0",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.56",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-thunderbird_91_9",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.56",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_256_GCM_SHA384"
+          }
+,         {
+              "id"           : "rating_spec",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.56",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "SSL Labs's 'SSL Server Rating Guide' (version 2009q from 2020-01-30)"
+          }
+,         {
+              "id"           : "rating_doc",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.56",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "https://github.com/ssllabs/research/wiki/SSL-Server-Rating-Guide"
+          }
+,         {
+              "id"           : "protocol_support_score",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.56",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "100"
+          }
+,         {
+              "id"           : "protocol_support_score_weighted",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.56",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "30"
+          }
+,         {
+              "id"           : "key_exchange_score",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.56",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "90"
+          }
+,         {
+              "id"           : "key_exchange_score_weighted",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.56",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "27"
+          }
+,         {
+              "id"           : "cipher_strength_score",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.56",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "90"
+          }
+,         {
+              "id"           : "cipher_strength_score_weighted",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.56",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "36"
+          }
+,         {
+              "id"           : "final_score",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.56",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "93"
+          }
+,         {
+              "id"           : "overall_grade",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.56",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "A"
+          }
+,         {
+              "id"           : "grade_cap_reason_1",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.56",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "Grade capped to A. HSTS is not offered"
+          }
+,         {
+              "id"           : "service",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.58",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "HTTP"
+          }
+,         {
+              "id"           : "pre_128cipher",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.58",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "No 128 cipher limit bug"
+          }
+,         {
+              "id"           : "SSLv2",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.58",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "not offered"
+          }
+,         {
+              "id"           : "SSLv3",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.58",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "not offered"
+          }
+,         {
+              "id"           : "TLS1",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.58",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "not offered"
+          }
+,         {
+              "id"           : "TLS1_1",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.58",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "not offered"
+          }
+,         {
+              "id"           : "TLS1_2",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.58",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "offered"
+          }
+,         {
+              "id"           : "TLS1_3",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.58",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "offered with final"
+          }
+,         {
+              "id"           : "NPN",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.58",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "offered with http/1.1, http/1.0 (advertised)"
+          }
+,         {
+              "id"           : "ALPN",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.58",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "http/1.1"
+          }
+,         {
+              "id"           : "cipherlist_NULL",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.58",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cwe"          : "CWE-327",
+              "finding"      : "not offered"
+          }
+,         {
+              "id"           : "cipherlist_aNULL",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.58",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cwe"          : "CWE-327",
+              "finding"      : "not offered"
+          }
+,         {
+              "id"           : "cipherlist_EXPORT",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.58",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cwe"          : "CWE-327",
+              "finding"      : "not offered"
+          }
+,         {
+              "id"           : "cipherlist_LOW",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.58",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cwe"          : "CWE-327",
+              "finding"      : "not offered"
+          }
+,         {
+              "id"           : "cipherlist_3DES_IDEA",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.58",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "cwe"          : "CWE-310",
+              "finding"      : "not offered"
+          }
+,         {
+              "id"           : "cipherlist_OBSOLETED",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.58",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "cwe"          : "CWE-310",
+              "finding"      : "offered"
+          }
+,         {
+              "id"           : "cipherlist_STRONG_NOFS",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.58",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "not offered"
+          }
+,         {
+              "id"           : "cipherlist_STRONG_FS",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.58",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "offered"
+          }
+,         {
+              "id"           : "cipher_order-tls1_2",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.58",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "server -- server prioritizes ChaCha ciphers when preferred by clients"
+          }
+,         {
+              "id"           : "cipher-tls1_2_xc030",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.58",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "TLSv1.2   xc030   ECDHE-RSA-AES256-GCM-SHA384       ECDH 256   AESGCM      256      TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384"
+          }
+,         {
+              "id"           : "cipher-tls1_2_xc02f",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.58",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "TLSv1.2   xc02f   ECDHE-RSA-AES128-GCM-SHA256       ECDH 256   AESGCM      128      TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256"
+          }
+,         {
+              "id"           : "cipher-tls1_2_xcca8",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.58",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "TLSv1.2   xcca8   ECDHE-RSA-CHACHA20-POLY1305       ECDH 256   ChaCha20    256      TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256"
+          }
+,         {
+              "id"           : "cipher-tls1_2_xc028",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.58",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "TLSv1.2   xc028   ECDHE-RSA-AES256-SHA384           ECDH 256   AES         256      TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384"
+          }
+,         {
+              "id"           : "cipher-tls1_2_xc027",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.58",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "TLSv1.2   xc027   ECDHE-RSA-AES128-SHA256           ECDH 256   AES         128      TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256"
+          }
+,         {
+              "id"           : "cipher-tls1_2_xc014",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.58",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "TLSv1.2   xc014   ECDHE-RSA-AES256-SHA              ECDH 256   AES         256      TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA"
+          }
+,         {
+              "id"           : "cipher-tls1_2_xc013",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.58",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "TLSv1.2   xc013   ECDHE-RSA-AES128-SHA              ECDH 256   AES         128      TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA"
+          }
+,         {
+              "id"           : "cipherorder_TLSv1_2",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.58",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "ECDHE-RSA-AES256-GCM-SHA384 ECDHE-RSA-AES128-GCM-SHA256 ECDHE-RSA-CHACHA20-POLY1305 ECDHE-RSA-AES256-SHA384 ECDHE-RSA-AES128-SHA256 ECDHE-RSA-AES256-SHA ECDHE-RSA-AES128-SHA"
+          }
+,         {
+              "id"           : "prioritize_chacha_TLSv1_2",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.58",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "true"
+          }
+,         {
+              "id"           : "cipher_order-tls1_3",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.58",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "server -- server prioritizes ChaCha ciphers when preferred by clients"
+          }
+,         {
+              "id"           : "cipher-tls1_3_x1302",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.58",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "TLSv1.3   x1302   TLS_AES_256_GCM_SHA384            ECDH 253   AESGCM      256      TLS_AES_256_GCM_SHA384"
+          }
+,         {
+              "id"           : "cipher-tls1_3_x1303",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.58",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "TLSv1.3   x1303   TLS_CHACHA20_POLY1305_SHA256      ECDH 253   ChaCha20    256      TLS_CHACHA20_POLY1305_SHA256"
+          }
+,         {
+              "id"           : "cipher-tls1_3_x1301",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.58",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "TLSv1.3   x1301   TLS_AES_128_GCM_SHA256            ECDH 253   AESGCM      128      TLS_AES_128_GCM_SHA256"
+          }
+,         {
+              "id"           : "cipher-tls1_3_x1305",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.58",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "TLSv1.3   x1305   TLS_AES_128_CCM_8_SHA256          ECDH 253   AESCCM8     128      TLS_AES_128_CCM_8_SHA256"
+          }
+,         {
+              "id"           : "cipher-tls1_3_x1304",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.58",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "TLSv1.3   x1304   TLS_AES_128_CCM_SHA256            ECDH 253   AESCCM      128      TLS_AES_128_CCM_SHA256"
+          }
+,         {
+              "id"           : "cipherorder_TLSv1_3",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.58",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLS_AES_256_GCM_SHA384 TLS_CHACHA20_POLY1305_SHA256 TLS_AES_128_GCM_SHA256 TLS_AES_128_CCM_8_SHA256 TLS_AES_128_CCM_SHA256"
+          }
+,         {
+              "id"           : "prioritize_chacha_TLSv1_3",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.58",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "true"
+          }
+,         {
+              "id"           : "cipher_order",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.58",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "server"
+          }
+,         {
+              "id"           : "FS",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.58",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "offered"
+          }
+,         {
+              "id"           : "FS_ciphers",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.58",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLS_AES_256_GCM_SHA384 TLS_CHACHA20_POLY1305_SHA256 ECDHE-RSA-AES256-GCM-SHA384 ECDHE-RSA-AES256-SHA384 ECDHE-RSA-AES256-SHA ECDHE-RSA-CHACHA20-POLY1305 TLS_AES_128_GCM_SHA256 TLS_AES_128_CCM_SHA256 TLS_AES_128_CCM_8_SHA256 ECDHE-RSA-AES128-GCM-SHA256 ECDHE-RSA-AES128-SHA256 ECDHE-RSA-AES128-SHA"
+          }
+,         {
+              "id"           : "FS_ECDHE_curves",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.58",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "prime256v1 X25519"
+          }
+,         {
+              "id"           : "FS_TLS12_sig_algs",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.58",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "RSA-PSS-RSAE+SHA256 RSA-PSS-RSAE+SHA384 RSA-PSS-RSAE+SHA512 RSA+SHA256 RSA+SHA384 RSA+SHA512 RSA+SHA224 RSA+SHA1"
+          }
+,         {
+              "id"           : "FS_TLS13_sig_algs",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.58",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "RSA-PSS-RSAE+SHA256 RSA-PSS-RSAE+SHA384 RSA-PSS-RSAE+SHA512"
+          }
+,         {
+              "id"           : "TLS_extensions",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.58",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "'server name/#0' 'max fragment length/#1' 'status request/#5' 'EC point formats/#11' 'application layer protocol negotiation/#16' 'session ticket/#35' 'supported versions/#43' 'key share/#51' 'next protocol/#13172' 'renegotiation info/#65281'"
+          }
+,         {
+              "id"           : "TLS_session_ticket",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.58",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "valid for 83100 seconds only (<daily)"
+          }
+,         {
+              "id"           : "SSL_sessionID_support",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.58",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "yes"
+          }
+,         {
+              "id"           : "sessionresumption_ticket",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.58",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "supported"
+          }
+,         {
+              "id"           : "sessionresumption_ID",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.58",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "not supported"
+          }
+,         {
+              "id"           : "TLS_timestamp",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.58",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "random"
+          }
+,         {
+              "id"           : "certificate_compression",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.58",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "none"
+          }
+,         {
+              "id"           : "clientAuth",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.58",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "none"
+          }
+,         {
+              "id"           : "cert_numbers",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.58",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "1"
+          }
+,         {
+              "id"           : "cert_signatureAlgorithm",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.58",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "SHA256 with RSA"
+          }
+,         {
+              "id"           : "cert_keySize",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.58",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "RSA 2048 bits (exponent is 65537)"
+          }
+,         {
+              "id"           : "cert_keyUsage",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.58",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "Digital Signature, Key Encipherment"
+          }
+,         {
+              "id"           : "cert_extKeyUsage",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.58",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLS Web Server Authentication, TLS Web Client Authentication"
+          }
+,         {
+              "id"           : "cert_serialNumber",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.58",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "044168B1CBE2014EE849DA3A748B448E"
+          }
+,         {
+              "id"           : "cert_serialNumberLen",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.58",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "16"
+          }
+,         {
+              "id"           : "cert_fingerprintSHA1",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.58",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "31CDCCA76AA735FF0B33D9413DD9ACC30BD81F60"
+          }
+,         {
+              "id"           : "cert_fingerprintSHA256",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.58",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "418128E8FE08E242057A42ABE167D3B406592059A0388044B8E4717118F2277D"
+          }
+,         {
+              "id"           : "cert",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.58",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "-----BEGIN CERTIFICATE-----\nMIIRBjCCD+6gAwIBAgIQBEFoscviAU7oSdo6dItEjjANBgkqhkiG9w0BAQsFADBZMQswCQYDVQQGEwJVUzEVMBMGA1UEChMMRGlnaUNlcnQgSW5jMTMwMQYDVQQDEypEaWdpQ2VydCBHbG9iYWwgRzIgVExTIFJTQSBTSEEyNTYgMjAyMCBDQTEwHhcNMjUwNTAzMDAwMDAwWhcNMjYwNjAzMjM1OTU5WjCBijELMAkGA1UEBhMCVVMxEzARBgNVBAgTCkNhbGlmb3JuaWExFjAUBgNVBAcTDVNhbiBGcmFuY2lzY28xGTAXBgNVBAoTEFNhbGVzZm9yY2UsIEluYy4xMzAxBgNVBAMTKnNhbi0xMC1zNTEudGxzcHJvdmlzaW9uaW5nLmV4YWN0dGFyZ2V0LmNvbTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAL7ymvostBNBjxzJgcrJk85n+wC3AnF2JZL7miErsQVNCmfhlgQ7JlSM+C0Nje+VOmwPdzBvHia51wy5PaUEwi+2qQoKxWK/bmPjBva4kLaasXEgKrp9du9vr80kxK62GxNz/86QC1HFvSD6dfkAcxP14KGr/1UTIo4hjVzLComn1i7+PXWCOZE1ey1qP1HpksPyh5DXJcB1mGP1fcewF9iV49hwiUTmdX258YhLeJ9fRKKiuW0ZwN3K65aJwUGsz+CEN1vqdgLN86RSjS87MP2KuPf0Sn6dZI69QqXLBx4ewtjwXTmoRFWkWdAKijSa2nADr1q21VNHiXLoNg+HRzcCAwEAAaOCDZYwgg2SMB8GA1UdIwQYMBaAFHSFgMBmx9833s+9KTeqAx2+7c0XMB0GA1UdDgQWBBQkGXC/adnqVwvj69xOY2oqRD0r0jCCCiYGA1UdEQSCCh0wggoZgipzYW4tMTAtczUxLnRsc3Byb3Zpc2lvbmluZy5leGFjdHRhcmdldC5jb22CFmltYWdlLmJyZWF0aGUubHVtZW4ubWWCGWltYWdlLmNsaWNrbWUuZmlpdGplZS5jb22CGmltYWdlLmNvbW1zLmxhLXotYm95LmNvLnVrgh5pbWFnZS5jb21tcy5za2ktbGVzaG91Y2hlcy5jb22CH2ltYWdlLmNvbW11bmljYXRpb24uZGFuZm9zcy5jb22CIGltYWdlLmNvbXVuaWNhY2lvbmVzLndhaHNob3cuY29tghRpbWFnZS5jb250YWN0LmVrei5jaIIXaW1hZ2UuY29udGFjdC5vc3N1ci5jb22CHWltYWdlLmNvbnRhY3QudG91dHZhYmllbnMuY29tghJpbWFnZS5kaWFsb2cubGIuZGuCGWltYWdlLmRpZ2l0YWwudHZtb25hY28ubWOCIGltYWdlLmUuc2FudGFuZGVyb3BlbmFjYWRlbXkuY29tghJpbWFnZS5lLnRlbGVub3IuZGuCHmltYWdlLmVtYWlsLmFtcGxpZmljYXBpdGFsLmNvbYIZaW1hZ2UuZW1haWwuYmFyYmVyZHRzLmNvbYIWaW1hZ2UuZW1haWwuYmVsbGVuLmNvbYIdaW1hZ2UuZW1haWwuZmlpLWluc3RpdHV0ZS5vcmeCGGltYWdlLmVtYWlsLmdhc2xpY2h0LmNvbYITaW1hZ2UuZW1haWwuZ3VuYS5pdIIZaW1hZ2UuZW1haWwuaGFtZXJpY2FzLmNvbYIdaW1hZ2UuZW1haWwuaGFybW9udGJsYWluZS5jb22CFmltYWdlLmVtYWlsLmluZm9ybWEuZXOCGmltYWdlLmVtYWlsLmludGVybmV0dGVuLm5sghJpbWFnZS5lbWFpbC5rdmsubmyCIGltYWdlLmVtYWlsLm1pdHN1YmlzaGktbW90b3JzLmF0ghlpbWFnZS5lbWFpbC5wYWxhenpldHRpLml0gh1pbWFnZS5lbWFpbC5waWVtb250ZWlubm92YS5pdIIYaW1hZ2UuZW1haWwucG9sYXJpdW0uY29tghppbWFnZS5lbWFpbC5wb2xpc3dpanplci5ubIIfaW1hZ2UuZW1haWwucG9ydGRlYmFyY2Vsb25hLmNhdIIcaW1hZ2UuZW1haWwuc2FuZHMtZXVyb3BlLmNvbYITaW1hZ2UuZW1haWwuc2l4dC5ka4IYaW1hZ2UuZW1haWwuc3dpcGVob21lLml0ghxpbWFnZS5lbWFpbC50b3BzcG9ydGdyb3VwLml0ghVpbWFnZS5lbWFpbC51bmljZWYucHSCGmltYWdlLmVtYWlsLndpbm5lcmxhbmQuY29tghtpbWFnZS5lbmdhZ2Uud29sc2VsZXkuY28udWuCJmltYWdlLmV4cGxvcmUuZHViYWlwYXJrc2FuZHJlc29ydHMuY29tgiFpbWFnZS5leHBsb3JlLm1vdGlvbmdhdGVkdWJhaS5jb22CGGltYWdlLmZ1bmRzLnJldml2ZWRhLm9yZ4IbaW1hZ2UuZ2VtLXJlcG9ydC51bmVzY28ub3JngiBpbWFnZS5nbG9iYWwuZ2Fzb2xmb3VuZGF0aW9uLm9yZ4IZaW1hZ2UuZ2xvYmFsLmhpbW9pbnNhLmNvbYIWaW1hZ2UuaGFpZmEtZ3JvdXAuaW5mb4IbaW1hZ2UuaW5mby5hbGxpYW56ZGlyZWN0LmRlghtpbWFnZS5pbmZvLmFsbGlhbnpkaXJlY3QubmyCE2ltYWdlLmluZm8uYXNpc2EuZXOCEmltYWdlLmluZm8uaGFhaS5hdIITaW1hZ2UuaW5mby5obGFnLmNvbYIUaW1hZ2UuaW5mby5pem5lby5jb22CE2ltYWdlLmluZm8ubWllbGkuZmmCFGltYWdlLmluZm8ucGFuZ2VhLmVzgiFpbWFnZS5pbmZvLXByZS5pbWFnaW5hZW5lcmdpYS5jb22CFGltYWdlLmluZm9zLnNuc20ub3Jngh5pbWFnZS5pbnNpZ2h0cy52dHRyZXNlYXJjaC5jb22CEWltYWdlLmxwLmRybWF4Lml0ghFpbWFnZS5scC5kcm1heC5yc4IUaW1hZ2UubWFpbC5hbGNvdHQuZXWCHWltYWdlLm1haWwuYW5nZWxpbmliZWF1dHkuY29tghtpbWFnZS5tYWlsLmF1dG8taW1hZ2luZy5jb22CGmltYWdlLm1haWwuYmFyYmVjdWVzaG9wLm5sghZpbWFnZS5tYWlsLmJlbG1vY2EuY29tghdpbWFnZS5tYWlsLmNsb3Vkdi5jby51a4IXaW1hZ2UubWFpbC5maW51cmEuY28udWuCGWltYWdlLm1haWwuZ3V0dGVyaWRnZS5jb22CEWltYWdlLm1haWwucm5lLnB0giBpbWFnZS5tYWlsaW5nLmNhbmFkYWRpc3RyaWN0LmNvbYIjaW1hZ2UubWFpbGluZy5zcGllbHdhcmVubWVzc2UtZWcuZGWCGmltYWdlLm1hcmtldGluZy5lYXN5LmNvLmlsgh5pbWFnZS5tYXJrZXRpbmcubmF0dXJhbGludC5jb22CIGltYWdlLm1hcmtldGluZy50cm9qZW5hLm5lb20uY29tghVpbWFnZS5tYy5iYXJuZWJ5cy5jb22CFmltYWdlLm1jLmZhZS1ncm91cC5jb22CEmltYWdlLm1jLm1ldHNvLmNvbYIaaW1hZ2UubWVtYmVyLmRjaGxpdmluZy5jb22CHWltYWdlLm1mLm1vYmlsaWVyZGVmcmFuY2UuY29tghRpbWFnZS5uYS5mbHVpZHJhLmNvbYIVaW1hZ2UubmV3cy5hcm1hbmkuY29tgh1pbWFnZS5uZXdzLmFybWFuaWV4Y2hhbmdlLmNvbYIcaW1hZ2UubmV3cy5icmF1bi1oYW1idXJnLmNvbYIVaW1hZ2UubmV3cy5zY2JyYWdhLnB0ghtpbWFnZS5uZXdzLnNlbGVudGFncm91cC5jb22CIGltYWdlLm5ld3MudGhlaXZ5LWNvbGxlY3Rpb24uY29tghVpbWFnZS5ubC5hc2FoaWJlZXIuZXWCG2ltYWdlLm51dHJpbGFrZm9yYmFiaWVzLmNvbYIVaW1hZ2UucGwuYXNhaGliZWVyLmV1ghdpbWFnZS5wb3N0YS5nZW5lcmFsaS5zaYIfaW1hZ2UucmVzaWRlbnRpYWwudml0YWdyb3VwLmNvbYIZaW1hZ2UucmlkZS5sdWctY2FycmllLmNvbYIbaW1hZ2Uuc2hvcC5lbnJpcXVldG9tYXMuY29tghxpbWFnZS5zdHVkeS5jYW50ZXJidXJ5LmFjLnVrghBpbWFnZS50ZW1wdXIuY29tghhpbWFnZS50di5tb3Zpc3RhcnBsdXMuZXOCFmltYWdlLmFjY291bnQubWlyby5jb20wPgYDVR0gBDcwNTAzBgZngQwBAgIwKTAnBggrBgEFBQcCARYbaHR0cDovL3d3dy5kaWdpY2VydC5jb20vQ1BTMA4GA1UdDwEB/wQEAwIFoDAdBgNVHSUEFjAUBggrBgEFBQcDAQYIKwYBBQUHAwIwgZ8GA1UdHwSBlzCBlDBIoEagRIZCaHR0cDovL2NybDMuZGlnaWNlcnQuY29tL0RpZ2lDZXJ0R2xvYmFsRzJUTFNSU0FTSEEyNTYyMDIwQ0ExLTEuY3JsMEigRqBEhkJodHRwOi8vY3JsNC5kaWdpY2VydC5jb20vRGlnaUNlcnRHbG9iYWxHMlRMU1JTQVNIQTI1NjIwMjBDQTEtMS5jcmwwgYcGCCsGAQUFBwEBBHsweTAkBggrBgEFBQcwAYYYaHR0cDovL29jc3AuZGlnaWNlcnQuY29tMFEGCCsGAQUFBzAChkVodHRwOi8vY2FjZXJ0cy5kaWdpY2VydC5jb20vRGlnaUNlcnRHbG9iYWxHMlRMU1JTQVNIQTI1NjIwMjBDQTEtMS5jcnQwDAYDVR0TAQH/BAIwADCCAXsGCisGAQQB1nkCBAIEggFrBIIBZwFlAHUAlpdkv1VYl633Q4doNwhCd+nwOtX2pPM2bkakPw/KqcYAAAGWk6FRuwAABAMARjBEAiBhyZmRY9IZb+yb6xOEhqyv/0R11FzPlate0jSjv8mCkQIgBZyxnOfsOVHG+4uRnGKUKKhV0beH3pk9g1ZpIB1m1xoAdQBkEcRspBLsp4kcogIuALyrTygH1B41J6vq/tUDyX3N8AAAAZaToVG1AAAEAwBGMEQCIBPst7kIcaQDWZie1LPk37Q9/GvPXQ5Q6lP7MVDblGPkAiA9/LgVp/Bsgg4vZsG8YVzCamsh83kFFXDI/qYsOEoX/AB1AEmcm2neHXzs/DbezYdkprhbrwqHgBnRVVL76esp3fjDAAABlpOhUdAAAAQDAEYwRAIgGPHdyyUEAsh/fVU3LMrlt2VlwMqwGLnFgNpAvMqZywgCICw4Z1J1z39iu8yHdNo+7uzivpu/rd+trgq4W1/xYuX1MA0GCSqGSIb3DQEBCwUAA4IBAQCf8niGNHaDReXsOm6AzDSvKyb+8sHK0rp9kkfYFbalWYmwG7SMu+lKPKxZ+SdGFuLoM/DCbyBo9PPP+QdvcsiWItkxNlIczoprLiAp2jGjSP8d2wmoJvd1vbjeSDxzFdwmguY0KbZU9yajG9ixqGp0SfPRGIqROkZFRGM4ZUEPsaehsmXNQNxRrnA24NxTrNa+KeYiGObMRRnoTHMbR9jrfCxmwJRaXC+IMPAJhOaz1Rc7f4j1ll+ZbJ0jc3KFaxUNZS83U+QdfAPXahbjH5R9Uzaf6DGGx1eaAvzB1EMlXY0YWAtBWczFMvvaU11NPaCzyTG9jBsYq1QRZltI7lif\n-----END CERTIFICATE-----"
+          }
+,         {
+              "id"           : "cert_commonName",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.58",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "san-10-s51.tlsprovisioning.exacttarget.com"
+          }
+,         {
+              "id"           : "cert_commonName_wo_SNI",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.58",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "request w/o SNI didn't succeed"
+          }
+,         {
+              "id"           : "cert_subjectAltName",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.58",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "san-10-s51.tlsprovisioning.exacttarget.com image.breathe.lumen.me image.clickme.fiitjee.com image.comms.la-z-boy.co.uk image.comms.ski-leshouches.com image.communication.danfoss.com image.comunicaciones.wahshow.com image.contact.ekz.ch image.contact.ossur.com image.contact.toutvabiens.com image.dialog.lb.dk image.digital.tvmonaco.mc image.e.santanderopenacademy.com image.e.telenor.dk image.email.amplificapital.com image.email.barberdts.com image.email.bellen.com image.email.fii-institute.org image.email.gaslicht.com image.email.guna.it image.email.hamericas.com image.email.harmontblaine.com image.email.informa.es image.email.internetten.nl image.email.kvk.nl image.email.mitsubishi-motors.at image.email.palazzetti.it image.email.piemonteinnova.it image.email.polarium.com image.email.poliswijzer.nl image.email.portdebarcelona.cat image.email.sands-europe.com image.email.sixt.dk image.email.swipehome.it image.email.topsportgroup.it image.email.unicef.pt image.email.winnerland.com image.engage.wolseley.co.uk image.explore.dubaiparksandresorts.com image.explore.motiongatedubai.com image.funds.reviveda.org image.gem-report.unesco.org image.global.gasolfoundation.org image.global.himoinsa.com image.haifa-group.info image.info.allianzdirect.de image.info.allianzdirect.nl image.info.asisa.es image.info.haai.at image.info.hlag.com image.info.izneo.com image.info.mieli.fi image.info.pangea.es image.info-pre.imaginaenergia.com image.infos.snsm.org image.insights.vttresearch.com image.lp.drmax.it image.lp.drmax.rs image.mail.alcott.eu image.mail.angelinibeauty.com image.mail.auto-imaging.com image.mail.barbecueshop.nl image.mail.belmoca.com image.mail.cloudv.co.uk image.mail.finura.co.uk image.mail.gutteridge.com image.mail.rne.pt image.mailing.canadadistrict.com image.mailing.spielwarenmesse-eg.de image.marketing.easy.co.il image.marketing.naturalint.com image.marketing.trojena.neom.com image.mc.barnebys.com image.mc.fae-group.com image.mc.metso.com image.member.dchliving.com image.mf.mobilierdefrance.com image.na.fluidra.com image.news.armani.com image.news.armaniexchange.com image.news.braun-hamburg.com image.news.scbraga.pt image.news.selentagroup.com image.news.theivy-collection.com image.nl.asahibeer.eu image.nutrilakforbabies.com image.pl.asahibeer.eu image.posta.generali.si image.residential.vitagroup.com image.ride.lug-carrie.com image.shop.enriquetomas.com image.study.canterbury.ac.uk image.tempur.com image.tv.movistarplus.es image.account.miro.com"
+          }
+,         {
+              "id"           : "cert_trust",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.58",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "Ok via SAN (SNI mandatory)"
+          }
+,         {
+              "id"           : "cert_chain_of_trust",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.58",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "passed."
+          }
+,         {
+              "id"           : "cert_certificatePolicies_EV",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.58",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "no"
+          }
+,         {
+              "id"           : "cert_expirationStatus",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.58",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "352 >= 60 days"
+          }
+,         {
+              "id"           : "cert_notBefore",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.58",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "2025-05-03 00:00"
+          }
+,         {
+              "id"           : "cert_notAfter",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.58",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "2026-06-03 23:59"
+          }
+,         {
+              "id"           : "cert_extlifeSpan",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.58",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "certificate has no extended life time according to browser forum"
+          }
+,         {
+              "id"           : "cert_eTLS",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.58",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "not present"
+          }
+,         {
+              "id"           : "cert_crlDistributionPoints",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.58",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "http://crl3.digicert.com/DigiCertGlobalG2TLSRSASHA2562020CA1-1.crl http://crl4.digicert.com/DigiCertGlobalG2TLSRSASHA2562020CA1-1.crl"
+          }
+,         {
+              "id"           : "cert_ocspURL",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.58",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "http://ocsp.digicert.com"
+          }
+,         {
+              "id"           : "OCSP_stapling",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.58",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "offered"
+          }
+,         {
+              "id"           : "cert_ocspRevoked",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.58",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "not revoked"
+          }
+,         {
+              "id"           : "cert_mustStapleExtension",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.58",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "--"
+          }
+,         {
+              "id"           : "DNS_CAArecord",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.58",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "--"
+          }
+,         {
+              "id"           : "certificate_transparency",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.58",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "yes (certificate extension)"
+          }
+,         {
+              "id"           : "certs_countServer",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.58",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "2"
+          }
+,         {
+              "id"           : "certs_list_ordering_problem",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.58",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "no"
+          }
+,         {
+              "id"           : "cert_caIssuers",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.58",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "DigiCert Global G2 TLS RSA SHA256 2020 CA1 (DigiCert Inc from US)"
+          }
+,         {
+              "id"           : "intermediate_cert <#1>",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.58",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "-----BEGIN CERTIFICATE-----\nMIIEyDCCA7CgAwIBAgIQDPW9BitWAvR6uFAsI8zwZjANBgkqhkiG9w0BAQsFADBhMQswCQYDVQQGEwJVUzEVMBMGA1UEChMMRGlnaUNlcnQgSW5jMRkwFwYDVQQLExB3d3cuZGlnaWNlcnQuY29tMSAwHgYDVQQDExdEaWdpQ2VydCBHbG9iYWwgUm9vdCBHMjAeFw0yMTAzMzAwMDAwMDBaFw0zMTAzMjkyMzU5NTlaMFkxCzAJBgNVBAYTAlVTMRUwEwYDVQQKEwxEaWdpQ2VydCBJbmMxMzAxBgNVBAMTKkRpZ2lDZXJ0IEdsb2JhbCBHMiBUTFMgUlNBIFNIQTI1NiAyMDIwIENBMTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAMz3EGJPprtjb+2QUlbFbSd7ehJWivH0+dbn4Y+9lavyYEEVcNsSAPonCrVXOFt9slGTcZUOakGUWzUb+nv6u8W+JDD+Vu/E832X4xT1FE3LpxDyFuqrIvAxIhFhaZAmunjZlx/jfWardUSVc8is/+9dCopZQ+GssjoP80j812s3wWPc3kbW20X+fSP9kOhRBx5Ro1/tSUZUfyyIxfQTnJcVPAPooTncaQwywa8WV0yUR0J8osicfebUTVSvQpmowQTCd5zWSOTOEeAqgJnwQ3DPP3Zr0UxJqyRewg2C/Uaoq2yTzGJSQnWS+Jr6Xl6ysGHlHx+5fwmY6D36g39HaaECAwEAAaOCAYIwggF+MBIGA1UdEwEB/wQIMAYBAf8CAQAwHQYDVR0OBBYEFHSFgMBmx9833s+9KTeqAx2+7c0XMB8GA1UdIwQYMBaAFE4iVCAYlebjbuYP+vq5Eu0GF485MA4GA1UdDwEB/wQEAwIBhjAdBgNVHSUEFjAUBggrBgEFBQcDAQYIKwYBBQUHAwIwdgYIKwYBBQUHAQEEajBoMCQGCCsGAQUFBzABhhhodHRwOi8vb2NzcC5kaWdpY2VydC5jb20wQAYIKwYBBQUHMAKGNGh0dHA6Ly9jYWNlcnRzLmRpZ2ljZXJ0LmNvbS9EaWdpQ2VydEdsb2JhbFJvb3RHMi5jcnQwQgYDVR0fBDswOTA3oDWgM4YxaHR0cDovL2NybDMuZGlnaWNlcnQuY29tL0RpZ2lDZXJ0R2xvYmFsUm9vdEcyLmNybDA9BgNVHSAENjA0MAsGCWCGSAGG/WwCATAHBgVngQwBATAIBgZngQwBAgEwCAYGZ4EMAQICMAgGBmeBDAECAzANBgkqhkiG9w0BAQsFAAOCAQEAkPFwyyiXaZd8dP3A+iZ7U6utzWX9upwGnIrXWkOH7U1MVl+twcW1BSAuWdH/SvWgKtiwla3JLko716f2b4gp/DA/JIS7w7d7kwcsr4drdjPtAFVSslme5LnQ89/nD/7d+MS5EHKBCQRfz5eeLjJ1js+aWNJXMX43AYGyZm0pGrFmCW3RbpD0ufovARTFXFZkAdl9h6g4U5+LXUZtXMYnhIHUfoyMo5tS58aI7Dd8KvvwVVo4chDYABPPTHPbqjc1qCmBaZx2vN4Ye5DUys/vZwP9BFohFrH/6j/f3IL16/RZkiMNJCqVJUzKoZHm1Lesh3Sz8W2jmdv51b2EQJ8HmA==\n-----END CERTIFICATE-----"
+          }
+,         {
+              "id"           : "intermediate_cert_fingerprintSHA256 <#1>",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.58",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "C8025F9FC65FDFC95B3CA8CC7867B9A587B5277973957917463FC813D0B625A9"
+          }
+,         {
+              "id"           : "intermediate_cert_notBefore <#1>",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.58",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "2021-03-30 00:00"
+          }
+,         {
+              "id"           : "intermediate_cert_notAfter <#1>",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.58",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "2031-03-29 23:59"
+          }
+,         {
+              "id"           : "intermediate_cert_expiration <#1>",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.58",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "ok > 40 days"
+          }
+,         {
+              "id"           : "intermediate_cert_chain <#1>",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.58",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "DigiCert Global G2 TLS RSA SHA256 2020 CA1 <-- DigiCert Global Root G2"
+          }
+,         {
+              "id"           : "intermediate_cert_badOCSP",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.58",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "intermediate certificate(s) is/are ok"
+          }
+,         {
+              "id"           : "HTTP_status_code",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.58",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "403 Forbidden ('/')"
+          }
+,         {
+              "id"           : "HTTP_clock_skew",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.58",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "0 seconds from localtime"
+          }
+,         {
+              "id"           : "HTTP_headerTime",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.58",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "1750066147"
+          }
+,         {
+              "id"           : "HSTS",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.58",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "not offered"
+          }
+,         {
+              "id"           : "HPKP",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.58",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "No support for HTTP Public Key Pinning"
+          }
+,         {
+              "id"           : "banner_server",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.58",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "AkamaiGHost"
+          }
+,         {
+              "id"           : "banner_application",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.58",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "No application banner found"
+          }
+,         {
+              "id"           : "cookie_count",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.58",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "0 at '/' (maybe missed the application)"
+          }
+,         {
+              "id"           : "security_headers",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.58",
+              "port"         : "443",
+              "severity"     : "MEDIUM",
+              "finding"      : "--"
+          }
+,         {
+              "id"           : "banner_reverseproxy",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.58",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "cwe"          : "CWE-200",
+              "finding"      : "--"
+          }
+,         {
+              "id"           : "heartbleed",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.58",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2014-0160",
+              "cwe"          : "CWE-119",
+              "finding"      : "not vulnerable, no heartbeat extension"
+          }
+,         {
+              "id"           : "CCS",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.58",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2014-0224",
+              "cwe"          : "CWE-310",
+              "finding"      : "not vulnerable"
+          }
+,         {
+              "id"           : "ticketbleed",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.58",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2016-9244",
+              "cwe"          : "CWE-200",
+              "finding"      : "not vulnerable"
+          }
+,         {
+              "id"           : "ROBOT",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.58",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2017-17382 CVE-2017-17427 CVE-2017-17428 CVE-2017-13098 CVE-2017-1000385 CVE-2017-13099 CVE-2016-6883 CVE-2012-5081 CVE-2017-6168",
+              "cwe"          : "CWE-203",
+              "finding"      : "not vulnerable, no RSA key transport cipher"
+          }
+,         {
+              "id"           : "secure_renego",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.58",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cwe"          : "CWE-310",
+              "finding"      : "supported"
+          }
+,         {
+              "id"           : "secure_client_renego",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.58",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2011-1473",
+              "cwe"          : "CWE-310",
+              "finding"      : "not vulnerable, mitigated"
+          }
+,         {
+              "id"           : "CRIME_TLS",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.58",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2012-4929",
+              "cwe"          : "CWE-310",
+              "finding"      : "not vulnerable"
+          }
+,         {
+              "id"           : "BREACH",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.58",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2013-3587",
+              "cwe"          : "CWE-310",
+              "finding"      : "not vulnerable, no gzip/deflate/compress/br HTTP compression  - only supplied '/' tested"
+          }
+,         {
+              "id"           : "POODLE_SSL",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.58",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2014-3566",
+              "cwe"          : "CWE-310",
+              "finding"      : "not vulnerable, no SSLv3"
+          }
+,         {
+              "id"           : "fallback_SCSV",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.58",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "no protocol below TLS 1.2 offered"
+          }
+,         {
+              "id"           : "SWEET32",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.58",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2016-2183 CVE-2016-6329",
+              "cwe"          : "CWE-327",
+              "finding"      : "not vulnerable"
+          }
+,         {
+              "id"           : "FREAK",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.58",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2015-0204",
+              "cwe"          : "CWE-310",
+              "finding"      : "not vulnerable"
+          }
+,         {
+              "id"           : "DROWN",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.58",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2016-0800 CVE-2016-0703",
+              "cwe"          : "CWE-310",
+              "finding"      : "not vulnerable on this host and port"
+          }
+,         {
+              "id"           : "DROWN_hint",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.58",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "cve"          : "CVE-2016-0800 CVE-2016-0703",
+              "cwe"          : "CWE-310",
+              "finding"      : "Make sure you don't use this certificate elsewhere with SSLv2 enabled services, see https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=418128E8FE08E242057A42ABE167D3B406592059A0388044B8E4717118F2277D"
+          }
+,         {
+              "id"           : "LOGJAM",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.58",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2015-4000",
+              "cwe"          : "CWE-310",
+              "finding"      : "not vulnerable, no DH EXPORT ciphers,"
+          }
+,         {
+              "id"           : "LOGJAM-common_primes",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.58",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2015-4000",
+              "cwe"          : "CWE-310",
+              "finding"      : "no DH key with <= TLS 1.2"
+          }
+,         {
+              "id"           : "BEAST",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.58",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2011-3389",
+              "cwe"          : "CWE-20",
+              "finding"      : "not vulnerable, no SSL3 or TLS1"
+          }
+,         {
+              "id"           : "LUCKY13",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.58",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "cve"          : "CVE-2013-0169",
+              "cwe"          : "CWE-310",
+              "finding"      : "potentially vulnerable, uses TLS CBC ciphers"
+          }
+,         {
+              "id"           : "winshock",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.58",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2014-6321",
+              "cwe"          : "CWE-94",
+              "finding"      : "not vulnerable"
+          }
+,         {
+              "id"           : "RC4",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.58",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2013-2566 CVE-2015-2808",
+              "cwe"          : "CWE-310",
+              "finding"      : "not vulnerable"
+          }
+,         {
+              "id"           : "clientsimulation-android_70",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.58",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-android_81",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.58",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-android_90",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.58",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_256_GCM_SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-android_X",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.58",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_256_GCM_SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-android_11_12",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.58",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_256_GCM_SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-android_13_14",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.58",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_256_GCM_SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-android_15",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.58",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_256_GCM_SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-chrome_101_win10",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.58",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_256_GCM_SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-chromium_137_win11",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.58",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_256_GCM_SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-firefox_100_win10",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.58",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_256_GCM_SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-firefox_137_win11",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.58",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_256_GCM_SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-ie_8_win7",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.58",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "No connection"
+          }
+,         {
+              "id"           : "clientsimulation-ie_11_win7",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.58",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-RSA-AES256-SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-ie_11_win81",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.58",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-RSA-AES256-SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-ie_11_winphone81",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.58",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-RSA-AES128-SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-ie_11_win10",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.58",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-edge_15_win10",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.58",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-edge_101_win10_21h2",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.58",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_256_GCM_SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-edge_133_win11_23h2",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.58",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_256_GCM_SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-safari_184_ios_184",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.58",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_256_GCM_SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-safari_154_osx_1231",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.58",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_256_GCM_SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-safari_184_osx_154",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.58",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_256_GCM_SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-java_7u25",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.58",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "No connection"
+          }
+,         {
+              "id"           : "clientsimulation-java_80442",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.58",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_256_GCM_SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-java_1102",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.58",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_256_GCM_SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-java_1703",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.58",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_256_GCM_SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-java_2106",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.58",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_256_GCM_SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-go_1178",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.58",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_256_GCM_SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-libressl_336",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.58",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_CHACHA20_POLY1305_SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-openssl_102e",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.58",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-openssl_111d",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.58",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_256_GCM_SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-openssl_315",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.58",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_256_GCM_SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-openssl_350",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.58",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_256_GCM_SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-apple_mail_16_0",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.58",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-thunderbird_91_9",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.58",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_256_GCM_SHA384"
+          }
+,         {
+              "id"           : "rating_spec",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.58",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "SSL Labs's 'SSL Server Rating Guide' (version 2009q from 2020-01-30)"
+          }
+,         {
+              "id"           : "rating_doc",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.58",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "https://github.com/ssllabs/research/wiki/SSL-Server-Rating-Guide"
+          }
+,         {
+              "id"           : "protocol_support_score",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.58",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "100"
+          }
+,         {
+              "id"           : "protocol_support_score_weighted",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.58",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "30"
+          }
+,         {
+              "id"           : "key_exchange_score",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.58",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "90"
+          }
+,         {
+              "id"           : "key_exchange_score_weighted",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.58",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "27"
+          }
+,         {
+              "id"           : "cipher_strength_score",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.58",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "90"
+          }
+,         {
+              "id"           : "cipher_strength_score_weighted",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.58",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "36"
+          }
+,         {
+              "id"           : "final_score",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.58",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "93"
+          }
+,         {
+              "id"           : "overall_grade",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.58",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "A"
+          }
+,         {
+              "id"           : "grade_cap_reason_1",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.58",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "Grade capped to A. HSTS is not offered"
+          }
+,         {
+              "id"           : "scanTime",
+              "ip"           : "image.mf.mobilierdefrance.com/2.22.251.58",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "170"
+          }
+]

@@ -1,0 +1,88 @@
+# Nmap 7.95 scan initiated Fri Jun 13 12:44:03 2025 as: /usr/lib/nmap/nmap -T3 -Pn --top-ports 100 --open -iL output/hackerone.com/amass/amass_output.txt -oA output/hackerone.com/nmap/nmap
+Host: 104.21.9.30 ()	Status: Up
+Host: 104.21.9.30 ()	Ports: 80/open/tcp//http///, 443/open/tcp//https///, 8080/open/tcp//http-proxy///, 8443/open/tcp//https-alt///	Ignored State: filtered (96)
+Host: 188.114.97.2 ()	Status: Up
+Host: 188.114.97.2 ()	Ports: 80/open/tcp//http///, 443/open/tcp//https///, 8080/open/tcp//http-proxy///, 8443/open/tcp//https-alt///	Ignored State: filtered (96)
+Host: 104.19.169.46 ()	Status: Up
+Host: 104.19.169.46 ()	Ports: 80/open/tcp//http///, 443/open/tcp//https///, 8080/open/tcp//http-proxy///, 8443/open/tcp//https-alt///	Ignored State: filtered (96)
+Host: 104.21.48.1 ()	Status: Up
+Host: 104.21.48.1 ()	Ports: 80/open/tcp//http///, 443/open/tcp//https///, 8080/open/tcp//http-proxy///, 8443/open/tcp//https-alt///	Ignored State: filtered (96)
+Host: 104.21.80.1 ()	Status: Up
+Host: 104.21.80.1 ()	Ports: 80/open/tcp//http///, 443/open/tcp//https///, 8080/open/tcp//http-proxy///, 8443/open/tcp//https-alt///	Ignored State: filtered (96)
+Host: 104.21.16.1 ()	Status: Up
+Host: 104.21.16.1 ()	Ports: 80/open/tcp//http///, 443/open/tcp//https///, 8080/open/tcp//http-proxy///, 8443/open/tcp//https-alt///	Ignored State: filtered (96)
+Host: 172.67.198.252 ()	Status: Up
+Host: 172.67.198.252 ()	Ports: 80/open/tcp//http///, 443/open/tcp//https///, 8080/open/tcp//http-proxy///, 8443/open/tcp//https-alt///	Ignored State: filtered (96)
+Host: 104.21.7.7 ()	Status: Up
+Host: 104.21.7.7 ()	Ports: 80/open/tcp//http///, 443/open/tcp//https///, 8080/open/tcp//http-proxy///, 8443/open/tcp//https-alt///	Ignored State: filtered (96)
+Host: 104.17.82.120 ()	Status: Up
+Host: 104.17.82.120 ()	Ports: 80/open/tcp//http///, 443/open/tcp//https///, 8080/open/tcp//http-proxy///, 8443/open/tcp//https-alt///	Ignored State: filtered (96)
+Host: 172.67.185.117 ()	Status: Up
+Host: 172.67.185.117 ()	Ports: 80/open/tcp//http///, 443/open/tcp//https///, 8080/open/tcp//http-proxy///, 8443/open/tcp//https-alt///	Ignored State: filtered (96)
+Host: 104.21.96.1 ()	Status: Up
+Host: 104.21.96.1 ()	Ports: 80/open/tcp//http///, 443/open/tcp//https///, 8080/open/tcp//http-proxy///, 8443/open/tcp//https-alt///	Ignored State: filtered (96)
+Host: 104.21.72.101 ()	Status: Up
+Host: 104.21.72.101 ()	Ports: 80/open/tcp//http///, 443/open/tcp//https///, 8080/open/tcp//http-proxy///, 8443/open/tcp//https-alt///	Ignored State: filtered (96)
+Host: 104.21.77.216 ()	Status: Up
+Host: 104.21.77.216 ()	Ports: 80/open/tcp//http///, 443/open/tcp//https///, 8080/open/tcp//http-proxy///, 8443/open/tcp//https-alt///	Ignored State: filtered (96)
+Host: 104.21.23.33 ()	Status: Up
+Host: 104.21.23.33 ()	Ports: 80/open/tcp//http///, 443/open/tcp//https///, 8080/open/tcp//http-proxy///, 8443/open/tcp//https-alt///	Ignored State: filtered (96)
+Host: 188.114.96.2 ()	Status: Up
+Host: 188.114.96.2 ()	Ports: 80/open/tcp//http///, 443/open/tcp//https///, 8080/open/tcp//http-proxy///, 8443/open/tcp//https-alt///	Ignored State: filtered (96)
+Host: 172.67.205.46 ()	Status: Up
+Host: 172.67.205.46 ()	Ports: 80/open/tcp//http///, 443/open/tcp//https///, 8080/open/tcp//http-proxy///, 8443/open/tcp//https-alt///	Ignored State: filtered (96)
+Host: 104.21.15.182 ()	Status: Up
+Host: 104.21.15.182 ()	Ports: 80/open/tcp//http///, 443/open/tcp//https///, 8080/open/tcp//http-proxy///, 8443/open/tcp//https-alt///	Ignored State: filtered (96)
+Host: 104.18.35.110 ()	Status: Up
+Host: 104.18.35.110 ()	Ports: 80/open/tcp//http///, 443/open/tcp//https///, 8080/open/tcp//http-proxy///, 8443/open/tcp//https-alt///	Ignored State: filtered (96)
+Host: 104.21.80.51 ()	Status: Up
+Host: 104.21.80.51 ()	Ports: 80/open/tcp//http///, 443/open/tcp//https///, 8080/open/tcp//http-proxy///, 8443/open/tcp//https-alt///	Ignored State: filtered (96)
+Host: 172.64.148.104 ()	Status: Up
+Host: 172.64.148.104 ()	Ports: 80/open/tcp//http///, 443/open/tcp//https///, 8080/open/tcp//http-proxy///, 8443/open/tcp//https-alt///	Ignored State: filtered (96)
+Host: 104.17.41.106 ()	Status: Up
+Host: 104.17.41.106 ()	Ports: 80/open/tcp//http///, 443/open/tcp//https///, 8080/open/tcp//http-proxy///, 8443/open/tcp//https-alt///	Ignored State: filtered (96)
+Host: 104.21.47.66 ()	Status: Up
+Host: 104.21.47.66 ()	Ports: 80/open/tcp//http///, 443/open/tcp//https///, 8080/open/tcp//http-proxy///, 8443/open/tcp//https-alt///	Ignored State: filtered (96)
+Host: 104.21.32.1 ()	Status: Up
+Host: 104.21.32.1 ()	Ports: 80/open/tcp//http///, 443/open/tcp//https///, 8080/open/tcp//http-proxy///, 8443/open/tcp//https-alt///	Ignored State: filtered (96)
+Host: 172.67.183.67 ()	Status: Up
+Host: 172.67.183.67 ()	Ports: 80/open/tcp//http///, 443/open/tcp//https///, 8080/open/tcp//http-proxy///, 8443/open/tcp//https-alt///	Ignored State: filtered (96)
+Host: 104.17.168.185 ()	Status: Up
+Host: 104.17.168.185 ()	Ports: 80/open/tcp//http///, 443/open/tcp//https///, 8080/open/tcp//http-proxy///, 8443/open/tcp//https-alt///	Ignored State: filtered (96)
+Host: 104.21.13.240 ()	Status: Up
+Host: 104.21.13.240 ()	Ports: 80/open/tcp//http///, 443/open/tcp//https///, 8080/open/tcp//http-proxy///, 8443/open/tcp//https-alt///	Ignored State: filtered (96)
+Host: 104.21.26.21 ()	Status: Up
+Host: 104.21.26.21 ()	Ports: 80/open/tcp//http///, 443/open/tcp//https///, 8080/open/tcp//http-proxy///, 8443/open/tcp//https-alt///	Ignored State: filtered (96)
+Host: 13.32.145.58 (server-13-32-145-58.cdg50.r.cloudfront.net)	Status: Up
+Host: 13.32.145.58 (server-13-32-145-58.cdg50.r.cloudfront.net)	Ports: 80/open/tcp//http///, 443/open/tcp//https///	Ignored State: filtered (98)
+Host: 172.67.208.163 ()	Status: Up
+Host: 172.67.208.163 ()	Ports: 80/open/tcp//http///, 443/open/tcp//https///, 8080/open/tcp//http-proxy///, 8443/open/tcp//https-alt///	Ignored State: filtered (96)
+Host: 52.222.169.119 (server-52-222-169-119.cdg52.r.cloudfront.net)	Status: Up
+Host: 52.222.169.119 (server-52-222-169-119.cdg52.r.cloudfront.net)	Ports: 80/open/tcp//http///, 443/open/tcp//https///	Ignored State: filtered (98)
+Host: 18.164.52.117 (server-18-164-52-117.cdg50.r.cloudfront.net)	Status: Up
+Host: 18.164.52.117 (server-18-164-52-117.cdg50.r.cloudfront.net)	Ports: 80/open/tcp//http///, 443/open/tcp//https///	Ignored State: filtered (98)
+Host: 18.245.175.53 (server-18-245-175-53.cdg55.r.cloudfront.net)	Status: Up
+Host: 18.245.175.53 (server-18-245-175-53.cdg55.r.cloudfront.net)	Ports: 80/open/tcp//http///, 443/open/tcp//https///	Ignored State: filtered (98)
+Host: 188.114.96.2 ()	Status: Up
+Host: 188.114.96.2 ()	Ports: 80/open/tcp//http///, 443/open/tcp//https///, 8080/open/tcp//http-proxy///, 8443/open/tcp//https-alt///	Ignored State: filtered (96)
+Host: 188.114.97.2 ()	Status: Up
+Host: 188.114.97.2 ()	Ports: 80/open/tcp//http///, 443/open/tcp//https///, 8080/open/tcp//http-proxy///, 8443/open/tcp//https-alt///	Ignored State: filtered (96)
+Host: 104.17.168.185 ()	Status: Up
+Host: 104.17.168.185 ()	Ports: 80/open/tcp//http///, 443/open/tcp//https///, 8080/open/tcp//http-proxy///, 8443/open/tcp//https-alt///	Ignored State: filtered (96)
+Host: 172.64.148.104 ()	Status: Up
+Host: 172.64.148.104 ()	Ports: 80/open/tcp//http///, 443/open/tcp//https///, 8080/open/tcp//http-proxy///, 8443/open/tcp//https-alt///	Ignored State: filtered (96)
+Host: 104.21.80.51 ()	Status: Up
+Host: 104.21.80.51 ()	Ports: 80/open/tcp//http///, 443/open/tcp//https///, 8080/open/tcp//http-proxy///, 8443/open/tcp//https-alt///	Ignored State: filtered (96)
+Host: 104.21.15.182 ()	Status: Up
+Host: 104.21.15.182 ()	Ports: 80/open/tcp//http///, 443/open/tcp//https///, 8080/open/tcp//http-proxy///, 8443/open/tcp//https-alt///	Ignored State: filtered (96)
+Host: 188.114.96.2 ()	Status: Up
+Host: 188.114.96.2 ()	Ports: 80/open/tcp//http///, 443/open/tcp//https///, 8080/open/tcp//http-proxy///, 8443/open/tcp//https-alt///	Ignored State: filtered (96)
+Host: 188.114.97.2 ()	Status: Up
+Host: 188.114.97.2 ()	Ports: 80/open/tcp//http///, 443/open/tcp//https///, 8080/open/tcp//http-proxy///, 8443/open/tcp//https-alt///	Ignored State: filtered (96)
+Host: 104.17.168.185 ()	Status: Up
+Host: 104.17.168.185 ()	Ports: 80/open/tcp//http///, 443/open/tcp//https///, 8080/open/tcp//http-proxy///, 8443/open/tcp//https-alt///	Ignored State: filtered (96)
+Host: 188.114.96.2 ()	Status: Up
+Host: 188.114.96.2 ()	Ports: 80/open/tcp//http///, 443/open/tcp//https///, 8080/open/tcp//http-proxy///, 8443/open/tcp//https-alt///	Ignored State: filtered (96)
+Host: 188.114.97.2 ()	Status: Up
+Host: 188.114.97.2 ()	Ports: 80/open/tcp//http///, 443/open/tcp//https///, 8080/open/tcp//http-proxy///, 8443/open/tcp//https-alt///	Ignored State: filtered (96)
+# Nmap done at Fri Jun 13 12:45:45 2025 -- 44 IP addresses (44 hosts up) scanned in 102.55 seconds

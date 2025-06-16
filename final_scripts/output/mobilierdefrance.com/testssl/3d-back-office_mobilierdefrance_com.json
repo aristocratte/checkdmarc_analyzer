@@ -1,0 +1,1313 @@
+[
+         {
+              "id"           : "service",
+              "ip"           : "3d-back-office.mobilierdefrance.com/20.82.22.191",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "HTTP"
+          }
+,         {
+              "id"           : "pre_128cipher",
+              "ip"           : "3d-back-office.mobilierdefrance.com/20.82.22.191",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "No 128 cipher limit bug"
+          }
+,         {
+              "id"           : "SSLv2",
+              "ip"           : "3d-back-office.mobilierdefrance.com/20.82.22.191",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "not offered"
+          }
+,         {
+              "id"           : "SSLv3",
+              "ip"           : "3d-back-office.mobilierdefrance.com/20.82.22.191",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "not offered"
+          }
+,         {
+              "id"           : "TLS1",
+              "ip"           : "3d-back-office.mobilierdefrance.com/20.82.22.191",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "offered (deprecated)"
+          }
+,         {
+              "id"           : "TLS1_1",
+              "ip"           : "3d-back-office.mobilierdefrance.com/20.82.22.191",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "offered (deprecated)"
+          }
+,         {
+              "id"           : "TLS1_2",
+              "ip"           : "3d-back-office.mobilierdefrance.com/20.82.22.191",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "offered"
+          }
+,         {
+              "id"           : "TLS1_3",
+              "ip"           : "3d-back-office.mobilierdefrance.com/20.82.22.191",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "offered with final"
+          }
+,         {
+              "id"           : "NPN",
+              "ip"           : "3d-back-office.mobilierdefrance.com/20.82.22.191",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "not offered"
+          }
+,         {
+              "id"           : "ALPN",
+              "ip"           : "3d-back-office.mobilierdefrance.com/20.82.22.191",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "http/1.1"
+          }
+,         {
+              "id"           : "cipherlist_NULL",
+              "ip"           : "3d-back-office.mobilierdefrance.com/20.82.22.191",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cwe"          : "CWE-327",
+              "finding"      : "not offered"
+          }
+,         {
+              "id"           : "cipherlist_aNULL",
+              "ip"           : "3d-back-office.mobilierdefrance.com/20.82.22.191",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cwe"          : "CWE-327",
+              "finding"      : "not offered"
+          }
+,         {
+              "id"           : "cipherlist_EXPORT",
+              "ip"           : "3d-back-office.mobilierdefrance.com/20.82.22.191",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cwe"          : "CWE-327",
+              "finding"      : "not offered"
+          }
+,         {
+              "id"           : "cipherlist_LOW",
+              "ip"           : "3d-back-office.mobilierdefrance.com/20.82.22.191",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cwe"          : "CWE-327",
+              "finding"      : "not offered"
+          }
+,         {
+              "id"           : "cipherlist_3DES_IDEA",
+              "ip"           : "3d-back-office.mobilierdefrance.com/20.82.22.191",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "cwe"          : "CWE-310",
+              "finding"      : "not offered"
+          }
+,         {
+              "id"           : "cipherlist_OBSOLETED",
+              "ip"           : "3d-back-office.mobilierdefrance.com/20.82.22.191",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "cwe"          : "CWE-310",
+              "finding"      : "offered"
+          }
+,         {
+              "id"           : "cipherlist_STRONG_NOFS",
+              "ip"           : "3d-back-office.mobilierdefrance.com/20.82.22.191",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "offered"
+          }
+,         {
+              "id"           : "cipherlist_STRONG_FS",
+              "ip"           : "3d-back-office.mobilierdefrance.com/20.82.22.191",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "offered"
+          }
+,         {
+              "id"           : "cipher_order-tls1",
+              "ip"           : "3d-back-office.mobilierdefrance.com/20.82.22.191",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "server"
+          }
+,         {
+              "id"           : "cipher-tls1_xc014",
+              "ip"           : "3d-back-office.mobilierdefrance.com/20.82.22.191",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "TLSv1   xc014   ECDHE-RSA-AES256-SHA              ECDH 521   AES         256      TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA"
+          }
+,         {
+              "id"           : "cipher-tls1_xc013",
+              "ip"           : "3d-back-office.mobilierdefrance.com/20.82.22.191",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "TLSv1   xc013   ECDHE-RSA-AES128-SHA              ECDH 256   AES         128      TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA"
+          }
+,         {
+              "id"           : "cipher-tls1_x35",
+              "ip"           : "3d-back-office.mobilierdefrance.com/20.82.22.191",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "TLSv1   x35     AES256-SHA                        RSA        AES         256      TLS_RSA_WITH_AES_256_CBC_SHA"
+          }
+,         {
+              "id"           : "cipher-tls1_x2f",
+              "ip"           : "3d-back-office.mobilierdefrance.com/20.82.22.191",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "TLSv1   x2f     AES128-SHA                        RSA        AES         128      TLS_RSA_WITH_AES_128_CBC_SHA"
+          }
+,         {
+              "id"           : "cipherorder_TLSv1",
+              "ip"           : "3d-back-office.mobilierdefrance.com/20.82.22.191",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "ECDHE-RSA-AES256-SHA ECDHE-RSA-AES128-SHA AES256-SHA AES128-SHA"
+          }
+,         {
+              "id"           : "cipher_order-tls1_1",
+              "ip"           : "3d-back-office.mobilierdefrance.com/20.82.22.191",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "server"
+          }
+,         {
+              "id"           : "cipher-tls1_1_xc014",
+              "ip"           : "3d-back-office.mobilierdefrance.com/20.82.22.191",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "TLSv1.1   xc014   ECDHE-RSA-AES256-SHA              ECDH 521   AES         256      TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA"
+          }
+,         {
+              "id"           : "cipher-tls1_1_xc013",
+              "ip"           : "3d-back-office.mobilierdefrance.com/20.82.22.191",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "TLSv1.1   xc013   ECDHE-RSA-AES128-SHA              ECDH 256   AES         128      TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA"
+          }
+,         {
+              "id"           : "cipher-tls1_1_x35",
+              "ip"           : "3d-back-office.mobilierdefrance.com/20.82.22.191",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "TLSv1.1   x35     AES256-SHA                        RSA        AES         256      TLS_RSA_WITH_AES_256_CBC_SHA"
+          }
+,         {
+              "id"           : "cipher-tls1_1_x2f",
+              "ip"           : "3d-back-office.mobilierdefrance.com/20.82.22.191",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "TLSv1.1   x2f     AES128-SHA                        RSA        AES         128      TLS_RSA_WITH_AES_128_CBC_SHA"
+          }
+,         {
+              "id"           : "cipherorder_TLSv1_1",
+              "ip"           : "3d-back-office.mobilierdefrance.com/20.82.22.191",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "ECDHE-RSA-AES256-SHA ECDHE-RSA-AES128-SHA AES256-SHA AES128-SHA"
+          }
+,         {
+              "id"           : "cipher_order-tls1_2",
+              "ip"           : "3d-back-office.mobilierdefrance.com/20.82.22.191",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "server"
+          }
+,         {
+              "id"           : "cipher-tls1_2_xc030",
+              "ip"           : "3d-back-office.mobilierdefrance.com/20.82.22.191",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "TLSv1.2   xc030   ECDHE-RSA-AES256-GCM-SHA384       ECDH 521   AESGCM      256      TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384"
+          }
+,         {
+              "id"           : "cipher-tls1_2_xc02f",
+              "ip"           : "3d-back-office.mobilierdefrance.com/20.82.22.191",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "TLSv1.2   xc02f   ECDHE-RSA-AES128-GCM-SHA256       ECDH 256   AESGCM      128      TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256"
+          }
+,         {
+              "id"           : "cipher-tls1_2_xc028",
+              "ip"           : "3d-back-office.mobilierdefrance.com/20.82.22.191",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "TLSv1.2   xc028   ECDHE-RSA-AES256-SHA384           ECDH 521   AES         256      TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384"
+          }
+,         {
+              "id"           : "cipher-tls1_2_xc027",
+              "ip"           : "3d-back-office.mobilierdefrance.com/20.82.22.191",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "TLSv1.2   xc027   ECDHE-RSA-AES128-SHA256           ECDH 256   AES         128      TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256"
+          }
+,         {
+              "id"           : "cipher-tls1_2_xc014",
+              "ip"           : "3d-back-office.mobilierdefrance.com/20.82.22.191",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "TLSv1.2   xc014   ECDHE-RSA-AES256-SHA              ECDH 521   AES         256      TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA"
+          }
+,         {
+              "id"           : "cipher-tls1_2_xc013",
+              "ip"           : "3d-back-office.mobilierdefrance.com/20.82.22.191",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "TLSv1.2   xc013   ECDHE-RSA-AES128-SHA              ECDH 256   AES         128      TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA"
+          }
+,         {
+              "id"           : "cipher-tls1_2_x9d",
+              "ip"           : "3d-back-office.mobilierdefrance.com/20.82.22.191",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "TLSv1.2   x9d     AES256-GCM-SHA384                 RSA        AESGCM      256      TLS_RSA_WITH_AES_256_GCM_SHA384"
+          }
+,         {
+              "id"           : "cipher-tls1_2_x9c",
+              "ip"           : "3d-back-office.mobilierdefrance.com/20.82.22.191",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "TLSv1.2   x9c     AES128-GCM-SHA256                 RSA        AESGCM      128      TLS_RSA_WITH_AES_128_GCM_SHA256"
+          }
+,         {
+              "id"           : "cipher-tls1_2_x3d",
+              "ip"           : "3d-back-office.mobilierdefrance.com/20.82.22.191",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "TLSv1.2   x3d     AES256-SHA256                     RSA        AES         256      TLS_RSA_WITH_AES_256_CBC_SHA256"
+          }
+,         {
+              "id"           : "cipher-tls1_2_x3c",
+              "ip"           : "3d-back-office.mobilierdefrance.com/20.82.22.191",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "TLSv1.2   x3c     AES128-SHA256                     RSA        AES         128      TLS_RSA_WITH_AES_128_CBC_SHA256"
+          }
+,         {
+              "id"           : "cipher-tls1_2_x35",
+              "ip"           : "3d-back-office.mobilierdefrance.com/20.82.22.191",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "TLSv1.2   x35     AES256-SHA                        RSA        AES         256      TLS_RSA_WITH_AES_256_CBC_SHA"
+          }
+,         {
+              "id"           : "cipher-tls1_2_x2f",
+              "ip"           : "3d-back-office.mobilierdefrance.com/20.82.22.191",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "TLSv1.2   x2f     AES128-SHA                        RSA        AES         128      TLS_RSA_WITH_AES_128_CBC_SHA"
+          }
+,         {
+              "id"           : "cipherorder_TLSv1_2",
+              "ip"           : "3d-back-office.mobilierdefrance.com/20.82.22.191",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "ECDHE-RSA-AES256-GCM-SHA384 ECDHE-RSA-AES128-GCM-SHA256 ECDHE-RSA-AES256-SHA384 ECDHE-RSA-AES128-SHA256 ECDHE-RSA-AES256-SHA ECDHE-RSA-AES128-SHA AES256-GCM-SHA384 AES128-GCM-SHA256 AES256-SHA256 AES128-SHA256 AES256-SHA AES128-SHA"
+          }
+,         {
+              "id"           : "cipher_order-tls1_3",
+              "ip"           : "3d-back-office.mobilierdefrance.com/20.82.22.191",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "server"
+          }
+,         {
+              "id"           : "cipher-tls1_3_x1302",
+              "ip"           : "3d-back-office.mobilierdefrance.com/20.82.22.191",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "TLSv1.3   x1302   TLS_AES_256_GCM_SHA384            ECDH 256   AESGCM      256      TLS_AES_256_GCM_SHA384"
+          }
+,         {
+              "id"           : "cipher-tls1_3_x1301",
+              "ip"           : "3d-back-office.mobilierdefrance.com/20.82.22.191",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "TLSv1.3   x1301   TLS_AES_128_GCM_SHA256            ECDH 256   AESGCM      128      TLS_AES_128_GCM_SHA256"
+          }
+,         {
+              "id"           : "cipherorder_TLSv1_3",
+              "ip"           : "3d-back-office.mobilierdefrance.com/20.82.22.191",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLS_AES_256_GCM_SHA384 TLS_AES_128_GCM_SHA256"
+          }
+,         {
+              "id"           : "cipher_order",
+              "ip"           : "3d-back-office.mobilierdefrance.com/20.82.22.191",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "server"
+          }
+,         {
+              "id"           : "FS",
+              "ip"           : "3d-back-office.mobilierdefrance.com/20.82.22.191",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "offered"
+          }
+,         {
+              "id"           : "FS_ciphers",
+              "ip"           : "3d-back-office.mobilierdefrance.com/20.82.22.191",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLS_AES_256_GCM_SHA384 ECDHE-RSA-AES256-GCM-SHA384 ECDHE-RSA-AES256-SHA384 ECDHE-RSA-AES256-SHA TLS_AES_128_GCM_SHA256 ECDHE-RSA-AES128-GCM-SHA256 ECDHE-RSA-AES128-SHA256 ECDHE-RSA-AES128-SHA"
+          }
+,         {
+              "id"           : "FS_ECDHE_curves",
+              "ip"           : "3d-back-office.mobilierdefrance.com/20.82.22.191",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "prime256v1 secp384r1 secp521r1"
+          }
+,         {
+              "id"           : "FS_TLS12_sig_algs",
+              "ip"           : "3d-back-office.mobilierdefrance.com/20.82.22.191",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "RSA-PSS-RSAE+SHA256 RSA+SHA256 RSA-PSS-RSAE+SHA384 RSA+SHA384 RSA-PSS-RSAE+SHA512 RSA+SHA512 RSA+SHA1"
+          }
+,         {
+              "id"           : "FS_TLS13_sig_algs",
+              "ip"           : "3d-back-office.mobilierdefrance.com/20.82.22.191",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "RSA-PSS-RSAE+SHA256 RSA-PSS-RSAE+SHA384 RSA-PSS-RSAE+SHA512"
+          }
+,         {
+              "id"           : "TLS_extensions",
+              "ip"           : "3d-back-office.mobilierdefrance.com/20.82.22.191",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "'status request/#5' 'application layer protocol negotiation/#16' 'extended master secret/#23' 'supported versions/#43' 'key share/#51' 'renegotiation info/#65281'"
+          }
+,         {
+              "id"           : "TLS_session_ticket",
+              "ip"           : "3d-back-office.mobilierdefrance.com/20.82.22.191",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "no -- no lifetime advertised"
+          }
+,         {
+              "id"           : "SSL_sessionID_support",
+              "ip"           : "3d-back-office.mobilierdefrance.com/20.82.22.191",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "yes"
+          }
+,         {
+              "id"           : "sessionresumption_ticket",
+              "ip"           : "3d-back-office.mobilierdefrance.com/20.82.22.191",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "not supported"
+          }
+,         {
+              "id"           : "sessionresumption_ID",
+              "ip"           : "3d-back-office.mobilierdefrance.com/20.82.22.191",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "not supported"
+          }
+,         {
+              "id"           : "TLS_timestamp",
+              "ip"           : "3d-back-office.mobilierdefrance.com/20.82.22.191",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "off by 0 seconds from your localtime"
+          }
+,         {
+              "id"           : "certificate_compression",
+              "ip"           : "3d-back-office.mobilierdefrance.com/20.82.22.191",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "none"
+          }
+,         {
+              "id"           : "clientAuth",
+              "ip"           : "3d-back-office.mobilierdefrance.com/20.82.22.191",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "none"
+          }
+,         {
+              "id"           : "cert_numbers",
+              "ip"           : "3d-back-office.mobilierdefrance.com/20.82.22.191",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "1"
+          }
+,         {
+              "id"           : "cert_signatureAlgorithm",
+              "ip"           : "3d-back-office.mobilierdefrance.com/20.82.22.191",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "SHA384 with RSA"
+          }
+,         {
+              "id"           : "cert_keySize",
+              "ip"           : "3d-back-office.mobilierdefrance.com/20.82.22.191",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "RSA 2048 bits (exponent is 65537)"
+          }
+,         {
+              "id"           : "cert_keyUsage",
+              "ip"           : "3d-back-office.mobilierdefrance.com/20.82.22.191",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "Digital Signature, Key Encipherment"
+          }
+,         {
+              "id"           : "cert_extKeyUsage",
+              "ip"           : "3d-back-office.mobilierdefrance.com/20.82.22.191",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLS Web Client Authentication, TLS Web Server Authentication"
+          }
+,         {
+              "id"           : "cert_serialNumber",
+              "ip"           : "3d-back-office.mobilierdefrance.com/20.82.22.191",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "33021DFE4AD210B812486B951A0000021DFE4A"
+          }
+,         {
+              "id"           : "cert_serialNumberLen",
+              "ip"           : "3d-back-office.mobilierdefrance.com/20.82.22.191",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "19"
+          }
+,         {
+              "id"           : "cert_fingerprintSHA1",
+              "ip"           : "3d-back-office.mobilierdefrance.com/20.82.22.191",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "E9BF7A2A253F7F8623BDDA574C36D50E39441F91"
+          }
+,         {
+              "id"           : "cert_fingerprintSHA256",
+              "ip"           : "3d-back-office.mobilierdefrance.com/20.82.22.191",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "DF14A329E186E72636FAD8FFCE601AA461C2C318272124522F9BA4EBD5811E8B"
+          }
+,         {
+              "id"           : "cert",
+              "ip"           : "3d-back-office.mobilierdefrance.com/20.82.22.191",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "-----BEGIN CERTIFICATE-----\n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\n-----END CERTIFICATE-----"
+          }
+,         {
+              "id"           : "cert_commonName",
+              "ip"           : "3d-back-office.mobilierdefrance.com/20.82.22.191",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "*.msha-slice-2-am2-1-ase.p.azurewebsites.net"
+          }
+,         {
+              "id"           : "cert_commonName_wo_SNI",
+              "ip"           : "3d-back-office.mobilierdefrance.com/20.82.22.191",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "*.msha-slice-2-am2-1-ase.p.azurewebsites.net"
+          }
+,         {
+              "id"           : "cert_subjectAltName",
+              "ip"           : "3d-back-office.mobilierdefrance.com/20.82.22.191",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "*.msha-slice-2-am2-1-ase.p.azurewebsites.net *.scm.msha-slice-2-am2-1-ase.p.azurewebsites.net *.msha-slice-2-am2-1-ase.p.azure-mobile.net *.scm.msha-slice-2-am2-1-ase.p.azure-mobile.net *.azure-apim.net *.consent.azure-apim.net *.admin.azure-apim.net msha-slice-2-am2-1-ase.scm.p.azurewebsites.net"
+          }
+,         {
+              "id"           : "cert_trust",
+              "ip"           : "3d-back-office.mobilierdefrance.com/20.82.22.191",
+              "port"         : "443",
+              "severity"     : "HIGH",
+              "finding"      : "certificate does not match supplied URI (same w/o SNI)"
+          }
+,         {
+              "id"           : "cert_trust_wildcard",
+              "ip"           : "3d-back-office.mobilierdefrance.com/20.82.22.191",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "trust is via wildcard"
+          }
+,         {
+              "id"           : "cert_chain_of_trust",
+              "ip"           : "3d-back-office.mobilierdefrance.com/20.82.22.191",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "passed."
+          }
+,         {
+              "id"           : "cert_certificatePolicies_EV",
+              "ip"           : "3d-back-office.mobilierdefrance.com/20.82.22.191",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "no"
+          }
+,         {
+              "id"           : "cert_expirationStatus",
+              "ip"           : "3d-back-office.mobilierdefrance.com/20.82.22.191",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "315 >= 60 days"
+          }
+,         {
+              "id"           : "cert_notBefore",
+              "ip"           : "3d-back-office.mobilierdefrance.com/20.82.22.191",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "2025-05-03 01:57"
+          }
+,         {
+              "id"           : "cert_notAfter",
+              "ip"           : "3d-back-office.mobilierdefrance.com/20.82.22.191",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "2026-04-28 01:57"
+          }
+,         {
+              "id"           : "cert_extlifeSpan",
+              "ip"           : "3d-back-office.mobilierdefrance.com/20.82.22.191",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "certificate has no extended life time according to browser forum"
+          }
+,         {
+              "id"           : "cert_eTLS",
+              "ip"           : "3d-back-office.mobilierdefrance.com/20.82.22.191",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "not present"
+          }
+,         {
+              "id"           : "cert_crlDistributionPoints",
+              "ip"           : "3d-back-office.mobilierdefrance.com/20.82.22.191",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "http://www.microsoft.com/pkiops/crl/Microsoft%20Azure%20RSA%20TLS%20Issuing%20CA%2004.crl"
+          }
+,         {
+              "id"           : "cert_ocspURL",
+              "ip"           : "3d-back-office.mobilierdefrance.com/20.82.22.191",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "http://oneocsp.microsoft.com/ocsp"
+          }
+,         {
+              "id"           : "OCSP_stapling",
+              "ip"           : "3d-back-office.mobilierdefrance.com/20.82.22.191",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "not offered"
+          }
+,         {
+              "id"           : "cert_mustStapleExtension",
+              "ip"           : "3d-back-office.mobilierdefrance.com/20.82.22.191",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "--"
+          }
+,         {
+              "id"           : "DNS_CAArecord",
+              "ip"           : "3d-back-office.mobilierdefrance.com/20.82.22.191",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "--"
+          }
+,         {
+              "id"           : "certificate_transparency",
+              "ip"           : "3d-back-office.mobilierdefrance.com/20.82.22.191",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "yes (certificate extension)"
+          }
+,         {
+              "id"           : "certs_countServer",
+              "ip"           : "3d-back-office.mobilierdefrance.com/20.82.22.191",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "2"
+          }
+,         {
+              "id"           : "certs_list_ordering_problem",
+              "ip"           : "3d-back-office.mobilierdefrance.com/20.82.22.191",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "no"
+          }
+,         {
+              "id"           : "cert_caIssuers",
+              "ip"           : "3d-back-office.mobilierdefrance.com/20.82.22.191",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "Microsoft Azure RSA TLS Issuing CA 04 (Microsoft Corporation from US)"
+          }
+,         {
+              "id"           : "intermediate_cert <#1>",
+              "ip"           : "3d-back-office.mobilierdefrance.com/20.82.22.191",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "-----BEGIN CERTIFICATE-----\nMIIFrDCCBJSgAwIBAgIQCfluwpVVXyR0nq8eXc7UnTANBgkqhkiG9w0BAQwFADBhMQswCQYDVQQGEwJVUzEVMBMGA1UEChMMRGlnaUNlcnQgSW5jMRkwFwYDVQQLExB3d3cuZGlnaWNlcnQuY29tMSAwHgYDVQQDExdEaWdpQ2VydCBHbG9iYWwgUm9vdCBHMjAeFw0yMzA2MDgwMDAwMDBaFw0yNjA4MjUyMzU5NTlaMF0xCzAJBgNVBAYTAlVTMR4wHAYDVQQKExVNaWNyb3NvZnQgQ29ycG9yYXRpb24xLjAsBgNVBAMTJU1pY3Jvc29mdCBBenVyZSBSU0EgVExTIElzc3VpbmcgQ0EgMDQwggIiMA0GCSqGSIb3DQEBAQUAA4ICDwAwggIKAoICAQDBeUy13eRZ/QC5bN7/IOGxodny7Xm2BFc88d3cca3yHyyVx1Y60+afY6DAo/2Ls1uzAfbDfMzAVWJazPH4tckaItDv//htEbbNJnAGvZPB4VqNviwDEmlAWT/MTAmzXfTgWXuUNgRlzZbjoFaPm+t6iJ6HdvDpWQAJbsBUZCgat257tM28JnAHUTWdiDBn+2z6EGh2DA6BCx04zHDKVSegLY8+5P80Lqze0d6i3T2JJ7rfxCmxUXfCGOv9iQIUZfhv4vCb8hsm/JdNUMiomJhSPa0bi3rda/swuJHCH//dwz2AGzZRRGdj7Kna4t6ToxK17lAF3Q6Qp368C9cE6JLMj+3UbY3umWCPRA5/Dms4/wl3GvDEw7HpyKsvRNPpjDZyiFzZGC2HZmGMsrZMT3hxmyQwmz1O3eGYdO5EIq1SW/vT1yShZTSusqmICQo5gWWRZTwCENekSbVX9qRr77o0pjKtuBMZTGQTixwpT/rgUl7Mr4M2nqK55Kovy/kUN1znfPdW/Fj9iCuvPKwKFdyt2RVgxJDvgIF/bNoRkRxhwVB6qRgs4EiTrNbRoZAHEFF5wRBf9gWn9HeoI66VtdMZvJRH+0/FDWB4/zwxS16nnADJaVPXh6JHJFYs9p0wZmvct3GNdWrOLRAG2yzbfFZS8fJcX1PYxXXo4By16yGWhQIDAQABo4IBYjCCAV4wEgYDVR0TAQH/BAgwBgEB/wIBADAdBgNVHQ4EFgQUO3DRU+l2JZ1gqMpmD8abrm9UFmowHwYDVR0jBBgwFoAUTiJUIBiV5uNu5g/6+rkS7QYXjzkwDgYDVR0PAQH/BAQDAgGGMB0GA1UdJQQWMBQGCCsGAQUFBwMBBggrBgEFBQcDAjB2BggrBgEFBQcBAQRqMGgwJAYIKwYBBQUHMAGGGGh0dHA6Ly9vY3NwLmRpZ2ljZXJ0LmNvbTBABggrBgEFBQcwAoY0aHR0cDovL2NhY2VydHMuZGlnaWNlcnQuY29tL0RpZ2lDZXJ0R2xvYmFsUm9vdEcyLmNydDBCBgNVHR8EOzA5MDegNaAzhjFodHRwOi8vY3JsMy5kaWdpY2VydC5jb20vRGlnaUNlcnRHbG9iYWxSb290RzIuY3JsMB0GA1UdIAQWMBQwCAYGZ4EMAQIBMAgGBmeBDAECAjANBgkqhkiG9w0BAQwFAAOCAQEAo9sJvBNLQSJ1e7VaG3cSZHBz6zjS70A1gVO1pqsmX34BWDPz1TAlOyJiLlA+eUF4B2OWHd3F//dJJ/3TaCFunjBhZudv3busl7flz42K/BG/eOdlg0kiUf07PCYY5/FKYTIch51j1moFlBqbglwkdNIVae2tOu0OdX2JiA+bprYcGxa7eayLetvPiA77ynTcUNMKOqYB41FZHOXe5IXDI5t2RsDM9dMEZv4+cOb9G9qXcgDar1AzPHEt/39335zCHofQ0QuItCDCDzahWZci9Nn9hb/SvAtPWHZLkLBG6I0iwGxvMwcTTc9Jnb4FlysrmQlwKsS2MphOoI23Qq3cSA==\n-----END CERTIFICATE-----"
+          }
+,         {
+              "id"           : "intermediate_cert_fingerprintSHA256 <#1>",
+              "ip"           : "3d-back-office.mobilierdefrance.com/20.82.22.191",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "33F9731BE910A66DC6ACD07D9D9CA212EE8D0A9A5C78C8BF3E89BB74DF8FB936"
+          }
+,         {
+              "id"           : "intermediate_cert_notBefore <#1>",
+              "ip"           : "3d-back-office.mobilierdefrance.com/20.82.22.191",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "2023-06-08 00:00"
+          }
+,         {
+              "id"           : "intermediate_cert_notAfter <#1>",
+              "ip"           : "3d-back-office.mobilierdefrance.com/20.82.22.191",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "2026-08-25 23:59"
+          }
+,         {
+              "id"           : "intermediate_cert_expiration <#1>",
+              "ip"           : "3d-back-office.mobilierdefrance.com/20.82.22.191",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "ok > 40 days"
+          }
+,         {
+              "id"           : "intermediate_cert_chain <#1>",
+              "ip"           : "3d-back-office.mobilierdefrance.com/20.82.22.191",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "Microsoft Azure RSA TLS Issuing CA 04 <-- DigiCert Global Root G2"
+          }
+,         {
+              "id"           : "intermediate_cert_badOCSP",
+              "ip"           : "3d-back-office.mobilierdefrance.com/20.82.22.191",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "intermediate certificate(s) is/are ok"
+          }
+,         {
+              "id"           : "HTTP_status_code",
+              "ip"           : "3d-back-office.mobilierdefrance.com/20.82.22.191",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "404 Site Not Found ('/')"
+          }
+,         {
+              "id"           : "HTTP_clock_skew",
+              "ip"           : "3d-back-office.mobilierdefrance.com/20.82.22.191",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "0 seconds from localtime"
+          }
+,         {
+              "id"           : "HTTP_headerTime",
+              "ip"           : "3d-back-office.mobilierdefrance.com/20.82.22.191",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "1750068560"
+          }
+,         {
+              "id"           : "HSTS",
+              "ip"           : "3d-back-office.mobilierdefrance.com/20.82.22.191",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "not offered"
+          }
+,         {
+              "id"           : "HPKP",
+              "ip"           : "3d-back-office.mobilierdefrance.com/20.82.22.191",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "No support for HTTP Public Key Pinning"
+          }
+,         {
+              "id"           : "banner_server",
+              "ip"           : "3d-back-office.mobilierdefrance.com/20.82.22.191",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "No Server banner line in header, interesting!"
+          }
+,         {
+              "id"           : "banner_application",
+              "ip"           : "3d-back-office.mobilierdefrance.com/20.82.22.191",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "No application banner found"
+          }
+,         {
+              "id"           : "cookie_count",
+              "ip"           : "3d-back-office.mobilierdefrance.com/20.82.22.191",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "0 at '/' (maybe missed the application)"
+          }
+,         {
+              "id"           : "security_headers",
+              "ip"           : "3d-back-office.mobilierdefrance.com/20.82.22.191",
+              "port"         : "443",
+              "severity"     : "MEDIUM",
+              "finding"      : "--"
+          }
+,         {
+              "id"           : "banner_reverseproxy",
+              "ip"           : "3d-back-office.mobilierdefrance.com/20.82.22.191",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "cwe"          : "CWE-200",
+              "finding"      : "--"
+          }
+,         {
+              "id"           : "heartbleed",
+              "ip"           : "3d-back-office.mobilierdefrance.com/20.82.22.191",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2014-0160",
+              "cwe"          : "CWE-119",
+              "finding"      : "not vulnerable, no heartbeat extension"
+          }
+,         {
+              "id"           : "CCS",
+              "ip"           : "3d-back-office.mobilierdefrance.com/20.82.22.191",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2014-0224",
+              "cwe"          : "CWE-310",
+              "finding"      : "not vulnerable"
+          }
+,         {
+              "id"           : "ticketbleed",
+              "ip"           : "3d-back-office.mobilierdefrance.com/20.82.22.191",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2016-9244",
+              "cwe"          : "CWE-200",
+              "finding"      : "no session ticket extension"
+          }
+,         {
+              "id"           : "ROBOT",
+              "ip"           : "3d-back-office.mobilierdefrance.com/20.82.22.191",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2017-17382 CVE-2017-17427 CVE-2017-17428 CVE-2017-13098 CVE-2017-1000385 CVE-2017-13099 CVE-2016-6883 CVE-2012-5081 CVE-2017-6168",
+              "cwe"          : "CWE-203",
+              "finding"      : "not vulnerable"
+          }
+,         {
+              "id"           : "secure_renego",
+              "ip"           : "3d-back-office.mobilierdefrance.com/20.82.22.191",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cwe"          : "CWE-310",
+              "finding"      : "supported"
+          }
+,         {
+              "id"           : "secure_client_renego",
+              "ip"           : "3d-back-office.mobilierdefrance.com/20.82.22.191",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2011-1473",
+              "cwe"          : "CWE-310",
+              "finding"      : "not vulnerable"
+          }
+,         {
+              "id"           : "CRIME_TLS",
+              "ip"           : "3d-back-office.mobilierdefrance.com/20.82.22.191",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2012-4929",
+              "cwe"          : "CWE-310",
+              "finding"      : "not vulnerable"
+          }
+,         {
+              "id"           : "BREACH",
+              "ip"           : "3d-back-office.mobilierdefrance.com/20.82.22.191",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2013-3587",
+              "cwe"          : "CWE-310",
+              "finding"      : "not vulnerable, no gzip/deflate/compress/br HTTP compression  - only supplied '/' tested"
+          }
+,         {
+              "id"           : "POODLE_SSL",
+              "ip"           : "3d-back-office.mobilierdefrance.com/20.82.22.191",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2014-3566",
+              "cwe"          : "CWE-310",
+              "finding"      : "not vulnerable, no SSLv3"
+          }
+,         {
+              "id"           : "fallback_SCSV",
+              "ip"           : "3d-back-office.mobilierdefrance.com/20.82.22.191",
+              "port"         : "443",
+              "severity"     : "MEDIUM",
+              "finding"      : "NOT supported"
+          }
+,         {
+              "id"           : "SWEET32",
+              "ip"           : "3d-back-office.mobilierdefrance.com/20.82.22.191",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2016-2183 CVE-2016-6329",
+              "cwe"          : "CWE-327",
+              "finding"      : "not vulnerable"
+          }
+,         {
+              "id"           : "FREAK",
+              "ip"           : "3d-back-office.mobilierdefrance.com/20.82.22.191",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2015-0204",
+              "cwe"          : "CWE-310",
+              "finding"      : "not vulnerable"
+          }
+,         {
+              "id"           : "DROWN",
+              "ip"           : "3d-back-office.mobilierdefrance.com/20.82.22.191",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2016-0800 CVE-2016-0703",
+              "cwe"          : "CWE-310",
+              "finding"      : "not vulnerable on this host and port"
+          }
+,         {
+              "id"           : "DROWN_hint",
+              "ip"           : "3d-back-office.mobilierdefrance.com/20.82.22.191",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "cve"          : "CVE-2016-0800 CVE-2016-0703",
+              "cwe"          : "CWE-310",
+              "finding"      : "Make sure you don't use this certificate elsewhere with SSLv2 enabled services, see https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=DF14A329E186E72636FAD8FFCE601AA461C2C318272124522F9BA4EBD5811E8B"
+          }
+,         {
+              "id"           : "LOGJAM",
+              "ip"           : "3d-back-office.mobilierdefrance.com/20.82.22.191",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2015-4000",
+              "cwe"          : "CWE-310",
+              "finding"      : "not vulnerable, no DH EXPORT ciphers,"
+          }
+,         {
+              "id"           : "LOGJAM-common_primes",
+              "ip"           : "3d-back-office.mobilierdefrance.com/20.82.22.191",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2015-4000",
+              "cwe"          : "CWE-310",
+              "finding"      : "no DH key with <= TLS 1.2"
+          }
+,         {
+              "id"           : "BEAST",
+              "ip"           : "3d-back-office.mobilierdefrance.com/20.82.22.191",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "cve"          : "CVE-2011-3389",
+              "cwe"          : "CWE-20",
+              "finding"      : "VULNERABLE -- but also supports higher protocols  TLSv1.1 TLSv1.2 (likely mitigated)"
+          }
+,         {
+              "id"           : "LUCKY13",
+              "ip"           : "3d-back-office.mobilierdefrance.com/20.82.22.191",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "cve"          : "CVE-2013-0169",
+              "cwe"          : "CWE-310",
+              "finding"      : "potentially vulnerable, uses TLS CBC ciphers"
+          }
+,         {
+              "id"           : "winshock",
+              "ip"           : "3d-back-office.mobilierdefrance.com/20.82.22.191",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2014-6321",
+              "cwe"          : "CWE-94",
+              "finding"      : "not vulnerable"
+          }
+,         {
+              "id"           : "RC4",
+              "ip"           : "3d-back-office.mobilierdefrance.com/20.82.22.191",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2013-2566 CVE-2015-2808",
+              "cwe"          : "CWE-310",
+              "finding"      : "not vulnerable"
+          }
+,         {
+              "id"           : "clientsimulation-android_70",
+              "ip"           : "3d-back-office.mobilierdefrance.com/20.82.22.191",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-android_81",
+              "ip"           : "3d-back-office.mobilierdefrance.com/20.82.22.191",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-android_90",
+              "ip"           : "3d-back-office.mobilierdefrance.com/20.82.22.191",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_256_GCM_SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-android_X",
+              "ip"           : "3d-back-office.mobilierdefrance.com/20.82.22.191",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_256_GCM_SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-android_11_12",
+              "ip"           : "3d-back-office.mobilierdefrance.com/20.82.22.191",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_256_GCM_SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-android_13_14",
+              "ip"           : "3d-back-office.mobilierdefrance.com/20.82.22.191",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_256_GCM_SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-android_15",
+              "ip"           : "3d-back-office.mobilierdefrance.com/20.82.22.191",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_256_GCM_SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-chrome_101_win10",
+              "ip"           : "3d-back-office.mobilierdefrance.com/20.82.22.191",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_256_GCM_SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-chromium_137_win11",
+              "ip"           : "3d-back-office.mobilierdefrance.com/20.82.22.191",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_256_GCM_SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-firefox_100_win10",
+              "ip"           : "3d-back-office.mobilierdefrance.com/20.82.22.191",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_256_GCM_SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-firefox_137_win11",
+              "ip"           : "3d-back-office.mobilierdefrance.com/20.82.22.191",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_256_GCM_SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-ie_8_win7",
+              "ip"           : "3d-back-office.mobilierdefrance.com/20.82.22.191",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.0 ECDHE-RSA-AES256-SHA"
+          }
+,         {
+              "id"           : "clientsimulation-ie_11_win7",
+              "ip"           : "3d-back-office.mobilierdefrance.com/20.82.22.191",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-RSA-AES256-SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-ie_11_win81",
+              "ip"           : "3d-back-office.mobilierdefrance.com/20.82.22.191",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-RSA-AES256-SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-ie_11_winphone81",
+              "ip"           : "3d-back-office.mobilierdefrance.com/20.82.22.191",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-RSA-AES128-SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-ie_11_win10",
+              "ip"           : "3d-back-office.mobilierdefrance.com/20.82.22.191",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-edge_15_win10",
+              "ip"           : "3d-back-office.mobilierdefrance.com/20.82.22.191",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-edge_101_win10_21h2",
+              "ip"           : "3d-back-office.mobilierdefrance.com/20.82.22.191",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_256_GCM_SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-edge_133_win11_23h2",
+              "ip"           : "3d-back-office.mobilierdefrance.com/20.82.22.191",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_256_GCM_SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-safari_184_ios_184",
+              "ip"           : "3d-back-office.mobilierdefrance.com/20.82.22.191",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_256_GCM_SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-safari_154_osx_1231",
+              "ip"           : "3d-back-office.mobilierdefrance.com/20.82.22.191",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_256_GCM_SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-safari_184_osx_154",
+              "ip"           : "3d-back-office.mobilierdefrance.com/20.82.22.191",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_256_GCM_SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-java_7u25",
+              "ip"           : "3d-back-office.mobilierdefrance.com/20.82.22.191",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.0 ECDHE-RSA-AES128-SHA"
+          }
+,         {
+              "id"           : "clientsimulation-java_80442",
+              "ip"           : "3d-back-office.mobilierdefrance.com/20.82.22.191",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_256_GCM_SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-java_1102",
+              "ip"           : "3d-back-office.mobilierdefrance.com/20.82.22.191",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_256_GCM_SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-java_1703",
+              "ip"           : "3d-back-office.mobilierdefrance.com/20.82.22.191",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_256_GCM_SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-java_2106",
+              "ip"           : "3d-back-office.mobilierdefrance.com/20.82.22.191",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_256_GCM_SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-go_1178",
+              "ip"           : "3d-back-office.mobilierdefrance.com/20.82.22.191",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_256_GCM_SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-libressl_336",
+              "ip"           : "3d-back-office.mobilierdefrance.com/20.82.22.191",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_256_GCM_SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-openssl_102e",
+              "ip"           : "3d-back-office.mobilierdefrance.com/20.82.22.191",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-openssl_111d",
+              "ip"           : "3d-back-office.mobilierdefrance.com/20.82.22.191",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_256_GCM_SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-openssl_315",
+              "ip"           : "3d-back-office.mobilierdefrance.com/20.82.22.191",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_256_GCM_SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-openssl_350",
+              "ip"           : "3d-back-office.mobilierdefrance.com/20.82.22.191",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_256_GCM_SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-apple_mail_16_0",
+              "ip"           : "3d-back-office.mobilierdefrance.com/20.82.22.191",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-thunderbird_91_9",
+              "ip"           : "3d-back-office.mobilierdefrance.com/20.82.22.191",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_256_GCM_SHA384"
+          }
+,         {
+              "id"           : "rating_spec",
+              "ip"           : "3d-back-office.mobilierdefrance.com/20.82.22.191",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "SSL Labs's 'SSL Server Rating Guide' (version 2009q from 2020-01-30)"
+          }
+,         {
+              "id"           : "rating_doc",
+              "ip"           : "3d-back-office.mobilierdefrance.com/20.82.22.191",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "https://github.com/ssllabs/research/wiki/SSL-Server-Rating-Guide"
+          }
+,         {
+              "id"           : "protocol_support_score",
+              "ip"           : "3d-back-office.mobilierdefrance.com/20.82.22.191",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "0"
+          }
+,         {
+              "id"           : "protocol_support_score_weighted",
+              "ip"           : "3d-back-office.mobilierdefrance.com/20.82.22.191",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "0"
+          }
+,         {
+              "id"           : "key_exchange_score",
+              "ip"           : "3d-back-office.mobilierdefrance.com/20.82.22.191",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "0"
+          }
+,         {
+              "id"           : "key_exchange_score_weighted",
+              "ip"           : "3d-back-office.mobilierdefrance.com/20.82.22.191",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "0"
+          }
+,         {
+              "id"           : "cipher_strength_score",
+              "ip"           : "3d-back-office.mobilierdefrance.com/20.82.22.191",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "0"
+          }
+,         {
+              "id"           : "cipher_strength_score_weighted",
+              "ip"           : "3d-back-office.mobilierdefrance.com/20.82.22.191",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "0"
+          }
+,         {
+              "id"           : "final_score",
+              "ip"           : "3d-back-office.mobilierdefrance.com/20.82.22.191",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "0"
+          }
+,         {
+              "id"           : "overall_grade",
+              "ip"           : "3d-back-office.mobilierdefrance.com/20.82.22.191",
+              "port"         : "443",
+              "severity"     : "CRITICAL",
+              "finding"      : "M"
+          }
+,         {
+              "id"           : "grade_cap_reason_1",
+              "ip"           : "3d-back-office.mobilierdefrance.com/20.82.22.191",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "Grade capped to M. Domain name mismatch"
+          }
+,         {
+              "id"           : "grade_cap_reason_2",
+              "ip"           : "3d-back-office.mobilierdefrance.com/20.82.22.191",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "Grade capped to B. TLS 1.1 offered"
+          }
+,         {
+              "id"           : "grade_cap_reason_3",
+              "ip"           : "3d-back-office.mobilierdefrance.com/20.82.22.191",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "Grade capped to B. TLS 1.0 offered"
+          }
+,         {
+              "id"           : "grade_cap_reason_4",
+              "ip"           : "3d-back-office.mobilierdefrance.com/20.82.22.191",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "Grade capped to A. HSTS is not offered"
+          }
+,         {
+              "id"           : "grade_cap_reason_5",
+              "ip"           : "3d-back-office.mobilierdefrance.com/20.82.22.191",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "Grade capped to A. Does not support TLS_FALLBACK_SCSV"
+          }
+,         {
+              "id"           : "scanTime",
+              "ip"           : "3d-back-office.mobilierdefrance.com/20.82.22.191",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "116"
+          }
+]

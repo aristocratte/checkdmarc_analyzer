@@ -1,0 +1,2296 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>OWASP Amass Network Mapping</title>
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+    <style>
+        div#tooltip {
+            position: absolute;        
+            display: inline-block;
+            padding: 10px;
+            font-family: 'Open Sans' sans-serif;
+            color: #000;
+            background-color: #fff;
+            border: 1px solid #999;
+            border-radius: 2px;
+            pointer-events: none;
+            opacity: 0;
+            z-index: 1;
+        }
+    </style>
+</head>
+<body>
+    <div id="graphDiv"></div>
+    <div id="tooltip"></div>
+
+<script>
+/* global d3 */
+
+var graph = {
+    nodes: [
+    
+        {id: 0, num: 2, label: "address: 2600:9000:28a6:9200:18:c943:1580:93a1, Source: DNS", color: "orange" },
+    
+        {id: 1, num: 2, label: "address: 2606:4700:3030::6815:2f42, Source: DNS", color: "orange" },
+    
+        {id: 2, num: 2, label: "address: 104.21.13.240, Source: DNS", color: "orange" },
+    
+        {id: 3, num: 2, label: "domain: hackerone.com, Source: DNS", color: "red" },
+    
+        {id: 4, num: 2, label: "address: 104.21.58.152, Source: DNS", color: "orange" },
+    
+        {id: 5, num: 2, label: "address: 142.250.147.26, Source: DNS", color: "orange" },
+    
+        {id: 6, num: 2, label: "address: 217.16.185.221, Source: DNS", color: "orange" },
+    
+        {id: 7, num: 2, label: "address: 162.159.1.31, Source: DNS", color: "orange" },
+    
+        {id: 8, num: 8, label: "domain: hackerone.net.cn, Source: DNS", color: "red" },
+    
+        {id: 9, num: 2, label: "address: 104.21.68.23, Source: DNS", color: "orange" },
+    
+        {id: 10, num: 35, label: "ns: a.ns.hackerone.com, Source: DNS", color: "cyan" },
+    
+        {id: 11, num: 2, label: "address: 172.67.183.67, Source: DNS", color: "orange" },
+    
+        {id: 12, num: 4, label: "netblock: 104.21.32.0/20, Source: RIR", color: "pink" },
+    
+        {id: 13, num: 2, label: "address: 2600:9000:28a6:3400:18:c943:1580:93a1, Source: DNS", color: "orange" },
+    
+        {id: 14, num: 6, label: "netblock: 104.21.64.0/20, Source: RIR", color: "pink" },
+    
+        {id: 15, num: 2, label: "netblock: 77.78.124.0/22, Source: RIR", color: "pink" },
+    
+        {id: 16, num: 4, label: "address: 2606:4700::6811:a8b9, Source: DNS", color: "orange" },
+    
+        {id: 17, num: 2, label: "address: 3.170.229.26, Source: DNS", color: "orange" },
+    
+        {id: 18, num: 2, label: "address: 2606:4700:3036::6815:1730, Source: DNS", color: "orange" },
+    
+        {id: 19, num: 3, label: "subdomain: fbhzv4f2nk7b.stspg-customer.com, Source: DNS", color: "green" },
+    
+        {id: 20, num: 2, label: "netblock: 172.64.148.0/24, Source: RIR", color: "pink" },
+    
+        {id: 21, num: 5, label: "subdomain: www.hackerone.net, Source: HackerTarget", color: "green" },
+    
+        {id: 22, num: 3, label: "domain: d16s39jfwqda15.cloudfront.net, Source: Crtsh", color: "red" },
+    
+        {id: 23, num: 2, label: "address: 2606:4700::6811:296a, Source: DNS", color: "orange" },
+    
+        {id: 24, num: 2, label: "netblock: 104.21.96.0/20, Source: RIR", color: "pink" },
+    
+        {id: 25, num: 7, label: "domain: hackerone.kz, Source: DNS", color: "red" },
+    
+        {id: 26, num: 2, label: "netblock: 172.253.0.0/16, Source: RIR", color: "pink" },
+    
+        {id: 27, num: 2, label: "netblock: 217.16.176.0/20, Source: RIR", color: "pink" },
+    
+        {id: 28, num: 2, label: "address: 104.21.77.216, Source: DNS", color: "orange" },
+    
+        {id: 29, num: 2, label: "address: 162.159.0.31, Source: DNS", color: "orange" },
+    
+        {id: 30, num: 15, label: "domain: d3g81spe4a04dw.cloudfront.net, Source: DNS", color: "red" },
+    
+        {id: 31, num: 2, label: "address: 2606:4700:3033::ac43:b743, Source: DNS", color: "orange" },
+    
+        {id: 32, num: 2, label: "subdomain: profile-photos-us-east-2.hackerone-user-content.com, Source: Crtsh", color: "green" },
+    
+        {id: 33, num: 15, label: "domain: d4h37yulnivq.cloudfront.net, Source: DNS", color: "red" },
+    
+        {id: 34, num: 3, label: "address: 2606:4700:3037::ac43:a3c1, Source: DNS", color: "orange" },
+    
+        {id: 35, num: 2, label: "netblock: 80.67.0.0/20, Source: RIR", color: "pink" },
+    
+        {id: 36, num: 2, label: "address: 2001:19f0:6801:474:5400:1ff:fec5:8efb, Source: DNS", color: "orange" },
+    
+        {id: 37, num: 2, label: "address: 188.114.96.3, Source: DNS", color: "orange" },
+    
+        {id: 38, num: 8, label: "domain: hackerone.ca, Source: DNS", color: "red" },
+    
+        {id: 39, num: 2, label: "address: 2a00:1a28:2010:1::89, Source: DNS", color: "orange" },
+    
+        {id: 40, num: 2, label: "address: 104.21.9.30, Source: DNS", color: "orange" },
+    
+        {id: 41, num: 2, label: "address: 80.67.7.209, Source: DNS", color: "orange" },
+    
+        {id: 42, num: 2, label: "address: 2606:4700:3030::ac43:dc4c, Source: DNS", color: "orange" },
+    
+        {id: 43, num: 6, label: "address: 104.21.112.1, Source: DNS", color: "orange" },
+    
+        {id: 44, num: 2, label: "address: 3.170.229.108, Source: DNS", color: "orange" },
+    
+        {id: 45, num: 8, label: "domain: hackerone.reviews, Source: DNS", color: "red" },
+    
+        {id: 46, num: 3, label: "domain: d28qw6v5xe348x.cloudfront.net, Source: Crtsh", color: "red" },
+    
+        {id: 47, num: 2, label: "address: 104.17.41.106, Source: DNS", color: "orange" },
+    
+        {id: 48, num: 2, label: "address: 172.67.211.231, Source: DNS", color: "orange" },
+    
+        {id: 49, num: 2, label: "address: 104.21.40.87, Source: DNS", color: "orange" },
+    
+        {id: 50, num: 2, label: "netblock: 45.76.0.0/15, Source: RIR", color: "pink" },
+    
+        {id: 51, num: 5, label: "address: 188.114.97.2, Source: DNS", color: "orange" },
+    
+        {id: 52, num: 5, label: "address: 2a06:98c1:3120::2, Source: DNS", color: "orange" },
+    
+        {id: 53, num: 3, label: "address: 104.21.80.51, Source: DNS", color: "orange" },
+    
+        {id: 54, num: 2, label: "subdomain: hackathon-photos.us-east-2.hackerone-user-content.com, Source: Crtsh", color: "green" },
+    
+        {id: 55, num: 2, label: "subdomain: asm-attachments.us-east-2.hackerone-user-content.com, Source: Crtsh", color: "green" },
+    
+        {id: 56, num: 1, label: "domain: atlassian.com, Source: DNS", color: "red" },
+    
+        {id: 57, num: 14, label: "domain: withinsecurity.com, Source: DNS", color: "red" },
+    
+        {id: 58, num: 5, label: "address: 188.114.96.2, Source: DNS", color: "orange" },
+    
+        {id: 59, num: 4, label: "domain: hackeronemail.com, Source: DNS", color: "red" },
+    
+        {id: 60, num: 2, label: "address: 2600:9000:2395:c000:2:c21e:ec80:93a1, Source: DNS", color: "orange" },
+    
+        {id: 61, num: 8, label: "domain: weardhackerone.com, Source: DNS", color: "red" },
+    
+        {id: 62, num: 2, label: "address: 104.21.7.7, Source: DNS", color: "orange" },
+    
+        {id: 63, num: 4, label: "netblock: 104.21.80.0/20, Source: RIR", color: "pink" },
+    
+        {id: 64, num: 18, label: "domain: h1ctf.com, Source: DNS", color: "red" },
+    
+        {id: 65, num: 2, label: "address: 2a00:1450:4025:c01::1b, Source: DNS", color: "orange" },
+    
+        {id: 66, num: 3, label: "as: 0, Desc: Unknown, Source: RIR", color: "blue" },
+    
+        {id: 67, num: 2, label: "address: 2a02:750:8::32, Source: DNS", color: "orange" },
+    
+        {id: 68, num: 3, label: "domain: d3hkmj3aszqep1.cloudfront.net, Source: Crtsh", color: "red" },
+    
+        {id: 69, num: 2, label: "address: 52.222.169.119, Source: DNS", color: "orange" },
+    
+        {id: 70, num: 2, label: "address: 104.21.71.207, Source: DNS", color: "orange" },
+    
+        {id: 71, num: 5, label: "ns: ns5.gransy.com, Source: DNS", color: "cyan" },
+    
+        {id: 72, num: 2, label: "address: 104.21.26.21, Source: DNS", color: "orange" },
+    
+        {id: 73, num: 2, label: "address: 2606:4700:3037::ac43:913f, Source: DNS", color: "orange" },
+    
+        {id: 74, num: 3, label: "address: 172.67.163.193, Source: DNS", color: "orange" },
+    
+        {id: 75, num: 7, label: "ns: ns4.gransy.com, Source: DNS", color: "cyan" },
+    
+        {id: 76, num: 2, label: "address: 2606:4700:3033::ac43:d131, Source: DNS", color: "orange" },
+    
+        {id: 77, num: 2, label: "address: 172.67.205.46, Source: DNS", color: "orange" },
+    
+        {id: 78, num: 2, label: "address: 2a02:750:7::2e7, Source: DNS", color: "orange" },
+    
+        {id: 79, num: 2, label: "address: 2606:4700:3035::ac43:8581, Source: DNS", color: "orange" },
+    
+        {id: 80, num: 8, label: "domain: hackerone.st, Source: DNS", color: "red" },
+    
+        {id: 81, num: 3, label: "netblock: 142.250.146.0/23, Source: RIR", color: "pink" },
+    
+        {id: 82, num: 2, label: "address: 2606:4700:3037::ac43:cd2e, Source: DNS", color: "orange" },
+    
+        {id: 83, num: 2, label: "address: 2600:9000:2450:d600:1a:d484:d00:93a1, Source: DNS", color: "orange" },
+    
+        {id: 84, num: 2, label: "address: 2600:9000:2450:9400:1a:d484:d00:93a1, Source: DNS", color: "orange" },
+    
+        {id: 85, num: 2, label: "address: 2606:4700:3037::ac43:9b57, Source: DNS", color: "orange" },
+    
+        {id: 86, num: 10, label: "domain: hackerone-ext-content.com, Source: DNS", color: "red" },
+    
+        {id: 87, num: 3, label: "netblock: 104.17.32.0/20, Source: RIR", color: "pink" },
+    
+        {id: 88, num: 2, label: "address: 2600:9000:28a6:a200:18:c943:1580:93a1, Source: DNS", color: "orange" },
+    
+        {id: 89, num: 2, label: "subdomain: hackathon-photos-us-east-2.hackerone-user-content.com, Source: Crtsh", color: "green" },
+    
+        {id: 90, num: 2, label: "address: 104.17.81.120, Source: DNS", color: "orange" },
+    
+        {id: 91, num: 3, label: "domain: dp7djhwhynkz.cloudfront.net, Source: Crtsh", color: "red" },
+    
+        {id: 92, num: 2, label: "address: 2606:4700::6811:286a, Source: DNS", color: "orange" },
+    
+        {id: 93, num: 2, label: "subdomain: cover-photos-us-east-2.hackerone-user-content.com, Source: Crtsh", color: "green" },
+    
+        {id: 94, num: 6, label: "address: 2606:4700:3030::6815:6001, Source: DNS", color: "orange" },
+    
+        {id: 95, num: 3, label: "address: 2606:4700:3036::6815:1721, Source: DNS", color: "orange" },
+    
+        {id: 96, num: 7, label: "as: 20473, Desc: AS-CHOOPA - Choopa, LLC, Source: RIR", color: "blue" },
+    
+        {id: 97, num: 2, label: "netblock: 46.21.100.0/24, Source: RIR", color: "pink" },
+    
+        {id: 98, num: 2, label: "address: 2600:9000:2450:e600:1a:d484:d00:93a1, Source: DNS", color: "orange" },
+    
+        {id: 99, num: 7, label: "as: 42708, Desc: PORTLANE www.portlane.com, Source: RIR", color: "blue" },
+    
+        {id: 100, num: 2, label: "address: 2600:9000:28a6:1200:18:c943:1580:93a1, Source: DNS", color: "orange" },
+    
+        {id: 101, num: 6, label: "address: 2606:4700:3030::6815:4001, Source: DNS", color: "orange" },
+    
+        {id: 102, num: 2, label: "address: 172.67.135.41, Source: DNS", color: "orange" },
+    
+        {id: 103, num: 19, label: "domain: hackeronestatus.com, Source: DNS", color: "red" },
+    
+        {id: 104, num: 2, label: "address: 2600:9000:2450:6c00:1a:d484:d00:93a1, Source: DNS", color: "orange" },
+    
+        {id: 105, num: 18, label: "domain: hackeronemanaged.net, Source: DNS", color: "red" },
+    
+        {id: 106, num: 2, label: "address: 172.67.133.129, Source: DNS", color: "orange" },
+    
+        {id: 107, num: 8, label: "domain: hackerone.fr, Source: DNS", color: "red" },
+    
+        {id: 108, num: 7, label: "domain: hackerone.com.kz, Source: DNS", color: "red" },
+    
+        {id: 109, num: 2, label: "address: 2606:4700:3033::6815:1a15, Source: DNS", color: "orange" },
+    
+        {id: 110, num: 2, label: "address: 2607:f8b0:4023:c06::1a, Source: DNS", color: "orange" },
+    
+        {id: 111, num: 2, label: "address: 2606:4700:3034::6815:df0, Source: DNS", color: "orange" },
+    
+        {id: 112, num: 3, label: "netblock: 2001:19f0:5000::/36, Source: RIR", color: "pink" },
+    
+        {id: 113, num: 2, label: "address: 104.19.170.46, Source: DNS", color: "orange" },
+    
+        {id: 114, num: 2, label: "netblock: 109.74.0.0/20, Source: RIR", color: "pink" },
+    
+        {id: 115, num: 2, label: "netblock: 2001:19f0:6800::/38, Source: RIR", color: "pink" },
+    
+        {id: 116, num: 48, label: "netblock: 2606:4700::/32, Source: RIR", color: "pink" },
+    
+        {id: 117, num: 3, label: "netblock: 95.179.128.0/17, Source: RIR", color: "pink" },
+    
+        {id: 118, num: 2, label: "address: 2600:9000:2395:a00:2:c21e:ec80:93a1, Source: DNS", color: "orange" },
+    
+        {id: 119, num: 2, label: "subdomain: www.hackerone.org, Source: Yahoo", color: "green" },
+    
+        {id: 120, num: 2, label: "netblock: 66.42.80.0/20, Source: RIR", color: "pink" },
+    
+        {id: 121, num: 2, label: "address: 13.32.145.58, Source: DNS", color: "orange" },
+    
+        {id: 122, num: 2, label: "address: 2606:4700:3033::ac43:8d31, Source: DNS", color: "orange" },
+    
+        {id: 123, num: 2, label: "address: 77.78.126.35, Source: DNS", color: "orange" },
+    
+        {id: 124, num: 2, label: "address: 2400:cb00:2049:1::a29f:1f, Source: DNS", color: "orange" },
+    
+        {id: 125, num: 2, label: "address: 2606:4700:3032::ac43:8729, Source: DNS", color: "orange" },
+    
+        {id: 126, num: 2, label: "address: 2600:9000:28a6:1000:18:c943:1580:93a1, Source: DNS", color: "orange" },
+    
+        {id: 127, num: 5, label: "subdomain: www.h13120.com, Source: Bing", color: "green" },
+    
+        {id: 128, num: 3, label: "address: 2606:4700:3033::6815:5033, Source: DNS", color: "orange" },
+    
+        {id: 129, num: 2, label: "address: 2600:9000:2395:600:2:c21e:ec80:93a1, Source: DNS", color: "orange" },
+    
+        {id: 130, num: 8, label: "ns: ns2.gransy.com, Source: DNS", color: "cyan" },
+    
+        {id: 131, num: 2, label: "address: 172.67.155.87, Source: DNS", color: "orange" },
+    
+        {id: 132, num: 2, label: "netblock: 2a00:1a28::/32, Source: RIR", color: "pink" },
+    
+        {id: 133, num: 3, label: "netblock: 2400:cb00:2049::/48, Source: RIR", color: "pink" },
+    
+        {id: 134, num: 6, label: "address: 2606:4700:3030::6815:5001, Source: DNS", color: "orange" },
+    
+        {id: 135, num: 2, label: "subdomain: asm-attachments.hackerone-user-content.com, Source: Crtsh", color: "green" },
+    
+        {id: 136, num: 5, label: "netblock: 3.128.0.0/10, Source: RIR", color: "pink" },
+    
+        {id: 137, num: 3, label: "address: 104.21.23.33, Source: DNS", color: "orange" },
+    
+        {id: 138, num: 2, label: "address: 217.69.4.49, Source: DNS", color: "orange" },
+    
+        {id: 139, num: 9, label: "domain: hackerone.org.cn, Source: DNS", color: "red" },
+    
+        {id: 140, num: 2, label: "address: 188.114.98.228, Source: DNS", color: "orange" },
+    
+        {id: 141, num: 2, label: "address: 2600:9000:28a6:6600:18:c943:1580:93a1, Source: DNS", color: "orange" },
+    
+        {id: 142, num: 2, label: "address: 104.21.72.101, Source: DNS", color: "orange" },
+    
+        {id: 143, num: 2, label: "address: 2606:4700:3031::6815:4dd8, Source: DNS", color: "orange" },
+    
+        {id: 144, num: 10, label: "domain: hackerone.org, Source: DNS", color: "red" },
+    
+        {id: 145, num: 2, label: "subdomain: cover-photos.us-east-2.hackerone-user-content.com, Source: Crtsh", color: "green" },
+    
+        {id: 146, num: 4, label: "netblock: 104.21.16.0/20, Source: RIR", color: "pink" },
+    
+        {id: 147, num: 2, label: "netblock: 104.18.39.0/24, Source: RIR", color: "pink" },
+    
+        {id: 148, num: 2, label: "address: 52.222.169.45, Source: DNS", color: "orange" },
+    
+        {id: 149, num: 1, label: "address: 18.245.175.102, Source: DNS", color: "orange" },
+    
+        {id: 150, num: 2, label: "address: 142.250.147.27, Source: DNS", color: "orange" },
+    
+        {id: 151, num: 8, label: "ns: ns3.gransy.com, Source: DNS", color: "cyan" },
+    
+        {id: 152, num: 2, label: "domain: googlemail.com, Source: DNS", color: "red" },
+    
+        {id: 153, num: 15, label: "domain: deno6dne2vp9u.cloudfront.net, Source: DNS", color: "red" },
+    
+        {id: 154, num: 3, label: "netblock: 104.17.160.0/20, Source: RIR", color: "pink" },
+    
+        {id: 155, num: 2, label: "netblock: 104.21.112.0/20, Source: RIR", color: "pink" },
+    
+        {id: 156, num: 3, label: "address: 172.67.208.163, Source: DNS", color: "orange" },
+    
+        {id: 157, num: 5, label: "address: 2a06:98c1:3121::2, Source: DNS", color: "orange" },
+    
+        {id: 158, num: 2, label: "address: 2600:9000:2450:a000:1a:d484:d00:93a1, Source: DNS", color: "orange" },
+    
+        {id: 159, num: 2, label: "address: 104.21.94.182, Source: DNS", color: "orange" },
+    
+        {id: 160, num: 2, label: "address: 172.253.116.26, Source: DNS", color: "orange" },
+    
+        {id: 161, num: 2, label: "address: 74.125.133.27, Source: DNS", color: "orange" },
+    
+        {id: 162, num: 2, label: "address: 2606:4700:3035::ac43:8b1f, Source: DNS", color: "orange" },
+    
+        {id: 163, num: 2, label: "address: 2400:cb00:2049:1::a29f:11f, Source: DNS", color: "orange" },
+    
+        {id: 164, num: 2, label: "netblock: 2a00:1450::/32, Source: RIR", color: "pink" },
+    
+        {id: 165, num: 10, label: "domain: hackerone.net, Source: DNS", color: "red" },
+    
+        {id: 166, num: 2, label: "address: 172.67.145.63, Source: DNS", color: "orange" },
+    
+        {id: 167, num: 6, label: "address: 104.21.48.1, Source: DNS", color: "orange" },
+    
+        {id: 168, num: 3, label: "domain: d27lja70m3r1iy.cloudfront.net, Source: Crtsh", color: "red" },
+    
+        {id: 169, num: 2, label: "address: 52.222.169.49, Source: DNS", color: "orange" },
+    
+        {id: 170, num: 5, label: "domain: gransy.com, Source: DNS", color: "red" },
+    
+        {id: 171, num: 2, label: "address: 192.178.156.26, Source: DNS", color: "orange" },
+    
+        {id: 172, num: 6, label: "address: 104.21.96.1, Source: DNS", color: "orange" },
+    
+        {id: 173, num: 2, label: "address: 2600:9000:2450:b600:1a:d484:d00:93a1, Source: DNS", color: "orange" },
+    
+        {id: 174, num: 4, label: "address: 104.17.167.185, Source: DNS", color: "orange" },
+    
+        {id: 175, num: 6, label: "address: 104.21.32.1, Source: DNS", color: "orange" },
+    
+        {id: 176, num: 2, label: "netblock: 162.159.1.0/24, Source: RIR", color: "pink" },
+    
+        {id: 177, num: 2, label: "address: 2606:4700:3035::6815:2857, Source: DNS", color: "orange" },
+    
+        {id: 178, num: 2, label: "address: 2600:9000:28a6:d200:18:c943:1580:93a1, Source: DNS", color: "orange" },
+    
+        {id: 179, num: 2, label: "netblock: 77.78.96.0/20, Source: RIR", color: "pink" },
+    
+        {id: 180, num: 5, label: "subdomain: www.waarehackerone.com, Source: Bing", color: "green" },
+    
+        {id: 181, num: 2, label: "address: 104.17.82.120, Source: DNS", color: "orange" },
+    
+        {id: 182, num: 1, label: "as: 43541, Desc: VSHOSTING, Source: RIR", color: "blue" },
+    
+        {id: 183, num: 2, label: "address: 2606:4700:3032::6815:4417, Source: DNS", color: "orange" },
+    
+        {id: 184, num: 2, label: "address: 104.21.53.240, Source: DNS", color: "orange" },
+    
+        {id: 185, num: 2, label: "address: 52.222.169.27, Source: DNS", color: "orange" },
+    
+        {id: 186, num: 3, label: "address: 2606:4700:3032::6815:47cf, Source: DNS", color: "orange" },
+    
+        {id: 187, num: 2, label: "address: 172.67.220.76, Source: DNS", color: "orange" },
+    
+        {id: 188, num: 3, label: "domain: d1yhzzlq3n8tyc.cloudfront.net, Source: Crtsh", color: "red" },
+    
+        {id: 189, num: 2, label: "address: 172.67.185.117, Source: DNS", color: "orange" },
+    
+        {id: 190, num: 25, label: "netblock: 2000::/3, Source: RIR", color: "pink" },
+    
+        {id: 191, num: 2, label: "address: 77.78.104.149, Source: DNS", color: "orange" },
+    
+        {id: 192, num: 2, label: "netblock: 2a06:98c1:3120::/48, Source: RIR", color: "pink" },
+    
+        {id: 193, num: 2, label: "subdomain: b5s.hackerone-ext-content.com, Source: CertSpotter", color: "green" },
+    
+        {id: 194, num: 6, label: "address: 104.21.80.1, Source: DNS", color: "orange" },
+    
+        {id: 195, num: 7, label: "domain: hackerone-api.com, Source: DNS", color: "red" },
+    
+        {id: 196, num: 5, label: "subdomain: www.xn--hackron-eya5089d.com, Source: Bing", color: "green" },
+    
+        {id: 197, num: 2, label: "address: 104.21.50.11, Source: DNS", color: "orange" },
+    
+        {id: 198, num: 7, label: "ns: ns.gransy.com, Source: DNS", color: "cyan" },
+    
+        {id: 199, num: 7, label: "subdomain: www.withinsecurity.com, Source: HackerTarget", color: "green" },
+    
+        {id: 200, num: 3, label: "address: 104.21.15.182, Source: DNS", color: "orange" },
+    
+        {id: 201, num: 9, label: "domain: waarehackerone.com, Source: DNS", color: "red" },
+    
+        {id: 202, num: 2, label: "subdomain: marketing-assets.us-east-2.hackerone-user-content.com, Source: Crtsh", color: "green" },
+    
+        {id: 203, num: 1, label: "domain: stspg-customer.com, Source: DNS", color: "red" },
+    
+        {id: 204, num: 2, label: "address: 2600:9000:2450:9e00:1a:d484:d00:93a1, Source: DNS", color: "orange" },
+    
+        {id: 205, num: 3, label: "netblock: 2606:4700:3031::/48, Source: RIR", color: "pink" },
+    
+        {id: 206, num: 2, label: "address: 13.32.145.77, Source: DNS", color: "orange" },
+    
+        {id: 207, num: 1, label: "address: 18.245.175.53, Source: DNS", color: "orange" },
+    
+        {id: 208, num: 2, label: "address: 188.114.97.3, Source: DNS", color: "orange" },
+    
+        {id: 209, num: 8, label: "domain: hck.one, Source: DNS", color: "red" },
+    
+        {id: 210, num: 2, label: "address: 2606:4700::6813:a92e, Source: DNS", color: "orange" },
+    
+        {id: 211, num: 3, label: "address: 2606:4700:3031::6815:fb6, Source: DNS", color: "orange" },
+    
+        {id: 212, num: 6, label: "subdomain: www-hackeronestatus-com-c7f4ad09-4f84-47e1-88bb-27e4ad42c4e7.saas.atlassian.com, Source: DNS", color: "green" },
+    
+        {id: 213, num: 3, label: "domain: dx9icou6eyms1.cloudfront.net, Source: Crtsh", color: "red" },
+    
+        {id: 214, num: 1, label: "as: 12874, Desc:  - CLOUDFLARENET-AS Cloudflare, Inc., Source: RIR", color: "blue" },
+    
+        {id: 215, num: 2, label: "address: 13.32.145.54, Source: DNS", color: "orange" },
+    
+        {id: 216, num: 2, label: "address: 45.76.90.43, Source: DNS", color: "orange" },
+    
+        {id: 217, num: 3, label: "subdomain: www.hackerone-api.com, Source: Bing", color: "green" },
+    
+        {id: 218, num: 4, label: "mx: aspmx3.googlemail.com, Source: DNS", color: "purple" },
+    
+        {id: 219, num: 6, label: "as: 15169, Desc: GOOGLE - Google LLC, Source: RIR", color: "blue" },
+    
+        {id: 220, num: 8, label: "domain: lhackerome.com, Source: DNS", color: "red" },
+    
+        {id: 221, num: 3, label: "domain: d3e4dsd67zzy2o.cloudfront.net, Source: Crtsh", color: "red" },
+    
+        {id: 222, num: 4, label: "mx: alt1.aspmx.l.google.com, Source: DNS", color: "purple" },
+    
+        {id: 223, num: 2, label: "address: 2600:9000:2395:ac00:2:c21e:ec80:93a1, Source: DNS", color: "orange" },
+    
+        {id: 224, num: 3, label: "netblock: 104.19.160.0/20, Source: RIR", color: "pink" },
+    
+        {id: 225, num: 22, label: "as: 13335, Desc: CLOUDFLARENET - Cloudflare, Inc., Source: RIR", color: "blue" },
+    
+        {id: 226, num: 2, label: "address: 172.67.139.31, Source: DNS", color: "orange" },
+    
+        {id: 227, num: 2, label: "address: 2600:9000:2395:200:2:c21e:ec80:93a1, Source: DNS", color: "orange" },
+    
+        {id: 228, num: 6, label: "address: 2606:4700:3030::6815:3001, Source: DNS", color: "orange" },
+    
+        {id: 229, num: 2, label: "address: 95.179.192.121, Source: DNS", color: "orange" },
+    
+        {id: 230, num: 2, label: "address: 3.170.229.50, Source: DNS", color: "orange" },
+    
+        {id: 231, num: 2, label: "netblock: 2a00:1450:4025::/48, Source: RIR", color: "pink" },
+    
+        {id: 232, num: 2, label: "netblock: 2a02:750:8::/48, Source: RIR", color: "pink" },
+    
+        {id: 233, num: 2, label: "address: 2606:4700:3035::6815:4865, Source: DNS", color: "orange" },
+    
+        {id: 234, num: 8, label: "domain: hackeroine.com, Source: DNS", color: "red" },
+    
+        {id: 235, num: 1, label: "address: 18.245.175.129, Source: DNS", color: "orange" },
+    
+        {id: 236, num: 2, label: "address: 2606:4700::6813:aa2e, Source: DNS", color: "orange" },
+    
+        {id: 237, num: 2, label: "address: 172.67.141.49, Source: DNS", color: "orange" },
+    
+        {id: 238, num: 6, label: "domain: hackerong.com, Source: DNS", color: "red" },
+    
+        {id: 239, num: 2, label: "address: 2606:4700:3033::6815:35f0, Source: DNS", color: "orange" },
+    
+        {id: 240, num: 4, label: "mx: aspmx.l.google.com, Source: DNS", color: "purple" },
+    
+        {id: 241, num: 6, label: "domain: hackerone.co.kr, Source: DNS", color: "red" },
+    
+        {id: 242, num: 3, label: "netblock: 104.17.80.0/20, Source: RIR", color: "pink" },
+    
+        {id: 243, num: 35, label: "ns: b.ns.hackerone.com, Source: DNS", color: "cyan" },
+    
+        {id: 244, num: 5, label: "netblock: 13.32.144.0/23, Source: RIR", color: "pink" },
+    
+        {id: 245, num: 2, label: "address: 2a02:750:5::538, Source: DNS", color: "orange" },
+    
+        {id: 246, num: 2, label: "netblock: 162.159.0.0/24, Source: RIR", color: "pink" },
+    
+        {id: 247, num: 5, label: "netblock: 104.21.48.0/20, Source: RIR", color: "pink" },
+    
+        {id: 248, num: 2, label: "address: 2606:4700:3034::6815:707, Source: DNS", color: "orange" },
+    
+        {id: 249, num: 2, label: "address: 2600:9000:2395:e200:2:c21e:ec80:93a1, Source: DNS", color: "orange" },
+    
+        {id: 250, num: 2, label: "address: 2001:19f0:5001:1caf:5400:1ff:fec5:8d50, Source: DNS", color: "orange" },
+    
+        {id: 251, num: 2, label: "address: 172.67.171.162, Source: DNS", color: "orange" },
+    
+        {id: 252, num: 2, label: "address: 2606:4700:3034::ac43:d3e7, Source: DNS", color: "orange" },
+    
+        {id: 253, num: 2, label: "subdomain: profile-photos.hackerone-user-content.com, Source: Crtsh", color: "green" },
+    
+        {id: 254, num: 2, label: "subdomain: profile-photos.us-east-2.hackerone-user-content.com, Source: Crtsh", color: "green" },
+    
+        {id: 255, num: 4, label: "address: 104.17.168.185, Source: DNS", color: "orange" },
+    
+        {id: 256, num: 6, label: "address: 2606:4700:3030::6815:7001, Source: DNS", color: "orange" },
+    
+        {id: 257, num: 2, label: "netblock: 2a00:1450:400b::/48, Source: RIR", color: "pink" },
+    
+        {id: 258, num: 8, label: "domain: hackerone.co, Source: DNS", color: "red" },
+    
+        {id: 259, num: 2, label: "netblock: 2607:f8b0::/32, Source: RIR", color: "pink" },
+    
+        {id: 260, num: 2, label: "address: 2600:9000:2450:1a00:1a:d484:d00:93a1, Source: DNS", color: "orange" },
+    
+        {id: 261, num: 3, label: "address: 172.64.148.104, Source: DNS", color: "orange" },
+    
+        {id: 262, num: 9, label: "domain: xn--hackron-eya5089d.com, Source: DNS", color: "red" },
+    
+        {id: 263, num: 2, label: "as: 15685, Desc: CASABLANCA-AS Internet & Collocation Provider, CZ, Source: RIR", color: "blue" },
+    
+        {id: 264, num: 6, label: "address: 2606:4700:3030::6815:1001, Source: DNS", color: "orange" },
+    
+        {id: 265, num: 6, label: "address: 104.21.16.1, Source: DNS", color: "orange" },
+    
+        {id: 266, num: 2, label: "address: 3.170.229.102, Source: DNS", color: "orange" },
+    
+        {id: 267, num: 3, label: "address: 104.18.39.152, Source: DNS", color: "orange" },
+    
+        {id: 268, num: 2, label: "address: 2606:4700:3036::6815:320b, Source: DNS", color: "orange" },
+    
+        {id: 269, num: 21, label: "domain: hackerone-user-content.com, Source: DNS", color: "red" },
+    
+        {id: 270, num: 2, label: "netblock: 2001:19f0:7400::/38, Source: RIR", color: "pink" },
+    
+        {id: 271, num: 8, label: "domain: lhackerore.com, Source: DNS", color: "red" },
+    
+        {id: 272, num: 2, label: "address: 2001:19f0:5401:69b:5400:1ff:fec5:8f3f, Source: DNS", color: "orange" },
+    
+        {id: 273, num: 2, label: "subdomain: www.hackeronestatus.com, Source: Crtsh", color: "green" },
+    
+        {id: 274, num: 2, label: "address: 46.21.100.103, Source: DNS", color: "orange" },
+    
+        {id: 275, num: 3, label: "domain: d34hpq1tlvkthi.cloudfront.net, Source: Crtsh", color: "red" },
+    
+        {id: 276, num: 2, label: "address: 2600:9000:28a6:0:18:c943:1580:93a1, Source: DNS", color: "orange" },
+    
+        {id: 277, num: 3, label: "domain: google.com, Source: DNS", color: "red" },
+    
+        {id: 278, num: 2, label: "address: 2606:4700:3033::ac43:b975, Source: DNS", color: "orange" },
+    
+        {id: 279, num: 2, label: "address: 31.192.227.223, Source: DNS", color: "orange" },
+    
+        {id: 280, num: 2, label: "address: 2606:4700:3037::ac43:b51e, Source: DNS", color: "orange" },
+    
+        {id: 281, num: 3, label: "netblock: 2a02:750::/45, Source: RIR", color: "pink" },
+    
+        {id: 282, num: 2, label: "address: 109.74.7.71, Source: DNS", color: "orange" },
+    
+        {id: 283, num: 6, label: "address: 104.21.64.1, Source: DNS", color: "orange" },
+    
+        {id: 284, num: 3, label: "domain: dfasmdyrldqes.cloudfront.net, Source: Crtsh", color: "red" },
+    
+        {id: 285, num: 4, label: "mx: alt2.aspmx.l.google.com, Source: DNS", color: "purple" },
+    
+        {id: 286, num: 7, label: "netblock: 188.114.96.0/22, Source: RIR", color: "pink" },
+    
+        {id: 287, num: 18, label: "domain: hackeronesucks.com, Source: DNS", color: "red" },
+    
+        {id: 288, num: 3, label: "address: 2606:4700:3030::ac43:ae5a, Source: DNS", color: "orange" },
+    
+        {id: 289, num: 9, label: "domain: h13120.com, Source: DNS", color: "red" },
+    
+        {id: 290, num: 18, label: "netblock: 172.67.0.0/16, Source: RIR", color: "pink" },
+    
+        {id: 291, num: 3, label: "address: 2a00:1450:400b:c02::1a, Source: DNS", color: "orange" },
+    
+        {id: 292, num: 2, label: "address: 95.179.136.180, Source: DNS", color: "orange" },
+    
+        {id: 293, num: 2, label: "netblock: 74.125.0.0/16, Source: RIR", color: "pink" },
+    
+        {id: 294, num: 4, label: "address: 2606:4700::6811:a7b9, Source: DNS", color: "orange" },
+    
+        {id: 295, num: 2, label: "netblock: 217.69.0.0/20, Source: RIR", color: "pink" },
+    
+        {id: 296, num: 3, label: "address: 172.67.174.90, Source: DNS", color: "orange" },
+    
+        {id: 297, num: 3, label: "address: 2606:4700:3031::ac43:aba2, Source: DNS", color: "orange" },
+    
+        {id: 298, num: 2, label: "address: 66.42.94.136, Source: DNS", color: "orange" },
+    
+        {id: 299, num: 2, label: "subdomain: a5s.hackerone-ext-content.com, Source: CertSpotter", color: "green" },
+    
+        {id: 300, num: 2, label: "subdomain: hackathon-photos.hackerone-user-content.com, Source: Crtsh", color: "green" },
+    
+        {id: 301, num: 2, label: "address: 188.114.99.228, Source: DNS", color: "orange" },
+    
+        {id: 302, num: 2, label: "netblock: 31.192.224.0/22, Source: RIR", color: "pink" },
+    
+        {id: 303, num: 2, label: "address: 172.67.198.252, Source: DNS", color: "orange" },
+    
+        {id: 304, num: 2, label: "address: 2606:4700:3037::ac43:c6fc, Source: DNS", color: "orange" },
+    
+        {id: 305, num: 5, label: "subdomain: www.hackerone.com.tw, Source: Baidu", color: "green" },
+    
+        {id: 306, num: 2, label: "address: 104.21.47.66, Source: DNS", color: "orange" },
+    
+        {id: 307, num: 2, label: "subdomain: cover-photos.hackerone-user-content.com, Source: Crtsh", color: "green" },
+    
+        {id: 308, num: 2, label: "subdomain: marketing-assets.hackerone-user-content.com, Source: Crtsh", color: "green" },
+    
+        {id: 309, num: 1, label: "address: 18.245.175.24, Source: DNS", color: "orange" },
+    
+        {id: 310, num: 3, label: "address: 2606:4700:3036::ac43:d0a3, Source: DNS", color: "orange" },
+    
+        {id: 311, num: 8, label: "domain: xn--hakrn-hxa9fw941adfa.com, Source: DNS", color: "red" },
+    
+        {id: 312, num: 2, label: "address: 104.19.169.46, Source: DNS", color: "orange" },
+    
+        {id: 313, num: 3, label: "domain: dzladl4fbgrhb.cloudfront.net, Source: Crtsh", color: "red" },
+    
+        {id: 314, num: 4, label: "mx: aspmx2.googlemail.com, Source: DNS", color: "purple" },
+    
+        {id: 315, num: 2, label: "address: 2001:19f0:7401:81e0:5400:1ff:fec5:8ef6, Source: DNS", color: "orange" },
+    
+        {id: 316, num: 5, label: "netblock: 52.222.128.0/17, Source: RIR", color: "pink" },
+    
+        {id: 317, num: 2, label: "address: 104.17.40.106, Source: DNS", color: "orange" },
+    
+        {id: 318, num: 2, label: "address: 13.32.145.80, Source: DNS", color: "orange" },
+    
+        {id: 319, num: 2, label: "address: 2a00:1450:400c:c0b::1a, Source: DNS", color: "orange" },
+    
+        {id: 320, num: 2, label: "address: 2606:4700:3031::6815:91e, Source: DNS", color: "orange" },
+    
+        {id: 321, num: 5, label: "subdomain: errors.hackerone.net, Source: HackerTarget", color: "green" },
+    
+        {id: 322, num: 5, label: "netblock: 104.21.0.0/20, Source: RIR", color: "pink" },
+    
+        {id: 323, num: 2, label: "address: 172.67.181.30, Source: DNS", color: "orange" },
+    
+        {id: 324, num: 3, label: "domain: dlawtwm8tgnas.cloudfront.net, Source: Crtsh", color: "red" },
+    
+        {id: 325, num: 2, label: "address: 2600:9000:2395:7000:2:c21e:ec80:93a1, Source: DNS", color: "orange" },
+    
+        {id: 326, num: 6, label: "address: 2606:4700:3030::6815:2001, Source: DNS", color: "orange" },
+    
+        {id: 327, num: 2, label: "address: 2600:9000:2395:e000:2:c21e:ec80:93a1, Source: DNS", color: "orange" },
+    
+        {id: 328, num: 2, label: "address: 2606:4700:3033::6815:5eb6, Source: DNS", color: "orange" },
+    
+        {id: 329, num: 18, label: "domain: hackerone.com.lv, Source: DNS", color: "red" },
+    
+        {id: 330, num: 2, label: "netblock: 192.178.0.0/15, Source: RIR", color: "pink" },
+    
+        {id: 331, num: 2, label: "netblock: 2a06:98c1:3121::/48, Source: RIR", color: "pink" },
+    
+        {id: 332, num: 5, label: "subdomain: www.hackerone.org.cn, Source: AlienVault", color: "green" },
+    
+        {id: 333, num: 2, label: "address: 2606:4700:3032::6815:3a98, Source: DNS", color: "orange" },
+    
+        {id: 334, num: 6, label: "domain: h1ackerone.com, Source: DNS", color: "red" },
+    
+        {id: 335, num: 9, label: "domain: hackerone.com.tw, Source: DNS", color: "red" },
+    
+        {id: 336, num: 3, label: "as: 16509, Desc: AMAZON-02 - Amazon.com, Inc., Source: RIR", color: "blue" },
+    
+    ],
+    edges: [
+    
+        {source: 8, target: 10, label: "ns_record" },
+    
+        {source: 8, target: 243, label: "ns_record" },
+    
+        {source: 8, target: 8, label: "root" },
+    
+        {source: 8, target: 28, label: "a_record" },
+    
+        {source: 8, target: 48, label: "a_record" },
+    
+        {source: 8, target: 143, label: "aaaa_record" },
+    
+        {source: 8, target: 252, label: "aaaa_record" },
+    
+        {source: 10, target: 3, label: "root" },
+    
+        {source: 10, target: 29, label: "a_record" },
+    
+        {source: 10, target: 124, label: "aaaa_record" },
+    
+        {source: 12, target: 175, label: "contains" },
+    
+        {source: 12, target: 49, label: "contains" },
+    
+        {source: 12, target: 306, label: "contains" },
+    
+        {source: 14, target: 283, label: "contains" },
+    
+        {source: 14, target: 70, label: "contains" },
+    
+        {source: 14, target: 28, label: "contains" },
+    
+        {source: 14, target: 142, label: "contains" },
+    
+        {source: 14, target: 9, label: "contains" },
+    
+        {source: 15, target: 123, label: "contains" },
+    
+        {source: 19, target: 203, label: "root" },
+    
+        {source: 19, target: 212, label: "cname_record" },
+    
+        {source: 20, target: 261, label: "contains" },
+    
+        {source: 21, target: 165, label: "root" },
+    
+        {source: 21, target: 255, label: "a_record" },
+    
+        {source: 21, target: 174, label: "a_record" },
+    
+        {source: 21, target: 294, label: "aaaa_record" },
+    
+        {source: 21, target: 16, label: "aaaa_record" },
+    
+        {source: 22, target: 22, label: "root" },
+    
+        {source: 24, target: 172, label: "contains" },
+    
+        {source: 25, target: 71, label: "ns_record" },
+    
+        {source: 25, target: 151, label: "ns_record" },
+    
+        {source: 25, target: 75, label: "ns_record" },
+    
+        {source: 25, target: 130, label: "ns_record" },
+    
+        {source: 25, target: 198, label: "ns_record" },
+    
+        {source: 25, target: 25, label: "root" },
+    
+        {source: 26, target: 160, label: "contains" },
+    
+        {source: 27, target: 6, label: "contains" },
+    
+        {source: 30, target: 30, label: "root" },
+    
+        {source: 30, target: 230, label: "a_record" },
+    
+        {source: 30, target: 17, label: "a_record" },
+    
+        {source: 30, target: 266, label: "a_record" },
+    
+        {source: 30, target: 44, label: "a_record" },
+    
+        {source: 30, target: 173, label: "aaaa_record" },
+    
+        {source: 30, target: 83, label: "aaaa_record" },
+    
+        {source: 30, target: 260, label: "aaaa_record" },
+    
+        {source: 30, target: 158, label: "aaaa_record" },
+    
+        {source: 30, target: 104, label: "aaaa_record" },
+    
+        {source: 30, target: 84, label: "aaaa_record" },
+    
+        {source: 30, target: 98, label: "aaaa_record" },
+    
+        {source: 30, target: 204, label: "aaaa_record" },
+    
+        {source: 32, target: 269, label: "root" },
+    
+        {source: 32, target: 221, label: "cname_record" },
+    
+        {source: 33, target: 33, label: "root" },
+    
+        {source: 33, target: 69, label: "a_record" },
+    
+        {source: 33, target: 185, label: "a_record" },
+    
+        {source: 33, target: 169, label: "a_record" },
+    
+        {source: 33, target: 148, label: "a_record" },
+    
+        {source: 33, target: 276, label: "aaaa_record" },
+    
+        {source: 33, target: 126, label: "aaaa_record" },
+    
+        {source: 33, target: 88, label: "aaaa_record" },
+    
+        {source: 33, target: 178, label: "aaaa_record" },
+    
+        {source: 33, target: 141, label: "aaaa_record" },
+    
+        {source: 33, target: 100, label: "aaaa_record" },
+    
+        {source: 33, target: 0, label: "aaaa_record" },
+    
+        {source: 33, target: 13, label: "aaaa_record" },
+    
+        {source: 35, target: 41, label: "contains" },
+    
+        {source: 38, target: 10, label: "ns_record" },
+    
+        {source: 38, target: 243, label: "ns_record" },
+    
+        {source: 38, target: 38, label: "root" },
+    
+        {source: 38, target: 303, label: "a_record" },
+    
+        {source: 38, target: 197, label: "a_record" },
+    
+        {source: 38, target: 268, label: "aaaa_record" },
+    
+        {source: 38, target: 304, label: "aaaa_record" },
+    
+        {source: 45, target: 243, label: "ns_record" },
+    
+        {source: 45, target: 10, label: "ns_record" },
+    
+        {source: 45, target: 45, label: "root" },
+    
+        {source: 45, target: 102, label: "a_record" },
+    
+        {source: 45, target: 72, label: "a_record" },
+    
+        {source: 45, target: 125, label: "aaaa_record" },
+    
+        {source: 45, target: 109, label: "aaaa_record" },
+    
+        {source: 46, target: 46, label: "root" },
+    
+        {source: 50, target: 216, label: "contains" },
+    
+        {source: 54, target: 269, label: "root" },
+    
+        {source: 54, target: 91, label: "cname_record" },
+    
+        {source: 55, target: 269, label: "root" },
+    
+        {source: 55, target: 213, label: "cname_record" },
+    
+        {source: 57, target: 243, label: "ns_record" },
+    
+        {source: 57, target: 10, label: "ns_record" },
+    
+        {source: 57, target: 57, label: "root" },
+    
+        {source: 57, target: 58, label: "a_record" },
+    
+        {source: 57, target: 51, label: "a_record" },
+    
+        {source: 57, target: 157, label: "aaaa_record" },
+    
+        {source: 57, target: 52, label: "aaaa_record" },
+    
+        {source: 57, target: 285, label: "mx_record" },
+    
+        {source: 57, target: 240, label: "mx_record" },
+    
+        {source: 57, target: 314, label: "mx_record" },
+    
+        {source: 57, target: 222, label: "mx_record" },
+    
+        {source: 57, target: 218, label: "mx_record" },
+    
+        {source: 59, target: 10, label: "ns_record" },
+    
+        {source: 59, target: 243, label: "ns_record" },
+    
+        {source: 59, target: 59, label: "root" },
+    
+        {source: 61, target: 10, label: "ns_record" },
+    
+        {source: 61, target: 243, label: "ns_record" },
+    
+        {source: 61, target: 61, label: "root" },
+    
+        {source: 61, target: 77, label: "a_record" },
+    
+        {source: 61, target: 4, label: "a_record" },
+    
+        {source: 61, target: 333, label: "aaaa_record" },
+    
+        {source: 61, target: 82, label: "aaaa_record" },
+    
+        {source: 63, target: 194, label: "contains" },
+    
+        {source: 63, target: 159, label: "contains" },
+    
+        {source: 63, target: 53, label: "contains" },
+    
+        {source: 64, target: 243, label: "ns_record" },
+    
+        {source: 64, target: 10, label: "ns_record" },
+    
+        {source: 64, target: 64, label: "root" },
+    
+        {source: 64, target: 175, label: "a_record" },
+    
+        {source: 64, target: 194, label: "a_record" },
+    
+        {source: 64, target: 167, label: "a_record" },
+    
+        {source: 64, target: 283, label: "a_record" },
+    
+        {source: 64, target: 43, label: "a_record" },
+    
+        {source: 64, target: 172, label: "a_record" },
+    
+        {source: 64, target: 265, label: "a_record" },
+    
+        {source: 64, target: 326, label: "aaaa_record" },
+    
+        {source: 64, target: 94, label: "aaaa_record" },
+    
+        {source: 64, target: 228, label: "aaaa_record" },
+    
+        {source: 64, target: 264, label: "aaaa_record" },
+    
+        {source: 64, target: 101, label: "aaaa_record" },
+    
+        {source: 64, target: 134, label: "aaaa_record" },
+    
+        {source: 64, target: 256, label: "aaaa_record" },
+    
+        {source: 66, target: 286, label: "prefix" },
+    
+        {source: 66, target: 257, label: "prefix" },
+    
+        {source: 66, target: 231, label: "prefix" },
+    
+        {source: 68, target: 68, label: "root" },
+    
+        {source: 71, target: 170, label: "root" },
+    
+        {source: 71, target: 279, label: "a_record" },
+    
+        {source: 71, target: 245, label: "aaaa_record" },
+    
+        {source: 75, target: 170, label: "root" },
+    
+        {source: 75, target: 298, label: "a_record" },
+    
+        {source: 75, target: 41, label: "a_record" },
+    
+        {source: 75, target: 272, label: "aaaa_record" },
+    
+        {source: 75, target: 39, label: "aaaa_record" },
+    
+        {source: 80, target: 10, label: "ns_record" },
+    
+        {source: 80, target: 243, label: "ns_record" },
+    
+        {source: 80, target: 80, label: "root" },
+    
+        {source: 80, target: 306, label: "a_record" },
+    
+        {source: 80, target: 166, label: "a_record" },
+    
+        {source: 80, target: 1, label: "aaaa_record" },
+    
+        {source: 80, target: 73, label: "aaaa_record" },
+    
+        {source: 81, target: 150, label: "contains" },
+    
+        {source: 81, target: 5, label: "contains" },
+    
+        {source: 86, target: 243, label: "ns_record" },
+    
+        {source: 86, target: 10, label: "ns_record" },
+    
+        {source: 86, target: 86, label: "root" },
+    
+        {source: 86, target: 312, label: "a_record" },
+    
+        {source: 86, target: 113, label: "a_record" },
+    
+        {source: 86, target: 210, label: "aaaa_record" },
+    
+        {source: 86, target: 236, label: "aaaa_record" },
+    
+        {source: 87, target: 317, label: "contains" },
+    
+        {source: 87, target: 47, label: "contains" },
+    
+        {source: 89, target: 269, label: "root" },
+    
+        {source: 89, target: 188, label: "cname_record" },
+    
+        {source: 91, target: 91, label: "root" },
+    
+        {source: 93, target: 269, label: "root" },
+    
+        {source: 93, target: 22, label: "cname_record" },
+    
+        {source: 96, target: 295, label: "prefix" },
+    
+        {source: 96, target: 112, label: "prefix" },
+    
+        {source: 96, target: 117, label: "prefix" },
+    
+        {source: 96, target: 50, label: "prefix" },
+    
+        {source: 96, target: 115, label: "prefix" },
+    
+        {source: 96, target: 270, label: "prefix" },
+    
+        {source: 96, target: 120, label: "prefix" },
+    
+        {source: 97, target: 274, label: "contains" },
+    
+        {source: 99, target: 35, label: "prefix" },
+    
+        {source: 99, target: 114, label: "prefix" },
+    
+        {source: 99, target: 132, label: "prefix" },
+    
+        {source: 99, target: 281, label: "prefix" },
+    
+        {source: 99, target: 302, label: "prefix" },
+    
+        {source: 99, target: 97, label: "prefix" },
+    
+        {source: 99, target: 232, label: "prefix" },
+    
+        {source: 103, target: 10, label: "ns_record" },
+    
+        {source: 103, target: 243, label: "ns_record" },
+    
+        {source: 103, target: 103, label: "root" },
+    
+        {source: 103, target: 167, label: "a_record" },
+    
+        {source: 103, target: 194, label: "a_record" },
+    
+        {source: 103, target: 283, label: "a_record" },
+    
+        {source: 103, target: 265, label: "a_record" },
+    
+        {source: 103, target: 43, label: "a_record" },
+    
+        {source: 103, target: 175, label: "a_record" },
+    
+        {source: 103, target: 172, label: "a_record" },
+    
+        {source: 103, target: 264, label: "aaaa_record" },
+    
+        {source: 103, target: 101, label: "aaaa_record" },
+    
+        {source: 103, target: 94, label: "aaaa_record" },
+    
+        {source: 103, target: 228, label: "aaaa_record" },
+    
+        {source: 103, target: 326, label: "aaaa_record" },
+    
+        {source: 103, target: 134, label: "aaaa_record" },
+    
+        {source: 103, target: 256, label: "aaaa_record" },
+    
+        {source: 105, target: 10, label: "ns_record" },
+    
+        {source: 105, target: 243, label: "ns_record" },
+    
+        {source: 105, target: 105, label: "root" },
+    
+        {source: 105, target: 265, label: "a_record" },
+    
+        {source: 105, target: 194, label: "a_record" },
+    
+        {source: 105, target: 167, label: "a_record" },
+    
+        {source: 105, target: 175, label: "a_record" },
+    
+        {source: 105, target: 283, label: "a_record" },
+    
+        {source: 105, target: 43, label: "a_record" },
+    
+        {source: 105, target: 172, label: "a_record" },
+    
+        {source: 105, target: 94, label: "aaaa_record" },
+    
+        {source: 105, target: 264, label: "aaaa_record" },
+    
+        {source: 105, target: 134, label: "aaaa_record" },
+    
+        {source: 105, target: 101, label: "aaaa_record" },
+    
+        {source: 105, target: 256, label: "aaaa_record" },
+    
+        {source: 105, target: 326, label: "aaaa_record" },
+    
+        {source: 105, target: 228, label: "aaaa_record" },
+    
+        {source: 107, target: 243, label: "ns_record" },
+    
+        {source: 107, target: 10, label: "ns_record" },
+    
+        {source: 107, target: 107, label: "root" },
+    
+        {source: 107, target: 51, label: "a_record" },
+    
+        {source: 107, target: 58, label: "a_record" },
+    
+        {source: 107, target: 157, label: "aaaa_record" },
+    
+        {source: 107, target: 52, label: "aaaa_record" },
+    
+        {source: 108, target: 151, label: "ns_record" },
+    
+        {source: 108, target: 71, label: "ns_record" },
+    
+        {source: 108, target: 130, label: "ns_record" },
+    
+        {source: 108, target: 75, label: "ns_record" },
+    
+        {source: 108, target: 198, label: "ns_record" },
+    
+        {source: 108, target: 108, label: "root" },
+    
+        {source: 112, target: 272, label: "contains" },
+    
+        {source: 112, target: 250, label: "contains" },
+    
+        {source: 114, target: 282, label: "contains" },
+    
+        {source: 115, target: 36, label: "contains" },
+    
+        {source: 116, target: 228, label: "contains" },
+    
+        {source: 116, target: 122, label: "contains" },
+    
+        {source: 116, target: 264, label: "contains" },
+    
+        {source: 116, target: 297, label: "contains" },
+    
+        {source: 116, target: 326, label: "contains" },
+    
+        {source: 116, target: 85, label: "contains" },
+    
+        {source: 116, target: 134, label: "contains" },
+    
+        {source: 116, target: 186, label: "contains" },
+    
+        {source: 116, target: 101, label: "contains" },
+    
+        {source: 116, target: 248, label: "contains" },
+    
+        {source: 116, target: 268, label: "contains" },
+    
+        {source: 116, target: 304, label: "contains" },
+    
+        {source: 116, target: 256, label: "contains" },
+    
+        {source: 116, target: 210, label: "contains" },
+    
+        {source: 116, target: 310, label: "contains" },
+    
+        {source: 116, target: 236, label: "contains" },
+    
+        {source: 116, target: 211, label: "contains" },
+    
+        {source: 116, target: 34, label: "contains" },
+    
+        {source: 116, target: 333, label: "contains" },
+    
+        {source: 116, target: 82, label: "contains" },
+    
+        {source: 116, target: 95, label: "contains" },
+    
+        {source: 116, target: 233, label: "contains" },
+    
+        {source: 116, target: 278, label: "contains" },
+    
+        {source: 116, target: 183, label: "contains" },
+    
+        {source: 116, target: 280, label: "contains" },
+    
+        {source: 116, target: 42, label: "contains" },
+    
+        {source: 116, target: 92, label: "contains" },
+    
+        {source: 116, target: 109, label: "contains" },
+    
+        {source: 116, target: 128, label: "contains" },
+    
+        {source: 116, target: 288, label: "contains" },
+    
+        {source: 116, target: 252, label: "contains" },
+    
+        {source: 116, target: 94, label: "contains" },
+    
+        {source: 116, target: 125, label: "contains" },
+    
+        {source: 116, target: 16, label: "contains" },
+    
+        {source: 116, target: 23, label: "contains" },
+    
+        {source: 116, target: 239, label: "contains" },
+    
+        {source: 116, target: 294, label: "contains" },
+    
+        {source: 116, target: 177, label: "contains" },
+    
+        {source: 116, target: 1, label: "contains" },
+    
+        {source: 116, target: 111, label: "contains" },
+    
+        {source: 116, target: 31, label: "contains" },
+    
+        {source: 116, target: 73, label: "contains" },
+    
+        {source: 116, target: 79, label: "contains" },
+    
+        {source: 116, target: 76, label: "contains" },
+    
+        {source: 116, target: 18, label: "contains" },
+    
+        {source: 116, target: 162, label: "contains" },
+    
+        {source: 116, target: 328, label: "contains" },
+    
+        {source: 117, target: 229, label: "contains" },
+    
+        {source: 117, target: 292, label: "contains" },
+    
+        {source: 119, target: 144, label: "root" },
+    
+        {source: 119, target: 144, label: "cname_record" },
+    
+        {source: 120, target: 298, label: "contains" },
+    
+        {source: 127, target: 289, label: "root" },
+    
+        {source: 127, target: 51, label: "a_record" },
+    
+        {source: 127, target: 58, label: "a_record" },
+    
+        {source: 127, target: 186, label: "aaaa_record" },
+    
+        {source: 127, target: 297, label: "aaaa_record" },
+    
+        {source: 130, target: 170, label: "root" },
+    
+        {source: 130, target: 229, label: "a_record" },
+    
+        {source: 130, target: 6, label: "a_record" },
+    
+        {source: 130, target: 138, label: "a_record" },
+    
+        {source: 130, target: 36, label: "aaaa_record" },
+    
+        {source: 130, target: 315, label: "aaaa_record" },
+    
+        {source: 132, target: 39, label: "contains" },
+    
+        {source: 133, target: 124, label: "contains" },
+    
+        {source: 133, target: 163, label: "contains" },
+    
+        {source: 135, target: 269, label: "root" },
+    
+        {source: 135, target: 46, label: "cname_record" },
+    
+        {source: 136, target: 230, label: "contains" },
+    
+        {source: 136, target: 17, label: "contains" },
+    
+        {source: 136, target: 266, label: "contains" },
+    
+        {source: 136, target: 44, label: "contains" },
+    
+        {source: 139, target: 10, label: "ns_record" },
+    
+        {source: 139, target: 243, label: "ns_record" },
+    
+        {source: 139, target: 139, label: "root" },
+    
+        {source: 139, target: 74, label: "a_record" },
+    
+        {source: 139, target: 200, label: "a_record" },
+    
+        {source: 139, target: 211, label: "aaaa_record" },
+    
+        {source: 139, target: 34, label: "aaaa_record" },
+    
+        {source: 144, target: 10, label: "ns_record" },
+    
+        {source: 144, target: 243, label: "ns_record" },
+    
+        {source: 144, target: 144, label: "root" },
+    
+        {source: 144, target: 189, label: "a_record" },
+    
+        {source: 144, target: 9, label: "a_record" },
+    
+        {source: 144, target: 278, label: "aaaa_record" },
+    
+        {source: 144, target: 183, label: "aaaa_record" },
+    
+        {source: 145, target: 269, label: "root" },
+    
+        {source: 145, target: 324, label: "cname_record" },
+    
+        {source: 146, target: 265, label: "contains" },
+    
+        {source: 146, target: 137, label: "contains" },
+    
+        {source: 146, target: 72, label: "contains" },
+    
+        {source: 147, target: 267, label: "contains" },
+    
+        {source: 151, target: 170, label: "root" },
+    
+        {source: 151, target: 274, label: "a_record" },
+    
+        {source: 151, target: 282, label: "a_record" },
+    
+        {source: 151, target: 123, label: "a_record" },
+    
+        {source: 151, target: 78, label: "aaaa_record" },
+    
+        {source: 151, target: 67, label: "aaaa_record" },
+    
+        {source: 153, target: 153, label: "root" },
+    
+        {source: 153, target: 206, label: "a_record" },
+    
+        {source: 153, target: 215, label: "a_record" },
+    
+        {source: 153, target: 318, label: "a_record" },
+    
+        {source: 153, target: 121, label: "a_record" },
+    
+        {source: 153, target: 129, label: "aaaa_record" },
+    
+        {source: 153, target: 249, label: "aaaa_record" },
+    
+        {source: 153, target: 223, label: "aaaa_record" },
+    
+        {source: 153, target: 327, label: "aaaa_record" },
+    
+        {source: 153, target: 227, label: "aaaa_record" },
+    
+        {source: 153, target: 60, label: "aaaa_record" },
+    
+        {source: 153, target: 118, label: "aaaa_record" },
+    
+        {source: 153, target: 325, label: "aaaa_record" },
+    
+        {source: 154, target: 255, label: "contains" },
+    
+        {source: 154, target: 174, label: "contains" },
+    
+        {source: 155, target: 43, label: "contains" },
+    
+        {source: 164, target: 319, label: "contains" },
+    
+        {source: 165, target: 243, label: "ns_record" },
+    
+        {source: 165, target: 10, label: "ns_record" },
+    
+        {source: 165, target: 165, label: "root" },
+    
+        {source: 165, target: 255, label: "a_record" },
+    
+        {source: 165, target: 174, label: "a_record" },
+    
+        {source: 165, target: 16, label: "aaaa_record" },
+    
+        {source: 165, target: 294, label: "aaaa_record" },
+    
+        {source: 168, target: 168, label: "root" },
+    
+        {source: 176, target: 7, label: "contains" },
+    
+        {source: 179, target: 191, label: "contains" },
+    
+        {source: 180, target: 201, label: "root" },
+    
+        {source: 180, target: 156, label: "a_record" },
+    
+        {source: 180, target: 137, label: "a_record" },
+    
+        {source: 180, target: 310, label: "aaaa_record" },
+    
+        {source: 180, target: 95, label: "aaaa_record" },
+    
+        {source: 182, target: 27, label: "prefix" },
+    
+        {source: 188, target: 188, label: "root" },
+    
+        {source: 190, target: 118, label: "contains" },
+    
+        {source: 190, target: 60, label: "contains" },
+    
+        {source: 190, target: 129, label: "contains" },
+    
+        {source: 190, target: 223, label: "contains" },
+    
+        {source: 190, target: 227, label: "contains" },
+    
+        {source: 190, target: 327, label: "contains" },
+    
+        {source: 190, target: 249, label: "contains" },
+    
+        {source: 190, target: 325, label: "contains" },
+    
+        {source: 190, target: 0, label: "contains" },
+    
+        {source: 190, target: 178, label: "contains" },
+    
+        {source: 190, target: 13, label: "contains" },
+    
+        {source: 190, target: 141, label: "contains" },
+    
+        {source: 190, target: 100, label: "contains" },
+    
+        {source: 190, target: 88, label: "contains" },
+    
+        {source: 190, target: 126, label: "contains" },
+    
+        {source: 190, target: 276, label: "contains" },
+    
+        {source: 190, target: 84, label: "contains" },
+    
+        {source: 190, target: 83, label: "contains" },
+    
+        {source: 190, target: 104, label: "contains" },
+    
+        {source: 190, target: 204, label: "contains" },
+    
+        {source: 190, target: 260, label: "contains" },
+    
+        {source: 190, target: 98, label: "contains" },
+    
+        {source: 190, target: 158, label: "contains" },
+    
+        {source: 190, target: 173, label: "contains" },
+    
+        {source: 192, target: 52, label: "contains" },
+    
+        {source: 193, target: 86, label: "root" },
+    
+        {source: 193, target: 153, label: "cname_record" },
+    
+        {source: 195, target: 10, label: "ns_record" },
+    
+        {source: 195, target: 243, label: "ns_record" },
+    
+        {source: 195, target: 195, label: "root" },
+    
+        {source: 195, target: 267, label: "a_record" },
+    
+        {source: 195, target: 261, label: "a_record" },
+    
+        {source: 196, target: 262, label: "root" },
+    
+        {source: 196, target: 208, label: "a_record" },
+    
+        {source: 196, target: 37, label: "a_record" },
+    
+        {source: 196, target: 328, label: "aaaa_record" },
+    
+        {source: 196, target: 162, label: "aaaa_record" },
+    
+        {source: 198, target: 170, label: "root" },
+    
+        {source: 198, target: 191, label: "a_record" },
+    
+        {source: 198, target: 216, label: "a_record" },
+    
+        {source: 198, target: 292, label: "a_record" },
+    
+        {source: 198, target: 250, label: "aaaa_record" },
+    
+        {source: 199, target: 57, label: "root" },
+    
+        {source: 199, target: 58, label: "a_record" },
+    
+        {source: 199, target: 51, label: "a_record" },
+    
+        {source: 199, target: 52, label: "aaaa_record" },
+    
+        {source: 199, target: 157, label: "aaaa_record" },
+    
+        {source: 199, target: 76, label: "aaaa_record" },
+    
+        {source: 199, target: 18, label: "aaaa_record" },
+    
+        {source: 201, target: 243, label: "ns_record" },
+    
+        {source: 201, target: 10, label: "ns_record" },
+    
+        {source: 201, target: 201, label: "root" },
+    
+        {source: 201, target: 156, label: "a_record" },
+    
+        {source: 201, target: 137, label: "a_record" },
+    
+        {source: 201, target: 95, label: "aaaa_record" },
+    
+        {source: 201, target: 310, label: "aaaa_record" },
+    
+        {source: 202, target: 269, label: "root" },
+    
+        {source: 202, target: 275, label: "cname_record" },
+    
+        {source: 205, target: 320, label: "contains" },
+    
+        {source: 205, target: 143, label: "contains" },
+    
+        {source: 209, target: 10, label: "ns_record" },
+    
+        {source: 209, target: 243, label: "ns_record" },
+    
+        {source: 209, target: 209, label: "root" },
+    
+        {source: 209, target: 62, label: "a_record" },
+    
+        {source: 209, target: 131, label: "a_record" },
+    
+        {source: 209, target: 85, label: "aaaa_record" },
+    
+        {source: 209, target: 248, label: "aaaa_record" },
+    
+        {source: 212, target: 56, label: "root" },
+    
+        {source: 212, target: 235, label: "a_record" },
+    
+        {source: 212, target: 207, label: "a_record" },
+    
+        {source: 212, target: 149, label: "a_record" },
+    
+        {source: 212, target: 309, label: "a_record" },
+    
+        {source: 213, target: 213, label: "root" },
+    
+        {source: 214, target: 190, label: "prefix" },
+    
+        {source: 217, target: 195, label: "root" },
+    
+        {source: 217, target: 261, label: "a_record" },
+    
+        {source: 217, target: 267, label: "a_record" },
+    
+        {source: 218, target: 152, label: "root" },
+    
+        {source: 218, target: 5, label: "a_record" },
+    
+        {source: 218, target: 110, label: "aaaa_record" },
+    
+        {source: 219, target: 81, label: "prefix" },
+    
+        {source: 219, target: 330, label: "prefix" },
+    
+        {source: 219, target: 259, label: "prefix" },
+    
+        {source: 219, target: 164, label: "prefix" },
+    
+        {source: 219, target: 293, label: "prefix" },
+    
+        {source: 219, target: 26, label: "prefix" },
+    
+        {source: 220, target: 10, label: "ns_record" },
+    
+        {source: 220, target: 243, label: "ns_record" },
+    
+        {source: 220, target: 220, label: "root" },
+    
+        {source: 220, target: 11, label: "a_record" },
+    
+        {source: 220, target: 49, label: "a_record" },
+    
+        {source: 220, target: 177, label: "aaaa_record" },
+    
+        {source: 220, target: 31, label: "aaaa_record" },
+    
+        {source: 221, target: 221, label: "root" },
+    
+        {source: 222, target: 277, label: "root" },
+    
+        {source: 222, target: 171, label: "a_record" },
+    
+        {source: 222, target: 291, label: "aaaa_record" },
+    
+        {source: 224, target: 312, label: "contains" },
+    
+        {source: 224, target: 113, label: "contains" },
+    
+        {source: 225, target: 290, label: "prefix" },
+    
+        {source: 225, target: 322, label: "prefix" },
+    
+        {source: 225, target: 205, label: "prefix" },
+    
+        {source: 225, target: 14, label: "prefix" },
+    
+        {source: 225, target: 155, label: "prefix" },
+    
+        {source: 225, target: 247, label: "prefix" },
+    
+        {source: 225, target: 63, label: "prefix" },
+    
+        {source: 225, target: 116, label: "prefix" },
+    
+        {source: 225, target: 24, label: "prefix" },
+    
+        {source: 225, target: 12, label: "prefix" },
+    
+        {source: 225, target: 146, label: "prefix" },
+    
+        {source: 225, target: 242, label: "prefix" },
+    
+        {source: 225, target: 224, label: "prefix" },
+    
+        {source: 225, target: 147, label: "prefix" },
+    
+        {source: 225, target: 87, label: "prefix" },
+    
+        {source: 225, target: 154, label: "prefix" },
+    
+        {source: 225, target: 192, label: "prefix" },
+    
+        {source: 225, target: 246, label: "prefix" },
+    
+        {source: 225, target: 133, label: "prefix" },
+    
+        {source: 225, target: 20, label: "prefix" },
+    
+        {source: 225, target: 331, label: "prefix" },
+    
+        {source: 225, target: 176, label: "prefix" },
+    
+        {source: 231, target: 65, label: "contains" },
+    
+        {source: 232, target: 67, label: "contains" },
+    
+        {source: 234, target: 243, label: "ns_record" },
+    
+        {source: 234, target: 10, label: "ns_record" },
+    
+        {source: 234, target: 234, label: "root" },
+    
+        {source: 234, target: 237, label: "a_record" },
+    
+        {source: 234, target: 40, label: "a_record" },
+    
+        {source: 234, target: 320, label: "aaaa_record" },
+    
+        {source: 234, target: 122, label: "aaaa_record" },
+    
+        {source: 238, target: 10, label: "ns_record" },
+    
+        {source: 238, target: 243, label: "ns_record" },
+    
+        {source: 238, target: 238, label: "root" },
+    
+        {source: 238, target: 238, label: "mx_record" },
+    
+        {source: 240, target: 277, label: "root" },
+    
+        {source: 240, target: 161, label: "a_record" },
+    
+        {source: 240, target: 319, label: "aaaa_record" },
+    
+        {source: 241, target: 243, label: "ns_record" },
+    
+        {source: 241, target: 10, label: "ns_record" },
+    
+        {source: 241, target: 241, label: "root" },
+    
+        {source: 241, target: 181, label: "a_record" },
+    
+        {source: 241, target: 90, label: "a_record" },
+    
+        {source: 242, target: 181, label: "contains" },
+    
+        {source: 242, target: 90, label: "contains" },
+    
+        {source: 243, target: 3, label: "root" },
+    
+        {source: 243, target: 7, label: "a_record" },
+    
+        {source: 243, target: 163, label: "aaaa_record" },
+    
+        {source: 244, target: 215, label: "contains" },
+    
+        {source: 244, target: 121, label: "contains" },
+    
+        {source: 244, target: 318, label: "contains" },
+    
+        {source: 244, target: 206, label: "contains" },
+    
+        {source: 246, target: 29, label: "contains" },
+    
+        {source: 247, target: 197, label: "contains" },
+    
+        {source: 247, target: 167, label: "contains" },
+    
+        {source: 247, target: 4, label: "contains" },
+    
+        {source: 247, target: 184, label: "contains" },
+    
+        {source: 253, target: 269, label: "root" },
+    
+        {source: 253, target: 313, label: "cname_record" },
+    
+        {source: 254, target: 269, label: "root" },
+    
+        {source: 254, target: 68, label: "cname_record" },
+    
+        {source: 257, target: 291, label: "contains" },
+    
+        {source: 258, target: 10, label: "ns_record" },
+    
+        {source: 258, target: 243, label: "ns_record" },
+    
+        {source: 258, target: 258, label: "root" },
+    
+        {source: 258, target: 184, label: "a_record" },
+    
+        {source: 258, target: 187, label: "a_record" },
+    
+        {source: 258, target: 42, label: "aaaa_record" },
+    
+        {source: 258, target: 239, label: "aaaa_record" },
+    
+        {source: 259, target: 110, label: "contains" },
+    
+        {source: 262, target: 243, label: "ns_record" },
+    
+        {source: 262, target: 10, label: "ns_record" },
+    
+        {source: 262, target: 262, label: "root" },
+    
+        {source: 262, target: 226, label: "a_record" },
+    
+        {source: 262, target: 159, label: "a_record" },
+    
+        {source: 262, target: 52, label: "aaaa_record" },
+    
+        {source: 262, target: 157, label: "aaaa_record" },
+    
+        {source: 263, target: 179, label: "prefix" },
+    
+        {source: 263, target: 15, label: "prefix" },
+    
+        {source: 269, target: 10, label: "ns_record" },
+    
+        {source: 269, target: 243, label: "ns_record" },
+    
+        {source: 269, target: 269, label: "root" },
+    
+        {source: 269, target: 47, label: "a_record" },
+    
+        {source: 269, target: 317, label: "a_record" },
+    
+        {source: 269, target: 92, label: "aaaa_record" },
+    
+        {source: 269, target: 23, label: "aaaa_record" },
+    
+        {source: 270, target: 315, label: "contains" },
+    
+        {source: 271, target: 243, label: "ns_record" },
+    
+        {source: 271, target: 10, label: "ns_record" },
+    
+        {source: 271, target: 271, label: "root" },
+    
+        {source: 271, target: 323, label: "a_record" },
+    
+        {source: 271, target: 142, label: "a_record" },
+    
+        {source: 271, target: 280, label: "aaaa_record" },
+    
+        {source: 271, target: 233, label: "aaaa_record" },
+    
+        {source: 273, target: 103, label: "root" },
+    
+        {source: 273, target: 19, label: "cname_record" },
+    
+        {source: 275, target: 275, label: "root" },
+    
+        {source: 281, target: 78, label: "contains" },
+    
+        {source: 281, target: 245, label: "contains" },
+    
+        {source: 284, target: 284, label: "root" },
+    
+        {source: 285, target: 277, label: "root" },
+    
+        {source: 285, target: 150, label: "a_record" },
+    
+        {source: 285, target: 65, label: "aaaa_record" },
+    
+        {source: 286, target: 58, label: "contains" },
+    
+        {source: 286, target: 51, label: "contains" },
+    
+        {source: 286, target: 301, label: "contains" },
+    
+        {source: 286, target: 140, label: "contains" },
+    
+        {source: 286, target: 208, label: "contains" },
+    
+        {source: 286, target: 37, label: "contains" },
+    
+        {source: 287, target: 10, label: "ns_record" },
+    
+        {source: 287, target: 243, label: "ns_record" },
+    
+        {source: 287, target: 287, label: "root" },
+    
+        {source: 287, target: 43, label: "a_record" },
+    
+        {source: 287, target: 175, label: "a_record" },
+    
+        {source: 287, target: 283, label: "a_record" },
+    
+        {source: 287, target: 167, label: "a_record" },
+    
+        {source: 287, target: 194, label: "a_record" },
+    
+        {source: 287, target: 172, label: "a_record" },
+    
+        {source: 287, target: 265, label: "a_record" },
+    
+        {source: 287, target: 256, label: "aaaa_record" },
+    
+        {source: 287, target: 228, label: "aaaa_record" },
+    
+        {source: 287, target: 101, label: "aaaa_record" },
+    
+        {source: 287, target: 326, label: "aaaa_record" },
+    
+        {source: 287, target: 264, label: "aaaa_record" },
+    
+        {source: 287, target: 134, label: "aaaa_record" },
+    
+        {source: 287, target: 94, label: "aaaa_record" },
+    
+        {source: 289, target: 243, label: "ns_record" },
+    
+        {source: 289, target: 10, label: "ns_record" },
+    
+        {source: 289, target: 289, label: "root" },
+    
+        {source: 289, target: 70, label: "a_record" },
+    
+        {source: 289, target: 251, label: "a_record" },
+    
+        {source: 289, target: 186, label: "aaaa_record" },
+    
+        {source: 289, target: 297, label: "aaaa_record" },
+    
+        {source: 290, target: 237, label: "contains" },
+    
+        {source: 290, target: 251, label: "contains" },
+    
+        {source: 290, target: 131, label: "contains" },
+    
+        {source: 290, target: 303, label: "contains" },
+    
+        {source: 290, target: 48, label: "contains" },
+    
+        {source: 290, target: 156, label: "contains" },
+    
+        {source: 290, target: 226, label: "contains" },
+    
+        {source: 290, target: 77, label: "contains" },
+    
+        {source: 290, target: 74, label: "contains" },
+    
+        {source: 290, target: 189, label: "contains" },
+    
+        {source: 290, target: 323, label: "contains" },
+    
+        {source: 290, target: 187, label: "contains" },
+    
+        {source: 290, target: 102, label: "contains" },
+    
+        {source: 290, target: 296, label: "contains" },
+    
+        {source: 290, target: 11, label: "contains" },
+    
+        {source: 290, target: 166, label: "contains" },
+    
+        {source: 290, target: 106, label: "contains" },
+    
+        {source: 293, target: 161, label: "contains" },
+    
+        {source: 295, target: 138, label: "contains" },
+    
+        {source: 299, target: 86, label: "root" },
+    
+        {source: 299, target: 33, label: "cname_record" },
+    
+        {source: 300, target: 269, label: "root" },
+    
+        {source: 300, target: 168, label: "cname_record" },
+    
+        {source: 302, target: 279, label: "contains" },
+    
+        {source: 305, target: 335, label: "root" },
+    
+        {source: 305, target: 296, label: "a_record" },
+    
+        {source: 305, target: 53, label: "a_record" },
+    
+        {source: 305, target: 288, label: "aaaa_record" },
+    
+        {source: 305, target: 128, label: "aaaa_record" },
+    
+        {source: 307, target: 269, label: "root" },
+    
+        {source: 307, target: 284, label: "cname_record" },
+    
+        {source: 308, target: 269, label: "root" },
+    
+        {source: 308, target: 30, label: "cname_record" },
+    
+        {source: 311, target: 10, label: "ns_record" },
+    
+        {source: 311, target: 243, label: "ns_record" },
+    
+        {source: 311, target: 311, label: "root" },
+    
+        {source: 311, target: 106, label: "a_record" },
+    
+        {source: 311, target: 2, label: "a_record" },
+    
+        {source: 311, target: 79, label: "aaaa_record" },
+    
+        {source: 311, target: 111, label: "aaaa_record" },
+    
+        {source: 313, target: 313, label: "root" },
+    
+        {source: 314, target: 152, label: "root" },
+    
+        {source: 314, target: 160, label: "a_record" },
+    
+        {source: 314, target: 291, label: "aaaa_record" },
+    
+        {source: 316, target: 69, label: "contains" },
+    
+        {source: 316, target: 169, label: "contains" },
+    
+        {source: 316, target: 185, label: "contains" },
+    
+        {source: 316, target: 148, label: "contains" },
+    
+        {source: 321, target: 165, label: "root" },
+    
+        {source: 321, target: 174, label: "a_record" },
+    
+        {source: 321, target: 255, label: "a_record" },
+    
+        {source: 321, target: 294, label: "aaaa_record" },
+    
+        {source: 321, target: 16, label: "aaaa_record" },
+    
+        {source: 322, target: 40, label: "contains" },
+    
+        {source: 322, target: 62, label: "contains" },
+    
+        {source: 322, target: 200, label: "contains" },
+    
+        {source: 322, target: 2, label: "contains" },
+    
+        {source: 324, target: 324, label: "root" },
+    
+        {source: 329, target: 243, label: "ns_record" },
+    
+        {source: 329, target: 10, label: "ns_record" },
+    
+        {source: 329, target: 329, label: "root" },
+    
+        {source: 329, target: 194, label: "a_record" },
+    
+        {source: 329, target: 43, label: "a_record" },
+    
+        {source: 329, target: 265, label: "a_record" },
+    
+        {source: 329, target: 172, label: "a_record" },
+    
+        {source: 329, target: 167, label: "a_record" },
+    
+        {source: 329, target: 283, label: "a_record" },
+    
+        {source: 329, target: 175, label: "a_record" },
+    
+        {source: 329, target: 264, label: "aaaa_record" },
+    
+        {source: 329, target: 101, label: "aaaa_record" },
+    
+        {source: 329, target: 256, label: "aaaa_record" },
+    
+        {source: 329, target: 326, label: "aaaa_record" },
+    
+        {source: 329, target: 94, label: "aaaa_record" },
+    
+        {source: 329, target: 228, label: "aaaa_record" },
+    
+        {source: 329, target: 134, label: "aaaa_record" },
+    
+        {source: 330, target: 171, label: "contains" },
+    
+        {source: 331, target: 157, label: "contains" },
+    
+        {source: 332, target: 139, label: "root" },
+    
+        {source: 332, target: 200, label: "a_record" },
+    
+        {source: 332, target: 74, label: "a_record" },
+    
+        {source: 332, target: 211, label: "aaaa_record" },
+    
+        {source: 332, target: 34, label: "aaaa_record" },
+    
+        {source: 334, target: 243, label: "ns_record" },
+    
+        {source: 334, target: 10, label: "ns_record" },
+    
+        {source: 334, target: 334, label: "root" },
+    
+        {source: 334, target: 301, label: "a_record" },
+    
+        {source: 334, target: 140, label: "a_record" },
+    
+        {source: 335, target: 10, label: "ns_record" },
+    
+        {source: 335, target: 243, label: "ns_record" },
+    
+        {source: 335, target: 335, label: "root" },
+    
+        {source: 335, target: 296, label: "a_record" },
+    
+        {source: 335, target: 53, label: "a_record" },
+    
+        {source: 335, target: 128, label: "aaaa_record" },
+    
+        {source: 335, target: 288, label: "aaaa_record" },
+    
+        {source: 336, target: 244, label: "prefix" },
+    
+        {source: 336, target: 316, label: "prefix" },
+    
+        {source: 336, target: 136, label: "prefix" },
+    
+    ]
+};
+
+var graphWidth = window.innerWidth,
+    graphHeight = window.innerHeight;
+
+var graphCanvas = d3.select('#graphDiv')
+    .append('canvas')
+    .classed('mainCanvas', true)
+    .attr('width', graphWidth + 'px')
+    .attr('height', graphHeight + 'px')
+    .node();
+
+var ctx = graphCanvas.getContext('2d');
+
+var div = d3.select("body").append("div")
+    .attr("class", "tooltip")
+    .style("opacity", 0);
+
+var r = 5,
+    max = 48,
+    simulation = d3.forceSimulation()
+        .nodes(graph.nodes)
+        .force("link", d3.forceLink()
+            .links(graph.edges)
+            .distance(nodeLinkDistance)
+            .strength(nodeLinkStrength)
+            .id(function(d) { return d.id; }))
+        .force("charge", d3.forceManyBody()
+            .strength(nodeChargeStrength)
+            .distanceMax(graphWidth *2))
+        .force("collide", d3.forceCollide()
+            .radius(nodeCollideRadius))
+        .force("center", d3.forceCenter(graphWidth / 2, graphHeight / 2))
+        .on("tick", update),
+    transform = d3.zoomIdentity;
+
+d3.select(graphCanvas)
+    .call(d3.drag()
+        .container(graphCanvas)
+        .subject(dragsubject)
+        .on("start", dragstarted)
+        .on("drag", dragged)
+        .on("end", dragended))
+    .call(d3.zoom().scaleExtent([1 / 10, 8]).on("zoom", zoomed));
+
+function nodePercent(n) {
+    return n.num / max;
+}
+
+function nodeRadius(n) {
+    return (1.5 * r) + ((3 * r) * nodePercent(n));
+}
+
+function nodeCollideRadius(n) {
+    return nodeRadius(n) + 1;
+}
+
+function nodeLinkDistance(e) {
+    var n1 = graph.nodes[e.source.id],
+        n2 = graph.nodes[e.target.id];
+
+    var avg = (nodePercent(n1) + nodePercent(n2)) / 2;
+    
+    return 60 * avg;
+}
+
+function nodeLinkStrength(e) {
+    var n1 = graph.nodes[e.source.id],
+        n2 = graph.nodes[e.target.id];
+
+    var avg = (nodePercent(n1) + nodePercent(n2)) / 2;
+
+    return 1 - (1 * avg);
+}
+
+function nodeChargeStrength(n) {
+    return -100 + (-300 * nodePercent(n));
+}
+
+function zoomed() {
+    transform = d3.event.transform;
+    update()
+}
+
+function update() {
+    ctx.save();
+    ctx.clearRect(0, 0, graphWidth, graphHeight);
+    ctx.translate(transform.x, transform.y);
+    ctx.scale(transform.k, transform.k);
+
+    graph.edges.forEach(drawEdge);
+    graph.nodes.forEach(drawNode);
+
+    if (closeNode) {
+        d3.select('#tooltip')
+            .style('opacity', 0.8)
+            .style('top', transform.applyY(closeNode.y) + 5 + 'px')
+            .style('left', transform.applyX(closeNode.x) + 5 + 'px')
+            .html(closeNode.label);
+    }  else {
+        d3.select('#tooltip')
+            .style('opacity', 0);
+    }
+
+    ctx.restore();
+}
+
+function drawNode(d) {
+    var size = nodeRadius(d);
+
+    ctx.beginPath();
+    ctx.fillStyle = d.color;
+    ctx.moveTo(d.x, d.y);
+    ctx.arc(d.x, d.y, size, 0, 2 * Math.PI);
+    ctx.strokeStyle = "#333333";
+    ctx.stroke();
+    ctx.fill();
+}
+
+function drawEdge(e) {
+    var dx = e.target.x - e.source.x,
+        dy = e.target.y - e.source.y,
+        align = 'center';
+
+    ctx.beginPath()
+    ctx.moveTo(e.source.x, e.source.y);
+    ctx.lineTo(e.target.x, e.target.y);
+    ctx.strokeStyle = "#aaa";
+    ctx.stroke();
+
+    var pad = 1/2;
+
+    ctx.save();
+    ctx.textAlign = align
+    ctx.translate(e.source.x + dx * pad, e.source.y + dy * pad);
+
+    if (dx < 0) {
+        ctx.rotate(Math.atan2(dy, dx) - Math.PI);
+    } else {
+        ctx.rotate(Math.atan2(dy, dx));
+    }
+
+    ctx.fillStyle = "#aaa";
+    ctx.fillText(e.label, 0, 0);
+    ctx.restore();
+}
+
+var closeNode;
+d3.select("canvas").on("mousemove", function(d) {
+    var p = d3.mouse(this);
+
+    closeNode = findNode(p[0], p[1]);
+    update();
+})
+
+function findNode(x, y) {
+    var i,
+        newx = transform.invertX(x),
+        newy = transform.invertY(y),
+        dx,
+        dy,
+        radius;
+
+    for (i = graph.nodes.length - 1; i >= 0; --i) {
+        node = graph.nodes[i];
+        dx = newx - node.x;
+        dy = newy - node.y;
+        radius = nodeRadius(node);
+
+        if (dx * dx + dy * dy < radius * radius) {
+            return node;
+        }
+    }
+}
+
+function dragsubject() {
+    var node = findNode(d3.event.x, d3.event.y);
+
+    node.x = transform.applyX(node.x);
+    node.y = transform.applyY(node.y);
+    return node
+}
+
+function dragstarted() {
+    if (!d3.event.active) simulation.alphaTarget(0.3).restart();
+    d3.event.subject.fx = transform.invertX(d3.event.subject.x);
+    d3.event.subject.fy = transform.invertY(d3.event.subject.y);
+}
+
+function dragged() {
+    d3.event.subject.fx = transform.invertX(d3.event.x);
+    d3.event.subject.fy = transform.invertY(d3.event.y);
+}
+
+function dragended() {
+    if (!d3.event.active) simulation.alphaTarget(0);
+    d3.event.subject.fx = null;
+    d3.event.subject.fy = null;
+}
+
+update();
+
+</script>
+</body>
+</html>

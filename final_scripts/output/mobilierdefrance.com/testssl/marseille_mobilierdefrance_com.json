@@ -1,0 +1,1488 @@
+[
+         {
+              "id"           : "service",
+              "ip"           : "marseille.mobilierdefrance.com/95.143.65.195",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "HTTP"
+          }
+,         {
+              "id"           : "pre_128cipher",
+              "ip"           : "marseille.mobilierdefrance.com/95.143.65.195",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "No 128 cipher limit bug"
+          }
+,         {
+              "id"           : "SSLv2",
+              "ip"           : "marseille.mobilierdefrance.com/95.143.65.195",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "not offered"
+          }
+,         {
+              "id"           : "SSLv3",
+              "ip"           : "marseille.mobilierdefrance.com/95.143.65.195",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "not offered"
+          }
+,         {
+              "id"           : "TLS1",
+              "ip"           : "marseille.mobilierdefrance.com/95.143.65.195",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "not offered"
+          }
+,         {
+              "id"           : "TLS1_1",
+              "ip"           : "marseille.mobilierdefrance.com/95.143.65.195",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "not offered"
+          }
+,         {
+              "id"           : "TLS1_2",
+              "ip"           : "marseille.mobilierdefrance.com/95.143.65.195",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "offered"
+          }
+,         {
+              "id"           : "TLS1_3",
+              "ip"           : "marseille.mobilierdefrance.com/95.143.65.195",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "offered with final"
+          }
+,         {
+              "id"           : "NPN",
+              "ip"           : "marseille.mobilierdefrance.com/95.143.65.195",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "not offered"
+          }
+,         {
+              "id"           : "ALPN_HTTP2",
+              "ip"           : "marseille.mobilierdefrance.com/95.143.65.195",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "h2"
+          }
+,         {
+              "id"           : "ALPN",
+              "ip"           : "marseille.mobilierdefrance.com/95.143.65.195",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "http/1.1"
+          }
+,         {
+              "id"           : "cipherlist_NULL",
+              "ip"           : "marseille.mobilierdefrance.com/95.143.65.195",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cwe"          : "CWE-327",
+              "finding"      : "not offered"
+          }
+,         {
+              "id"           : "cipherlist_aNULL",
+              "ip"           : "marseille.mobilierdefrance.com/95.143.65.195",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cwe"          : "CWE-327",
+              "finding"      : "not offered"
+          }
+,         {
+              "id"           : "cipherlist_EXPORT",
+              "ip"           : "marseille.mobilierdefrance.com/95.143.65.195",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cwe"          : "CWE-327",
+              "finding"      : "not offered"
+          }
+,         {
+              "id"           : "cipherlist_LOW",
+              "ip"           : "marseille.mobilierdefrance.com/95.143.65.195",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cwe"          : "CWE-327",
+              "finding"      : "not offered"
+          }
+,         {
+              "id"           : "cipherlist_3DES_IDEA",
+              "ip"           : "marseille.mobilierdefrance.com/95.143.65.195",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "cwe"          : "CWE-310",
+              "finding"      : "not offered"
+          }
+,         {
+              "id"           : "cipherlist_OBSOLETED",
+              "ip"           : "marseille.mobilierdefrance.com/95.143.65.195",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "cwe"          : "CWE-310",
+              "finding"      : "offered"
+          }
+,         {
+              "id"           : "cipherlist_STRONG_NOFS",
+              "ip"           : "marseille.mobilierdefrance.com/95.143.65.195",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "offered"
+          }
+,         {
+              "id"           : "cipherlist_STRONG_FS",
+              "ip"           : "marseille.mobilierdefrance.com/95.143.65.195",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "offered"
+          }
+,         {
+              "id"           : "cipher_order-tls1_2",
+              "ip"           : "marseille.mobilierdefrance.com/95.143.65.195",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "server"
+          }
+,         {
+              "id"           : "cipher-tls1_2_xc02f",
+              "ip"           : "marseille.mobilierdefrance.com/95.143.65.195",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "TLSv1.2   xc02f   ECDHE-RSA-AES128-GCM-SHA256       ECDH 521   AESGCM      128      TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256"
+          }
+,         {
+              "id"           : "cipher-tls1_2_xc030",
+              "ip"           : "marseille.mobilierdefrance.com/95.143.65.195",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "TLSv1.2   xc030   ECDHE-RSA-AES256-GCM-SHA384       ECDH 521   AESGCM      256      TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384"
+          }
+,         {
+              "id"           : "cipher-tls1_2_xcca8",
+              "ip"           : "marseille.mobilierdefrance.com/95.143.65.195",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "TLSv1.2   xcca8   ECDHE-RSA-CHACHA20-POLY1305       ECDH 521   ChaCha20    256      TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256"
+          }
+,         {
+              "id"           : "cipher-tls1_2_x9e",
+              "ip"           : "marseille.mobilierdefrance.com/95.143.65.195",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "TLSv1.2   x9e     DHE-RSA-AES128-GCM-SHA256         DH 2048    AESGCM      128      TLS_DHE_RSA_WITH_AES_128_GCM_SHA256"
+          }
+,         {
+              "id"           : "cipher-tls1_2_x9f",
+              "ip"           : "marseille.mobilierdefrance.com/95.143.65.195",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "TLSv1.2   x9f     DHE-RSA-AES256-GCM-SHA384         DH 2048    AESGCM      256      TLS_DHE_RSA_WITH_AES_256_GCM_SHA384"
+          }
+,         {
+              "id"           : "cipher-tls1_2_xccaa",
+              "ip"           : "marseille.mobilierdefrance.com/95.143.65.195",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "TLSv1.2   xccaa   DHE-RSA-CHACHA20-POLY1305         DH 2048    ChaCha20    256      TLS_DHE_RSA_WITH_CHACHA20_POLY1305_SHA256"
+          }
+,         {
+              "id"           : "cipher-tls1_2_xc027",
+              "ip"           : "marseille.mobilierdefrance.com/95.143.65.195",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "TLSv1.2   xc027   ECDHE-RSA-AES128-SHA256           ECDH 521   AES         128      TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256"
+          }
+,         {
+              "id"           : "cipher-tls1_2_xc028",
+              "ip"           : "marseille.mobilierdefrance.com/95.143.65.195",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "TLSv1.2   xc028   ECDHE-RSA-AES256-SHA384           ECDH 521   AES         256      TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384"
+          }
+,         {
+              "id"           : "cipher-tls1_2_x67",
+              "ip"           : "marseille.mobilierdefrance.com/95.143.65.195",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "TLSv1.2   x67     DHE-RSA-AES128-SHA256             DH 2048    AES         128      TLS_DHE_RSA_WITH_AES_128_CBC_SHA256"
+          }
+,         {
+              "id"           : "cipher-tls1_2_x6b",
+              "ip"           : "marseille.mobilierdefrance.com/95.143.65.195",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "TLSv1.2   x6b     DHE-RSA-AES256-SHA256             DH 2048    AES         256      TLS_DHE_RSA_WITH_AES_256_CBC_SHA256"
+          }
+,         {
+              "id"           : "cipher-tls1_2_xc013",
+              "ip"           : "marseille.mobilierdefrance.com/95.143.65.195",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "TLSv1.2   xc013   ECDHE-RSA-AES128-SHA              ECDH 521   AES         128      TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA"
+          }
+,         {
+              "id"           : "cipher-tls1_2_xc014",
+              "ip"           : "marseille.mobilierdefrance.com/95.143.65.195",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "TLSv1.2   xc014   ECDHE-RSA-AES256-SHA              ECDH 521   AES         256      TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA"
+          }
+,         {
+              "id"           : "cipher-tls1_2_x33",
+              "ip"           : "marseille.mobilierdefrance.com/95.143.65.195",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "TLSv1.2   x33     DHE-RSA-AES128-SHA                DH 2048    AES         128      TLS_DHE_RSA_WITH_AES_128_CBC_SHA"
+          }
+,         {
+              "id"           : "cipher-tls1_2_x39",
+              "ip"           : "marseille.mobilierdefrance.com/95.143.65.195",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "TLSv1.2   x39     DHE-RSA-AES256-SHA                DH 2048    AES         256      TLS_DHE_RSA_WITH_AES_256_CBC_SHA"
+          }
+,         {
+              "id"           : "cipher-tls1_2_xc061",
+              "ip"           : "marseille.mobilierdefrance.com/95.143.65.195",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "TLSv1.2   xc061   ECDHE-ARIA256-GCM-SHA384          ECDH 521   ARIAGCM     256      TLS_ECDHE_RSA_WITH_ARIA_256_GCM_SHA384"
+          }
+,         {
+              "id"           : "cipher-tls1_2_xc060",
+              "ip"           : "marseille.mobilierdefrance.com/95.143.65.195",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "TLSv1.2   xc060   ECDHE-ARIA128-GCM-SHA256          ECDH 521   ARIAGCM     128      TLS_ECDHE_RSA_WITH_ARIA_128_GCM_SHA256"
+          }
+,         {
+              "id"           : "cipher-tls1_2_xc077",
+              "ip"           : "marseille.mobilierdefrance.com/95.143.65.195",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "TLSv1.2   xc077   ECDHE-RSA-CAMELLIA256-SHA384      ECDH 521   Camellia    256      TLS_ECDHE_RSA_WITH_CAMELLIA_256_CBC_SHA384"
+          }
+,         {
+              "id"           : "cipher-tls1_2_xc076",
+              "ip"           : "marseille.mobilierdefrance.com/95.143.65.195",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "TLSv1.2   xc076   ECDHE-RSA-CAMELLIA128-SHA256      ECDH 521   Camellia    128      TLS_ECDHE_RSA_WITH_CAMELLIA_128_CBC_SHA256"
+          }
+,         {
+              "id"           : "cipher-tls1_2_xc0a3",
+              "ip"           : "marseille.mobilierdefrance.com/95.143.65.195",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "TLSv1.2   xc0a3   DHE-RSA-AES256-CCM8               DH 2048    AESCCM8     256      TLS_DHE_RSA_WITH_AES_256_CCM_8"
+          }
+,         {
+              "id"           : "cipher-tls1_2_xc09f",
+              "ip"           : "marseille.mobilierdefrance.com/95.143.65.195",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "TLSv1.2   xc09f   DHE-RSA-AES256-CCM                DH 2048    AESCCM      256      TLS_DHE_RSA_WITH_AES_256_CCM"
+          }
+,         {
+              "id"           : "cipher-tls1_2_xc053",
+              "ip"           : "marseille.mobilierdefrance.com/95.143.65.195",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "TLSv1.2   xc053   DHE-RSA-ARIA256-GCM-SHA384        DH 2048    ARIAGCM     256      TLS_DHE_RSA_WITH_ARIA_256_GCM_SHA384"
+          }
+,         {
+              "id"           : "cipher-tls1_2_xc0a2",
+              "ip"           : "marseille.mobilierdefrance.com/95.143.65.195",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "TLSv1.2   xc0a2   DHE-RSA-AES128-CCM8               DH 2048    AESCCM8     128      TLS_DHE_RSA_WITH_AES_128_CCM_8"
+          }
+,         {
+              "id"           : "cipher-tls1_2_xc09e",
+              "ip"           : "marseille.mobilierdefrance.com/95.143.65.195",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "TLSv1.2   xc09e   DHE-RSA-AES128-CCM                DH 2048    AESCCM      128      TLS_DHE_RSA_WITH_AES_128_CCM"
+          }
+,         {
+              "id"           : "cipher-tls1_2_xc052",
+              "ip"           : "marseille.mobilierdefrance.com/95.143.65.195",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "TLSv1.2   xc052   DHE-RSA-ARIA128-GCM-SHA256        DH 2048    ARIAGCM     128      TLS_DHE_RSA_WITH_ARIA_128_GCM_SHA256"
+          }
+,         {
+              "id"           : "cipher-tls1_2_xc4",
+              "ip"           : "marseille.mobilierdefrance.com/95.143.65.195",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "TLSv1.2   xc4     DHE-RSA-CAMELLIA256-SHA256        DH 2048    Camellia    256      TLS_DHE_RSA_WITH_CAMELLIA_256_CBC_SHA256"
+          }
+,         {
+              "id"           : "cipher-tls1_2_xbe",
+              "ip"           : "marseille.mobilierdefrance.com/95.143.65.195",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "TLSv1.2   xbe     DHE-RSA-CAMELLIA128-SHA256        DH 2048    Camellia    128      TLS_DHE_RSA_WITH_CAMELLIA_128_CBC_SHA256"
+          }
+,         {
+              "id"           : "cipher-tls1_2_x88",
+              "ip"           : "marseille.mobilierdefrance.com/95.143.65.195",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "TLSv1.2   x88     DHE-RSA-CAMELLIA256-SHA           DH 2048    Camellia    256      TLS_DHE_RSA_WITH_CAMELLIA_256_CBC_SHA"
+          }
+,         {
+              "id"           : "cipher-tls1_2_x45",
+              "ip"           : "marseille.mobilierdefrance.com/95.143.65.195",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "TLSv1.2   x45     DHE-RSA-CAMELLIA128-SHA           DH 2048    Camellia    128      TLS_DHE_RSA_WITH_CAMELLIA_128_CBC_SHA"
+          }
+,         {
+              "id"           : "cipher-tls1_2_x9c",
+              "ip"           : "marseille.mobilierdefrance.com/95.143.65.195",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "TLSv1.2   x9c     AES128-GCM-SHA256                 RSA        AESGCM      128      TLS_RSA_WITH_AES_128_GCM_SHA256"
+          }
+,         {
+              "id"           : "cipher-tls1_2_x9d",
+              "ip"           : "marseille.mobilierdefrance.com/95.143.65.195",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "TLSv1.2   x9d     AES256-GCM-SHA384                 RSA        AESGCM      256      TLS_RSA_WITH_AES_256_GCM_SHA384"
+          }
+,         {
+              "id"           : "cipher-tls1_2_x3c",
+              "ip"           : "marseille.mobilierdefrance.com/95.143.65.195",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "TLSv1.2   x3c     AES128-SHA256                     RSA        AES         128      TLS_RSA_WITH_AES_128_CBC_SHA256"
+          }
+,         {
+              "id"           : "cipher-tls1_2_x3d",
+              "ip"           : "marseille.mobilierdefrance.com/95.143.65.195",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "TLSv1.2   x3d     AES256-SHA256                     RSA        AES         256      TLS_RSA_WITH_AES_256_CBC_SHA256"
+          }
+,         {
+              "id"           : "cipher-tls1_2_x2f",
+              "ip"           : "marseille.mobilierdefrance.com/95.143.65.195",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "TLSv1.2   x2f     AES128-SHA                        RSA        AES         128      TLS_RSA_WITH_AES_128_CBC_SHA"
+          }
+,         {
+              "id"           : "cipher-tls1_2_x35",
+              "ip"           : "marseille.mobilierdefrance.com/95.143.65.195",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "TLSv1.2   x35     AES256-SHA                        RSA        AES         256      TLS_RSA_WITH_AES_256_CBC_SHA"
+          }
+,         {
+              "id"           : "cipher-tls1_2_xc0a1",
+              "ip"           : "marseille.mobilierdefrance.com/95.143.65.195",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "TLSv1.2   xc0a1   AES256-CCM8                       RSA        AESCCM8     256      TLS_RSA_WITH_AES_256_CCM_8"
+          }
+,         {
+              "id"           : "cipher-tls1_2_xc09d",
+              "ip"           : "marseille.mobilierdefrance.com/95.143.65.195",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "TLSv1.2   xc09d   AES256-CCM                        RSA        AESCCM      256      TLS_RSA_WITH_AES_256_CCM"
+          }
+,         {
+              "id"           : "cipher-tls1_2_xc051",
+              "ip"           : "marseille.mobilierdefrance.com/95.143.65.195",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "TLSv1.2   xc051   ARIA256-GCM-SHA384                RSA        ARIAGCM     256      TLS_RSA_WITH_ARIA_256_GCM_SHA384"
+          }
+,         {
+              "id"           : "cipher-tls1_2_xc0a0",
+              "ip"           : "marseille.mobilierdefrance.com/95.143.65.195",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "TLSv1.2   xc0a0   AES128-CCM8                       RSA        AESCCM8     128      TLS_RSA_WITH_AES_128_CCM_8"
+          }
+,         {
+              "id"           : "cipher-tls1_2_xc09c",
+              "ip"           : "marseille.mobilierdefrance.com/95.143.65.195",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "TLSv1.2   xc09c   AES128-CCM                        RSA        AESCCM      128      TLS_RSA_WITH_AES_128_CCM"
+          }
+,         {
+              "id"           : "cipher-tls1_2_xc050",
+              "ip"           : "marseille.mobilierdefrance.com/95.143.65.195",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "TLSv1.2   xc050   ARIA128-GCM-SHA256                RSA        ARIAGCM     128      TLS_RSA_WITH_ARIA_128_GCM_SHA256"
+          }
+,         {
+              "id"           : "cipher-tls1_2_xc0",
+              "ip"           : "marseille.mobilierdefrance.com/95.143.65.195",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "TLSv1.2   xc0     CAMELLIA256-SHA256                RSA        Camellia    256      TLS_RSA_WITH_CAMELLIA_256_CBC_SHA256"
+          }
+,         {
+              "id"           : "cipher-tls1_2_xba",
+              "ip"           : "marseille.mobilierdefrance.com/95.143.65.195",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "TLSv1.2   xba     CAMELLIA128-SHA256                RSA        Camellia    128      TLS_RSA_WITH_CAMELLIA_128_CBC_SHA256"
+          }
+,         {
+              "id"           : "cipher-tls1_2_x84",
+              "ip"           : "marseille.mobilierdefrance.com/95.143.65.195",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "TLSv1.2   x84     CAMELLIA256-SHA                   RSA        Camellia    256      TLS_RSA_WITH_CAMELLIA_256_CBC_SHA"
+          }
+,         {
+              "id"           : "cipher-tls1_2_x41",
+              "ip"           : "marseille.mobilierdefrance.com/95.143.65.195",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "TLSv1.2   x41     CAMELLIA128-SHA                   RSA        Camellia    128      TLS_RSA_WITH_CAMELLIA_128_CBC_SHA"
+          }
+,         {
+              "id"           : "cipherorder_TLSv1_2",
+              "ip"           : "marseille.mobilierdefrance.com/95.143.65.195",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "ECDHE-RSA-AES128-GCM-SHA256 ECDHE-RSA-AES256-GCM-SHA384 ECDHE-RSA-CHACHA20-POLY1305 DHE-RSA-AES128-GCM-SHA256 DHE-RSA-AES256-GCM-SHA384 DHE-RSA-CHACHA20-POLY1305 ECDHE-RSA-AES128-SHA256 ECDHE-RSA-AES256-SHA384 DHE-RSA-AES128-SHA256 DHE-RSA-AES256-SHA256 ECDHE-RSA-AES128-SHA ECDHE-RSA-AES256-SHA DHE-RSA-AES128-SHA DHE-RSA-AES256-SHA ECDHE-ARIA256-GCM-SHA384 ECDHE-ARIA128-GCM-SHA256 ECDHE-RSA-CAMELLIA256-SHA384 ECDHE-RSA-CAMELLIA128-SHA256 DHE-RSA-AES256-CCM8 DHE-RSA-AES256-CCM DHE-RSA-ARIA256-GCM-SHA384 DHE-RSA-AES128-CCM8 DHE-RSA-AES128-CCM DHE-RSA-ARIA128-GCM-SHA256 DHE-RSA-CAMELLIA256-SHA256 DHE-RSA-CAMELLIA128-SHA256 DHE-RSA-CAMELLIA256-SHA DHE-RSA-CAMELLIA128-SHA AES128-GCM-SHA256 AES256-GCM-SHA384 AES128-SHA256 AES256-SHA256 AES128-SHA AES256-SHA AES256-CCM8 AES256-CCM ARIA256-GCM-SHA384 AES128-CCM8 AES128-CCM ARIA128-GCM-SHA256 CAMELLIA256-SHA256 CAMELLIA128-SHA256 CAMELLIA256-SHA CAMELLIA128-SHA"
+          }
+,         {
+              "id"           : "prioritize_chacha_TLSv1_2",
+              "ip"           : "marseille.mobilierdefrance.com/95.143.65.195",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "false"
+          }
+,         {
+              "id"           : "cipher_order-tls1_3",
+              "ip"           : "marseille.mobilierdefrance.com/95.143.65.195",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "server"
+          }
+,         {
+              "id"           : "cipher-tls1_3_x1302",
+              "ip"           : "marseille.mobilierdefrance.com/95.143.65.195",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "TLSv1.3   x1302   TLS_AES_256_GCM_SHA384            ECDH 256   AESGCM      256      TLS_AES_256_GCM_SHA384"
+          }
+,         {
+              "id"           : "cipher-tls1_3_x1303",
+              "ip"           : "marseille.mobilierdefrance.com/95.143.65.195",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "TLSv1.3   x1303   TLS_CHACHA20_POLY1305_SHA256      ECDH 256   ChaCha20    256      TLS_CHACHA20_POLY1305_SHA256"
+          }
+,         {
+              "id"           : "cipher-tls1_3_x1301",
+              "ip"           : "marseille.mobilierdefrance.com/95.143.65.195",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "TLSv1.3   x1301   TLS_AES_128_GCM_SHA256            ECDH 256   AESGCM      128      TLS_AES_128_GCM_SHA256"
+          }
+,         {
+              "id"           : "cipherorder_TLSv1_3",
+              "ip"           : "marseille.mobilierdefrance.com/95.143.65.195",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLS_AES_256_GCM_SHA384 TLS_CHACHA20_POLY1305_SHA256 TLS_AES_128_GCM_SHA256"
+          }
+,         {
+              "id"           : "prioritize_chacha_TLSv1_3",
+              "ip"           : "marseille.mobilierdefrance.com/95.143.65.195",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "false"
+          }
+,         {
+              "id"           : "cipher_order",
+              "ip"           : "marseille.mobilierdefrance.com/95.143.65.195",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "server"
+          }
+,         {
+              "id"           : "FS",
+              "ip"           : "marseille.mobilierdefrance.com/95.143.65.195",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "offered"
+          }
+,         {
+              "id"           : "FS_ciphers",
+              "ip"           : "marseille.mobilierdefrance.com/95.143.65.195",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLS_AES_256_GCM_SHA384 TLS_CHACHA20_POLY1305_SHA256 ECDHE-RSA-AES256-GCM-SHA384 ECDHE-RSA-AES256-SHA384 ECDHE-RSA-AES256-SHA DHE-RSA-AES256-GCM-SHA384 ECDHE-RSA-CHACHA20-POLY1305 DHE-RSA-CHACHA20-POLY1305 DHE-RSA-AES256-CCM8 DHE-RSA-AES256-CCM DHE-RSA-AES256-SHA256 DHE-RSA-AES256-SHA ECDHE-RSA-CAMELLIA256-SHA384 DHE-RSA-CAMELLIA256-SHA256 DHE-RSA-CAMELLIA256-SHA DHE-RSA-ARIA256-GCM-SHA384 ECDHE-ARIA256-GCM-SHA384 TLS_AES_128_GCM_SHA256 ECDHE-RSA-AES128-GCM-SHA256 ECDHE-RSA-AES128-SHA256 ECDHE-RSA-AES128-SHA DHE-RSA-AES128-GCM-SHA256 DHE-RSA-AES128-CCM8 DHE-RSA-AES128-CCM DHE-RSA-AES128-SHA256 DHE-RSA-AES128-SHA ECDHE-RSA-CAMELLIA128-SHA256 DHE-RSA-CAMELLIA128-SHA256 DHE-RSA-CAMELLIA128-SHA DHE-RSA-ARIA128-GCM-SHA256 ECDHE-ARIA128-GCM-SHA256"
+          }
+,         {
+              "id"           : "FS_ECDHE_curves",
+              "ip"           : "marseille.mobilierdefrance.com/95.143.65.195",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "prime256v1 secp384r1 secp521r1"
+          }
+,         {
+              "id"           : "DH_groups",
+              "ip"           : "marseille.mobilierdefrance.com/95.143.65.195",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "ffdhe2048"
+          }
+,         {
+              "id"           : "FS_TLS12_sig_algs",
+              "ip"           : "marseille.mobilierdefrance.com/95.143.65.195",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "RSA-PSS-RSAE+SHA256 RSA-PSS-RSAE+SHA384 RSA-PSS-RSAE+SHA512 RSA+SHA256 RSA+SHA384 RSA+SHA512 RSA+SHA224"
+          }
+,         {
+              "id"           : "FS_TLS13_sig_algs",
+              "ip"           : "marseille.mobilierdefrance.com/95.143.65.195",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "RSA-PSS-RSAE+SHA256 RSA-PSS-RSAE+SHA384 RSA-PSS-RSAE+SHA512"
+          }
+,         {
+              "id"           : "TLS_extensions",
+              "ip"           : "marseille.mobilierdefrance.com/95.143.65.195",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "'server name/#0' 'max fragment length/#1' 'status request/#5' 'supported_groups/#10' 'EC point formats/#11' 'application layer protocol negotiation/#16' 'encrypt-then-mac/#22' 'extended master secret/#23' 'supported versions/#43' 'key share/#51' 'renegotiation info/#65281'"
+          }
+,         {
+              "id"           : "TLS_session_ticket",
+              "ip"           : "marseille.mobilierdefrance.com/95.143.65.195",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "no -- no lifetime advertised"
+          }
+,         {
+              "id"           : "SSL_sessionID_support",
+              "ip"           : "marseille.mobilierdefrance.com/95.143.65.195",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "yes"
+          }
+,         {
+              "id"           : "sessionresumption_ticket",
+              "ip"           : "marseille.mobilierdefrance.com/95.143.65.195",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "not supported"
+          }
+,         {
+              "id"           : "sessionresumption_ID",
+              "ip"           : "marseille.mobilierdefrance.com/95.143.65.195",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "supported"
+          }
+,         {
+              "id"           : "TLS_timestamp",
+              "ip"           : "marseille.mobilierdefrance.com/95.143.65.195",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "random"
+          }
+,         {
+              "id"           : "certificate_compression",
+              "ip"           : "marseille.mobilierdefrance.com/95.143.65.195",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "none"
+          }
+,         {
+              "id"           : "clientAuth",
+              "ip"           : "marseille.mobilierdefrance.com/95.143.65.195",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "none"
+          }
+,         {
+              "id"           : "cert_numbers",
+              "ip"           : "marseille.mobilierdefrance.com/95.143.65.195",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "1"
+          }
+,         {
+              "id"           : "cert_signatureAlgorithm",
+              "ip"           : "marseille.mobilierdefrance.com/95.143.65.195",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "SHA256 with RSA"
+          }
+,         {
+              "id"           : "cert_keySize",
+              "ip"           : "marseille.mobilierdefrance.com/95.143.65.195",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "RSA 2048 bits (exponent is 65537)"
+          }
+,         {
+              "id"           : "cert_keyUsage",
+              "ip"           : "marseille.mobilierdefrance.com/95.143.65.195",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "Digital Signature, Key Encipherment"
+          }
+,         {
+              "id"           : "cert_extKeyUsage",
+              "ip"           : "marseille.mobilierdefrance.com/95.143.65.195",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLS Web Server Authentication, TLS Web Client Authentication"
+          }
+,         {
+              "id"           : "cert_serialNumber",
+              "ip"           : "marseille.mobilierdefrance.com/95.143.65.195",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "06EEE21FC15AE57244761170C33F43399A17"
+          }
+,         {
+              "id"           : "cert_serialNumberLen",
+              "ip"           : "marseille.mobilierdefrance.com/95.143.65.195",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "18"
+          }
+,         {
+              "id"           : "cert_fingerprintSHA1",
+              "ip"           : "marseille.mobilierdefrance.com/95.143.65.195",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "E02E97F08839D70B32BE7E59F154C6584D86E2CB"
+          }
+,         {
+              "id"           : "cert_fingerprintSHA256",
+              "ip"           : "marseille.mobilierdefrance.com/95.143.65.195",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "ED82D6A5ABB6E14A8566FA0485BD6C7F0524E15049DDE1B8D8D251CCA0A914CB"
+          }
+,         {
+              "id"           : "cert",
+              "ip"           : "marseille.mobilierdefrance.com/95.143.65.195",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "-----BEGIN CERTIFICATE-----\nMIIFHzCCBAegAwIBAgISBu7iH8Fa5XJEdhFwwz9DOZoXMA0GCSqGSIb3DQEBCwUAMDMxCzAJBgNVBAYTAlVTMRYwFAYDVQQKEw1MZXQncyBFbmNyeXB0MQwwCgYDVQQDEwNSMTAwHhcNMjUwNDI0MTc1NzQwWhcNMjUwNzIzMTc1NzM5WjAaMRgwFgYDVQQDEw93ZWIwMi5qbHMuY2xvdWQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDDjWBG8P76g/jDjU2mUXlHotmNaxNbx0kRPifbuaOVHBiXXjVNe9GoDrKFb/2htAyHbrnv+er2b87c0Ts7OIum1qxVq505FCw1oK5qyfpLdlPEpSTP2TljwYBT6g+9vMGhGiaKBmlBNAfFKJ/DNpmsNo9CDpR1HobrkgtuauTPwVlBg+2l2AkZiIucUw6pfjpY05j8UWjAm2PS7TT4DGltFHnlbZj/4oXeGa8s58FXEN0GstpksuwOZFkE0ea4nDAvTGE2/nz3ITqqhUfvGrQy2atL58bIGdnR3Zqh4BO2E9ozAWF74VRSxxGdyO3uO6VxAPqJsTG+jTSwaIbOWMflAgMBAAGjggJEMIICQDAOBgNVHQ8BAf8EBAMCBaAwHQYDVR0lBBYwFAYIKwYBBQUHAwEGCCsGAQUFBwMCMAwGA1UdEwEB/wQCMAAwHQYDVR0OBBYEFOxrjSO3CmsE/FWkn89AKXXznsk9MB8GA1UdIwQYMBaAFLu8w0el5LypxsOkcgwQjaI14cjoMFcGCCsGAQUFBwEBBEswSTAiBggrBgEFBQcwAYYWaHR0cDovL3IxMC5vLmxlbmNyLm9yZzAjBggrBgEFBQcwAoYXaHR0cDovL3IxMC5pLmxlbmNyLm9yZy8wGgYDVR0RBBMwEYIPd2ViMDIuamxzLmNsb3VkMBMGA1UdIAQMMAowCAYGZ4EMAQIBMC4GA1UdHwQnMCUwI6AhoB+GHWh0dHA6Ly9yMTAuYy5sZW5jci5vcmcvMjQuY3JsMIIBBQYKKwYBBAHWeQIEAgSB9gSB8wDxAHYADeHyMCvTDcFAYhIJ6lUu/Ed0fLHX6TDvDkIetH5OqjQAAAGWaShNKQAABAMARzBFAiEApAmF5KahT1DfOry+WNFjn6FgFo7U8mdVsZEUE61BkNMCIAUeh5txtkiVM8FB2b/LvyZTPcWuTDBFAtiu8kWzpU0bAHcArxgaKNaMo+CpikycZ6sJ+Lu8IrquvLE4o6Gd0/m2Aw0AAAGWaShQDAAABAMASDBGAiEAtw6WnPGH0x1Y9Ztm417ZiGvBbzXq06isqCT8En3wwIwCIQDXDFdH30s9XffwinWsJmhLM5exIMLFwjyZOqGePEj6AzANBgkqhkiG9w0BAQsFAAOCAQEAqdPyn9dzWrRgE8sY7WZfxar4f9F0me86VWdtdNXfGi/eQ8mYeRyi/+bKTzulQtBpKE5rDevyG/GcCcVWa1sOGlSHMfhIywYO0mvQxaqhKLnbVdaojbFuNemdM0aF2Y0cWFHu833rXNwjlBlt+RBTIMDCwgg8A4CTEVnmK1M9k427Y7czXzoIUQeb8NZdAtIV2v0byF7bfQ+gfbCg6dfcIHgWn9/u7RsFAgbR34p2voaMlmzLb7DjV6f/dT6kQpfiZj2IRDLcY3QPXmMoxvCw599+Fyn1q9krtbjZfMoF2CBRkX+sioE2j1M2WwISyF+tYrFEzqKXT3UsR7l0aaKDxw==\n-----END CERTIFICATE-----"
+          }
+,         {
+              "id"           : "cert_commonName",
+              "ip"           : "marseille.mobilierdefrance.com/95.143.65.195",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "web02.jls.cloud"
+          }
+,         {
+              "id"           : "cert_commonName_wo_SNI",
+              "ip"           : "marseille.mobilierdefrance.com/95.143.65.195",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "web02.jls.cloud"
+          }
+,         {
+              "id"           : "cert_subjectAltName",
+              "ip"           : "marseille.mobilierdefrance.com/95.143.65.195",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "web02.jls.cloud"
+          }
+,         {
+              "id"           : "cert_trust",
+              "ip"           : "marseille.mobilierdefrance.com/95.143.65.195",
+              "port"         : "443",
+              "severity"     : "HIGH",
+              "finding"      : "certificate does not match supplied URI (same w/o SNI)"
+          }
+,         {
+              "id"           : "cert_chain_of_trust",
+              "ip"           : "marseille.mobilierdefrance.com/95.143.65.195",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "passed."
+          }
+,         {
+              "id"           : "cert_certificatePolicies_EV",
+              "ip"           : "marseille.mobilierdefrance.com/95.143.65.195",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "no"
+          }
+,         {
+              "id"           : "cert_expirationStatus",
+              "ip"           : "marseille.mobilierdefrance.com/95.143.65.195",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "37 >= 30 days"
+          }
+,         {
+              "id"           : "cert_notBefore",
+              "ip"           : "marseille.mobilierdefrance.com/95.143.65.195",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "2025-04-24 17:57"
+          }
+,         {
+              "id"           : "cert_notAfter",
+              "ip"           : "marseille.mobilierdefrance.com/95.143.65.195",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "2025-07-23 17:57"
+          }
+,         {
+              "id"           : "cert_extlifeSpan",
+              "ip"           : "marseille.mobilierdefrance.com/95.143.65.195",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "certificate has no extended life time according to browser forum"
+          }
+,         {
+              "id"           : "cert_eTLS",
+              "ip"           : "marseille.mobilierdefrance.com/95.143.65.195",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "not present"
+          }
+,         {
+              "id"           : "cert_crlDistributionPoints",
+              "ip"           : "marseille.mobilierdefrance.com/95.143.65.195",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "http://r10.c.lencr.org/24.crl"
+          }
+,         {
+              "id"           : "cert_ocspURL",
+              "ip"           : "marseille.mobilierdefrance.com/95.143.65.195",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "http://r10.o.lencr.org"
+          }
+,         {
+              "id"           : "OCSP_stapling",
+              "ip"           : "marseille.mobilierdefrance.com/95.143.65.195",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "offered"
+          }
+,         {
+              "id"           : "cert_ocspRevoked",
+              "ip"           : "marseille.mobilierdefrance.com/95.143.65.195",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "not revoked"
+          }
+,         {
+              "id"           : "cert_mustStapleExtension",
+              "ip"           : "marseille.mobilierdefrance.com/95.143.65.195",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "--"
+          }
+,         {
+              "id"           : "DNS_CAArecord",
+              "ip"           : "marseille.mobilierdefrance.com/95.143.65.195",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "--"
+          }
+,         {
+              "id"           : "certificate_transparency",
+              "ip"           : "marseille.mobilierdefrance.com/95.143.65.195",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "yes (certificate extension)"
+          }
+,         {
+              "id"           : "certs_countServer",
+              "ip"           : "marseille.mobilierdefrance.com/95.143.65.195",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "2"
+          }
+,         {
+              "id"           : "certs_list_ordering_problem",
+              "ip"           : "marseille.mobilierdefrance.com/95.143.65.195",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "no"
+          }
+,         {
+              "id"           : "cert_caIssuers",
+              "ip"           : "marseille.mobilierdefrance.com/95.143.65.195",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "R10 (Let's Encrypt from US)"
+          }
+,         {
+              "id"           : "intermediate_cert <#1>",
+              "ip"           : "marseille.mobilierdefrance.com/95.143.65.195",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "-----BEGIN CERTIFICATE-----\nMIIFBTCCAu2gAwIBAgIQS6hSk/eaL6JzBkuoBI110DANBgkqhkiG9w0BAQsFADBPMQswCQYDVQQGEwJVUzEpMCcGA1UEChMgSW50ZXJuZXQgU2VjdXJpdHkgUmVzZWFyY2ggR3JvdXAxFTATBgNVBAMTDElTUkcgUm9vdCBYMTAeFw0yNDAzMTMwMDAwMDBaFw0yNzAzMTIyMzU5NTlaMDMxCzAJBgNVBAYTAlVTMRYwFAYDVQQKEw1MZXQncyBFbmNyeXB0MQwwCgYDVQQDEwNSMTAwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDPV+XmxFQS7bRH/sknWHZGUCiMHT6I3wWd1bUYKb3dtVq/+vbOo76vACFLYlpaPAEvxVgD9on/jhFD68G14BQHlo9vH9fnuoE5CXVlt8KvGFs3Jijno/QHK20a/6tYvJWuQP/py1fEtVt/eA0YYbwX51TGu0mRzW4Y0YCF7qZlNrx06rxQTOr8IfM4FpOUurDTazgGzRYSespSdcitdrLCnF2YRVxvYXvGLe48E1KGAdlX5jgc3421H5KRmudKHMxFqHJV8LDmowfs/acbZp4/SItxhHFYyTr6717yW0QrPHTnj7JHwQdqzZq3DZb3EoEmUVQK7GH29/Xi8orIlQ2NAgMBAAGjgfgwgfUwDgYDVR0PAQH/BAQDAgGGMB0GA1UdJQQWMBQGCCsGAQUFBwMCBggrBgEFBQcDATASBgNVHRMBAf8ECDAGAQH/AgEAMB0GA1UdDgQWBBS7vMNHpeS8qcbDpHIMEI2iNeHI6DAfBgNVHSMEGDAWgBR5tFnme7bl5AFzgAiIyBpY9umbbjAyBggrBgEFBQcBAQQmMCQwIgYIKwYBBQUHMAKGFmh0dHA6Ly94MS5pLmxlbmNyLm9yZy8wEwYDVR0gBAwwCjAIBgZngQwBAgEwJwYDVR0fBCAwHjAcoBqgGIYWaHR0cDovL3gxLmMubGVuY3Iub3JnLzANBgkqhkiG9w0BAQsFAAOCAgEAkrHnQTfreZ2B5s3iJeE6IOmQRJWjgVzPw139vaBw1bGWKCIL0vIozwzn1OZDjCQiHcFCktEJr59L9MhwTyAWsVrdAfYf+B9haxQnsHKNY67u4s5Lzzfdu6PUzeetUK29v+PsPmI2cJkxp+iN3epi4hKu9ZzUPSwMqtCceb7qPVxEbpYxY1p91n5PJKBLBX9eb9LU6l8zSxPWV7bK3lG4XaMJgnT9x3ies7msFtpKK5bDtotij/l0GaKeA97pb5uwD9KgWvaFXMIEt8jVTjLEvwRdvCn294GPDF08U8lAkIv7tghluaQh1QnlE4SEN4LOECj8dsIGJXpGUk3aU3KkJz9icKy+aUgA+2cP21uh6NcDIS3XyfaZQjmDQ993ChII8SXWupQZVBiIpcWO4RqZk3lr7Bz5MUCwzDIA359e57SSq5CCkY0N4B6Vulk7LktfwrdGNVI5BsC9qqxSwSKgRJeZ9wygIaehbHFHFhcBaMDKpiZlBHyzrsnnlFXCb5s8HKn5LsUgGvB24L7sGNZP2CX7dhHov+YhD+jozLW2p9W4959Bz2EiRmqDtmiXLnzqTpXbI+suyCsohKRg6Un0RC47+cpiVwHiXZAW+cn8eiNIjqbVgXLxKPpdzvvtTnOPlC7SQZSYmdunr3Bf9b77AiC/ZidstK36dRILKz7OA54=\n-----END CERTIFICATE-----"
+          }
+,         {
+              "id"           : "intermediate_cert_fingerprintSHA256 <#1>",
+              "ip"           : "marseille.mobilierdefrance.com/95.143.65.195",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "9D7C3F1AA6AD2B2EC0D5CF1E246F8D9AE6CBC9FD0755AD37BB974B1F2FB603F3"
+          }
+,         {
+              "id"           : "intermediate_cert_notBefore <#1>",
+              "ip"           : "marseille.mobilierdefrance.com/95.143.65.195",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "2024-03-13 00:00"
+          }
+,         {
+              "id"           : "intermediate_cert_notAfter <#1>",
+              "ip"           : "marseille.mobilierdefrance.com/95.143.65.195",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "2027-03-12 23:59"
+          }
+,         {
+              "id"           : "intermediate_cert_expiration <#1>",
+              "ip"           : "marseille.mobilierdefrance.com/95.143.65.195",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "ok > 40 days"
+          }
+,         {
+              "id"           : "intermediate_cert_chain <#1>",
+              "ip"           : "marseille.mobilierdefrance.com/95.143.65.195",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "R10 <-- ISRG Root X1"
+          }
+,         {
+              "id"           : "intermediate_cert_badOCSP",
+              "ip"           : "marseille.mobilierdefrance.com/95.143.65.195",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "intermediate certificate(s) is/are ok"
+          }
+,         {
+              "id"           : "HTTP_status_code",
+              "ip"           : "marseille.mobilierdefrance.com/95.143.65.195",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "200 OK ('/')"
+          }
+,         {
+              "id"           : "HTTP_clock_skew",
+              "ip"           : "marseille.mobilierdefrance.com/95.143.65.195",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "0 seconds from localtime"
+          }
+,         {
+              "id"           : "HTTP_headerTime",
+              "ip"           : "marseille.mobilierdefrance.com/95.143.65.195",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "1750066259"
+          }
+,         {
+              "id"           : "HSTS",
+              "ip"           : "marseille.mobilierdefrance.com/95.143.65.195",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "not offered"
+          }
+,         {
+              "id"           : "HPKP",
+              "ip"           : "marseille.mobilierdefrance.com/95.143.65.195",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "No support for HTTP Public Key Pinning"
+          }
+,         {
+              "id"           : "banner_server",
+              "ip"           : "marseille.mobilierdefrance.com/95.143.65.195",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "nginx"
+          }
+,         {
+              "id"           : "banner_application",
+              "ip"           : "marseille.mobilierdefrance.com/95.143.65.195",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "No application banner found"
+          }
+,         {
+              "id"           : "cookie_count",
+              "ip"           : "marseille.mobilierdefrance.com/95.143.65.195",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "0 at '/'"
+          }
+,         {
+              "id"           : "X-Frame-Options",
+              "ip"           : "marseille.mobilierdefrance.com/95.143.65.195",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "sameorigin"
+          }
+,         {
+              "id"           : "X-Content-Type-Options",
+              "ip"           : "marseille.mobilierdefrance.com/95.143.65.195",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "nosniff"
+          }
+,         {
+              "id"           : "X-XSS-Protection",
+              "ip"           : "marseille.mobilierdefrance.com/95.143.65.195",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "1; mode=block"
+          }
+,         {
+              "id"           : "Referrer-Policy",
+              "ip"           : "marseille.mobilierdefrance.com/95.143.65.195",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "strict-origin-when-cross-origin"
+          }
+,         {
+              "id"           : "banner_reverseproxy",
+              "ip"           : "marseille.mobilierdefrance.com/95.143.65.195",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "cwe"          : "CWE-200",
+              "finding"      : "--"
+          }
+,         {
+              "id"           : "heartbleed",
+              "ip"           : "marseille.mobilierdefrance.com/95.143.65.195",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2014-0160",
+              "cwe"          : "CWE-119",
+              "finding"      : "not vulnerable, no heartbeat extension"
+          }
+,         {
+              "id"           : "CCS",
+              "ip"           : "marseille.mobilierdefrance.com/95.143.65.195",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2014-0224",
+              "cwe"          : "CWE-310",
+              "finding"      : "not vulnerable"
+          }
+,         {
+              "id"           : "ticketbleed",
+              "ip"           : "marseille.mobilierdefrance.com/95.143.65.195",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2016-9244",
+              "cwe"          : "CWE-200",
+              "finding"      : "no session ticket extension"
+          }
+,         {
+              "id"           : "ROBOT",
+              "ip"           : "marseille.mobilierdefrance.com/95.143.65.195",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2017-17382 CVE-2017-17427 CVE-2017-17428 CVE-2017-13098 CVE-2017-1000385 CVE-2017-13099 CVE-2016-6883 CVE-2012-5081 CVE-2017-6168",
+              "cwe"          : "CWE-203",
+              "finding"      : "not vulnerable"
+          }
+,         {
+              "id"           : "secure_renego",
+              "ip"           : "marseille.mobilierdefrance.com/95.143.65.195",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cwe"          : "CWE-310",
+              "finding"      : "supported"
+          }
+,         {
+              "id"           : "secure_client_renego",
+              "ip"           : "marseille.mobilierdefrance.com/95.143.65.195",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2011-1473",
+              "cwe"          : "CWE-310",
+              "finding"      : "not vulnerable"
+          }
+,         {
+              "id"           : "CRIME_TLS",
+              "ip"           : "marseille.mobilierdefrance.com/95.143.65.195",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2012-4929",
+              "cwe"          : "CWE-310",
+              "finding"      : "not vulnerable"
+          }
+,         {
+              "id"           : "BREACH",
+              "ip"           : "marseille.mobilierdefrance.com/95.143.65.195",
+              "port"         : "443",
+              "severity"     : "MEDIUM",
+              "cve"          : "CVE-2013-3587",
+              "cwe"          : "CWE-310",
+              "finding"      : "potentially VULNERABLE, gzip br HTTP compression detected  - only supplied '/' tested"
+          }
+,         {
+              "id"           : "POODLE_SSL",
+              "ip"           : "marseille.mobilierdefrance.com/95.143.65.195",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2014-3566",
+              "cwe"          : "CWE-310",
+              "finding"      : "not vulnerable, no SSLv3"
+          }
+,         {
+              "id"           : "fallback_SCSV",
+              "ip"           : "marseille.mobilierdefrance.com/95.143.65.195",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "no protocol below TLS 1.2 offered"
+          }
+,         {
+              "id"           : "SWEET32",
+              "ip"           : "marseille.mobilierdefrance.com/95.143.65.195",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2016-2183 CVE-2016-6329",
+              "cwe"          : "CWE-327",
+              "finding"      : "not vulnerable"
+          }
+,         {
+              "id"           : "FREAK",
+              "ip"           : "marseille.mobilierdefrance.com/95.143.65.195",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2015-0204",
+              "cwe"          : "CWE-310",
+              "finding"      : "not vulnerable"
+          }
+,         {
+              "id"           : "DROWN",
+              "ip"           : "marseille.mobilierdefrance.com/95.143.65.195",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2016-0800 CVE-2016-0703",
+              "cwe"          : "CWE-310",
+              "finding"      : "not vulnerable on this host and port"
+          }
+,         {
+              "id"           : "DROWN_hint",
+              "ip"           : "marseille.mobilierdefrance.com/95.143.65.195",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "cve"          : "CVE-2016-0800 CVE-2016-0703",
+              "cwe"          : "CWE-310",
+              "finding"      : "Make sure you don't use this certificate elsewhere with SSLv2 enabled services, see https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=ED82D6A5ABB6E14A8566FA0485BD6C7F0524E15049DDE1B8D8D251CCA0A914CB"
+          }
+,         {
+              "id"           : "LOGJAM-common_primes",
+              "ip"           : "marseille.mobilierdefrance.com/95.143.65.195",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "cve"          : "CVE-2015-4000",
+              "cwe"          : "CWE-310",
+              "finding"      : "RFC7919/ffdhe2048"
+          }
+,         {
+              "id"           : "LOGJAM",
+              "ip"           : "marseille.mobilierdefrance.com/95.143.65.195",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2015-4000",
+              "cwe"          : "CWE-310",
+              "finding"      : "not vulnerable, no DH EXPORT ciphers,"
+          }
+,         {
+              "id"           : "BEAST",
+              "ip"           : "marseille.mobilierdefrance.com/95.143.65.195",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2011-3389",
+              "cwe"          : "CWE-20",
+              "finding"      : "not vulnerable, no SSL3 or TLS1"
+          }
+,         {
+              "id"           : "LUCKY13",
+              "ip"           : "marseille.mobilierdefrance.com/95.143.65.195",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "cve"          : "CVE-2013-0169",
+              "cwe"          : "CWE-310",
+              "finding"      : "potentially vulnerable, uses TLS CBC ciphers"
+          }
+,         {
+              "id"           : "winshock",
+              "ip"           : "marseille.mobilierdefrance.com/95.143.65.195",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2014-6321",
+              "cwe"          : "CWE-94",
+              "finding"      : "not vulnerable"
+          }
+,         {
+              "id"           : "RC4",
+              "ip"           : "marseille.mobilierdefrance.com/95.143.65.195",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2013-2566 CVE-2015-2808",
+              "cwe"          : "CWE-310",
+              "finding"      : "not vulnerable"
+          }
+,         {
+              "id"           : "clientsimulation-android_70",
+              "ip"           : "marseille.mobilierdefrance.com/95.143.65.195",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-RSA-AES128-GCM-SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-android_81",
+              "ip"           : "marseille.mobilierdefrance.com/95.143.65.195",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-RSA-AES128-GCM-SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-android_90",
+              "ip"           : "marseille.mobilierdefrance.com/95.143.65.195",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_256_GCM_SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-android_X",
+              "ip"           : "marseille.mobilierdefrance.com/95.143.65.195",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_256_GCM_SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-android_11_12",
+              "ip"           : "marseille.mobilierdefrance.com/95.143.65.195",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_256_GCM_SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-android_13_14",
+              "ip"           : "marseille.mobilierdefrance.com/95.143.65.195",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_256_GCM_SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-android_15",
+              "ip"           : "marseille.mobilierdefrance.com/95.143.65.195",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_256_GCM_SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-chrome_101_win10",
+              "ip"           : "marseille.mobilierdefrance.com/95.143.65.195",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_256_GCM_SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-chromium_137_win11",
+              "ip"           : "marseille.mobilierdefrance.com/95.143.65.195",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_256_GCM_SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-firefox_100_win10",
+              "ip"           : "marseille.mobilierdefrance.com/95.143.65.195",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_256_GCM_SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-firefox_137_win11",
+              "ip"           : "marseille.mobilierdefrance.com/95.143.65.195",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_256_GCM_SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-ie_8_win7",
+              "ip"           : "marseille.mobilierdefrance.com/95.143.65.195",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "No connection"
+          }
+,         {
+              "id"           : "clientsimulation-ie_11_win7",
+              "ip"           : "marseille.mobilierdefrance.com/95.143.65.195",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 DHE-RSA-AES128-GCM-SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-ie_11_win81",
+              "ip"           : "marseille.mobilierdefrance.com/95.143.65.195",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 DHE-RSA-AES128-GCM-SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-ie_11_winphone81",
+              "ip"           : "marseille.mobilierdefrance.com/95.143.65.195",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-RSA-AES128-SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-ie_11_win10",
+              "ip"           : "marseille.mobilierdefrance.com/95.143.65.195",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-RSA-AES128-GCM-SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-edge_15_win10",
+              "ip"           : "marseille.mobilierdefrance.com/95.143.65.195",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-RSA-AES128-GCM-SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-edge_101_win10_21h2",
+              "ip"           : "marseille.mobilierdefrance.com/95.143.65.195",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_256_GCM_SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-edge_133_win11_23h2",
+              "ip"           : "marseille.mobilierdefrance.com/95.143.65.195",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_256_GCM_SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-safari_184_ios_184",
+              "ip"           : "marseille.mobilierdefrance.com/95.143.65.195",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_256_GCM_SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-safari_154_osx_1231",
+              "ip"           : "marseille.mobilierdefrance.com/95.143.65.195",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_256_GCM_SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-safari_184_osx_154",
+              "ip"           : "marseille.mobilierdefrance.com/95.143.65.195",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_256_GCM_SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-java_7u25",
+              "ip"           : "marseille.mobilierdefrance.com/95.143.65.195",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "No connection"
+          }
+,         {
+              "id"           : "clientsimulation-java_80442",
+              "ip"           : "marseille.mobilierdefrance.com/95.143.65.195",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_256_GCM_SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-java_1102",
+              "ip"           : "marseille.mobilierdefrance.com/95.143.65.195",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_256_GCM_SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-java_1703",
+              "ip"           : "marseille.mobilierdefrance.com/95.143.65.195",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_256_GCM_SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-java_2106",
+              "ip"           : "marseille.mobilierdefrance.com/95.143.65.195",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_256_GCM_SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-go_1178",
+              "ip"           : "marseille.mobilierdefrance.com/95.143.65.195",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_256_GCM_SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-libressl_336",
+              "ip"           : "marseille.mobilierdefrance.com/95.143.65.195",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_256_GCM_SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-openssl_102e",
+              "ip"           : "marseille.mobilierdefrance.com/95.143.65.195",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-RSA-AES128-GCM-SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-openssl_111d",
+              "ip"           : "marseille.mobilierdefrance.com/95.143.65.195",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_256_GCM_SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-openssl_315",
+              "ip"           : "marseille.mobilierdefrance.com/95.143.65.195",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_256_GCM_SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-openssl_350",
+              "ip"           : "marseille.mobilierdefrance.com/95.143.65.195",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_256_GCM_SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-apple_mail_16_0",
+              "ip"           : "marseille.mobilierdefrance.com/95.143.65.195",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-RSA-AES128-GCM-SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-thunderbird_91_9",
+              "ip"           : "marseille.mobilierdefrance.com/95.143.65.195",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_256_GCM_SHA384"
+          }
+,         {
+              "id"           : "rating_spec",
+              "ip"           : "marseille.mobilierdefrance.com/95.143.65.195",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "SSL Labs's 'SSL Server Rating Guide' (version 2009q from 2020-01-30)"
+          }
+,         {
+              "id"           : "rating_doc",
+              "ip"           : "marseille.mobilierdefrance.com/95.143.65.195",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "https://github.com/ssllabs/research/wiki/SSL-Server-Rating-Guide"
+          }
+,         {
+              "id"           : "protocol_support_score",
+              "ip"           : "marseille.mobilierdefrance.com/95.143.65.195",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "0"
+          }
+,         {
+              "id"           : "protocol_support_score_weighted",
+              "ip"           : "marseille.mobilierdefrance.com/95.143.65.195",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "0"
+          }
+,         {
+              "id"           : "key_exchange_score",
+              "ip"           : "marseille.mobilierdefrance.com/95.143.65.195",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "0"
+          }
+,         {
+              "id"           : "key_exchange_score_weighted",
+              "ip"           : "marseille.mobilierdefrance.com/95.143.65.195",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "0"
+          }
+,         {
+              "id"           : "cipher_strength_score",
+              "ip"           : "marseille.mobilierdefrance.com/95.143.65.195",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "0"
+          }
+,         {
+              "id"           : "cipher_strength_score_weighted",
+              "ip"           : "marseille.mobilierdefrance.com/95.143.65.195",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "0"
+          }
+,         {
+              "id"           : "final_score",
+              "ip"           : "marseille.mobilierdefrance.com/95.143.65.195",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "0"
+          }
+,         {
+              "id"           : "overall_grade",
+              "ip"           : "marseille.mobilierdefrance.com/95.143.65.195",
+              "port"         : "443",
+              "severity"     : "CRITICAL",
+              "finding"      : "M"
+          }
+,         {
+              "id"           : "grade_cap_reason_1",
+              "ip"           : "marseille.mobilierdefrance.com/95.143.65.195",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "Grade capped to M. Domain name mismatch"
+          }
+,         {
+              "id"           : "grade_cap_reason_2",
+              "ip"           : "marseille.mobilierdefrance.com/95.143.65.195",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "Grade capped to A. HSTS is not offered"
+          }
+,         {
+              "id"           : "scanTime",
+              "ip"           : "marseille.mobilierdefrance.com/95.143.65.195",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "134"
+          }
+]

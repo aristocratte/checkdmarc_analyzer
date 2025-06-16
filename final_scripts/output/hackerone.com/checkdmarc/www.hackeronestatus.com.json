@@ -1,0 +1,41 @@
+{
+  "domain": "www.hackeronestatus.com",
+  "base_domain": "hackeronestatus.com",
+  "dnssec": false,
+  "ns": {
+    "hostnames": [],
+    "warnings": []
+  },
+  "mx": {
+    "hosts": [],
+    "warnings": [
+      "No MX records found. Is the domain parked?"
+    ]
+  },
+  "mta_sts": {
+    "valid": false,
+    "error": "An MTA-STS DNS record does not exist for this domain"
+  },
+  "spf": {
+    "record": null,
+    "valid": false,
+    "dns_void_lookups": null,
+    "error": "www.hackeronestatus.com does not have a SPF TXT record"
+  },
+  "dmarc": {
+    "record": null,
+    "valid": false,
+    "location": null,
+    "error": "A DMARC record does not exist for this domain or its base domain"
+  },
+  "smtp_tls_reporting": {
+    "valid": false,
+    "error": "An SMTP TLS Reporting DNS record does not exist for this domain"
+  },
+  "bimi": {
+    "record": null,
+    "valid": false,
+    "selector": "default",
+    "error": "A BIMI record does not exist at the default selector for this domain or its base domain"
+  }
+}

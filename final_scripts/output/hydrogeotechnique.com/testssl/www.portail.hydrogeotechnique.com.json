@@ -1,0 +1,1649 @@
+[
+         {
+              "id"           : "engine_problem",
+              "ip"           : "/",
+              "port"         : "443",
+              "severity"     : "WARN",
+              "finding"      : "No engine or GOST support via engine with your /usr/bin/openssl"
+          }
+,         {
+              "id"           : "service",
+              "ip"           : "www.portail.hydrogeotechnique.com/212.129.39.95",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "HTTP"
+          }
+,         {
+              "id"           : "pre_128cipher",
+              "ip"           : "www.portail.hydrogeotechnique.com/212.129.39.95",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "No 128 cipher limit bug"
+          }
+,         {
+              "id"           : "SSLv2",
+              "ip"           : "www.portail.hydrogeotechnique.com/212.129.39.95",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "not offered"
+          }
+,         {
+              "id"           : "SSLv3",
+              "ip"           : "www.portail.hydrogeotechnique.com/212.129.39.95",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "not offered"
+          }
+,         {
+              "id"           : "TLS1",
+              "ip"           : "www.portail.hydrogeotechnique.com/212.129.39.95",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "offered (deprecated)"
+          }
+,         {
+              "id"           : "TLS1_1",
+              "ip"           : "www.portail.hydrogeotechnique.com/212.129.39.95",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "offered (deprecated)"
+          }
+,         {
+              "id"           : "TLS1_2",
+              "ip"           : "www.portail.hydrogeotechnique.com/212.129.39.95",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "offered"
+          }
+,         {
+              "id"           : "TLS1_3",
+              "ip"           : "www.portail.hydrogeotechnique.com/212.129.39.95",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "offered with final"
+          }
+,         {
+              "id"           : "NPN",
+              "ip"           : "www.portail.hydrogeotechnique.com/212.129.39.95",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "not offered"
+          }
+,         {
+              "id"           : "ALPN_HTTP2",
+              "ip"           : "www.portail.hydrogeotechnique.com/212.129.39.95",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "h2"
+          }
+,         {
+              "id"           : "ALPN",
+              "ip"           : "www.portail.hydrogeotechnique.com/212.129.39.95",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "http/1.1"
+          }
+,         {
+              "id"           : "cipherlist_NULL",
+              "ip"           : "www.portail.hydrogeotechnique.com/212.129.39.95",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cwe"          : "CWE-327",
+              "finding"      : "not offered"
+          }
+,         {
+              "id"           : "cipherlist_aNULL",
+              "ip"           : "www.portail.hydrogeotechnique.com/212.129.39.95",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cwe"          : "CWE-327",
+              "finding"      : "not offered"
+          }
+,         {
+              "id"           : "cipherlist_EXPORT",
+              "ip"           : "www.portail.hydrogeotechnique.com/212.129.39.95",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cwe"          : "CWE-327",
+              "finding"      : "not offered"
+          }
+,         {
+              "id"           : "cipherlist_LOW",
+              "ip"           : "www.portail.hydrogeotechnique.com/212.129.39.95",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cwe"          : "CWE-327",
+              "finding"      : "not offered"
+          }
+,         {
+              "id"           : "cipherlist_3DES_IDEA",
+              "ip"           : "www.portail.hydrogeotechnique.com/212.129.39.95",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "cwe"          : "CWE-310",
+              "finding"      : "not offered"
+          }
+,         {
+              "id"           : "cipherlist_OBSOLETED",
+              "ip"           : "www.portail.hydrogeotechnique.com/212.129.39.95",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "cwe"          : "CWE-310",
+              "finding"      : "offered"
+          }
+,         {
+              "id"           : "cipherlist_STRONG_NOFS",
+              "ip"           : "www.portail.hydrogeotechnique.com/212.129.39.95",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "offered"
+          }
+,         {
+              "id"           : "cipherlist_STRONG_FS",
+              "ip"           : "www.portail.hydrogeotechnique.com/212.129.39.95",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "offered"
+          }
+,         {
+              "id"           : "cipher_order-tls1",
+              "ip"           : "www.portail.hydrogeotechnique.com/212.129.39.95",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "server"
+          }
+,         {
+              "id"           : "cipher-tls1_xc013",
+              "ip"           : "www.portail.hydrogeotechnique.com/212.129.39.95",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "TLSv1   xc013   ECDHE-RSA-AES128-SHA              ECDH       AES         128      TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA"
+          }
+,         {
+              "id"           : "cipher-tls1_xc014",
+              "ip"           : "www.portail.hydrogeotechnique.com/212.129.39.95",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "TLSv1   xc014   ECDHE-RSA-AES256-SHA              ECDH       AES         256      TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA"
+          }
+,         {
+              "id"           : "cipher-tls1_x33",
+              "ip"           : "www.portail.hydrogeotechnique.com/212.129.39.95",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "TLSv1   x33     DHE-RSA-AES128-SHA                DH         AES         128      TLS_DHE_RSA_WITH_AES_128_CBC_SHA"
+          }
+,         {
+              "id"           : "cipher-tls1_x39",
+              "ip"           : "www.portail.hydrogeotechnique.com/212.129.39.95",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "TLSv1   x39     DHE-RSA-AES256-SHA                DH         AES         256      TLS_DHE_RSA_WITH_AES_256_CBC_SHA"
+          }
+,         {
+              "id"           : "cipher-tls1_x88",
+              "ip"           : "www.portail.hydrogeotechnique.com/212.129.39.95",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "TLSv1   x88     DHE-RSA-CAMELLIA256-SHA           DH         Camellia    256      TLS_DHE_RSA_WITH_CAMELLIA_256_CBC_SHA"
+          }
+,         {
+              "id"           : "cipher-tls1_x45",
+              "ip"           : "www.portail.hydrogeotechnique.com/212.129.39.95",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "TLSv1   x45     DHE-RSA-CAMELLIA128-SHA           DH         Camellia    128      TLS_DHE_RSA_WITH_CAMELLIA_128_CBC_SHA"
+          }
+,         {
+              "id"           : "cipher-tls1_x2f",
+              "ip"           : "www.portail.hydrogeotechnique.com/212.129.39.95",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "TLSv1   x2f     AES128-SHA                        RSA        AES         128      TLS_RSA_WITH_AES_128_CBC_SHA"
+          }
+,         {
+              "id"           : "cipher-tls1_x35",
+              "ip"           : "www.portail.hydrogeotechnique.com/212.129.39.95",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "TLSv1   x35     AES256-SHA                        RSA        AES         256      TLS_RSA_WITH_AES_256_CBC_SHA"
+          }
+,         {
+              "id"           : "cipher-tls1_x84",
+              "ip"           : "www.portail.hydrogeotechnique.com/212.129.39.95",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "TLSv1   x84     CAMELLIA256-SHA                   RSA        Camellia    256      TLS_RSA_WITH_CAMELLIA_256_CBC_SHA"
+          }
+,         {
+              "id"           : "cipher-tls1_x41",
+              "ip"           : "www.portail.hydrogeotechnique.com/212.129.39.95",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "TLSv1   x41     CAMELLIA128-SHA                   RSA        Camellia    128      TLS_RSA_WITH_CAMELLIA_128_CBC_SHA"
+          }
+,         {
+              "id"           : "cipherorder_TLSv1",
+              "ip"           : "www.portail.hydrogeotechnique.com/212.129.39.95",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "ECDHE-RSA-AES128-SHA ECDHE-RSA-AES256-SHA DHE-RSA-AES128-SHA DHE-RSA-AES256-SHA DHE-RSA-CAMELLIA256-SHA DHE-RSA-CAMELLIA128-SHA AES128-SHA AES256-SHA CAMELLIA256-SHA CAMELLIA128-SHA"
+          }
+,         {
+              "id"           : "cipher_order-tls1_1",
+              "ip"           : "www.portail.hydrogeotechnique.com/212.129.39.95",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "server"
+          }
+,         {
+              "id"           : "cipher-tls1_1_xc013",
+              "ip"           : "www.portail.hydrogeotechnique.com/212.129.39.95",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "TLSv1.1   xc013   ECDHE-RSA-AES128-SHA              ECDH       AES         128      TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA"
+          }
+,         {
+              "id"           : "cipher-tls1_1_xc014",
+              "ip"           : "www.portail.hydrogeotechnique.com/212.129.39.95",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "TLSv1.1   xc014   ECDHE-RSA-AES256-SHA              ECDH       AES         256      TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA"
+          }
+,         {
+              "id"           : "cipher-tls1_1_x33",
+              "ip"           : "www.portail.hydrogeotechnique.com/212.129.39.95",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "TLSv1.1   x33     DHE-RSA-AES128-SHA                DH         AES         128      TLS_DHE_RSA_WITH_AES_128_CBC_SHA"
+          }
+,         {
+              "id"           : "cipher-tls1_1_x39",
+              "ip"           : "www.portail.hydrogeotechnique.com/212.129.39.95",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "TLSv1.1   x39     DHE-RSA-AES256-SHA                DH         AES         256      TLS_DHE_RSA_WITH_AES_256_CBC_SHA"
+          }
+,         {
+              "id"           : "cipher-tls1_1_x88",
+              "ip"           : "www.portail.hydrogeotechnique.com/212.129.39.95",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "TLSv1.1   x88     DHE-RSA-CAMELLIA256-SHA           DH         Camellia    256      TLS_DHE_RSA_WITH_CAMELLIA_256_CBC_SHA"
+          }
+,         {
+              "id"           : "cipher-tls1_1_x45",
+              "ip"           : "www.portail.hydrogeotechnique.com/212.129.39.95",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "TLSv1.1   x45     DHE-RSA-CAMELLIA128-SHA           DH         Camellia    128      TLS_DHE_RSA_WITH_CAMELLIA_128_CBC_SHA"
+          }
+,         {
+              "id"           : "cipher-tls1_1_x2f",
+              "ip"           : "www.portail.hydrogeotechnique.com/212.129.39.95",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "TLSv1.1   x2f     AES128-SHA                        RSA        AES         128      TLS_RSA_WITH_AES_128_CBC_SHA"
+          }
+,         {
+              "id"           : "cipher-tls1_1_x35",
+              "ip"           : "www.portail.hydrogeotechnique.com/212.129.39.95",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "TLSv1.1   x35     AES256-SHA                        RSA        AES         256      TLS_RSA_WITH_AES_256_CBC_SHA"
+          }
+,         {
+              "id"           : "cipher-tls1_1_x84",
+              "ip"           : "www.portail.hydrogeotechnique.com/212.129.39.95",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "TLSv1.1   x84     CAMELLIA256-SHA                   RSA        Camellia    256      TLS_RSA_WITH_CAMELLIA_256_CBC_SHA"
+          }
+,         {
+              "id"           : "cipher-tls1_1_x41",
+              "ip"           : "www.portail.hydrogeotechnique.com/212.129.39.95",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "TLSv1.1   x41     CAMELLIA128-SHA                   RSA        Camellia    128      TLS_RSA_WITH_CAMELLIA_128_CBC_SHA"
+          }
+,         {
+              "id"           : "cipherorder_TLSv1_1",
+              "ip"           : "www.portail.hydrogeotechnique.com/212.129.39.95",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "ECDHE-RSA-AES128-SHA ECDHE-RSA-AES256-SHA DHE-RSA-AES128-SHA DHE-RSA-AES256-SHA DHE-RSA-CAMELLIA256-SHA DHE-RSA-CAMELLIA128-SHA AES128-SHA AES256-SHA CAMELLIA256-SHA CAMELLIA128-SHA"
+          }
+,         {
+              "id"           : "cipher_order-tls1_2",
+              "ip"           : "www.portail.hydrogeotechnique.com/212.129.39.95",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "server"
+          }
+,         {
+              "id"           : "cipher-tls1_2_xc02f",
+              "ip"           : "www.portail.hydrogeotechnique.com/212.129.39.95",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "TLSv1.2   xc02f   ECDHE-RSA-AES128-GCM-SHA256       ECDH       AESGCM      128      TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256"
+          }
+,         {
+              "id"           : "cipher-tls1_2_xc030",
+              "ip"           : "www.portail.hydrogeotechnique.com/212.129.39.95",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "TLSv1.2   xc030   ECDHE-RSA-AES256-GCM-SHA384       ECDH       AESGCM      256      TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384"
+          }
+,         {
+              "id"           : "cipher-tls1_2_xcca8",
+              "ip"           : "www.portail.hydrogeotechnique.com/212.129.39.95",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "TLSv1.2   xcca8   ECDHE-RSA-CHACHA20-POLY1305       ECDH       ChaCha20    256      TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256"
+          }
+,         {
+              "id"           : "cipher-tls1_2_x9e",
+              "ip"           : "www.portail.hydrogeotechnique.com/212.129.39.95",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "TLSv1.2   x9e     DHE-RSA-AES128-GCM-SHA256         DH         AESGCM      128      TLS_DHE_RSA_WITH_AES_128_GCM_SHA256"
+          }
+,         {
+              "id"           : "cipher-tls1_2_x9f",
+              "ip"           : "www.portail.hydrogeotechnique.com/212.129.39.95",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "TLSv1.2   x9f     DHE-RSA-AES256-GCM-SHA384         DH         AESGCM      256      TLS_DHE_RSA_WITH_AES_256_GCM_SHA384"
+          }
+,         {
+              "id"           : "cipher-tls1_2_xccaa",
+              "ip"           : "www.portail.hydrogeotechnique.com/212.129.39.95",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "TLSv1.2   xccaa   DHE-RSA-CHACHA20-POLY1305         DH         ChaCha20    256      TLS_DHE_RSA_WITH_CHACHA20_POLY1305_SHA256"
+          }
+,         {
+              "id"           : "cipher-tls1_2_xc027",
+              "ip"           : "www.portail.hydrogeotechnique.com/212.129.39.95",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "TLSv1.2   xc027   ECDHE-RSA-AES128-SHA256           ECDH       AES         128      TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256"
+          }
+,         {
+              "id"           : "cipher-tls1_2_xc028",
+              "ip"           : "www.portail.hydrogeotechnique.com/212.129.39.95",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "TLSv1.2   xc028   ECDHE-RSA-AES256-SHA384           ECDH       AES         256      TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384"
+          }
+,         {
+              "id"           : "cipher-tls1_2_x67",
+              "ip"           : "www.portail.hydrogeotechnique.com/212.129.39.95",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "TLSv1.2   x67     DHE-RSA-AES128-SHA256             DH         AES         128      TLS_DHE_RSA_WITH_AES_128_CBC_SHA256"
+          }
+,         {
+              "id"           : "cipher-tls1_2_x6b",
+              "ip"           : "www.portail.hydrogeotechnique.com/212.129.39.95",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "TLSv1.2   x6b     DHE-RSA-AES256-SHA256             DH         AES         256      TLS_DHE_RSA_WITH_AES_256_CBC_SHA256"
+          }
+,         {
+              "id"           : "cipher-tls1_2_xc013",
+              "ip"           : "www.portail.hydrogeotechnique.com/212.129.39.95",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "TLSv1.2   xc013   ECDHE-RSA-AES128-SHA              ECDH       AES         128      TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA"
+          }
+,         {
+              "id"           : "cipher-tls1_2_xc014",
+              "ip"           : "www.portail.hydrogeotechnique.com/212.129.39.95",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "TLSv1.2   xc014   ECDHE-RSA-AES256-SHA              ECDH       AES         256      TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA"
+          }
+,         {
+              "id"           : "cipher-tls1_2_x33",
+              "ip"           : "www.portail.hydrogeotechnique.com/212.129.39.95",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "TLSv1.2   x33     DHE-RSA-AES128-SHA                DH         AES         128      TLS_DHE_RSA_WITH_AES_128_CBC_SHA"
+          }
+,         {
+              "id"           : "cipher-tls1_2_x39",
+              "ip"           : "www.portail.hydrogeotechnique.com/212.129.39.95",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "TLSv1.2   x39     DHE-RSA-AES256-SHA                DH         AES         256      TLS_DHE_RSA_WITH_AES_256_CBC_SHA"
+          }
+,         {
+              "id"           : "cipher-tls1_2_xc061",
+              "ip"           : "www.portail.hydrogeotechnique.com/212.129.39.95",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "TLSv1.2   xc061   ECDHE-ARIA256-GCM-SHA384          ECDH       ARIAGCM     256      TLS_ECDHE_RSA_WITH_ARIA_256_GCM_SHA384"
+          }
+,         {
+              "id"           : "cipher-tls1_2_xc060",
+              "ip"           : "www.portail.hydrogeotechnique.com/212.129.39.95",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "TLSv1.2   xc060   ECDHE-ARIA128-GCM-SHA256          ECDH       ARIAGCM     128      TLS_ECDHE_RSA_WITH_ARIA_128_GCM_SHA256"
+          }
+,         {
+              "id"           : "cipher-tls1_2_xc077",
+              "ip"           : "www.portail.hydrogeotechnique.com/212.129.39.95",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "TLSv1.2   xc077   ECDHE-RSA-CAMELLIA256-SHA384      ECDH       Camellia    256      TLS_ECDHE_RSA_WITH_CAMELLIA_256_CBC_SHA384"
+          }
+,         {
+              "id"           : "cipher-tls1_2_xc076",
+              "ip"           : "www.portail.hydrogeotechnique.com/212.129.39.95",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "TLSv1.2   xc076   ECDHE-RSA-CAMELLIA128-SHA256      ECDH       Camellia    128      TLS_ECDHE_RSA_WITH_CAMELLIA_128_CBC_SHA256"
+          }
+,         {
+              "id"           : "cipher-tls1_2_xc0a3",
+              "ip"           : "www.portail.hydrogeotechnique.com/212.129.39.95",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "TLSv1.2   xc0a3   DHE-RSA-AES256-CCM8               DH         AESCCM8     256      TLS_DHE_RSA_WITH_AES_256_CCM_8"
+          }
+,         {
+              "id"           : "cipher-tls1_2_xc09f",
+              "ip"           : "www.portail.hydrogeotechnique.com/212.129.39.95",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "TLSv1.2   xc09f   DHE-RSA-AES256-CCM                DH         AESCCM      256      TLS_DHE_RSA_WITH_AES_256_CCM"
+          }
+,         {
+              "id"           : "cipher-tls1_2_xc053",
+              "ip"           : "www.portail.hydrogeotechnique.com/212.129.39.95",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "TLSv1.2   xc053   DHE-RSA-ARIA256-GCM-SHA384        DH         ARIAGCM     256      TLS_DHE_RSA_WITH_ARIA_256_GCM_SHA384"
+          }
+,         {
+              "id"           : "cipher-tls1_2_xc0a2",
+              "ip"           : "www.portail.hydrogeotechnique.com/212.129.39.95",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "TLSv1.2   xc0a2   DHE-RSA-AES128-CCM8               DH         AESCCM8     128      TLS_DHE_RSA_WITH_AES_128_CCM_8"
+          }
+,         {
+              "id"           : "cipher-tls1_2_xc09e",
+              "ip"           : "www.portail.hydrogeotechnique.com/212.129.39.95",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "TLSv1.2   xc09e   DHE-RSA-AES128-CCM                DH         AESCCM      128      TLS_DHE_RSA_WITH_AES_128_CCM"
+          }
+,         {
+              "id"           : "cipher-tls1_2_xc052",
+              "ip"           : "www.portail.hydrogeotechnique.com/212.129.39.95",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "TLSv1.2   xc052   DHE-RSA-ARIA128-GCM-SHA256        DH         ARIAGCM     128      TLS_DHE_RSA_WITH_ARIA_128_GCM_SHA256"
+          }
+,         {
+              "id"           : "cipher-tls1_2_xc4",
+              "ip"           : "www.portail.hydrogeotechnique.com/212.129.39.95",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "TLSv1.2   xc4     DHE-RSA-CAMELLIA256-SHA256        DH         Camellia    256      TLS_DHE_RSA_WITH_CAMELLIA_256_CBC_SHA256"
+          }
+,         {
+              "id"           : "cipher-tls1_2_xbe",
+              "ip"           : "www.portail.hydrogeotechnique.com/212.129.39.95",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "TLSv1.2   xbe     DHE-RSA-CAMELLIA128-SHA256        DH         Camellia    128      TLS_DHE_RSA_WITH_CAMELLIA_128_CBC_SHA256"
+          }
+,         {
+              "id"           : "cipher-tls1_2_x88",
+              "ip"           : "www.portail.hydrogeotechnique.com/212.129.39.95",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "TLSv1.2   x88     DHE-RSA-CAMELLIA256-SHA           DH         Camellia    256      TLS_DHE_RSA_WITH_CAMELLIA_256_CBC_SHA"
+          }
+,         {
+              "id"           : "cipher-tls1_2_x45",
+              "ip"           : "www.portail.hydrogeotechnique.com/212.129.39.95",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "TLSv1.2   x45     DHE-RSA-CAMELLIA128-SHA           DH         Camellia    128      TLS_DHE_RSA_WITH_CAMELLIA_128_CBC_SHA"
+          }
+,         {
+              "id"           : "cipher-tls1_2_x9c",
+              "ip"           : "www.portail.hydrogeotechnique.com/212.129.39.95",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "TLSv1.2   x9c     AES128-GCM-SHA256                 RSA        AESGCM      128      TLS_RSA_WITH_AES_128_GCM_SHA256"
+          }
+,         {
+              "id"           : "cipher-tls1_2_x9d",
+              "ip"           : "www.portail.hydrogeotechnique.com/212.129.39.95",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "TLSv1.2   x9d     AES256-GCM-SHA384                 RSA        AESGCM      256      TLS_RSA_WITH_AES_256_GCM_SHA384"
+          }
+,         {
+              "id"           : "cipher-tls1_2_x3c",
+              "ip"           : "www.portail.hydrogeotechnique.com/212.129.39.95",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "TLSv1.2   x3c     AES128-SHA256                     RSA        AES         128      TLS_RSA_WITH_AES_128_CBC_SHA256"
+          }
+,         {
+              "id"           : "cipher-tls1_2_x3d",
+              "ip"           : "www.portail.hydrogeotechnique.com/212.129.39.95",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "TLSv1.2   x3d     AES256-SHA256                     RSA        AES         256      TLS_RSA_WITH_AES_256_CBC_SHA256"
+          }
+,         {
+              "id"           : "cipher-tls1_2_x2f",
+              "ip"           : "www.portail.hydrogeotechnique.com/212.129.39.95",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "TLSv1.2   x2f     AES128-SHA                        RSA        AES         128      TLS_RSA_WITH_AES_128_CBC_SHA"
+          }
+,         {
+              "id"           : "cipher-tls1_2_x35",
+              "ip"           : "www.portail.hydrogeotechnique.com/212.129.39.95",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "TLSv1.2   x35     AES256-SHA                        RSA        AES         256      TLS_RSA_WITH_AES_256_CBC_SHA"
+          }
+,         {
+              "id"           : "cipher-tls1_2_xc0a1",
+              "ip"           : "www.portail.hydrogeotechnique.com/212.129.39.95",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "TLSv1.2   xc0a1   AES256-CCM8                       RSA        AESCCM8     256      TLS_RSA_WITH_AES_256_CCM_8"
+          }
+,         {
+              "id"           : "cipher-tls1_2_xc09d",
+              "ip"           : "www.portail.hydrogeotechnique.com/212.129.39.95",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "TLSv1.2   xc09d   AES256-CCM                        RSA        AESCCM      256      TLS_RSA_WITH_AES_256_CCM"
+          }
+,         {
+              "id"           : "cipher-tls1_2_xc051",
+              "ip"           : "www.portail.hydrogeotechnique.com/212.129.39.95",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "TLSv1.2   xc051   ARIA256-GCM-SHA384                RSA        ARIAGCM     256      TLS_RSA_WITH_ARIA_256_GCM_SHA384"
+          }
+,         {
+              "id"           : "cipher-tls1_2_xc0a0",
+              "ip"           : "www.portail.hydrogeotechnique.com/212.129.39.95",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "TLSv1.2   xc0a0   AES128-CCM8                       RSA        AESCCM8     128      TLS_RSA_WITH_AES_128_CCM_8"
+          }
+,         {
+              "id"           : "cipher-tls1_2_xc09c",
+              "ip"           : "www.portail.hydrogeotechnique.com/212.129.39.95",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "TLSv1.2   xc09c   AES128-CCM                        RSA        AESCCM      128      TLS_RSA_WITH_AES_128_CCM"
+          }
+,         {
+              "id"           : "cipher-tls1_2_xc050",
+              "ip"           : "www.portail.hydrogeotechnique.com/212.129.39.95",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "TLSv1.2   xc050   ARIA128-GCM-SHA256                RSA        ARIAGCM     128      TLS_RSA_WITH_ARIA_128_GCM_SHA256"
+          }
+,         {
+              "id"           : "cipher-tls1_2_xc0",
+              "ip"           : "www.portail.hydrogeotechnique.com/212.129.39.95",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "TLSv1.2   xc0     CAMELLIA256-SHA256                RSA        Camellia    256      TLS_RSA_WITH_CAMELLIA_256_CBC_SHA256"
+          }
+,         {
+              "id"           : "cipher-tls1_2_xba",
+              "ip"           : "www.portail.hydrogeotechnique.com/212.129.39.95",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "TLSv1.2   xba     CAMELLIA128-SHA256                RSA        Camellia    128      TLS_RSA_WITH_CAMELLIA_128_CBC_SHA256"
+          }
+,         {
+              "id"           : "cipher-tls1_2_x84",
+              "ip"           : "www.portail.hydrogeotechnique.com/212.129.39.95",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "TLSv1.2   x84     CAMELLIA256-SHA                   RSA        Camellia    256      TLS_RSA_WITH_CAMELLIA_256_CBC_SHA"
+          }
+,         {
+              "id"           : "cipher-tls1_2_x41",
+              "ip"           : "www.portail.hydrogeotechnique.com/212.129.39.95",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "TLSv1.2   x41     CAMELLIA128-SHA                   RSA        Camellia    128      TLS_RSA_WITH_CAMELLIA_128_CBC_SHA"
+          }
+,         {
+              "id"           : "cipherorder_TLSv1_2",
+              "ip"           : "www.portail.hydrogeotechnique.com/212.129.39.95",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "ECDHE-RSA-AES128-GCM-SHA256 ECDHE-RSA-AES256-GCM-SHA384 ECDHE-RSA-CHACHA20-POLY1305 DHE-RSA-AES128-GCM-SHA256 DHE-RSA-AES256-GCM-SHA384 DHE-RSA-CHACHA20-POLY1305 ECDHE-RSA-AES128-SHA256 ECDHE-RSA-AES256-SHA384 DHE-RSA-AES128-SHA256 DHE-RSA-AES256-SHA256 ECDHE-RSA-AES128-SHA ECDHE-RSA-AES256-SHA DHE-RSA-AES128-SHA DHE-RSA-AES256-SHA ECDHE-ARIA256-GCM-SHA384 ECDHE-ARIA128-GCM-SHA256 ECDHE-RSA-CAMELLIA256-SHA384 ECDHE-RSA-CAMELLIA128-SHA256 DHE-RSA-AES256-CCM8 DHE-RSA-AES256-CCM DHE-RSA-ARIA256-GCM-SHA384 DHE-RSA-AES128-CCM8 DHE-RSA-AES128-CCM DHE-RSA-ARIA128-GCM-SHA256 DHE-RSA-CAMELLIA256-SHA256 DHE-RSA-CAMELLIA128-SHA256 DHE-RSA-CAMELLIA256-SHA DHE-RSA-CAMELLIA128-SHA AES128-GCM-SHA256 AES256-GCM-SHA384 AES128-SHA256 AES256-SHA256 AES128-SHA AES256-SHA AES256-CCM8 AES256-CCM ARIA256-GCM-SHA384 AES128-CCM8 AES128-CCM ARIA128-GCM-SHA256 CAMELLIA256-SHA256 CAMELLIA128-SHA256 CAMELLIA256-SHA CAMELLIA128-SHA"
+          }
+,         {
+              "id"           : "prioritize_chacha_TLSv1_2",
+              "ip"           : "www.portail.hydrogeotechnique.com/212.129.39.95",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "false"
+          }
+,         {
+              "id"           : "cipher_order-tls1_3",
+              "ip"           : "www.portail.hydrogeotechnique.com/212.129.39.95",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "server"
+          }
+,         {
+              "id"           : "cipher-tls1_3_x1302",
+              "ip"           : "www.portail.hydrogeotechnique.com/212.129.39.95",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "TLSv1.3   x1302   TLS_AES_256_GCM_SHA384                       AESGCM      256      TLS_AES_256_GCM_SHA384"
+          }
+,         {
+              "id"           : "cipher-tls1_3_x1303",
+              "ip"           : "www.portail.hydrogeotechnique.com/212.129.39.95",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "TLSv1.3   x1303   TLS_CHACHA20_POLY1305_SHA256                 ChaCha20    256      TLS_CHACHA20_POLY1305_SHA256"
+          }
+,         {
+              "id"           : "cipher-tls1_3_x1301",
+              "ip"           : "www.portail.hydrogeotechnique.com/212.129.39.95",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "TLSv1.3   x1301   TLS_AES_128_GCM_SHA256                       AESGCM      128      TLS_AES_128_GCM_SHA256"
+          }
+,         {
+              "id"           : "cipherorder_TLSv1_3",
+              "ip"           : "www.portail.hydrogeotechnique.com/212.129.39.95",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLS_AES_256_GCM_SHA384 TLS_CHACHA20_POLY1305_SHA256 TLS_AES_128_GCM_SHA256"
+          }
+,         {
+              "id"           : "prioritize_chacha_TLSv1_3",
+              "ip"           : "www.portail.hydrogeotechnique.com/212.129.39.95",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "false"
+          }
+,         {
+              "id"           : "cipher_order",
+              "ip"           : "www.portail.hydrogeotechnique.com/212.129.39.95",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "server"
+          }
+,         {
+              "id"           : "FS",
+              "ip"           : "www.portail.hydrogeotechnique.com/212.129.39.95",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "offered"
+          }
+,         {
+              "id"           : "FS_ciphers",
+              "ip"           : "www.portail.hydrogeotechnique.com/212.129.39.95",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLS_AES_256_GCM_SHA384 TLS_CHACHA20_POLY1305_SHA256 ECDHE-RSA-AES256-GCM-SHA384 ECDHE-RSA-AES256-SHA384 ECDHE-RSA-AES256-SHA DHE-RSA-AES256-GCM-SHA384 ECDHE-RSA-CHACHA20-POLY1305 DHE-RSA-CHACHA20-POLY1305 DHE-RSA-AES256-CCM8 DHE-RSA-AES256-CCM DHE-RSA-AES256-SHA256 DHE-RSA-AES256-SHA ECDHE-RSA-CAMELLIA256-SHA384 DHE-RSA-CAMELLIA256-SHA256 DHE-RSA-CAMELLIA256-SHA DHE-RSA-ARIA256-GCM-SHA384 ECDHE-ARIA256-GCM-SHA384 TLS_AES_128_GCM_SHA256 ECDHE-RSA-AES128-GCM-SHA256 ECDHE-RSA-AES128-SHA256 ECDHE-RSA-AES128-SHA DHE-RSA-AES128-GCM-SHA256 DHE-RSA-AES128-CCM8 DHE-RSA-AES128-CCM DHE-RSA-AES128-SHA256 DHE-RSA-AES128-SHA ECDHE-RSA-CAMELLIA128-SHA256 DHE-RSA-CAMELLIA128-SHA256 DHE-RSA-CAMELLIA128-SHA DHE-RSA-ARIA128-GCM-SHA256 ECDHE-ARIA128-GCM-SHA256"
+          }
+,         {
+              "id"           : "FS_ECDHE_curves",
+              "ip"           : "www.portail.hydrogeotechnique.com/212.129.39.95",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "prime256v1 secp384r1 secp521r1 X25519 X448"
+          }
+,         {
+              "id"           : "DH_groups",
+              "ip"           : "www.portail.hydrogeotechnique.com/212.129.39.95",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "Unknown DH group (2048 bits)"
+          }
+,         {
+              "id"           : "FS_TLS12_sig_algs",
+              "ip"           : "www.portail.hydrogeotechnique.com/212.129.39.95",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "RSA-PSS-RSAE+SHA256 RSA-PSS-RSAE+SHA384 RSA-PSS-RSAE+SHA512 RSA+SHA256 RSA+SHA384 RSA+SHA512 RSA+SHA224 RSA+SHA1"
+          }
+,         {
+              "id"           : "FS_TLS13_sig_algs",
+              "ip"           : "www.portail.hydrogeotechnique.com/212.129.39.95",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "RSA-PSS-RSAE+SHA256 RSA-PSS-RSAE+SHA384 RSA-PSS-RSAE+SHA512"
+          }
+,         {
+              "id"           : "TLS_extensions",
+              "ip"           : "www.portail.hydrogeotechnique.com/212.129.39.95",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "'renegotiation info/#65281' 'server name/#0' 'EC point formats/#11' 'session ticket/#35' 'supported versions/#43' 'key share/#51' 'max fragment length/#1' 'application layer protocol negotiation/#16' 'encrypt-then-mac/#22' 'extended master secret/#23'"
+          }
+,         {
+              "id"           : "TLS_session_ticket",
+              "ip"           : "www.portail.hydrogeotechnique.com/212.129.39.95",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "valid for 300 seconds only (<daily)"
+          }
+,         {
+              "id"           : "SSL_sessionID_support",
+              "ip"           : "www.portail.hydrogeotechnique.com/212.129.39.95",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "yes"
+          }
+,         {
+              "id"           : "sessionresumption_ticket",
+              "ip"           : "www.portail.hydrogeotechnique.com/212.129.39.95",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "supported"
+          }
+,         {
+              "id"           : "sessionresumption_ID",
+              "ip"           : "www.portail.hydrogeotechnique.com/212.129.39.95",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "not supported"
+          }
+,         {
+              "id"           : "TLS_timestamp",
+              "ip"           : "www.portail.hydrogeotechnique.com/212.129.39.95",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "random"
+          }
+,         {
+              "id"           : "certificate_compression",
+              "ip"           : "www.portail.hydrogeotechnique.com/212.129.39.95",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "none"
+          }
+,         {
+              "id"           : "clientAuth",
+              "ip"           : "www.portail.hydrogeotechnique.com/212.129.39.95",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "none"
+          }
+,         {
+              "id"           : "cert_numbers",
+              "ip"           : "www.portail.hydrogeotechnique.com/212.129.39.95",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "1"
+          }
+,         {
+              "id"           : "cert_signatureAlgorithm",
+              "ip"           : "www.portail.hydrogeotechnique.com/212.129.39.95",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "SHA256 with RSA"
+          }
+,         {
+              "id"           : "cert_keySize",
+              "ip"           : "www.portail.hydrogeotechnique.com/212.129.39.95",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "RSA 2048 bits (exponent is 65537)"
+          }
+,         {
+              "id"           : "cert_keyUsage",
+              "ip"           : "www.portail.hydrogeotechnique.com/212.129.39.95",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "Digital Signature, Key Encipherment"
+          }
+,         {
+              "id"           : "cert_extKeyUsage",
+              "ip"           : "www.portail.hydrogeotechnique.com/212.129.39.95",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLS Web Server Authentication, TLS Web Client Authentication"
+          }
+,         {
+              "id"           : "cert_serialNumber",
+              "ip"           : "www.portail.hydrogeotechnique.com/212.129.39.95",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "0665BABCA3DA963B5DABB7BC53FD45C7EF42"
+          }
+,         {
+              "id"           : "cert_serialNumberLen",
+              "ip"           : "www.portail.hydrogeotechnique.com/212.129.39.95",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "18"
+          }
+,         {
+              "id"           : "cert_fingerprintSHA1",
+              "ip"           : "www.portail.hydrogeotechnique.com/212.129.39.95",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "32439BEA9BF5C0CF38ABF2E42D55073CA3987651"
+          }
+,         {
+              "id"           : "cert_fingerprintSHA256",
+              "ip"           : "www.portail.hydrogeotechnique.com/212.129.39.95",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "F17203E24FAA9D2113348552FA4E94007914F871A3CE98E840D6F396ADB29EB8"
+          }
+,         {
+              "id"           : "cert",
+              "ip"           : "www.portail.hydrogeotechnique.com/212.129.39.95",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "-----BEGIN CERTIFICATE-----\nMIIFOjCCBCKgAwIBAgISBmW6vKPaljtdq7e8U/1Fx+9CMA0GCSqGSIb3DQEBCwUAMDMxCzAJBgNVBAYTAlVTMRYwFAYDVQQKEw1MZXQncyBFbmNyeXB0MQwwCgYDVQQDEwNSMTEwHhcNMjUwNTE1MTAxMzUxWhcNMjUwODEzMTAxMzUwWjAoMSYwJAYDVQQDEx1wb3J0YWlsLmh5ZHJvZ2VvdGVjaG5pcXVlLmNvbTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAMfyB0yGdrO540ulgHVMTMprHvQh6YtMu1lW1T+NZihv3l8BLF+neP3Q3rXm9KeumDx/f+aYZDt85IGeMFusoxYG6homqJSY6FcIhs6d/ckI7KVHNoyyfeucmbZkh8sX49kANmDxwmJEtg/koR7SGizpjuOXrE+l3YFuzQM55iPXr6/Ii3Wk2/PBXhte0SJvnWYQzm3t1OWv43JkolWufk3wX/CA/Wyc0q6JF5833AYvMEIVSgsTXudJEVYQRqY55UoyQ8yL9rHgSVCtUb8z/N44lctqJH44N87qN6GPT8xPgqN20A81oi1hhh6B3Blxko7xbE3jggbcJMB4VqshTFsCAwEAAaOCAlEwggJNMA4GA1UdDwEB/wQEAwIFoDAdBgNVHSUEFjAUBggrBgEFBQcDAQYIKwYBBQUHAwIwDAYDVR0TAQH/BAIwADAdBgNVHQ4EFgQUaF1hUxYa1PtynNIWzxXgqWuXMm0wHwYDVR0jBBgwFoAUxc9GpOr0w8B6bJXELbBeki8m47kwMwYIKwYBBQUHAQEEJzAlMCMGCCsGAQUFBzAChhdodHRwOi8vcjExLmkubGVuY3Iub3JnLzBLBgNVHREERDBCgh1wb3J0YWlsLmh5ZHJvZ2VvdGVjaG5pcXVlLmNvbYIhd3d3LnBvcnRhaWwuaHlkcm9nZW90ZWNobmlxdWUuY29tMBMGA1UdIAQMMAowCAYGZ4EMAQIBMC4GA1UdHwQnMCUwI6AhoB+GHWh0dHA6Ly9yMTEuYy5sZW5jci5vcmcvNjcuY3JsMIIBBQYKKwYBBAHWeQIEAgSB9gSB8wDxAHYAEvFONL1TckyEBhnDjz96E/jntWKHiJxtMAWE6+WGJjoAAAGW06UzlQAABAMARzBFAiAYnL6EsknC2qaMEIHWGFpDvMY7nde5DZYJBAOOkxbxDgIhAIqZq6W2o5j9e+9RqP2uQXYX+3DyrJmSkRShV7DK0QTRAHcAzPsPaoVxCWX+lZtTzumyfCLphVwNl422qX5UwP5MDbAAAAGW06U7cgAABAMASDBGAiEAhDjLriVmBTGfEuwN3wt50z+tSxWR7d6k8TVzS+8WaLECIQDDdEYzJCD/UzH1PKUfxYkXsi+pr3B0hPm3CTriXqeNxDANBgkqhkiG9w0BAQsFAAOCAQEAAbwEAr6SG0oCC/DiggolE5ZXOQ8T18lpcxo9IQaksc4xF+45Jt/ia6rXDu4Aw+PjU55LhSqlzHlM6oiv9BxO4GWLefG5ONkOrlTFV1+JKpmQxN4J6uE8iKOU0S1egdSMif4HoewXMgp3ZhmWsBcD4sCVNLLW+PfWGu7bogfwd5fBGOye2F7uyabKNzpTiux1a/bAdrOyVtoyi4Kw7Np9TVfkArJMJknrgYbjSipxJ2bAh7mBZvyqRKUStR05I6YEANlCN3n68YzEWpdK8xMM/dRlFkv2mshyyFYfeqb22i5JVOa5TuJvgUx47NFhqgymPU8jg/F6h4v4gxSeb47FFg==\n-----END CERTIFICATE-----"
+          }
+,         {
+              "id"           : "cert_commonName",
+              "ip"           : "www.portail.hydrogeotechnique.com/212.129.39.95",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "portail.hydrogeotechnique.com"
+          }
+,         {
+              "id"           : "cert_commonName_wo_SNI",
+              "ip"           : "www.portail.hydrogeotechnique.com/212.129.39.95",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "*.hydrogeotechnique.com"
+          }
+,         {
+              "id"           : "cert_subjectAltName",
+              "ip"           : "www.portail.hydrogeotechnique.com/212.129.39.95",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "portail.hydrogeotechnique.com www.portail.hydrogeotechnique.com"
+          }
+,         {
+              "id"           : "cert_trust",
+              "ip"           : "www.portail.hydrogeotechnique.com/212.129.39.95",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "Ok via SAN (SNI mandatory)"
+          }
+,         {
+              "id"           : "cert_trust_wildcard",
+              "ip"           : "www.portail.hydrogeotechnique.com/212.129.39.95",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "trust is via wildcard"
+          }
+,         {
+              "id"           : "cert_chain_of_trust",
+              "ip"           : "www.portail.hydrogeotechnique.com/212.129.39.95",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "passed."
+          }
+,         {
+              "id"           : "cert_certificatePolicies_EV",
+              "ip"           : "www.portail.hydrogeotechnique.com/212.129.39.95",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "no"
+          }
+,         {
+              "id"           : "cert_expirationStatus",
+              "ip"           : "www.portail.hydrogeotechnique.com/212.129.39.95",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "61 >= 30 days"
+          }
+,         {
+              "id"           : "cert_notBefore",
+              "ip"           : "www.portail.hydrogeotechnique.com/212.129.39.95",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "2025-05-15 10:13"
+          }
+,         {
+              "id"           : "cert_notAfter",
+              "ip"           : "www.portail.hydrogeotechnique.com/212.129.39.95",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "2025-08-13 10:13"
+          }
+,         {
+              "id"           : "cert_extlifeSpan",
+              "ip"           : "www.portail.hydrogeotechnique.com/212.129.39.95",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "certificate has no extended life time according to browser forum"
+          }
+,         {
+              "id"           : "cert_eTLS",
+              "ip"           : "www.portail.hydrogeotechnique.com/212.129.39.95",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "not present"
+          }
+,         {
+              "id"           : "cert_crlDistributionPoints",
+              "ip"           : "www.portail.hydrogeotechnique.com/212.129.39.95",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "http://r11.c.lencr.org/67.crl"
+          }
+,         {
+              "id"           : "cert_ocspURL",
+              "ip"           : "www.portail.hydrogeotechnique.com/212.129.39.95",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "--"
+          }
+,         {
+              "id"           : "OCSP_stapling",
+              "ip"           : "www.portail.hydrogeotechnique.com/212.129.39.95",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "not offered"
+          }
+,         {
+              "id"           : "cert_mustStapleExtension",
+              "ip"           : "www.portail.hydrogeotechnique.com/212.129.39.95",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "--"
+          }
+,         {
+              "id"           : "DNS_CAArecord",
+              "ip"           : "www.portail.hydrogeotechnique.com/212.129.39.95",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "--"
+          }
+,         {
+              "id"           : "certificate_transparency",
+              "ip"           : "www.portail.hydrogeotechnique.com/212.129.39.95",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "yes (certificate extension)"
+          }
+,         {
+              "id"           : "certs_countServer",
+              "ip"           : "www.portail.hydrogeotechnique.com/212.129.39.95",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "2"
+          }
+,         {
+              "id"           : "certs_list_ordering_problem",
+              "ip"           : "www.portail.hydrogeotechnique.com/212.129.39.95",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "no"
+          }
+,         {
+              "id"           : "cert_caIssuers",
+              "ip"           : "www.portail.hydrogeotechnique.com/212.129.39.95",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "R11 (Let's Encrypt from US)"
+          }
+,         {
+              "id"           : "intermediate_cert <#1>",
+              "ip"           : "www.portail.hydrogeotechnique.com/212.129.39.95",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "-----BEGIN CERTIFICATE-----\nMIIFBjCCAu6gAwIBAgIRAIp9PhPWLzDvI4a9KQdrNPgwDQYJKoZIhvcNAQELBQAwTzELMAkGA1UEBhMCVVMxKTAnBgNVBAoTIEludGVybmV0IFNlY3VyaXR5IFJlc2VhcmNoIEdyb3VwMRUwEwYDVQQDEwxJU1JHIFJvb3QgWDEwHhcNMjQwMzEzMDAwMDAwWhcNMjcwMzEyMjM1OTU5WjAzMQswCQYDVQQGEwJVUzEWMBQGA1UEChMNTGV0J3MgRW5jcnlwdDEMMAoGA1UEAxMDUjExMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAuoe8XBsAOcvKCs3UZxD5ATylTqVhyybKUvsVAbe5KPUoHu0nsyQYOWcJDAjs4DqwO3cOvfPlOVRBDE6uQdaZdN5R2+97/1i9qLcT9t4x1fJyyXJqC4N0lZxGAGQUmfOx2SLZzaiSqhwmej/+71gFewiVgdtxD4774zEJuwm+UE1fj5F2PVqdnoPy6cRms+EGZkNIGIBloDcYmpuEMpexsr3E+BUAnSeI++JjF5ZsmydnS8TbKF5pwnnwSVzgJFDhxLyhBax7QG0AtMJBP6dYuC/FXJuluwme8f7rsIU5/agK70XEeOtlKsLPXzze41xNG/cLJyuqC0J3U095ah2H2QIDAQABo4H4MIH1MA4GA1UdDwEB/wQEAwIBhjAdBgNVHSUEFjAUBggrBgEFBQcDAgYIKwYBBQUHAwEwEgYDVR0TAQH/BAgwBgEB/wIBADAdBgNVHQ4EFgQUxc9GpOr0w8B6bJXELbBeki8m47kwHwYDVR0jBBgwFoAUebRZ5nu25eQBc4AIiMgaWPbpm24wMgYIKwYBBQUHAQEEJjAkMCIGCCsGAQUFBzAChhZodHRwOi8veDEuaS5sZW5jci5vcmcvMBMGA1UdIAQMMAowCAYGZ4EMAQIBMCcGA1UdHwQgMB4wHKAaoBiGFmh0dHA6Ly94MS5jLmxlbmNyLm9yZy8wDQYJKoZIhvcNAQELBQADggIBAE7iiV0KAxyQOND1H/lxXPjDj7I3iHpvsCUf7b632IYGjukJhM1yv4Hz/MrPU0jtvfZpQtSlET41yBOykh0FX+ou1Nj4ScOt9ZmWnO8m2OG0JAtIIE3801S0qcYhyOE2G/93ZCkXufBL713qzXnQv5C/viOykNpKqUgxdKlEC+Hi9i2DcaR1e9KUwQUZRhy5j/PEdEglKg3l9dtD4tuTm7kZtB8v32oOjzHTYw+7KdzdZiw/sBtnUfhBPORNuay4pJxmY/WrhSMdzFO2q3Gu3MUBcdo27goYKjL9CTF8j/Zz55yctUoVaneCWs/ajUX+HypkBTA+c8LGDLnWO2NKq0YD/pnARkAnYGPfUDoHR9gVSp/qRx+ZWghiDLZsMwhN1zjtSC0uBWiugF3vTNzYIEFfaPG7Ws3jDrAMMYebQ95JQ+HIBD/RPBuHRTBpqKlyDnkSHDHYPiNX3adPoPAcgdF3H2/W0rmoswMWgTlLn1Wu0mrks7/qpdWfS6PJ1jty80r2VKsM/Dj3YIDfbjXKdaFU5C+8bhfJGqU3taKauuz0wHVGT3eo6FlWkWYtbt4pgdamlwVeZEW+LM7qZEJEsMNPrfC03APKmZsJgpWCDWOKZvkZcvjVuYkQ4omYCTX5ohy+knMjdOmdH9c7SpqEWBDC86fiNex+O0XOMEZSa8DA\n-----END CERTIFICATE-----"
+          }
+,         {
+              "id"           : "intermediate_cert_fingerprintSHA256 <#1>",
+              "ip"           : "www.portail.hydrogeotechnique.com/212.129.39.95",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "591E9CE6C863D3A079E9FABE1478C7339A26B21269DDE795211361024AE31A44"
+          }
+,         {
+              "id"           : "intermediate_cert_notBefore <#1>",
+              "ip"           : "www.portail.hydrogeotechnique.com/212.129.39.95",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "2024-03-13 00:00"
+          }
+,         {
+              "id"           : "intermediate_cert_notAfter <#1>",
+              "ip"           : "www.portail.hydrogeotechnique.com/212.129.39.95",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "2027-03-12 23:59"
+          }
+,         {
+              "id"           : "intermediate_cert_expiration <#1>",
+              "ip"           : "www.portail.hydrogeotechnique.com/212.129.39.95",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "ok > 40 days"
+          }
+,         {
+              "id"           : "intermediate_cert_chain <#1>",
+              "ip"           : "www.portail.hydrogeotechnique.com/212.129.39.95",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "R11 <-- ISRG Root X1"
+          }
+,         {
+              "id"           : "intermediate_cert_badOCSP",
+              "ip"           : "www.portail.hydrogeotechnique.com/212.129.39.95",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "intermediate certificate(s) is/are ok"
+          }
+,         {
+              "id"           : "HTTP_status_code",
+              "ip"           : "www.portail.hydrogeotechnique.com/212.129.39.95",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "301 Moved Permanently ('/')"
+          }
+,         {
+              "id"           : "HTTP_clock_skew",
+              "ip"           : "www.portail.hydrogeotechnique.com/212.129.39.95",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "0 seconds from localtime"
+          }
+,         {
+              "id"           : "HTTP_headerTime",
+              "ip"           : "www.portail.hydrogeotechnique.com/212.129.39.95",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "1749738794"
+          }
+,         {
+              "id"           : "HSTS",
+              "ip"           : "www.portail.hydrogeotechnique.com/212.129.39.95",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "not offered"
+          }
+,         {
+              "id"           : "HPKP",
+              "ip"           : "www.portail.hydrogeotechnique.com/212.129.39.95",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "No support for HTTP Public Key Pinning"
+          }
+,         {
+              "id"           : "banner_server",
+              "ip"           : "www.portail.hydrogeotechnique.com/212.129.39.95",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "nginx"
+          }
+,         {
+              "id"           : "banner_application",
+              "ip"           : "www.portail.hydrogeotechnique.com/212.129.39.95",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "No application banner found"
+          }
+,         {
+              "id"           : "cookie_count",
+              "ip"           : "www.portail.hydrogeotechnique.com/212.129.39.95",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "0 at '/' (30x detected, better try target URL of 30x)"
+          }
+,         {
+              "id"           : "security_headers",
+              "ip"           : "www.portail.hydrogeotechnique.com/212.129.39.95",
+              "port"         : "443",
+              "severity"     : "MEDIUM",
+              "finding"      : "--"
+          }
+,         {
+              "id"           : "banner_reverseproxy",
+              "ip"           : "www.portail.hydrogeotechnique.com/212.129.39.95",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "cwe"          : "CWE-200",
+              "finding"      : "--"
+          }
+,         {
+              "id"           : "heartbleed",
+              "ip"           : "www.portail.hydrogeotechnique.com/212.129.39.95",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2014-0160",
+              "cwe"          : "CWE-119",
+              "finding"      : "not vulnerable, no heartbeat extension"
+          }
+,         {
+              "id"           : "CCS",
+              "ip"           : "www.portail.hydrogeotechnique.com/212.129.39.95",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2014-0224",
+              "cwe"          : "CWE-310",
+              "finding"      : "not vulnerable"
+          }
+,         {
+              "id"           : "ticketbleed",
+              "ip"           : "www.portail.hydrogeotechnique.com/212.129.39.95",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2016-9244",
+              "cwe"          : "CWE-200",
+              "finding"      : "not vulnerable"
+          }
+,         {
+              "id"           : "ROBOT",
+              "ip"           : "www.portail.hydrogeotechnique.com/212.129.39.95",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2017-17382 CVE-2017-17427 CVE-2017-17428 CVE-2017-13098 CVE-2017-1000385 CVE-2017-13099 CVE-2016-6883 CVE-2012-5081 CVE-2017-6168",
+              "cwe"          : "CWE-203",
+              "finding"      : "not vulnerable"
+          }
+,         {
+              "id"           : "secure_renego",
+              "ip"           : "www.portail.hydrogeotechnique.com/212.129.39.95",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cwe"          : "CWE-310",
+              "finding"      : "supported"
+          }
+,         {
+              "id"           : "secure_client_renego",
+              "ip"           : "www.portail.hydrogeotechnique.com/212.129.39.95",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2011-1473",
+              "cwe"          : "CWE-310",
+              "finding"      : "not vulnerable"
+          }
+,         {
+              "id"           : "CRIME_TLS",
+              "ip"           : "www.portail.hydrogeotechnique.com/212.129.39.95",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2012-4929",
+              "cwe"          : "CWE-310",
+              "finding"      : "not vulnerable"
+          }
+,         {
+              "id"           : "BREACH",
+              "ip"           : "www.portail.hydrogeotechnique.com/212.129.39.95",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2013-3587",
+              "cwe"          : "CWE-310",
+              "finding"      : "not vulnerable, no gzip/deflate/compress/br HTTP compression  - only supplied '/' tested"
+          }
+,         {
+              "id"           : "POODLE_SSL",
+              "ip"           : "www.portail.hydrogeotechnique.com/212.129.39.95",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2014-3566",
+              "cwe"          : "CWE-310",
+              "finding"      : "not vulnerable, no SSLv3"
+          }
+,         {
+              "id"           : "fallback_SCSV",
+              "ip"           : "www.portail.hydrogeotechnique.com/212.129.39.95",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "supported"
+          }
+,         {
+              "id"           : "SWEET32",
+              "ip"           : "www.portail.hydrogeotechnique.com/212.129.39.95",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2016-2183 CVE-2016-6329",
+              "cwe"          : "CWE-327",
+              "finding"      : "not vulnerable"
+          }
+,         {
+              "id"           : "FREAK",
+              "ip"           : "www.portail.hydrogeotechnique.com/212.129.39.95",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2015-0204",
+              "cwe"          : "CWE-310",
+              "finding"      : "not vulnerable"
+          }
+,         {
+              "id"           : "DROWN",
+              "ip"           : "www.portail.hydrogeotechnique.com/212.129.39.95",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2016-0800 CVE-2016-0703",
+              "cwe"          : "CWE-310",
+              "finding"      : "not vulnerable on this host and port"
+          }
+,         {
+              "id"           : "DROWN_hint",
+              "ip"           : "www.portail.hydrogeotechnique.com/212.129.39.95",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "cve"          : "CVE-2016-0800 CVE-2016-0703",
+              "cwe"          : "CWE-310",
+              "finding"      : "Make sure you don't use this certificate elsewhere with SSLv2 enabled services, see https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=F17203E24FAA9D2113348552FA4E94007914F871A3CE98E840D6F396ADB29EB8"
+          }
+,         {
+              "id"           : "LOGJAM",
+              "ip"           : "www.portail.hydrogeotechnique.com/212.129.39.95",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2015-4000",
+              "cwe"          : "CWE-310",
+              "finding"      : "not vulnerable, no DH EXPORT ciphers,"
+          }
+,         {
+              "id"           : "LOGJAM-common_primes",
+              "ip"           : "www.portail.hydrogeotechnique.com/212.129.39.95",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2015-4000",
+              "cwe"          : "CWE-310",
+              "finding"      : "--"
+          }
+,         {
+              "id"           : "BEAST",
+              "ip"           : "www.portail.hydrogeotechnique.com/212.129.39.95",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "cve"          : "CVE-2011-3389",
+              "cwe"          : "CWE-20",
+              "finding"      : "VULNERABLE -- but also supports higher protocols  TLSv1.1 TLSv1.2 (likely mitigated)"
+          }
+,         {
+              "id"           : "LUCKY13",
+              "ip"           : "www.portail.hydrogeotechnique.com/212.129.39.95",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "cve"          : "CVE-2013-0169",
+              "cwe"          : "CWE-310",
+              "finding"      : "potentially vulnerable, uses TLS CBC ciphers"
+          }
+,         {
+              "id"           : "winshock",
+              "ip"           : "www.portail.hydrogeotechnique.com/212.129.39.95",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2014-6321",
+              "cwe"          : "CWE-94",
+              "finding"      : "not vulnerable"
+          }
+,         {
+              "id"           : "RC4",
+              "ip"           : "www.portail.hydrogeotechnique.com/212.129.39.95",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2013-2566 CVE-2015-2808",
+              "cwe"          : "CWE-310",
+              "finding"      : "not vulnerable"
+          }
+,         {
+              "id"           : "clientsimulation-android_60",
+              "ip"           : "www.portail.hydrogeotechnique.com/212.129.39.95",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-RSA-AES128-GCM-SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-android_70",
+              "ip"           : "www.portail.hydrogeotechnique.com/212.129.39.95",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-RSA-AES128-GCM-SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-android_81",
+              "ip"           : "www.portail.hydrogeotechnique.com/212.129.39.95",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-RSA-AES128-GCM-SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-android_90",
+              "ip"           : "www.portail.hydrogeotechnique.com/212.129.39.95",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_256_GCM_SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-android_X",
+              "ip"           : "www.portail.hydrogeotechnique.com/212.129.39.95",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_256_GCM_SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-android_11",
+              "ip"           : "www.portail.hydrogeotechnique.com/212.129.39.95",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_256_GCM_SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-android_12",
+              "ip"           : "www.portail.hydrogeotechnique.com/212.129.39.95",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_256_GCM_SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-chrome_79_win10",
+              "ip"           : "www.portail.hydrogeotechnique.com/212.129.39.95",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_256_GCM_SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-chrome_101_win10",
+              "ip"           : "www.portail.hydrogeotechnique.com/212.129.39.95",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_256_GCM_SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-firefox_66_win81",
+              "ip"           : "www.portail.hydrogeotechnique.com/212.129.39.95",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_256_GCM_SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-firefox_100_win10",
+              "ip"           : "www.portail.hydrogeotechnique.com/212.129.39.95",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_256_GCM_SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-ie_6_xp",
+              "ip"           : "www.portail.hydrogeotechnique.com/212.129.39.95",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "No connection"
+          }
+,         {
+              "id"           : "clientsimulation-ie_8_win7",
+              "ip"           : "www.portail.hydrogeotechnique.com/212.129.39.95",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.0 ECDHE-RSA-AES128-SHA"
+          }
+,         {
+              "id"           : "clientsimulation-ie_8_xp",
+              "ip"           : "www.portail.hydrogeotechnique.com/212.129.39.95",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "No connection"
+          }
+,         {
+              "id"           : "clientsimulation-ie_11_win7",
+              "ip"           : "www.portail.hydrogeotechnique.com/212.129.39.95",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 DHE-RSA-AES128-GCM-SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-ie_11_win81",
+              "ip"           : "www.portail.hydrogeotechnique.com/212.129.39.95",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 DHE-RSA-AES128-GCM-SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-ie_11_winphone81",
+              "ip"           : "www.portail.hydrogeotechnique.com/212.129.39.95",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-RSA-AES128-SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-ie_11_win10",
+              "ip"           : "www.portail.hydrogeotechnique.com/212.129.39.95",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-RSA-AES128-GCM-SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-edge_15_win10",
+              "ip"           : "www.portail.hydrogeotechnique.com/212.129.39.95",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-RSA-AES128-GCM-SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-edge_101_win10_21h2",
+              "ip"           : "www.portail.hydrogeotechnique.com/212.129.39.95",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_256_GCM_SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-safari_121_ios_122",
+              "ip"           : "www.portail.hydrogeotechnique.com/212.129.39.95",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_256_GCM_SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-safari_130_osx_10146",
+              "ip"           : "www.portail.hydrogeotechnique.com/212.129.39.95",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_256_GCM_SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-safari_154_osx_1231",
+              "ip"           : "www.portail.hydrogeotechnique.com/212.129.39.95",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_256_GCM_SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-java_7u25",
+              "ip"           : "www.portail.hydrogeotechnique.com/212.129.39.95",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.0 ECDHE-RSA-AES128-SHA"
+          }
+,         {
+              "id"           : "clientsimulation-java_8u161",
+              "ip"           : "www.portail.hydrogeotechnique.com/212.129.39.95",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-RSA-AES128-GCM-SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-java1102",
+              "ip"           : "www.portail.hydrogeotechnique.com/212.129.39.95",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_256_GCM_SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-java1703",
+              "ip"           : "www.portail.hydrogeotechnique.com/212.129.39.95",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_256_GCM_SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-go_1178",
+              "ip"           : "www.portail.hydrogeotechnique.com/212.129.39.95",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_256_GCM_SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-libressl_283",
+              "ip"           : "www.portail.hydrogeotechnique.com/212.129.39.95",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-RSA-AES128-GCM-SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-openssl_102e",
+              "ip"           : "www.portail.hydrogeotechnique.com/212.129.39.95",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-RSA-AES128-GCM-SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-openssl_110l",
+              "ip"           : "www.portail.hydrogeotechnique.com/212.129.39.95",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-RSA-AES128-GCM-SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-openssl_111d",
+              "ip"           : "www.portail.hydrogeotechnique.com/212.129.39.95",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_256_GCM_SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-openssl_303",
+              "ip"           : "www.portail.hydrogeotechnique.com/212.129.39.95",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_256_GCM_SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-apple_mail_16_0",
+              "ip"           : "www.portail.hydrogeotechnique.com/212.129.39.95",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-RSA-AES128-GCM-SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-thunderbird_91_9",
+              "ip"           : "www.portail.hydrogeotechnique.com/212.129.39.95",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_256_GCM_SHA384"
+          }
+,         {
+              "id"           : "rating_spec",
+              "ip"           : "www.portail.hydrogeotechnique.com/212.129.39.95",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "SSL Labs's 'SSL Server Rating Guide' (version 2009q from 2020-01-30)"
+          }
+,         {
+              "id"           : "rating_doc",
+              "ip"           : "www.portail.hydrogeotechnique.com/212.129.39.95",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "https://github.com/ssllabs/research/wiki/SSL-Server-Rating-Guide"
+          }
+,         {
+              "id"           : "protocol_support_score",
+              "ip"           : "www.portail.hydrogeotechnique.com/212.129.39.95",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "95"
+          }
+,         {
+              "id"           : "protocol_support_score_weighted",
+              "ip"           : "www.portail.hydrogeotechnique.com/212.129.39.95",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "28"
+          }
+,         {
+              "id"           : "key_exchange_score",
+              "ip"           : "www.portail.hydrogeotechnique.com/212.129.39.95",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "90"
+          }
+,         {
+              "id"           : "key_exchange_score_weighted",
+              "ip"           : "www.portail.hydrogeotechnique.com/212.129.39.95",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "27"
+          }
+,         {
+              "id"           : "cipher_strength_score",
+              "ip"           : "www.portail.hydrogeotechnique.com/212.129.39.95",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "90"
+          }
+,         {
+              "id"           : "cipher_strength_score_weighted",
+              "ip"           : "www.portail.hydrogeotechnique.com/212.129.39.95",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "36"
+          }
+,         {
+              "id"           : "final_score",
+              "ip"           : "www.portail.hydrogeotechnique.com/212.129.39.95",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "91"
+          }
+,         {
+              "id"           : "overall_grade",
+              "ip"           : "www.portail.hydrogeotechnique.com/212.129.39.95",
+              "port"         : "443",
+              "severity"     : "MEDIUM",
+              "finding"      : "B"
+          }
+,         {
+              "id"           : "grade_cap_reason_1",
+              "ip"           : "www.portail.hydrogeotechnique.com/212.129.39.95",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "Grade capped to B. TLS 1.1 offered"
+          }
+,         {
+              "id"           : "grade_cap_reason_2",
+              "ip"           : "www.portail.hydrogeotechnique.com/212.129.39.95",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "Grade capped to B. TLS 1.0 offered"
+          }
+,         {
+              "id"           : "grade_cap_reason_3",
+              "ip"           : "www.portail.hydrogeotechnique.com/212.129.39.95",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "Grade capped to A. HSTS is not offered"
+          }
+,         {
+              "id"           : "scanTime",
+              "ip"           : "www.portail.hydrogeotechnique.com/212.129.39.95",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "109"
+          }
+]

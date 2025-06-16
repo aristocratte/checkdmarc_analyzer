@@ -1,0 +1,2 @@
+"id","fqdn/ip","port","severity","finding","cve","cwe","hint"
+"scanProblem","old.mobilierdefrance.com/20.216.161.59","443","FATAL","Can't connect to '20.216.161.59:443' Make sure a firewall is not between you and your scanning target!","","",""
