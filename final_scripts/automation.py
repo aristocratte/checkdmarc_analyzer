@@ -8,7 +8,7 @@ import concurrent.futures
 import psutil
 import time
 
-list_tools = ["amass", "nmap", "testssl", "checkdmarc"]  
+list_tools = ["amass", "nmap", "testssl", "checkdmarc", "subfinder"]  
 
 def check_system_resources() -> Dict[str, float]:
     """Check current system resources usage."""
@@ -27,7 +27,7 @@ def is_system_overloaded(resources: Dict[str, float], max_workers: int) -> bool:
     """Check if system would be overloaded with given number of workers."""
     cpu_cores = psutil.cpu_count()
     
-    # Critères de surcharge
+
     if resources["cpu_percent"] > 80:
         return True
     if resources["memory_percent"] > 85:
@@ -127,12 +127,14 @@ def creating_tool_directories(domain: str) -> Dict[str, str]:
         return None
     
     amass_dir = f"{base_dir}/amass"
+    subfinder_dir = f"{base_dir}/subfinder"
     nmap_dir = f"{base_dir}/nmap"
     testssl_dir = f"{base_dir}/testssl"
     checkdmarc_dir = f"{base_dir}/checkdmarc"
     
     # Create tool directories
     os.makedirs(amass_dir, exist_ok=True)
+    os.makedirs(subfinder_dir, exist_ok=True)
     os.makedirs(nmap_dir, exist_ok=True)
     os.makedirs(testssl_dir, exist_ok=True)
     os.makedirs(checkdmarc_dir, exist_ok=True)
@@ -140,6 +142,7 @@ def creating_tool_directories(domain: str) -> Dict[str, str]:
     print("\033[92m[+] Tool directories created.\033[0m")
     return {
         "amass": amass_dir,
+        "subfinder": subfinder_dir,
         "nmap": nmap_dir,
         "testssl": testssl_dir,
         "checkdmarc": checkdmarc_dir
@@ -158,6 +161,46 @@ def user_choices_input() -> Dict[str, Any]:
         raise ValueError("Domain cannot be empty.")
     
     return {"scan_type": scan_type, "domain": domain}
+
+
+def run_subfinder(domain: str, subfinder_dir: str) -> None:
+    """Run subfinder tool to find subdomains."""
+    print("\n" + "="*60)
+    print("\033[96m[-] STEP 1: SUBFINDER - Subdomain discovery\033[0m")
+    print("="*60)
+    
+    confirmation = input(f"\033[93m[?] Do you want to run subfinder for {domain}? (yes/no): \033[0m").strip().lower()
+    
+    if confirmation != "yes":
+        print(f"\033[93m[-] Skipping subfinder for {domain}.\033[0m")
+        print("\033[94m    [>] Moving to next step...\033[0m")
+        return
+
+    subfinder_command = ["subfinder", "-all", "-d", domain, "-oJ"]
+
+    print(f"\033[94m[-] Running subfinder for {domain}...\033[0m")
+    print(f"\033[90mSubfinder command: {' '.join(subfinder_command)} >> {subfinder_dir}/subfinder_output.json\033[0m")
+    
+    try: 
+        result = subprocess.run(subfinder_command, check=True, capture_output=True, text=True)
+        
+        # Écrire la sortie JSON dans le fichier
+        with open(f"{subfinder_dir}/subfinder_output.json", "a") as f:
+            f.write(result.stdout)
+        print(f"\033[92m[+] Subfinder output saved to {subfinder_dir}/subfinder_output.json\033[0m")
+        
+        if result.stdout:
+            print(f"\033[90mSubfinder stdout:\n{result.stdout}\033[0m")
+        if result.stderr:  
+            print(f"\033[90mSubfinder stderr:\n{result.stderr}\033[0m")
+    except subprocess.CalledProcessError as e:
+        print(f"\033[91m[!] Subfinder command failed: {e}\033[0m")
+        print(f"\033[90mCommand: {' '.join(e.cmd)}\033[0m")
+        if e.stdout:
+            print(f"\033[90mStdout:\n{e.stdout}\033[0m")
+        if e.stderr:
+            print(f"\033[91mStderr:\n{e.stderr}\033[0m")
+        return
 
 def amass_viz(db_dir: str) -> None:
     """Run amass viz command to generate D3 visualization."""
@@ -229,7 +272,7 @@ def run_intel_command(domain: str, amass_dir: str) -> None:
 def run_enum_amass(domain: str, amass_dir: str, scan_type: str) -> None:
     """Run amass tool."""
     print("\n" + "="*60)
-    print("\033[96m[-] STEP 2/5: AMASS ENUM - Subdomain enumeration\033[0m")
+    print("\033[96m[-] STEP 3: AMASS ENUM - Subdomain enumeration\033[0m")
     print("="*60)
     
     confirmation = input(f"\033[93m[?] Do you want to run amass enum for {domain}? (yes/no): \033[0m").strip().lower()
@@ -313,7 +356,7 @@ def run_enum_amass(domain: str, amass_dir: str, scan_type: str) -> None:
 def run_nmap(domain: str,  amass_dir: str, nmap_dir: str) -> None:
     """Run nmap tool."""
     print("\n" + "="*60)
-    print("\033[96m[-] STEP 3/5: NMAP - Port and service scanning\033[0m")
+    print("\033[96m[-] STEP 4: NMAP - Port and service scanning\033[0m")
     print("="*60)
     
     confirmation = input(f"\033[93m[?] Do you want to run nmap for {domain}? (yes/no): \033[0m").strip().lower()
@@ -394,7 +437,7 @@ def run_nmap(domain: str,  amass_dir: str, nmap_dir: str) -> None:
 def run_checkdmarc(domain: str, amass_dir: str, checkdmarc_dir: str) -> None:
     """Run checkdmarc tool."""
     print("\n" + "="*60)
-    print(f"\033[96m[-] STEP 4/5: CheckDMARC Analysis - {domain}\033[0m")
+    print(f"\033[96m[-] STEP 5: CheckDMARC Analysis - {domain}\033[0m")
     print("="*60)
     
     original_domain = domain  # Sauvegarder le domaine original
@@ -497,7 +540,7 @@ def run_checkdmarc(domain: str, amass_dir: str, checkdmarc_dir: str) -> None:
 def run_testssl(domain: str, amass_dir: str, testssl_dir: str) -> None:
     """Run testssl tool with progress tracking and existing file detection."""
     print("\n" + "="*60)
-    print(f"\033[96m[-] STEP 5/5: TestSSL Analysis - {domain}\033[0m")
+    print(f"\033[96m[-] STEP 6: TestSSL Analysis - {domain}\033[0m")
     print("="*60)
     
     original_domain = domain  # Sauvegarder le domaine original
@@ -757,15 +800,19 @@ def main():
         return
     
     amass_dir = output_dirs["amass"]
+    subfinder_dir = output_dirs["subfinder"]
     nmap_dir = output_dirs["nmap"]
     testssl_dir = output_dirs["testssl"]
     chekcdmarc_dir = output_dirs["checkdmarc"]
 
+
+    run_subfinder(domain, subfinder_dir)
     run_intel_command(domain, amass_dir)
     run_enum_amass(domain, amass_dir, scan_type)
     run_nmap(domain, amass_dir, nmap_dir)
     run_checkdmarc(domain, amass_dir, chekcdmarc_dir)
     run_testssl(domain, amass_dir, testssl_dir)
+    
     print("\033[92m[+] Automation script completed successfully.\033[0m")
 
 if __name__ == "__main__":
