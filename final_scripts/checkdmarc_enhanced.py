@@ -907,61 +907,32 @@ def analyze_security_criteria(report: dict) -> List[Status]:
 def audit_domain(report: dict) -> List[Status]:
     results: List[Status] = []
     
-    print("🔍 DETAILED ANALYSIS OF EMAIL AUTHENTICATION PROTOCOLS\n")
     
-    # SPF Analysis
-    print("=" * 60)
-    print("📧 SPF (Sender Policy Framework)")
-    print("=" * 60)
     results += analyze_spf(report.get("spf"))
     
-    # DKIM Analysis  
-    print("=" * 60)
-    print("🔑 DKIM (DomainKeys Identified Mail)")
-    print("=" * 60)
+    
     results += analyze_dkim(report.get("dkim"))
     
-    # DMARC Analysis
-    print("=" * 60)
-    print("🛡️ DMARC (Domain-based Message Authentication)")
-    print("=" * 60)
+    
     results += analyze_dmarc(report.get("dmarc"))
     
-    # MX and STARTTLS Analysis
-    print("=" * 60)
-    print("📧 MX SERVERS and STARTTLS")
-    print("=" * 60)
+    
     results += analyze_mx_starttls(report.get("mx"))
     
-    # MTA-STS Analysis
-    print("=" * 60)
-    print("🔐 MTA-STS (Mail Transfer Agent Strict Transport Security)")
-    print("=" * 60)
+    
     results += analyze_mta_sts(report.get("mta_sts"))
     
-    # TLS-RPT Analysis
-    print("=" * 60)
-    print("📊 TLS-RPT (Transport Layer Security Reporting)")
-    print("=" * 60)
+   
     results += analyze_tlsrpt(report.get("smtp_tls_reporting"))
     
-    # DNSSEC Analysis
-    print("=" * 60)
-    print("🔒 DNSSEC (Domain Name System Security Extensions)")
-    print("=" * 60)
+    
     results += analyze_dnssec(report.get("dnssec", False))
     
-    # BIMI Analysis
-    print("=" * 60)
-    print("🎨 BIMI (Brand Indicators for Message Identification)")
-    print("=" * 60)
+    
     dmarc_policy = report.get("dmarc", {}).get("tags", {}).get("p", {}).get("value", "none")
     results += analyze_bimi(report.get("bimi"), dmarc_policy)
     
-    # Specific security criteria
-    print("=" * 60)
-    print("📋 SECURITY CRITERIA VERIFICATION")
-    print("=" * 60)
+   
     results += analyze_security_criteria(report)
     
     return results

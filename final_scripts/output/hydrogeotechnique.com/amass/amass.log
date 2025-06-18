@@ -1,110 +1,468 @@
-14:13:53.803059 360PassiveDNS: check callback failed for the configuration
-14:13:53.803427 Ahrefs: check callback failed for the configuration
-14:13:53.803442 AlienVault: API key data was not provided
-14:13:53.803522 BinaryEdge: check callback failed for the configuration
-14:13:53.803563 BuiltWith: check callback failed for the configuration
-14:13:53.803582 C99: check callback failed for the configuration
-14:13:53.803599 CIRCL: check callback failed for the configuration
-14:13:53.803631 Chaos: check callback failed for the configuration
-14:13:53.803676 Cloudflare: API key data was not provided
-14:13:53.803705 DNSDB: API key data was not provided
-14:13:53.803718 DNSDB: check callback failed for the configuration
-14:13:53.803775 DNSRepo: check callback failed for the configuration
-14:13:53.803804 DNSlytics: check callback failed for the configuration
-14:13:53.803824 Detectify: check callback failed for the configuration
-14:13:53.803849 FOFA: Email address or API key data was not provided
-14:13:53.804027 FacebookCT: check callback failed for the configuration
-14:13:53.804073 GitHub: check callback failed for the configuration
-14:13:53.804089 GitLab: check callback failed for the configuration
-14:13:53.804128 Hunter: check callback failed for the configuration
-14:13:53.804149 IPdata: check callback failed for the configuration
-14:13:53.804164 IPinfo: check callback failed for the configuration
-14:13:53.804184 IntelX: check callback failed for the configuration
-14:13:53.804196 LeakIX: check callback failed for the configuration
-14:13:53.804217 NetworksDB: API key data was not provided
-14:13:53.804273 ONYPHE: check callback failed for the configuration
-14:13:53.804307 PassiveTotal: check callback failed for the configuration
-14:13:53.804318 PentestTools: check callback failed for the configuration
-14:13:53.804332 Quake: check callback failed for the configuration
-14:13:53.804439 SecurityTrails: check callback failed for the configuration
-14:13:53.804457 Shodan: check callback failed for the configuration
-14:13:53.804480 Spamhaus: check callback failed for the configuration
-14:13:53.804497 Spyse: check callback failed for the configuration
-14:13:53.804519 ThreatBook: check callback failed for the configuration
-14:13:53.804535 Twitter: API key data was not provided
-14:13:53.805226 Twitter: check callback failed for the configuration
-14:13:53.804558 Umbrella: API key data was not provided
-14:13:53.805237 Umbrella: check callback failed for the configuration
-14:13:53.804574 VirusTotal: check callback failed for the configuration
-14:13:53.804592 WhoisXMLAPI: check callback failed for the configuration
-14:13:53.804613 ZETAlytics: check callback failed for the configuration
-14:13:53.804624 ZoomEye: check callback failed for the configuration
-14:13:54.856421 Querying Wayback for hydrogeotechnique.com subdomains
-14:13:54.856497 Querying ArchiveIt for hydrogeotechnique.com subdomains
-14:13:54.856537 Querying Brute Forcing for hydrogeotechnique.com subdomains
-14:13:54.856548 Querying DNSDumpster for hydrogeotechnique.com subdomains
-14:13:54.856551 Querying Gists for hydrogeotechnique.com subdomains
-14:13:54.856557 Querying IPv4Info for hydrogeotechnique.com subdomains
-14:13:54.856563 Querying RapidDNS for hydrogeotechnique.com subdomains
-14:13:54.856568 Querying Searchcode for hydrogeotechnique.com subdomains
-14:13:54.856578 Querying AbuseIPDB for hydrogeotechnique.com subdomains
-14:13:54.856583 Querying GoogleCT for hydrogeotechnique.com subdomains
-14:13:54.856606 Querying Greynoise for hydrogeotechnique.com subdomains
-14:13:54.856612 Querying Yahoo for hydrogeotechnique.com subdomains
-14:13:54.856619 Querying Crtsh for hydrogeotechnique.com subdomains
-14:13:54.856625 Querying Digitorus for hydrogeotechnique.com subdomains
-14:13:54.856632 Querying HAW for hydrogeotechnique.com subdomains
-14:13:54.856640 Querying HackerOne for hydrogeotechnique.com subdomains
-14:13:54.856646 Querying HyperStat for hydrogeotechnique.com subdomains
-14:13:54.856655 Querying Riddler for hydrogeotechnique.com subdomains
-14:13:54.856662 Querying Sublist3rAPI for hydrogeotechnique.com subdomains
-14:13:54.856668 Querying Censys for hydrogeotechnique.com subdomains
-14:13:54.856678 Querying AnubisDB for hydrogeotechnique.com subdomains
-14:13:54.856681 Querying BufferOver for hydrogeotechnique.com subdomains
-14:13:54.856697 Querying ThreatCrowd for hydrogeotechnique.com subdomains
-14:13:54.856715 Querying Bing for hydrogeotechnique.com subdomains
-14:13:54.856719 Querying Ask for hydrogeotechnique.com subdomains
-14:13:54.856729 Querying CommonCrawl for hydrogeotechnique.com subdomains
-14:13:54.856731 Querying URLScan for hydrogeotechnique.com subdomains
-14:13:54.856737 Querying Robtex for hydrogeotechnique.com subdomains
-14:13:54.856744 Querying DuckDuckGo for hydrogeotechnique.com subdomains
-14:13:54.856749 Querying HackerTarget for hydrogeotechnique.com subdomains
-14:13:54.856755 Querying N45HT for hydrogeotechnique.com subdomains
-14:13:54.856762 Querying ThreatMiner for hydrogeotechnique.com subdomains
-14:13:54.856771 Querying Baidu for hydrogeotechnique.com subdomains
-14:13:54.856781 Querying FullHunt for hydrogeotechnique.com subdomains
-14:13:54.856795 Querying SonarSearch for hydrogeotechnique.com subdomains
-14:13:54.856798 Querying AlienVault for hydrogeotechnique.com subdomains
-14:13:54.856805 Querying Searx for hydrogeotechnique.com subdomains
-14:13:54.856810 Querying SiteDossier for hydrogeotechnique.com subdomains
-14:13:54.856816 Querying CertSpotter for hydrogeotechnique.com subdomains
-14:13:54.856822 Querying Mnemonic for hydrogeotechnique.com subdomains
-14:13:54.856828 Querying UKWebArchive for hydrogeotechnique.com subdomains
-14:13:54.856837 Querying PKey for hydrogeotechnique.com subdomains
-14:13:54.856847 Querying Arquivo for hydrogeotechnique.com subdomains
-14:13:54.856855 Querying Maltiverse for hydrogeotechnique.com subdomains
-14:13:55.346995 GoogleCT: vertical request to service failed: 400: 400 Bad Request
-14:13:55.882764 Riddler: scrape: Get "https://riddler.io/search/exportcsv?q=pld:hydrogeotechnique.com": dial tcp: lookup riddler.io on 168.63.129.16:53: no such host
-14:13:55.895411 BufferOver: scrape: Get "https://dns.bufferover.run/dns?q=.hydrogeotechnique.com": dial tcp: lookup dns.bufferover.run on 168.63.129.16:53: no such host
-14:13:55.919484 PKey: scrape: 403: 403 Forbidden
-14:13:55.930381 AbuseIPDB: get_ip request to service failed: 403: 403 Forbidden
-14:13:55.948152 DuckDuckGo: scrape: 403: 403 Forbidden
-14:13:56.012791 FullHunt: vertical request to service failed: 403: 403 Forbidden
-14:13:56.220751 Greynoise: vertical request to service failed: 404: 404 Not Found
-14:13:56.281890 Maltiverse: vertical request to service failed: 403: 403 FORBIDDEN
-14:13:57.200183 AnubisDB: scrape: Get "https://anubisdb.com/anubis/subdomains/hydrogeotechnique.com": stopped after 10 redirects
-14:13:58.615652 N45HT: vertical callback: <string>:21: __len undefined
+11:28:28.490924 360PassiveDNS: check callback failed for the configuration
+11:28:28.491125 Ahrefs: check callback failed for the configuration
+11:28:28.491130 AlienVault: API key data was not provided
+11:28:28.491287 BinaryEdge: check callback failed for the configuration
+11:28:28.491319 BuiltWith: check callback failed for the configuration
+11:28:28.492508 SecurityTrails: check callback failed for the configuration
+11:28:28.491370 CIRCL: check callback failed for the configuration
+11:28:28.491414 Chaos: check callback failed for the configuration
+11:28:28.491434 Cloudflare: API key data was not provided
+11:28:28.491450 DNSDB: API key data was not provided
+11:28:28.493097 DNSDB: check callback failed for the configuration
+11:28:28.491477 DNSRepo: check callback failed for the configuration
+11:28:28.491494 DNSlytics: check callback failed for the configuration
+11:28:28.491615 Detectify: check callback failed for the configuration
+11:28:28.491861 FOFA: Email address or API key data was not provided
+11:28:28.491874 FacebookCT: check callback failed for the configuration
+11:28:28.491907 GitHub: check callback failed for the configuration
+11:28:28.492002 GitLab: check callback failed for the configuration
+11:28:28.492052 Hunter: check callback failed for the configuration
+11:28:28.492070 IPdata: check callback failed for the configuration
+11:28:28.492080 IPinfo: check callback failed for the configuration
+11:28:28.492228 IntelX: check callback failed for the configuration
+11:28:28.492281 LeakIX: check callback failed for the configuration
+11:28:28.492305 NetworksDB: API key data was not provided
+11:28:28.492353 ONYPHE: check callback failed for the configuration
+11:28:28.492374 PassiveTotal: check callback failed for the configuration
+11:28:28.492386 PentestTools: check callback failed for the configuration
+11:28:28.492399 Quake: check callback failed for the configuration
+11:28:28.491333 C99: check callback failed for the configuration
+11:28:28.492725 Shodan: check callback failed for the configuration
+11:28:28.492780 Spamhaus: check callback failed for the configuration
+11:28:28.492804 Spyse: check callback failed for the configuration
+11:28:28.492838 ThreatBook: check callback failed for the configuration
+11:28:28.492869 Twitter: API key data was not provided
+11:28:28.493270 Twitter: check callback failed for the configuration
+11:28:28.492892 Umbrella: API key data was not provided
+11:28:28.493301 Umbrella: check callback failed for the configuration
+11:28:28.492916 VirusTotal: check callback failed for the configuration
+11:28:28.492941 WhoisXMLAPI: check callback failed for the configuration
+11:28:28.492961 ZETAlytics: check callback failed for the configuration
+11:28:28.492976 ZoomEye: check callback failed for the configuration
+11:28:28.504996 Querying AlienVault for hydrogeotechnique-afrique.com subdomains
+11:28:28.505096 Querying HackerTarget for hydrogeotechnique-afrique.com subdomains
+11:28:28.505105 Querying FullHunt for hydrogeotechnique-afrique.com subdomains
+11:28:28.505153 Querying BufferOver for hydrogeotechnique-afrique.com subdomains
+11:28:28.505728 Querying Greynoise for hydrogeotechnique-afrique.com subdomains
+11:28:28.505787 Querying AnubisDB for hydrogeotechnique-afrique.com subdomains
+11:28:28.507711 Querying Maltiverse for hydrogeotechnique-afrique.com subdomains
+11:28:28.507779 Querying Mnemonic for hydrogeotechnique-afrique.com subdomains
+11:28:28.507846 Querying N45HT for hydrogeotechnique-afrique.com subdomains
+11:28:28.510922 Querying SonarSearch for hydrogeotechnique-afrique.com subdomains
+11:28:28.510968 Querying Robtex for hydrogeotechnique-afrique.com subdomains
+11:28:28.513936 Querying Sublist3rAPI for hydrogeotechnique-afrique.com subdomains
+11:28:28.515160 Querying ThreatMiner for hydrogeotechnique-afrique.com subdomains
+11:28:28.515379 Querying ThreatCrowd for hydrogeotechnique-afrique.com subdomains
+11:28:28.516520 Querying URLScan for hydrogeotechnique-afrique.com subdomains
+11:28:28.518668 Querying ArchiveIt for hydrogeotechnique-afrique.com subdomains
+11:28:28.518920 Querying Arquivo for hydrogeotechnique-afrique.com subdomains
+11:28:28.519280 Querying HAW for hydrogeotechnique-afrique.com subdomains
+11:28:28.519909 Querying UKWebArchive for hydrogeotechnique-afrique.com subdomains
+11:28:28.522006 Querying Wayback for hydrogeotechnique-afrique.com subdomains
+11:28:28.522038 Querying Brute Forcing for hydrogeotechnique-afrique.com subdomains
+11:28:28.525140 Querying Censys for hydrogeotechnique-afrique.com subdomains
+11:28:28.525656 Querying CertSpotter for hydrogeotechnique-afrique.com subdomains
+11:28:28.530007 Querying Digitorus for hydrogeotechnique-afrique.com subdomains
+11:28:28.530251 Querying Crtsh for hydrogeotechnique-afrique.com subdomains
+11:28:28.530300 Querying GoogleCT for hydrogeotechnique-afrique.com subdomains
+11:28:28.530321 Querying CommonCrawl for hydrogeotechnique-afrique.com subdomains
+11:28:28.531997 Querying AbuseIPDB for hydrogeotechnique-afrique.com subdomains
+11:28:28.532714 Querying Ask for hydrogeotechnique-afrique.com subdomains
+11:28:28.534934 Querying Baidu for hydrogeotechnique-afrique.com subdomains
+11:28:28.534950 Querying DNSDumpster for hydrogeotechnique-afrique.com subdomains
+11:28:28.535188 Querying Bing for hydrogeotechnique-afrique.com subdomains
+11:28:28.535261 Querying DuckDuckGo for hydrogeotechnique-afrique.com subdomains
+11:28:28.535554 Querying Gists for hydrogeotechnique-afrique.com subdomains
+11:28:28.537312 Querying HackerOne for hydrogeotechnique-afrique.com subdomains
+11:28:28.537546 Querying IPv4Info for hydrogeotechnique-afrique.com subdomains
+11:28:28.537400 Querying HyperStat for hydrogeotechnique-afrique.com subdomains
+11:28:28.537624 Querying PKey for hydrogeotechnique-afrique.com subdomains
+11:28:28.538073 Querying RapidDNS for hydrogeotechnique-afrique.com subdomains
+11:28:28.539741 Querying Riddler for hydrogeotechnique-afrique.com subdomains
+11:28:28.539790 Querying Searchcode for hydrogeotechnique-afrique.com subdomains
+11:28:28.539811 Querying Searx for hydrogeotechnique-afrique.com subdomains
+11:28:28.540002 Querying SiteDossier for hydrogeotechnique-afrique.com subdomains
+11:28:28.541169 Querying Yahoo for hydrogeotechnique-afrique.com subdomains
+11:28:28.573100 Querying Brute Forcing for tpgeo.com subdomains
+11:28:28.624570 Querying Brute Forcing for hydrogeotechniqueafrique.com subdomains
+11:28:28.675633 Querying Brute Forcing for ingenierie-mesures-geophysiques.com subdomains
+11:28:28.727468 Querying Brute Forcing for hydrogeotechnique.com subdomains
+11:28:28.731582 DNS: Zone Walk failed: hydrogeotechnique.com: NsecTraversal: hydrogeotechnique.com. NSEC record not found
+11:28:28.778323 Querying Brute Forcing for groupehydrogeotechnique.com subdomains
+11:28:28.823845 DNS: Zone Walk failed: hydrogeotechnique.com: NsecTraversal: hydrogeotechnique.com. NSEC record not found
+11:28:29.017338 GoogleCT: vertical request to service failed: 400: 400 Bad Request
+11:28:29.017626 Querying GoogleCT for tpgeo.com subdomains
+11:28:29.060289 DNS: Zone Walk failed: tpgeo.com: NsecTraversal: tpgeo.com. NSEC record not found
+11:28:29.504938 GoogleCT: vertical request to service failed: 400: 400 Bad Request
+11:28:29.505363 Querying GoogleCT for hydrogeotechniqueafrique.com subdomains
+11:28:29.525812 Querying Censys for tpgeo.com subdomains
+11:28:29.530768 BufferOver: scrape: Get "https://dns.bufferover.run/dns?q=.hydrogeotechnique-afrique.com": dial tcp: lookup dns.bufferover.run on 168.63.129.16:53: no such host
+11:28:29.562855 Riddler: scrape: Get "https://riddler.io/search/exportcsv?q=pld:hydrogeotechnique-afrique.com": dial tcp: lookup riddler.io on 168.63.129.16:53: no such host
+11:28:29.563531 AlienVault: https://otx.alienvault.com/api/v1/indicators/domain/hydrogeotechnique-afrique.com/url_list: The query returned zero results
+11:28:29.587240 PKey: scrape: 403: 403 Forbidden
+11:28:29.597620 HackerOne: scrape: 500: 500 Internal Server Error
+11:28:29.611149 AbuseIPDB: get_ip request to service failed: 403: 403 Forbidden
+11:28:29.627381 DuckDuckGo: scrape: 403: 403 Forbidden
+11:28:29.662547 FullHunt: vertical request to service failed: 403: 403 Forbidden
+11:28:29.991465 GoogleCT: vertical request to service failed: 400: 400 Bad Request
+11:28:29.991625 Querying GoogleCT for ingenierie-mesures-geophysiques.com subdomains
+11:28:30.005181 Greynoise: vertical request to service failed: 404: 404 Not Found
+11:28:30.055334 DNS: Zone Walk failed: hydrogeotechnique-afrique.com: NsecTraversal: _domainkey.hydrogeotechnique-afrique.com. NSEC record not found
+11:28:30.480094 GoogleCT: vertical request to service failed: 400: 400 Bad Request
+11:28:30.480314 Querying GoogleCT for hydrogeotechnique.com subdomains
+11:28:30.505477 Querying AlienVault for tpgeo.com subdomains
+11:28:30.505532 Querying BufferOver for tpgeo.com subdomains
+11:28:30.506051 Querying HackerTarget for tpgeo.com subdomains
+11:28:30.506071 Querying FullHunt for tpgeo.com subdomains
+11:28:30.506123 Querying Greynoise for tpgeo.com subdomains
+11:28:30.507820 Querying Mnemonic for tpgeo.com subdomains
+11:28:30.515152 Querying Sublist3rAPI for tpgeo.com subdomains
+11:28:30.525125 Querying Censys for hydrogeotechniqueafrique.com subdomains
+11:28:30.533823 Querying AbuseIPDB for tpgeo.com subdomains
+11:28:30.536271 Querying Gists for tpgeo.com subdomains
+11:28:30.536825 Querying DNSDumpster for tpgeo.com subdomains
+11:28:30.537175 Querying DuckDuckGo for tpgeo.com subdomains
+11:28:30.537481 Querying HackerOne for tpgeo.com subdomains
+11:28:30.537935 Querying PKey for tpgeo.com subdomains
+11:28:30.540279 Querying Riddler for tpgeo.com subdomains
+11:28:30.809513 Querying Maltiverse for tpgeo.com subdomains
+11:28:30.850415 AnubisDB: scrape: Get "https://anubisdb.com/anubis/subdomains/hydrogeotechnique-afrique.com": stopped after 10 redirects
+11:28:30.850485 Querying AnubisDB for tpgeo.com subdomains
+11:28:30.970477 GoogleCT: vertical request to service failed: 400: 400 Bad Request
+11:28:30.970564 Querying GoogleCT for groupehydrogeotechnique.com subdomains
+11:28:31.141575 DNS: Zone Walk failed: hydrogeotechniqueafrique.com: NsecTraversal: _domainkey.hydrogeotechniqueafrique.com. NSEC record not found
+11:28:31.352498 DNS: Zone Walk failed: hydrogeotechniqueafrique.com: NsecTraversal: _domainkey.hydrogeotechniqueafrique.com. NSEC record not found
+11:28:31.463392 GoogleCT: vertical request to service failed: 400: 400 Bad Request
+11:28:31.513792 BufferOver: scrape: Get "https://dns.bufferover.run/dns?q=.tpgeo.com": dial tcp: lookup dns.bufferover.run on 168.63.129.16:53: no such host
+11:28:31.525155 Querying Censys for ingenierie-mesures-geophysiques.com subdomains
+11:28:31.525711 Querying CertSpotter for tpgeo.com subdomains
+11:28:31.531184 Querying Digitorus for tpgeo.com subdomains
+11:28:31.543090 Querying HyperStat for tpgeo.com subdomains
+11:28:31.543190 Querying IPv4Info for tpgeo.com subdomains
+11:28:31.560328 Riddler: scrape: Get "https://riddler.io/search/exportcsv?q=pld:tpgeo.com": dial tcp: lookup riddler.io on 168.63.129.16:53: no such host
+11:28:31.580302 DNS: Zone Walk failed: hydrogeotechnique-afrique.com: NsecTraversal: _domainkey.hydrogeotechnique-afrique.com. NSEC record not found
+11:28:31.586797 AbuseIPDB: get_ip request to service failed: 403: 403 Forbidden
+11:28:31.589474 PKey: scrape: 403: 403 Forbidden
+11:28:31.630061 Ask: scrape: 400: 400 Bad Request
+11:28:31.630439 Querying Ask for tpgeo.com subdomains
+11:28:31.667333 FullHunt: vertical request to service failed: 403: 403 Forbidden
+11:28:31.740454 DuckDuckGo: scrape: 403: 403 Forbidden
+11:28:31.887626 Greynoise: vertical request to service failed: 404: 404 Not Found
+11:28:32.115937 Sublist3rAPI: vertical request to service failed: 410: 410 Gone
+11:28:32.505945 Querying HackerTarget for hydrogeotechniqueafrique.com subdomains
+11:28:32.511013 Querying Mnemonic for hydrogeotechniqueafrique.com subdomains
+11:28:32.508841 Querying AlienVault for hydrogeotechniqueafrique.com subdomains
+11:28:32.508844 Querying FullHunt for hydrogeotechniqueafrique.com subdomains
+11:28:32.510822 Querying BufferOver for hydrogeotechniqueafrique.com subdomains
+11:28:32.510877 Querying Greynoise for hydrogeotechniqueafrique.com subdomains
+11:28:32.513963 Querying Sublist3rAPI for hydrogeotechniqueafrique.com subdomains
+11:28:32.520265 Querying UKWebArchive for tpgeo.com subdomains
+11:28:32.529092 Querying Censys for hydrogeotechnique.com subdomains
+11:28:32.531848 Querying Crtsh for tpgeo.com subdomains
+11:28:32.535715 Querying Gists for hydrogeotechniqueafrique.com subdomains
+11:28:32.546714 Querying Riddler for hydrogeotechniqueafrique.com subdomains
+11:28:32.553156 Querying AbuseIPDB for hydrogeotechniqueafrique.com subdomains
+11:28:32.553585 Querying DNSDumpster for hydrogeotechniqueafrique.com subdomains
+11:28:32.555220 Querying PKey for hydrogeotechniqueafrique.com subdomains
+11:28:32.576426 Querying DuckDuckGo for hydrogeotechniqueafrique.com subdomains
+11:28:32.636935 DNS: Zone Walk failed: ingenierie-mesures-geophysiques.com: NsecTraversal: _domainkey.ingenierie-mesures-geophysiques.com. NSEC record not found
+11:28:32.982657 Querying Maltiverse for hydrogeotechniqueafrique.com subdomains
+11:28:33.090796 DNS: Zone Walk failed: ingenierie-mesures-geophysiques.com: NsecTraversal: _domainkey.ingenierie-mesures-geophysiques.com. NSEC record not found
+11:28:33.121191 AnubisDB: scrape: Get "https://anubisdb.com/anubis/subdomains/tpgeo.com": stopped after 10 redirects
+11:28:33.121560 Querying AnubisDB for hydrogeotechniqueafrique.com subdomains
+11:28:33.175035 N45HT: vertical callback: <string>:21: __len undefined
 stack traceback:
 	<string>:21: in main chunk
 	[G]: ?
-14:13:58.777131 Ask: scrape: 400: 400 Bad Request
-14:13:58.877395 Searx: scrape: Post "https://searx.sk/search": dial tcp: lookup searx.sk on 168.63.129.16:53: no such host
-14:13:59.916948 URLScan: vertical request to service failed: 429: 429 Too Many Requests
-14:14:00.045059 Arquivo: vertical request to service failed: 400: 400 Bad Request
-14:14:02.141056 CommonCrawl: get_urls failed to extract endpoints
-14:14:03.170459 ThreatMiner: vertical request to service failed: 500: 500 Internal Server Error
-14:14:04.595279 SiteDossier: scrape: 403: 403 Forbidden
-14:14:05.577168 ThreatCrowd: vertical request to service failed: 503: 503 Service Temporarily Unavailable
-14:14:11.545685 Baidu: scrape: Get "https://www.baidu.com/s?oq=site%3Ahydrogeotechnique.com+-site%3Awww.hydrogeotechnique.com&pn=100&wd=site%3Ahydrogeotechnique.com+-site%3Awww.hydrogeotechnique.com": context canceled
-14:14:11.857254 Yahoo: scrape: Get "https://search.yahoo.com/search?b=161&bct=0&p=site%3Ahydrogeotechnique.com+-domain%3Awww.hydrogeotechnique.com&pz=10&xargs=0": context canceled
-14:14:11.857681 Bing: scrape: Get "https://www.bing.com/search?FORM=PORE&first=161&q=domain%3Ahydrogeotechnique.com+-site%3Awww.hydrogeotechnique.com": context canceled
+11:28:33.175228 Querying N45HT for tpgeo.com subdomains
+11:28:33.514640 BufferOver: scrape: Get "https://dns.bufferover.run/dns?q=.hydrogeotechniqueafrique.com": dial tcp: lookup dns.bufferover.run on 168.63.129.16:53: no such host
+11:28:33.522627 Querying ArchiveIt for tpgeo.com subdomains
+11:28:33.523377 Querying HAW for tpgeo.com subdomains
+11:28:33.526444 Querying Censys for groupehydrogeotechnique.com subdomains
+11:28:33.552283 AlienVault: https://otx.alienvault.com/api/v1/indicators/domain/hydrogeotechniqueafrique.com/url_list: The query returned zero results
+11:28:33.566547 URLScan: vertical request to service failed: 429: 429 Too Many Requests
+11:28:33.571589 Riddler: scrape: Get "https://riddler.io/search/exportcsv?q=pld:hydrogeotechniqueafrique.com": dial tcp: lookup riddler.io on 168.63.129.16:53: no such host
+11:28:33.590844 PKey: scrape: 403: 403 Forbidden
+11:28:33.595430 AbuseIPDB: get_ip request to service failed: 403: 403 Forbidden
+11:28:33.640732 DuckDuckGo: scrape: 403: 403 Forbidden
+11:28:33.648628 FullHunt: vertical request to service failed: 403: 403 Forbidden
+11:28:33.655383 Arquivo: vertical request to service failed: 400: 400 Bad Request
+11:28:33.890669 Greynoise: vertical request to service failed: 404: 404 Not Found
+11:28:34.505182 Querying HackerTarget for ingenierie-mesures-geophysiques.com subdomains
+11:28:34.505806 Querying Greynoise for ingenierie-mesures-geophysiques.com subdomains
+11:28:34.505816 Querying AlienVault for ingenierie-mesures-geophysiques.com subdomains
+11:28:34.505819 Querying FullHunt for ingenierie-mesures-geophysiques.com subdomains
+11:28:34.505821 Querying BufferOver for ingenierie-mesures-geophysiques.com subdomains
+11:28:34.507861 Querying Mnemonic for ingenierie-mesures-geophysiques.com subdomains
+11:28:34.513936 Querying Sublist3rAPI for ingenierie-mesures-geophysiques.com subdomains
+11:28:34.518528 Querying URLScan for tpgeo.com subdomains
+11:28:34.518919 Querying Arquivo for tpgeo.com subdomains
+11:28:34.525820 Querying CertSpotter for hydrogeotechniqueafrique.com subdomains
+11:28:34.530003 Querying Digitorus for hydrogeotechniqueafrique.com subdomains
+11:28:34.532534 Querying AbuseIPDB for ingenierie-mesures-geophysiques.com subdomains
+11:28:34.536307 Querying DNSDumpster for ingenierie-mesures-geophysiques.com subdomains
+11:28:34.537567 Querying IPv4Info for hydrogeotechniqueafrique.com subdomains
+11:28:34.539940 Querying PKey for ingenierie-mesures-geophysiques.com subdomains
+11:28:34.541092 Querying Riddler for ingenierie-mesures-geophysiques.com subdomains
+11:28:34.546793 Querying DuckDuckGo for ingenierie-mesures-geophysiques.com subdomains
+11:28:34.547866 Querying Gists for ingenierie-mesures-geophysiques.com subdomains
+11:28:34.549894 Querying HyperStat for hydrogeotechniqueafrique.com subdomains
+11:28:34.809966 Ask: scrape: 400: 400 Bad Request
+11:28:34.810379 Querying Ask for hydrogeotechniqueafrique.com subdomains
+11:28:35.125523 Querying Maltiverse for ingenierie-mesures-geophysiques.com subdomains
+11:28:35.332830 AnubisDB: scrape: Get "https://anubisdb.com/anubis/subdomains/hydrogeotechniqueafrique.com": stopped after 10 redirects
+11:28:35.333235 Querying AnubisDB for ingenierie-mesures-geophysiques.com subdomains
+11:28:35.513725 BufferOver: scrape: Get "https://dns.bufferover.run/dns?q=.ingenierie-mesures-geophysiques.com": dial tcp: lookup dns.bufferover.run on 168.63.129.16:53: no such host
+11:28:35.564961 Riddler: scrape: Get "https://riddler.io/search/exportcsv?q=pld:ingenierie-mesures-geophysiques.com": dial tcp: lookup riddler.io on 168.63.129.16:53: no such host
+11:28:35.587811 PKey: scrape: 403: 403 Forbidden
+11:28:35.604318 AbuseIPDB: get_ip request to service failed: 403: 403 Forbidden
+11:28:35.624562 Crtsh: vertical request to service failed: 502: 502 Bad Gateway
+11:28:35.635869 DuckDuckGo: scrape: 403: 403 Forbidden
+11:28:35.651821 FullHunt: vertical request to service failed: 403: 403 Forbidden
+11:28:35.840452 CommonCrawl: get_urls request to service failed: Get "https://index.commoncrawl.org": EOF
+11:28:35.860776 Greynoise: vertical request to service failed: 404: 404 Not Found
+11:28:36.505157 Querying BufferOver for hydrogeotechnique.com subdomains
+11:28:36.506026 Querying AlienVault for hydrogeotechnique.com subdomains
+11:28:36.506110 Querying HackerTarget for hydrogeotechnique.com subdomains
+11:28:36.506162 Querying FullHunt for hydrogeotechnique.com subdomains
+11:28:36.506258 Querying Greynoise for hydrogeotechnique.com subdomains
+11:28:36.507810 Querying Mnemonic for hydrogeotechnique.com subdomains
+11:28:36.511654 Querying Robtex for tpgeo.com subdomains
+11:28:36.514428 Querying Sublist3rAPI for hydrogeotechnique.com subdomains
+11:28:36.519986 Querying UKWebArchive for hydrogeotechniqueafrique.com subdomains
+11:28:36.533839 Querying AbuseIPDB for hydrogeotechnique.com subdomains
+11:28:36.534407 Querying Crtsh for hydrogeotechniqueafrique.com subdomains
+11:28:36.534434 Querying CommonCrawl for tpgeo.com subdomains
+11:28:36.535027 Querying DNSDumpster for hydrogeotechnique.com subdomains
+11:28:36.535583 Querying DuckDuckGo for hydrogeotechnique.com subdomains
+11:28:36.535743 Querying Gists for hydrogeotechnique.com subdomains
+11:28:36.537982 Querying PKey for hydrogeotechnique.com subdomains
+11:28:36.544870 Querying Riddler for hydrogeotechnique.com subdomains
+11:28:36.817046 ThreatMiner: vertical request to service failed: 500: 500 Internal Server Error
+11:28:36.928672 N45HT: vertical callback: <string>:21: __len undefined
+stack traceback:
+	<string>:21: in main chunk
+	[G]: ?
+11:28:37.176181 Querying N45HT for hydrogeotechniqueafrique.com subdomains
+11:28:37.257780 Querying Maltiverse for hydrogeotechnique.com subdomains
+11:28:37.483606 AnubisDB: scrape: Get "https://anubisdb.com/anubis/subdomains/ingenierie-mesures-geophysiques.com": stopped after 10 redirects
+11:28:37.483710 Querying AnubisDB for hydrogeotechnique.com subdomains
+11:28:37.515713 BufferOver: scrape: Get "https://dns.bufferover.run/dns?q=.hydrogeotechnique.com": dial tcp: lookup dns.bufferover.run on 168.63.129.16:53: no such host
+11:28:37.516008 Querying ThreatMiner for tpgeo.com subdomains
+11:28:37.525726 Querying CertSpotter for ingenierie-mesures-geophysiques.com subdomains
+11:28:37.531778 Querying Digitorus for ingenierie-mesures-geophysiques.com subdomains
+11:28:37.538750 Querying HyperStat for ingenierie-mesures-geophysiques.com subdomains
+11:28:37.544309 Querying IPv4Info for ingenierie-mesures-geophysiques.com subdomains
+11:28:37.570549 AbuseIPDB: get_ip request to service failed: 403: 403 Forbidden
+11:28:37.573052 Riddler: scrape: Get "https://riddler.io/search/exportcsv?q=pld:hydrogeotechnique.com": dial tcp: lookup riddler.io on 168.63.129.16:53: no such host
+11:28:37.583050 PKey: scrape: 403: 403 Forbidden
+11:28:37.600093 Greynoise: vertical request to service failed: 404: 404 Not Found
+11:28:37.650244 FullHunt: vertical request to service failed: 403: 403 Forbidden
+11:28:37.663183 DuckDuckGo: scrape: 403: 403 Forbidden
+11:28:37.896401 Ask: scrape: 400: 400 Bad Request
+11:28:37.896710 Querying Ask for ingenierie-mesures-geophysiques.com subdomains
+11:28:38.339070 SiteDossier: scrape: 403: 403 Forbidden
+11:28:38.339525 Querying SiteDossier for tpgeo.com subdomains
+11:28:38.505098 Querying AlienVault for groupehydrogeotechnique.com subdomains
+11:28:38.505107 Querying FullHunt for groupehydrogeotechnique.com subdomains
+11:28:38.505849 Querying HackerTarget for groupehydrogeotechnique.com subdomains
+11:28:38.505900 Querying BufferOver for groupehydrogeotechnique.com subdomains
+11:28:38.506018 Querying Greynoise for groupehydrogeotechnique.com subdomains
+11:28:38.508835 Querying Mnemonic for groupehydrogeotechnique.com subdomains
+11:28:38.515047 Querying Sublist3rAPI for groupehydrogeotechnique.com subdomains
+11:28:38.518891 Querying ArchiveIt for hydrogeotechniqueafrique.com subdomains
+11:28:38.520307 Querying HAW for hydrogeotechniqueafrique.com subdomains
+11:28:38.533782 Querying AbuseIPDB for groupehydrogeotechnique.com subdomains
+11:28:38.535643 Querying Gists for groupehydrogeotechnique.com subdomains
+11:28:38.535879 Querying DNSDumpster for groupehydrogeotechnique.com subdomains
+11:28:38.535963 Querying DuckDuckGo for groupehydrogeotechnique.com subdomains
+11:28:38.537784 Querying PKey for groupehydrogeotechnique.com subdomains
+11:28:38.543186 Querying Riddler for groupehydrogeotechnique.com subdomains
+11:28:39.207478 ThreatCrowd: vertical request to service failed: 503: 503 Service Temporarily Unavailable
+11:28:39.245889 Querying Wayback for tpgeo.com subdomains
+11:28:39.447356 Querying Maltiverse for groupehydrogeotechnique.com subdomains
+11:28:39.514101 BufferOver: scrape: Get "https://dns.bufferover.run/dns?q=.groupehydrogeotechnique.com": dial tcp: lookup dns.bufferover.run on 168.63.129.16:53: no such host
+11:28:39.515646 Querying ThreatCrowd for tpgeo.com subdomains
+11:28:39.558902 AlienVault: https://otx.alienvault.com/api/v1/indicators/domain/groupehydrogeotechnique.com/url_list: The query returned zero results
+11:28:39.571396 AbuseIPDB: get_ip request to service failed: 403: 403 Forbidden
+11:28:39.573741 URLScan: vertical request to service failed: 429: 429 Too Many Requests
+11:28:39.578603 Riddler: scrape: Get "https://riddler.io/search/exportcsv?q=pld:groupehydrogeotechnique.com": dial tcp: lookup riddler.io on 168.63.129.16:53: no such host
+11:28:39.601252 PKey: scrape: 403: 403 Forbidden
+11:28:39.602364 Greynoise: vertical request to service failed: 404: 404 Not Found
+11:28:39.647372 AnubisDB: scrape: Get "https://anubisdb.com/anubis/subdomains/hydrogeotechnique.com": stopped after 10 redirects
+11:28:39.647840 Querying AnubisDB for groupehydrogeotechnique.com subdomains
+11:28:39.658053 Arquivo: vertical request to service failed: 400: 400 Bad Request
+11:28:39.662019 FullHunt: vertical request to service failed: 403: 403 Forbidden
+11:28:39.677814 DuckDuckGo: scrape: 403: 403 Forbidden
+11:28:40.517375 Querying URLScan for hydrogeotechniqueafrique.com subdomains
+11:28:40.519218 Querying Arquivo for hydrogeotechniqueafrique.com subdomains
+11:28:40.520499 Querying UKWebArchive for ingenierie-mesures-geophysiques.com subdomains
+11:28:40.525672 Querying CertSpotter for hydrogeotechnique.com subdomains
+11:28:40.530059 Querying Digitorus for hydrogeotechnique.com subdomains
+11:28:40.541815 Querying IPv4Info for hydrogeotechnique.com subdomains
+11:28:40.555149 Querying HyperStat for hydrogeotechnique.com subdomains
+11:28:40.710381 N45HT: vertical callback: <string>:21: __len undefined
+stack traceback:
+	<string>:21: in main chunk
+	[G]: ?
+11:28:41.154970 DNS: Zone Walk failed: tpgeo.com: NsecTraversal: tpgeo.com. NSEC record not found
+11:28:41.176293 Querying N45HT for ingenierie-mesures-geophysiques.com subdomains
+11:28:41.806413 Ask: scrape: 400: 400 Bad Request
+11:28:41.806848 Querying Ask for hydrogeotechnique.com subdomains
+11:28:41.855969 AnubisDB: scrape: Get "https://anubisdb.com/anubis/subdomains/groupehydrogeotechnique.com": stopped after 10 redirects
+11:28:42.836787 CertSpotter: vertical request to service failed: 429: 429 Too Many Requests
+11:28:43.519365 Querying ArchiveIt for ingenierie-mesures-geophysiques.com subdomains
+11:28:43.520145 Querying HAW for ingenierie-mesures-geophysiques.com subdomains
+11:28:43.526500 Querying CertSpotter for groupehydrogeotechnique.com subdomains
+11:28:43.530062 Querying Digitorus for groupehydrogeotechnique.com subdomains
+11:28:43.541321 Querying HyperStat for groupehydrogeotechnique.com subdomains
+11:28:43.542037 Querying IPv4Info for groupehydrogeotechnique.com subdomains
+11:28:43.812268 CommonCrawl: get_urls request to service failed: Get "https://index.commoncrawl.org": EOF
+11:28:44.479866 Querying Baidu for tpgeo.com subdomains
+11:28:44.511901 Querying Robtex for hydrogeotechniqueafrique.com subdomains
+11:28:44.521220 Querying UKWebArchive for hydrogeotechnique.com subdomains
+11:28:44.530991 Querying CommonCrawl for hydrogeotechniqueafrique.com subdomains
+11:28:44.776851 N45HT: vertical callback: <string>:21: __len undefined
+stack traceback:
+	<string>:21: in main chunk
+	[G]: ?
+11:28:44.836765 Querying Crtsh for ingenierie-mesures-geophysiques.com subdomains
+11:28:45.178147 Querying N45HT for hydrogeotechnique.com subdomains
+11:28:45.378640 Ask: scrape: 400: 400 Bad Request
+11:28:45.378953 Querying Ask for groupehydrogeotechnique.com subdomains
+11:28:45.598026 URLScan: vertical request to service failed: 429: 429 Too Many Requests
+11:28:45.693988 Arquivo: vertical request to service failed: 400: 400 Bad Request
+11:28:45.817522 CertSpotter: vertical request to service failed: 429: 429 Too Many Requests
+11:28:45.844425 ThreatMiner: vertical request to service failed: 500: 500 Internal Server Error
+11:28:46.515559 Querying ThreatMiner for hydrogeotechniqueafrique.com subdomains
+11:28:46.517308 Querying URLScan for ingenierie-mesures-geophysiques.com subdomains
+11:28:46.519982 Querying Arquivo for ingenierie-mesures-geophysiques.com subdomains
+11:28:47.796940 SiteDossier: scrape: 403: 403 Forbidden
+11:28:47.797657 Querying SiteDossier for hydrogeotechniqueafrique.com subdomains
+11:28:48.519717 Querying HAW for hydrogeotechnique.com subdomains
+11:28:48.519807 Querying ArchiveIt for hydrogeotechnique.com subdomains
+11:28:48.521207 Querying UKWebArchive for groupehydrogeotechnique.com subdomains
+11:28:48.820432 Ask: scrape: 400: 400 Bad Request
+11:28:48.837026 Querying Crtsh for hydrogeotechnique.com subdomains
+11:28:48.907606 N45HT: vertical callback: <string>:21: __len undefined
+stack traceback:
+	<string>:21: in main chunk
+	[G]: ?
+11:28:49.175939 Querying N45HT for groupehydrogeotechnique.com subdomains
+11:28:49.214140 SonarSearch: vertical request to service failed: 522: 522 <none>
+11:28:49.214437 Querying SonarSearch for tpgeo.com subdomains
+11:28:50.177059 ThreatCrowd: vertical request to service failed: 503: 503 Service Temporarily Unavailable
+11:28:50.515790 Querying ThreatCrowd for hydrogeotechniqueafrique.com subdomains
+11:28:50.535660 Querying Bing for tpgeo.com subdomains
+11:28:50.546352 Querying Yahoo for tpgeo.com subdomains
+11:28:51.568030 URLScan: vertical request to service failed: 429: 429 Too Many Requests
+11:28:51.640654 Arquivo: vertical request to service failed: 400: 400 Bad Request
+11:28:51.795040 Querying Wayback for hydrogeotechniqueafrique.com subdomains
+11:28:52.051113 CommonCrawl: get_urls request to service failed: Get "https://index.commoncrawl.org": EOF
+11:28:52.095588 Searx: scrape: 521: 521 
+11:28:52.095711 Querying Searx for tpgeo.com subdomains
+11:28:52.511107 Querying Robtex for ingenierie-mesures-geophysiques.com subdomains
+11:28:52.516735 Querying URLScan for hydrogeotechnique.com subdomains
+11:28:52.519077 Querying Arquivo for hydrogeotechnique.com subdomains
+11:28:52.531172 Querying CommonCrawl for ingenierie-mesures-geophysiques.com subdomains
+11:28:52.745374 N45HT: vertical callback: <string>:21: __len undefined
+stack traceback:
+	<string>:21: in main chunk
+	[G]: ?
+11:28:53.520054 Querying HAW for groupehydrogeotechnique.com subdomains
+11:28:53.520476 Querying ArchiveIt for groupehydrogeotechnique.com subdomains
+11:28:54.843820 ThreatMiner: vertical request to service failed: 500: 500 Internal Server Error
+11:28:55.515632 Querying ThreatMiner for ingenierie-mesures-geophysiques.com subdomains
+11:28:56.117667 Searx: scrape: Post "https://searx.sk/search": dial tcp: lookup searx.sk on 168.63.129.16:53: no such host
+11:28:56.394371 DNS: Zone Walk failed: groupehydrogeotechnique.com: NsecTraversal: _domainkey.groupehydrogeotechnique.com. NSEC record not found
+11:28:57.095745 Querying Searx for hydrogeotechniqueafrique.com subdomains
+11:28:57.350962 Querying Crtsh for groupehydrogeotechnique.com subdomains
+11:28:57.430070 Querying Baidu for hydrogeotechniqueafrique.com subdomains
+11:28:57.435706 SiteDossier: scrape: 403: 403 Forbidden
+11:28:57.435938 Querying SiteDossier for ingenierie-mesures-geophysiques.com subdomains
+11:28:57.588857 URLScan: vertical request to service failed: 429: 429 Too Many Requests
+11:28:57.676001 Arquivo: vertical request to service failed: 400: 400 Bad Request
+11:28:58.516718 Querying URLScan for groupehydrogeotechnique.com subdomains
+11:28:58.519055 Querying Arquivo for groupehydrogeotechnique.com subdomains
+11:28:59.318200 Querying Wayback for ingenierie-mesures-geophysiques.com subdomains
+11:28:59.799201 CommonCrawl: get_urls request to service failed: Get "https://index.commoncrawl.org": EOF
+11:29:00.511178 Querying Robtex for hydrogeotechnique.com subdomains
+11:29:00.531534 Querying CommonCrawl for hydrogeotechnique.com subdomains
+11:29:01.262451 ThreatCrowd: vertical request to service failed: 503: 503 Service Temporarily Unavailable
+11:29:01.515633 Querying ThreatCrowd for ingenierie-mesures-geophysiques.com subdomains
+11:29:03.178343 Querying RapidDNS for tpgeo.com subdomains
+11:29:03.613121 URLScan: vertical request to service failed: 429: 429 Too Many Requests
+11:29:03.665917 Arquivo: vertical request to service failed: 400: 400 Bad Request
+11:29:03.807672 ThreatMiner: vertical request to service failed: 500: 500 Internal Server Error
+11:29:04.515148 Querying ThreatMiner for hydrogeotechnique.com subdomains
+11:29:06.891819 SiteDossier: scrape: 403: 403 Forbidden
+11:29:06.892136 Querying SiteDossier for hydrogeotechnique.com subdomains
+11:29:07.813826 CommonCrawl: get_urls request to service failed: Get "https://index.commoncrawl.org": EOF
+11:29:08.209024 Querying Wayback for hydrogeotechnique.com subdomains
+11:29:08.511707 Querying Robtex for groupehydrogeotechnique.com subdomains
+11:29:08.530465 Querying CommonCrawl for groupehydrogeotechnique.com subdomains
+11:29:09.372594 Querying RapidDNS for hydrogeotechniqueafrique.com subdomains
+11:29:09.858821 SonarSearch: vertical request to service failed: 522: 522 <none>
+11:29:09.859327 Querying SonarSearch for hydrogeotechniqueafrique.com subdomains
+11:29:11.541600 Querying Searchcode for tpgeo.com subdomains
+11:29:11.635113 Querying Baidu for ingenierie-mesures-geophysiques.com subdomains
+11:29:12.184891 ThreatCrowd: vertical request to service failed: 503: 503 Service Temporarily Unavailable
+11:29:12.516748 Querying ThreatCrowd for hydrogeotechnique.com subdomains
+11:29:12.535309 Querying Bing for hydrogeotechniqueafrique.com subdomains
+11:29:12.541972 Querying Yahoo for hydrogeotechniqueafrique.com subdomains
+11:29:12.823573 ThreatMiner: vertical request to service failed: 500: 500 Internal Server Error
+11:29:13.516696 Querying ThreatMiner for groupehydrogeotechnique.com subdomains
+11:29:15.412209 Querying RapidDNS for ingenierie-mesures-geophysiques.com subdomains
+11:29:15.839686 CommonCrawl: get_urls request to service failed: Get "https://index.commoncrawl.org": EOF
+11:29:16.398350 SiteDossier: scrape: 403: 403 Forbidden
+11:29:16.398978 Querying SiteDossier for groupehydrogeotechnique.com subdomains
+11:29:17.538852 Querying Wayback for groupehydrogeotechnique.com subdomains
+11:29:18.687283 DNS: Zone Walk failed: groupehydrogeotechnique.com: NsecTraversal: _domainkey.groupehydrogeotechnique.com. NSEC record not found
+11:29:20.447105 DNS: Zone Walk failed: hydrogeotechnique.com: NsecTraversal: hydrogeotechnique.com. NSEC record not found
+11:29:20.548924 DNS: Zone Walk failed: hydrogeotechnique.com: NsecTraversal: hydrogeotechnique.com. NSEC record not found
+11:29:20.574573 Searx: scrape: 521: 521 
+11:29:20.574905 Querying Searx for ingenierie-mesures-geophysiques.com subdomains
+11:29:21.538759 Querying RapidDNS for hydrogeotechnique.com subdomains
+11:29:21.840538 ThreatMiner: vertical request to service failed: 500: 500 Internal Server Error
+11:29:23.206003 ThreatCrowd: vertical request to service failed: 503: 503 Service Temporarily Unavailable
+11:29:23.515530 Querying ThreatCrowd for groupehydrogeotechnique.com subdomains
+11:29:24.909847 Searx: scrape: 401: 401 Unauthorized
+11:29:25.575977 Querying Searx for hydrogeotechnique.com subdomains
+11:29:26.007246 Querying Baidu for hydrogeotechnique.com subdomains
+11:29:26.921608 SiteDossier: scrape: 403: 403 Forbidden
+11:29:29.796872 Searx: scrape: Post "https://anon.sx/search": dial tcp: lookup anon.sx on 168.63.129.16:53: no such host
+11:29:30.575950 Querying Searx for groupehydrogeotechnique.com subdomains
+11:29:30.634004 SonarSearch: vertical request to service failed: 522: 522 <none>
+11:29:30.634071 Querying SonarSearch for ingenierie-mesures-geophysiques.com subdomains
+11:29:31.541625 HackerOne: scrape: Get "http://h1.nobbd.de/search.php?q=tpgeo.com": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+11:29:31.541981 Querying HackerOne for hydrogeotechniqueafrique.com subdomains
+11:29:32.614238 HackerOne: scrape: 500: 500 Internal Server Error
+11:29:33.543235 Querying HackerOne for ingenierie-mesures-geophysiques.com subdomains
+11:29:34.210124 ThreatCrowd: vertical request to service failed: 503: 503 Service Temporarily Unavailable
+11:29:34.535991 Querying Bing for ingenierie-mesures-geophysiques.com subdomains
+11:29:34.744255 HackerOne: scrape: 500: 500 Internal Server Error
+11:29:34.988982 Querying Yahoo for ingenierie-mesures-geophysiques.com subdomains
+11:29:35.542739 Querying HackerOne for hydrogeotechnique.com subdomains
+11:29:35.865725 Querying RapidDNS for groupehydrogeotechnique.com subdomains
+11:29:36.607924 HackerOne: scrape: 500: 500 Internal Server Error
+11:29:37.542120 Querying HackerOne for groupehydrogeotechnique.com subdomains
+11:29:38.763215 HackerOne: scrape: 500: 500 Internal Server Error
+11:29:39.998330 Querying Baidu for groupehydrogeotechnique.com subdomains
+11:29:47.210417 DNS: Zone Walk failed: hydrogeotechniqueafrique.com: NsecTraversal: _domainkey.hydrogeotechniqueafrique.com. NSEC record not found
+11:29:48.207458 DNS: Zone Walk failed: hydrogeotechniqueafrique.com: NsecTraversal: _domainkey.hydrogeotechniqueafrique.com. NSEC record not found
+11:29:51.313982 SonarSearch: vertical request to service failed: 522: 522 <none>
+11:29:51.314265 Querying SonarSearch for hydrogeotechnique.com subdomains
+11:29:54.541171 Querying Searchcode for hydrogeotechniqueafrique.com subdomains
+11:29:54.668996 DNS: Zone Walk failed: hydrogeotechnique.com: NsecTraversal: hydrogeotechnique.com. NSEC record not found
+11:29:56.535306 Querying Bing for hydrogeotechnique.com subdomains
+11:29:56.988817 Querying Yahoo for hydrogeotechnique.com subdomains
+11:30:00.033036 DNS: Zone Walk failed: tpgeo.com: NsecTraversal: tpgeo.com. NSEC record not found
+11:30:00.435215 DNS: Zone Walk failed: tpgeo.com: NsecTraversal: tpgeo.com. NSEC record not found
+11:30:05.196085 DNS: Zone Walk failed: groupehydrogeotechnique.com: NsecTraversal: _domainkey.groupehydrogeotechnique.com. NSEC record not found
+11:30:06.347216 DNS: Zone Walk failed: groupehydrogeotechnique.com: NsecTraversal: _domainkey.groupehydrogeotechnique.com. NSEC record not found
+11:30:06.855905 DNS: Zone Walk failed: hydrogeotechnique.com: NsecTraversal: hydrogeotechnique.com. NSEC record not found
+11:30:11.986883 SonarSearch: vertical request to service failed: 522: 522 <none>
+11:30:11.987628 Querying SonarSearch for groupehydrogeotechnique.com subdomains
+11:30:16.381649 Yahoo: scrape: Get "https://guce.yahoo.com/consent?brandType=nonEu&gcrumb=DpI2JCk&done=https%3A%2F%2Fsearch.yahoo.com%2Fsearch%3Fb%3D181%26bct%3D0%26p%3Dsite%253Ahydrogeotechnique.com%2B-domain%253Awww.hydrogeotechnique.com%26pz%3D10%26xargs%3D0": context canceled
+11:30:16.536213 Bing: scrape: Get "https://www.bing.com/search?FORM=PORE&first=191&q=domain%3Ahydrogeotechnique.com+-site%3Awww.hydrogeotechnique.com": context canceled
+11:30:18.575729 Searx: scrape: Post "https://searx.info/search": context canceled

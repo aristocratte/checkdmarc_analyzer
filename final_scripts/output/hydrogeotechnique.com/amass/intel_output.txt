@@ -1,6 +1,6 @@
-grecaptcha.render
-api.js
-window.onload
-google.com
-grecaptcha.execute
-document.getelementbyid
+groupehydrogeotechnique.com
+hydrogeotechnique-afrique.com
+hydrogeotechnique.com
+hydrogeotechniqueafrique.com
+ingenierie-mesures-geophysiques.com
+tpgeo.com
