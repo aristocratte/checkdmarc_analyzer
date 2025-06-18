@@ -1,0 +1,260 @@
+================================================================================
+RAPPORT DE COMPARAISON - DOMAINES/HOSTNAMES
+Critère.txt vs Subfinder vs Amass
+================================================================================
+
+📊 STATISTIQUES GÉNÉRALES
+----------------------------------------
+Total domaines dans critère.txt: 35
+Total hostnames dans subfinder: 42
+Total hostnames dans amass: 21
+
+🔄 INTERSECTIONS
+--------------------
+Communs à tous (critère + subfinder + amass): 15
+Critère ∩ Subfinder: 22
+Critère ∩ Amass: 19
+Subfinder ∩ Amass: 15
+
+🎯 DOMAINES UNIQUES
+-------------------------
+Uniquement dans critère.txt: 9
+Uniquement dans subfinder: 20
+Uniquement dans amass: 2
+
+🎯 Couverture subfinder: 62.9% des domaines de critère.txt
+🎯 Couverture amass: 54.3% des domaines de critère.txt
+🎯 Couverture combinée (subfinder + amass): 74.3%
+
+
+✅ DOMAINES COMMUNS AUX TROIS SOURCES
+--------------------------------------------------
+
+🌐 groupehydrogeotechnique.com:
+  ✓ www.groupehydrogeotechnique.com
+
+🌐 hydrogeotechnique-afrique.com:
+  ✓ www.hydrogeotechnique-afrique.com
+
+🌐 hydrogeotechnique.com:
+  ✓ agences.hydrogeotechnique.com
+  ✓ collaboration.hydrogeotechnique.com
+  ✓ helphydro.hydrogeotechnique.com
+  ✓ portail.hydrogeotechnique.com
+  ✓ satisfaction.hydrogeotechnique.com
+  ✓ semafore.hydrogeotechnique.com
+  ✓ visites-back.hydrogeotechnique.com
+  ✓ visites.hydrogeotechnique.com
+  ✓ www.helphydro.hydrogeotechnique.com
+  ✓ www.hydrogeotechnique.com
+  ✓ www.portail.hydrogeotechnique.com
+  ✓ www.semafore.hydrogeotechnique.com
+
+🌐 hydrogeotechniqueafrique.com:
+  ✓ www.hydrogeotechniqueafrique.com
+
+
+⚠️  UNIQUEMENT DANS CRITÈRE.TXT (manqués par tous les outils)
+----------------------------------------------------------------------
+
+🌐 geaupole.com:
+  ❌ geaupole.com
+  ❌ www.geaupole.com
+
+🌐 geonove.com:
+  ❌ ftp.geonove.com
+  ❌ geonove.com
+  ❌ www.geonove.com
+
+🌐 imgeophy.eu:
+  ❌ imgeophy.eu
+  ❌ www.imgeophy.eu
+
+🌐 labinfra.com:
+  ❌ labinfra.com
+  ❌ www.labinfra.com
+
+
+🆕 UNIQUEMENT DANS SUBFINDER (découvertes exclusives)
+------------------------------------------------------------
+
+🌐 hydrogeotechnique.com:
+  ➕ admin.hydrogeotechnique.com
+  ➕ api.hydrogeotechnique.com
+  ➕ app.hydrogeotechnique.com
+  ➕ autoconfig.hydrogeotechnique.com
+  ➕ autodiscover.hydrogeotechnique.com
+  ➕ eaudeparis.hydrogeotechnique.com
+  ➕ extranet.hydrogeotechnique.com
+  ➕ ftp.hydrogeotechnique.com
+  ➕ mysql.hydrogeotechnique.com
+  ➕ pop3.hydrogeotechnique.com
+  ➕ rh.hydrogeotechnique.com
+  ➕ www.extranet.hydrogeotechnique.com
+  ➕ www.visites-back.hydrogeotechnique.com
+  ➕ www.visites.hydrogeotechnique.com
+
+🌐 ingenierie-mesures-geophysiques.com:
+  ➕ autoconfig.ingenierie-mesures-geophysiques.com
+  ➕ autodiscover.ingenierie-mesures-geophysiques.com
+  ➕ www.ingenierie-mesures-geophysiques.com
+
+🌐 tpgeo.com:
+  ➕ autodiscover.tpgeo.com
+  ➕ ftp.tpgeo.com
+  ➕ www.tpgeo.com
+
+
+🔍 UNIQUEMENT DANS AMASS (découvertes exclusives)
+-------------------------------------------------------
+
+🌐 ingenierie-mesures-geophysiques.com:
+  ➕ ingenierie-mesures-geophysiques.com
+
+🌐 tpgeo.com:
+  ➕ tpgeo.com
+
+
+🔄 SUBFINDER vs AMASS - Découvertes exclusives Subfinder
+-----------------------------------------------------------------
+
+🌐 groupehydrogeotechnique.com:
+  📡 autoconfig.groupehydrogeotechnique.com
+  📡 autodiscover.groupehydrogeotechnique.com
+
+🌐 hydrogeotechnique-afrique.com:
+  📡 autoconfig.hydrogeotechnique-afrique.com
+  📡 autodiscover.hydrogeotechnique-afrique.com
+
+🌐 hydrogeotechnique.com:
+  📡 admin.hydrogeotechnique.com
+  📡 api.hydrogeotechnique.com
+  📡 app.hydrogeotechnique.com
+  📡 autoconfig.hydrogeotechnique.com
+  📡 autodiscover.hydrogeotechnique.com
+  📡 eaudeparis.hydrogeotechnique.com
+  📡 extranet.hydrogeotechnique.com
+  📡 ftp.hydrogeotechnique.com
+  📡 mysql.hydrogeotechnique.com
+  📡 pop3.hydrogeotechnique.com
+  📡 rh.hydrogeotechnique.com
+  📡 webmail.hydrogeotechnique.com
+  📡 www.extranet.hydrogeotechnique.com
+  📡 www.visites-back.hydrogeotechnique.com
+  📡 www.visites.hydrogeotechnique.com
+
+🌐 hydrogeotechniqueafrique.com:
+  📡 autoconfig.hydrogeotechniqueafrique.com
+  📡 autodiscover.hydrogeotechniqueafrique.com
+
+🌐 ingenierie-mesures-geophysiques.com:
+  📡 autoconfig.ingenierie-mesures-geophysiques.com
+  📡 autodiscover.ingenierie-mesures-geophysiques.com
+  📡 www.ingenierie-mesures-geophysiques.com
+
+🌐 tpgeo.com:
+  📡 autodiscover.tpgeo.com
+  📡 ftp.tpgeo.com
+  📡 www.tpgeo.com
+
+
+🔄 SUBFINDER vs AMASS - Découvertes exclusives Amass
+------------------------------------------------------------
+
+🌐 groupehydrogeotechnique.com:
+  🎯 groupehydrogeotechnique.com
+
+🌐 hydrogeotechnique-afrique.com:
+  🎯 hydrogeotechnique-afrique.com
+
+🌐 hydrogeotechnique.com:
+  🎯 hydrogeotechnique.com
+
+🌐 hydrogeotechniqueafrique.com:
+  🎯 hydrogeotechniqueafrique.com
+
+🌐 ingenierie-mesures-geophysiques.com:
+  🎯 ingenierie-mesures-geophysiques.com
+
+🌐 tpgeo.com:
+  🎯 tpgeo.com
+
+
+📋 RÉSUMÉ PAR DOMAINE PRINCIPAL
+----------------------------------------
+
+🌐 geaupole.com:
+  📄 Critère.txt: 2 domaines
+  📡 Subfinder: 0 hostnames
+  🎯 Amass: 0 hostnames
+  📊 Couverture Subfinder: 0.0% (0/2)
+  📊 Couverture Amass: 0.0% (0/2)
+  📊 Couverture Combinée: 0.0% (0/2)
+
+🌐 geonove.com:
+  📄 Critère.txt: 3 domaines
+  📡 Subfinder: 0 hostnames
+  🎯 Amass: 0 hostnames
+  📊 Couverture Subfinder: 0.0% (0/3)
+  📊 Couverture Amass: 0.0% (0/3)
+  📊 Couverture Combinée: 0.0% (0/3)
+
+🌐 groupehydrogeotechnique.com:
+  📄 Critère.txt: 4 domaines
+  📡 Subfinder: 3 hostnames
+  🎯 Amass: 2 hostnames
+  📊 Couverture Subfinder: 75.0% (3/4)
+  📊 Couverture Amass: 50.0% (2/4)
+  📊 Couverture Combinée: 100.0% (4/4)
+
+🌐 hydrogeotechnique-afrique.com:
+  📄 Critère.txt: 4 domaines
+  📡 Subfinder: 3 hostnames
+  🎯 Amass: 2 hostnames
+  📊 Couverture Subfinder: 75.0% (3/4)
+  📊 Couverture Amass: 50.0% (2/4)
+  📊 Couverture Combinée: 100.0% (4/4)
+
+🌐 hydrogeotechnique.com:
+  📄 Critère.txt: 14 domaines
+  📡 Subfinder: 27 hostnames
+  🎯 Amass: 13 hostnames
+  📊 Couverture Subfinder: 92.9% (13/14)
+  📊 Couverture Amass: 92.9% (13/14)
+  📊 Couverture Combinée: 100.0% (14/14)
+
+🌐 hydrogeotechniqueafrique.com:
+  📄 Critère.txt: 4 domaines
+  📡 Subfinder: 3 hostnames
+  🎯 Amass: 2 hostnames
+  📊 Couverture Subfinder: 75.0% (3/4)
+  📊 Couverture Amass: 50.0% (2/4)
+  📊 Couverture Combinée: 100.0% (4/4)
+
+🌐 imgeophy.eu:
+  📄 Critère.txt: 2 domaines
+  📡 Subfinder: 0 hostnames
+  🎯 Amass: 0 hostnames
+  📊 Couverture Subfinder: 0.0% (0/2)
+  📊 Couverture Amass: 0.0% (0/2)
+  📊 Couverture Combinée: 0.0% (0/2)
+
+🌐 ingenierie-mesures-geophysiques.com:
+  📄 Critère.txt: 0 domaines
+  📡 Subfinder: 3 hostnames
+  🎯 Amass: 1 hostnames
+
+🌐 labinfra.com:
+  📄 Critère.txt: 2 domaines
+  📡 Subfinder: 0 hostnames
+  🎯 Amass: 0 hostnames
+  📊 Couverture Subfinder: 0.0% (0/2)
+  📊 Couverture Amass: 0.0% (0/2)
+  📊 Couverture Combinée: 0.0% (0/2)
+
+🌐 tpgeo.com:
+  📄 Critère.txt: 0 domaines
+  📡 Subfinder: 3 hostnames
+  🎯 Amass: 1 hostnames
+
+================================================================================

@@ -1,31 +1,73 @@
 
-SPF - SPF record present	
-
-
-DMARC - rua present	
-
-
-Mail Server - smtp - starttls offered	
-
-
-DMARC - Strict mode	
-
-
-DMARC - ruf present	
-
-
-DMARC - DMARC record present	
-
-
-DMARC - Policy is not none	
-
-
-SPF - Strict mode	
-
-
-Mail Server - no pop service	
-
-
-DMARC - pct equals 	
-
+https://collaboration.hydrogeotechnique.com/	
+https://satisfaction.hydrogeotechnique.com/	
+https://www.semafore.hydrogeotechnique.com/	
+https://webmail.hydrogeotechnique.com/	
+http://collaboration.hydrogeotechnique.com/	
+http://satisfaction.hydrogeotechnique.com/	
+https://autoconfig.groupehydrogeotechnique.com/	
+https://autoconfig.hydrogeotechnique-afrique.com/	
+https://autoconfig.hydrogeotechniqueafrique.com/	
+https://autodiscover.groupehydrogeotechnique.com/	
+https://autodiscover.hydrogeotechnique-afrique.com/	
+https://autodiscover.hydrogeotechniqueafrique.com/	
+https://portail.hydrogeotechnique.com/	
+https://helphydro.hydrogeotechnique.com/	
+https://visites.hydrogeotechnique.com/	
+https://geonove.com/	
+https://geaupole.com/	
+https://groupehydrogeotechnique.com/	
+https://hydrogeotechnique-afrique.com/	
+https://imgeophy.eu/	
+https://labinfra.com/	
+https://www.hydrogeotechnique.com/	
+https://semafore.hydrogeotechnique.com/admin/dashboard	
+https://semafore.hydrogeotechnique.com/	
+https://visites-back.hydrogeotechnique.com/	
+https://www.helphydro.hydrogeotechnique.com/	
+https://www.portail.hydrogeotechnique.com/	
+https://agences.hydrogeotechnique.com/	
+https://www.geonove.com/	
+https://hydrogeotechniqueafrique.com/	
+https://www.groupehydrogeotechnique.com/	
+https://www.hydrogeotechnique-afrique.com/	
+https://www.hydrogeotechniqueafrique.com/	
+https://www.hydrogeotechnique.com/trouver-une-agence/	
+http://ftp.geonove.com/	
+https://hydrogeotechnique.com/	
+https://www.geaupole.com/	
+https://www.imgeophy.eu/	
+https://www.labinfra.com/	
+http://agences.hydrogeotechnique.com/	
+http://autoconfig.groupehydrogeotechnique.com/	
+http://autoconfig.hydrogeotechnique-afrique.com/	
+http://autoconfig.hydrogeotechniqueafrique.com/	
+http://autodiscover.groupehydrogeotechnique.com/	
+http://autodiscover.hydrogeotechnique-afrique.com/	
+http://autodiscover.hydrogeotechniqueafrique.com/	
+http://geaupole.com/	
+http://geonove.com/	
+http://groupehydrogeotechnique.com/	
+http://helphydro.hydrogeotechnique.com/	
+http://hydrogeotechnique-afrique.com/	
+http://hydrogeotechnique.com/	
+http://hydrogeotechniqueafrique.com/	
+http://imgeophy.eu/	
+http://labinfra.com/	
+http://portail.hydrogeotechnique.com/	
+http://semafore.hydrogeotechnique.com/	
+http://visites-back.hydrogeotechnique.com/	
+http://visites.hydrogeotechnique.com/	
+http://webmail.hydrogeotechnique.com/	
+http://www.geaupole.com/	
+http://www.geonove.com/	
+http://www.groupehydrogeotechnique.com/	
+http://www.helphydro.hydrogeotechnique.com/	
+http://www.hydrogeotechnique-afrique.com/	
+http://www.hydrogeotechnique.com/	
+http://www.hydrogeotechniqueafrique.com/	
+http://www.imgeophy.eu/	
+http://www.labinfra.com/	
+http://www.portail.hydrogeotechnique.com/	
+http://www.semafore.hydrogeotechnique.com/	
 
