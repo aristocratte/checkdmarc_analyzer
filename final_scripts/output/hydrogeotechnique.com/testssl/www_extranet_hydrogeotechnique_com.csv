@@ -1,0 +1,2 @@
+"id","fqdn/ip","port","severity","finding","cve","cwe"
+"scanProblem","www.extranet.hydrogeotechnique.com/","443","FATAL","No IPv4/IPv6 address(es) for 'www.extranet.hydrogeotechnique.com' available","",""
